@@ -64,3 +64,5 @@ coverage/
 # Misc
 *.pem
 .vercel
+.deploy-config
+backend/.env.prod
