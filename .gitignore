@@ -66,3 +66,9 @@ coverage/
 .vercel
 .deploy-config
 backend/.env.prod
+
+# Build artifacts
+frontend/tsconfig.tsbuildinfo
+
+# Scraper cache
+backend/data/cache/
