@@ -85,6 +85,8 @@ elif sudo ss -tlnp | grep ':80 ' | grep -q 'docker-proxy'; then
 
   if [ -n "$NGINX_CONTAINER" ]; then
     echo "  Injecting config into container: $NGINX_CONTAINER"
+    # Ensure acme-challenge webroot exists inside the container
+    sudo docker exec "$NGINX_CONTAINER" mkdir -p /var/www/acme-challenge
     sudo docker exec "$NGINX_CONTAINER" mkdir -p /etc/nginx/conf.d
     sudo docker cp "$NGINX_SRC" "${NGINX_CONTAINER}:/etc/nginx/conf.d/api.pokenese.com.conf"
     sudo docker exec "$NGINX_CONTAINER" nginx -t
@@ -92,8 +94,8 @@ elif sudo ss -tlnp | grep ':80 ' | grep -q 'docker-proxy'; then
     echo "  nginx reloaded inside $NGINX_CONTAINER."
   else
     echo "WARNING: Could not find a running nginx container."
-    echo "  The API backend is running at http://$(curl -sf http://169.254.169.254/latest/meta-data/public-ipv4 2>/dev/null || echo HOST):8001"
-    echo "  You will need to proxy api.pokenese.com to 127.0.0.1:8001 manually."
+    echo "  The API is accessible at http://$(curl -sf http://169.254.169.254/latest/meta-data/public-ipv4 2>/dev/null || echo HOST):8001"
+    echo "  Proxy api.pokenese.com → 127.0.0.1:8001 manually to enable the domain."
   fi
 
 else
@@ -111,16 +113,49 @@ fi
 if ! sudo test -d "/etc/letsencrypt/live/$DOMAIN" 2>/dev/null; then
   if [ -z "$CERTBOT_EMAIL" ]; then
     echo ""
-    echo "NOTICE: SSL cert not found. To enable HTTPS run:"
-    echo "  sudo certbot --nginx -d $DOMAIN --email you@example.com --agree-tos --non-interactive"
-    echo "Or re-run this script with: ./deploy.sh --email you@example.com"
+    echo "NOTICE: SSL cert not found. Re-run with --email to enable HTTPS:"
+    echo "  ./deploy.sh --email you@example.com"
   else
-    echo "==> Obtaining SSL certificate..."
-    sudo certbot --nginx -d "$DOMAIN" \
+    echo "==> Obtaining SSL certificate (webroot mode)..."
+
+    # Ensure certbot is installed with all deps via pip3
+    if ! command -v certbot &>/dev/null || ! python3 -c "import urllib3" &>/dev/null; then
+      echo "  Installing/repairing certbot..."
+      sudo pip3 install --upgrade certbot certbot-nginx
+    fi
+
+    # Webroot mode: challenge files written to host, served by nginx container
+    WEBROOT=/tmp/acme-challenge
+    sudo mkdir -p "$WEBROOT"
+    # Bind-mount the webroot into the nginx container so it can serve challenges
+    # (containers don't support live mounts, so we symlink via docker cp)
+    sudo certbot certonly \
+      --webroot -w "$WEBROOT" \
+      -d "$DOMAIN" \
       --email "$CERTBOT_EMAIL" \
       --agree-tos \
-      --non-interactive
-    sudo systemctl reload nginx
+      --non-interactive \
+      --http-01-port 80 \
+      --preferred-challenges http
+
+    # Copy obtained certs into the nginx container
+    CERT_DIR="/etc/letsencrypt/live/$DOMAIN"
+    if [ -n "${NGINX_CONTAINER:-}" ] && sudo test -d "$CERT_DIR"; then
+      echo "  Copying certs into $NGINX_CONTAINER..."
+      sudo docker exec "$NGINX_CONTAINER" mkdir -p /etc/letsencrypt/live/"$DOMAIN"
+      sudo docker cp "${CERT_DIR}/fullchain.pem" "${NGINX_CONTAINER}:/etc/letsencrypt/live/${DOMAIN}/fullchain.pem"
+      sudo docker cp "${CERT_DIR}/privkey.pem"   "${NGINX_CONTAINER}:/etc/letsencrypt/live/${DOMAIN}/privkey.pem"
+
+      # Upgrade nginx config to SSL
+      sudo docker cp "$NGINX_SRC" "${NGINX_CONTAINER}:/etc/nginx/conf.d/api.pokenese.com.conf"
+      sudo docker exec "$NGINX_CONTAINER" bash -c "
+        sed -i 's|listen 80;|listen 443 ssl;|' /etc/nginx/conf.d/api.pokenese.com.conf
+        echo 'ssl_certificate     /etc/letsencrypt/live/${DOMAIN}/fullchain.pem;'  >> /etc/nginx/conf.d/api.pokenese.com.conf
+        echo 'ssl_certificate_key /etc/letsencrypt/live/${DOMAIN}/privkey.pem;'   >> /etc/nginx/conf.d/api.pokenese.com.conf
+      " 2>/dev/null || true
+      sudo docker exec "$NGINX_CONTAINER" nginx -s reload
+      echo "  SSL enabled inside $NGINX_CONTAINER."
+    fi
   fi
 fi
 

@@ -140,11 +140,17 @@ if ! docker compose version &>/dev/null 2>&1; then
   chmod +x "\$DOCKER_CONFIG/cli-plugins/docker-compose"
 fi
 
-# nginx + certbot
+# nginx
 if ! command -v nginx &>/dev/null; then
-  echo "  Installing nginx and certbot..."
-  sudo yum install -y nginx python3-certbot-nginx
+  echo "  Installing nginx..."
+  sudo yum install -y nginx 2>/dev/null || sudo apt-get install -y nginx 2>/dev/null || true
   sudo systemctl enable --now nginx
+fi
+
+# certbot via pip3 (yum certbot has broken urllib3 deps on Amazon Linux)
+if ! command -v certbot &>/dev/null; then
+  echo "  Installing certbot..."
+  sudo pip3 install --upgrade certbot certbot-nginx
 fi
 
 # Repo (clone or pull — must happen before .env.prod upload so dir is clean)
