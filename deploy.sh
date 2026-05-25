@@ -65,9 +65,13 @@ echo "==> Seeding daily challenges..."
 sudo docker compose -f docker-compose.prod.yml --env-file "$ENV_FILE" \
   exec -T backend python scripts/seed_daily.py || true
 
-# ── Reload nginx ──────────────────────────────────────────────────────────────
+# ── Reload or start nginx ─────────────────────────────────────────────────────
 echo "==> Reloading nginx..."
-sudo systemctl reload nginx
+if sudo systemctl is-active --quiet nginx; then
+  sudo systemctl reload nginx
+else
+  sudo systemctl start nginx
+fi
 
 # ── SSL (first deploy only) ───────────────────────────────────────────────────
 if ! sudo test -d "/etc/letsencrypt/live/$DOMAIN" 2>/dev/null; then
