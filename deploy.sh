@@ -126,14 +126,36 @@ if ! sudo test -d "/etc/letsencrypt/live/$DOMAIN" 2>/dev/null; then
     fi
 
     if [ -n "${NGINX_CONTAINER:-}" ]; then
-      # nginx is inside Docker — use manual mode with hooks that write the
-      # challenge token directly into the container via docker exec.
       # Create challenge dir and ensure nginx can read it
       sudo docker exec "$NGINX_CONTAINER" mkdir -p /var/www/acme-challenge
       sudo docker exec "$NGINX_CONTAINER" chmod 755 /var/www/acme-challenge
 
-      # Pass certbot env vars explicitly — docker exec does not inherit host env.
-      # chmod 644 ensures nginx (non-root user) can read the token file.
+      # ── Pre-flight: verify nginx can actually serve the challenge path ────────
+      echo "  Running pre-flight challenge endpoint test..."
+      TEST_TOKEN="preflight-test-$(date +%s)"
+      sudo docker exec "$NGINX_CONTAINER" sh -c "printf testok > /var/www/acme-challenge/$TEST_TOKEN && chmod 644 /var/www/acme-challenge/$TEST_TOKEN"
+      HTTP_STATUS=$(curl -s -o /tmp/acme-preflight.txt -w "%{http_code}" "http://$DOMAIN/.well-known/acme-challenge/$TEST_TOKEN" 2>/dev/null || echo "000")
+      BODY=$(cat /tmp/acme-preflight.txt 2>/dev/null)
+      sudo docker exec "$NGINX_CONTAINER" rm -f "/var/www/acme-challenge/$TEST_TOKEN"
+
+      echo "  Pre-flight result: HTTP $HTTP_STATUS  body='$BODY'"
+
+      if [ "$HTTP_STATUS" != "200" ] || [ "$BODY" != "testok" ]; then
+        echo ""
+        echo "ERROR: Challenge endpoint pre-flight failed (HTTP $HTTP_STATUS, body='$BODY')."
+        echo "  Nginx active config for $DOMAIN:"
+        sudo docker exec "$NGINX_CONTAINER" cat /etc/nginx/conf.d/api.pokenese.com.conf 2>/dev/null || echo "    (not found)"
+        echo "  Nginx error log (last 30 lines):"
+        sudo docker exec "$NGINX_CONTAINER" tail -30 /var/log/nginx/error.log 2>/dev/null || echo "    (no log)"
+        echo "  Nginx access log (last 10 lines):"
+        sudo docker exec "$NGINX_CONTAINER" tail -10 /var/log/nginx/access.log 2>/dev/null || echo "    (no log)"
+        echo "  All nginx server blocks (server_name lines):"
+        sudo docker exec "$NGINX_CONTAINER" nginx -T 2>/dev/null | grep -E "server_name|listen|deny|auth_basic" | head -40 || true
+        exit 1
+      fi
+      echo "  Pre-flight passed — challenge endpoint is serving correctly."
+
+      # Pass certbot env vars explicitly — docker exec does not inherit host env
       AUTH_HOOK="sudo docker exec -e CERTBOT_TOKEN=\$CERTBOT_TOKEN -e CERTBOT_VALIDATION=\$CERTBOT_VALIDATION $NGINX_CONTAINER sh -c 'printf %s \$CERTBOT_VALIDATION > /var/www/acme-challenge/\$CERTBOT_TOKEN && chmod 644 /var/www/acme-challenge/\$CERTBOT_TOKEN'"
       CLEANUP_HOOK="sudo docker exec -e CERTBOT_TOKEN=\$CERTBOT_TOKEN $NGINX_CONTAINER sh -c 'rm -f /var/www/acme-challenge/\$CERTBOT_TOKEN'"
 
@@ -145,15 +167,16 @@ if ! sudo test -d "/etc/letsencrypt/live/$DOMAIN" 2>/dev/null; then
         -d "$DOMAIN" \
         --email "$CERTBOT_EMAIL" \
         --agree-tos \
-        --non-interactive
+        --non-interactive \
+        -v
     else
-      # nginx is on the host — standard webroot mode
       sudo certbot certonly \
         --webroot -w /var/www/acme-challenge \
         -d "$DOMAIN" \
         --email "$CERTBOT_EMAIL" \
         --agree-tos \
-        --non-interactive
+        --non-interactive \
+        -v
     fi
 
     # Copy obtained certs into the nginx container
