@@ -116,7 +116,7 @@ if ! sudo test -d "/etc/letsencrypt/live/$DOMAIN" 2>/dev/null; then
     echo "NOTICE: SSL cert not found. Re-run with --email to enable HTTPS:"
     echo "  ./deploy.sh --email you@example.com"
   else
-    echo "==> Obtaining SSL certificate (webroot mode)..."
+    echo "==> Obtaining SSL certificate..."
 
     # Ensure certbot works (yum version has broken urllib3; pip3 version is correct)
     if ! certbot --version &>/dev/null 2>&1; then
@@ -125,19 +125,32 @@ if ! sudo test -d "/etc/letsencrypt/live/$DOMAIN" 2>/dev/null; then
       sudo pip3 install --upgrade certbot certbot-nginx
     fi
 
-    # Webroot mode: challenge files written to host, served by nginx container
-    WEBROOT=/tmp/acme-challenge
-    sudo mkdir -p "$WEBROOT"
-    # Bind-mount the webroot into the nginx container so it can serve challenges
-    # (containers don't support live mounts, so we symlink via docker cp)
-    sudo certbot certonly \
-      --webroot -w "$WEBROOT" \
-      -d "$DOMAIN" \
-      --email "$CERTBOT_EMAIL" \
-      --agree-tos \
-      --non-interactive \
-      --http-01-port 80 \
-      --preferred-challenges http
+    if [ -n "${NGINX_CONTAINER:-}" ]; then
+      # nginx is inside Docker — use manual mode with hooks that write the
+      # challenge token directly into the container via docker exec.
+      sudo docker exec "$NGINX_CONTAINER" mkdir -p /var/www/acme-challenge
+
+      AUTH_HOOK="sudo docker exec $NGINX_CONTAINER sh -c 'mkdir -p /var/www/acme-challenge && printf %s \$CERTBOT_VALIDATION > /var/www/acme-challenge/\$CERTBOT_TOKEN'"
+      CLEANUP_HOOK="sudo docker exec $NGINX_CONTAINER rm -f /var/www/acme-challenge/\$CERTBOT_TOKEN"
+
+      sudo certbot certonly \
+        --manual \
+        --preferred-challenges http \
+        --manual-auth-hook   "$AUTH_HOOK" \
+        --manual-cleanup-hook "$CLEANUP_HOOK" \
+        -d "$DOMAIN" \
+        --email "$CERTBOT_EMAIL" \
+        --agree-tos \
+        --non-interactive
+    else
+      # nginx is on the host — standard webroot mode
+      sudo certbot certonly \
+        --webroot -w /var/www/acme-challenge \
+        -d "$DOMAIN" \
+        --email "$CERTBOT_EMAIL" \
+        --agree-tos \
+        --non-interactive
+    fi
 
     # Copy obtained certs into the nginx container
     CERT_DIR="/etc/letsencrypt/live/$DOMAIN"
