@@ -26,7 +26,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "frog; CL:隻|只[zhi1]; old variant of 蛙[wa1]"
       },
       {
-        "character": "種",
+        "character": "种",
         "pinyin": "zhǒng",
         "meaning": "seed; species; kind; type; classifier for types, kinds, sorts; to plant; to grow; to cultivate"
       },
@@ -45,6 +45,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       2,
       3
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
     "audio_filename": null
   },
@@ -82,6 +83,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       2,
       3
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
     "audio_filename": null
   },
@@ -119,6 +121,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       2,
       3
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
     "audio_filename": null
   },
@@ -142,7 +145,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Huo; fire; urgent; ammunition; fiery or flaming; internal heat (Chinese medicine); hot (popular); classifier for military units (old); Kangxi radical 86"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -156,6 +159,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       5,
       6
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
     "audio_filename": null
   },
@@ -179,7 +183,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "afraid; frightened; to fear"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -193,6 +197,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       5,
       6
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
     "audio_filename": null
   },
@@ -206,7 +211,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/pʰən˥ xwɔ˧˩˧ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "噴",
+        "character": "喷",
         "pinyin": "pēn",
         "meaning": "to spout; to spurt; to spray; to puff; (slang) to criticize scathingly (esp. online); (of a smell) strong; peak season (of a crop); (classifier for the ordinal number of a crop, in the context of multiple harvests)"
       },
@@ -216,7 +221,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Huo; fire; urgent; ammunition; fiery or flaming; internal heat (Chinese medicine); hot (popular); classifier for military units (old); Kangxi radical 86"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -230,6 +235,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       5,
       6
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
     "audio_filename": null
   },
@@ -243,9 +249,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɕjɛ˧˥ ni˧˥ kweɪ˥/",
     "etymology": [
       {
-        "character": "傑",
+        "character": "杰",
         "pinyin": "jié",
-        "meaning": "(bound form) hero; heroic; outstanding person; prominent; distinguished"
+        "meaning": "(bound form) hero; heroic; outstanding person; prominent; distinguished; variant of 傑|杰[jie2]"
       },
       {
         "character": "尼",
@@ -253,7 +259,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "Buddhist nun; (often used in phonetic spellings)"
       },
       {
-        "character": "龜",
+        "character": "龟",
         "pinyin": "guī",
         "meaning": "tortoise; turtle; (coll.) cuckold; variant of 皸|皲[jun1]; used in 龜茲|龟兹[Qiu1 ci2]"
       }
@@ -267,6 +273,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       8,
       9
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
     "audio_filename": null
   },
@@ -290,7 +297,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "sound for calling a cat"
       },
       {
-        "character": "龜",
+        "character": "龟",
         "pinyin": "guī",
         "meaning": "tortoise; turtle; (coll.) cuckold; variant of 皸|皲[jun1]; used in 龜茲|龟兹[Qiu1 ci2]"
       }
@@ -304,6 +311,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       8,
       9
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
     "audio_filename": null
   },
@@ -327,7 +335,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "arrow; CL:支[zhi1]"
       },
       {
-        "character": "龜",
+        "character": "龟",
         "pinyin": "guī",
         "meaning": "tortoise; turtle; (coll.) cuckold; variant of 皸|皲[jun1]; used in 龜茲|龟兹[Qiu1 ci2]"
       }
@@ -341,6 +349,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       8,
       9
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
     "audio_filename": null
   },
@@ -354,7 +363,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/Lv4 mɑʊ˧˥ ʈʂʰʊŋ˧˥/",
     "etymology": [
       {
-        "character": "綠",
+        "character": "绿",
         "pinyin": "lǜ",
         "meaning": "used in names; green; (slang) (derived from 綠帽子|绿帽子[lu:4 mao4 zi5]) to cheat on (one's spouse or boyfriend or girlfriend)"
       },
@@ -364,9 +373,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Mao; hair; feather; down; wool; mildew; mold; coarse or semifinished; young; raw; careless; unthinking; nervous; scared; (of currency) to devalue or depreciate; classifier for Chinese fractional monetary unit ( = 角[jiao3] , = one-tenth of a yuan or 10 fen 分[fen1])"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 1,
@@ -378,6 +387,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       11,
       12
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
     "audio_filename": null
   },
@@ -391,7 +401,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ tɕja˧˩˧ jʊŋ˧˩˧/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
@@ -415,6 +425,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       11,
       12
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
     "audio_filename": null
   },
@@ -452,6 +463,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       11,
       12
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
     "audio_filename": null
   },
@@ -465,7 +477,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tu˧˥ tɕjɑʊ˧˩˧ ʈʂʰʊŋ˧˥/",
     "etymology": [
       {
-        "character": "獨",
+        "character": "独",
         "pinyin": "dú",
         "meaning": "alone; independent; single; sole; only"
       },
@@ -475,9 +487,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Jue; angle; corner; horn; horn-shaped; unit of money equal to 0.1 yuan, or 10 cents (a dime); CL:個|个[ge4]; role (theater); to compete; ancient three legged wine vessel; third note of pentatonic scale"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 1,
@@ -489,6 +501,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       14,
       15
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
     "audio_filename": null
   },
@@ -502,14 +515,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ kʰɤ˧˥ jʊŋ˧˩˧/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
       {
-        "character": "殼",
+        "character": "壳",
         "pinyin": "ké",
-        "meaning": "(coll.) shell (of an egg, nut, crab etc); case; casing; housing (of a machine or device); (bound form) shell; Taiwan pr. [ke2]"
+        "meaning": "variant of 殼|壳[qiao4]; (coll.) shell (of an egg, nut, crab etc); case; casing; housing (of a machine or device); (bound form) shell; Taiwan pr. [ke2]"
       },
       {
         "character": "蛹",
@@ -526,6 +539,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       14,
       15
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
     "audio_filename": null
   },
@@ -544,9 +558,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "big; large; great; older (than another person); eldest (as in 大姐[da4 jie3]); greatly; freely; fully; (dialect) father; (dialect) uncle (father's brother); see 大夫[dai4 fu5]"
       },
       {
-        "character": "針",
+        "character": "针",
         "pinyin": "zhēn",
-        "meaning": "needle; pin; injection; stitch; CL:根[gen1],支[zhi1]"
+        "meaning": "needle; pin; injection; stitch; CL:根[gen1],支[zhi1]; variant of 針|针[zhen1], needle"
       },
       {
         "character": "蜂",
@@ -563,6 +577,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       14,
       15
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
     "audio_filename": null
   },
@@ -595,6 +610,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       17,
       18
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
     "audio_filename": null
   },
@@ -618,7 +634,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "Belgium; Belgian; abbr. for 比利時|比利时[Bi3 li4 shi2]; euphemistic variant of 屄[bi1]; to compare; (followed by a noun and adjective) more {adj.} than {noun}; ratio; to gesture; (Taiwan pr. [bi4] in some compounds derived from Classical Chinese)"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -632,6 +648,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       17,
       18
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
     "audio_filename": null
   },
@@ -655,7 +672,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "Belgium; Belgian; abbr. for 比利時|比利时[Bi3 li4 shi2]; euphemistic variant of 屄[bi1]; to compare; (followed by a noun and adjective) more {adj.} than {noun}; ratio; to gesture; (Taiwan pr. [bi4] in some compounds derived from Classical Chinese)"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -669,6 +686,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       17,
       18
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
     "audio_filename": null
   },
@@ -692,7 +710,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to pull; to play (a bowed instrument); to drag; to draw; to chat; (coll.) to empty one's bowels; to make a cut in (sth); to slit; to gash; to slash; used in 拉拉蛄[la4 la4 gu3]; variant of 落[la4]"
       },
       {
-        "character": "達",
+        "character": "达",
         "pinyin": "dá",
         "meaning": "surname Da; to attain; to reach; to amount to; to communicate; eminent"
       }
@@ -705,6 +723,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       19,
       20
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
     "audio_filename": null
   },
@@ -723,7 +742,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to pull; to play (a bowed instrument); to drag; to draw; to chat; (coll.) to empty one's bowels; to make a cut in (sth); to slit; to gash; to slash; used in 拉拉蛄[la4 la4 gu3]; variant of 落[la4]"
       },
       {
-        "character": "達",
+        "character": "达",
         "pinyin": "dá",
         "meaning": "surname Da; to attain; to reach; to amount to; to communicate; eminent"
       }
@@ -736,6 +755,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       19,
       20
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
     "audio_filename": null
   },
@@ -767,6 +787,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       21,
       22
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
     "audio_filename": null
   },
@@ -803,6 +824,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       21,
       22
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
     "audio_filename": null
   },
@@ -839,6 +861,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       23,
       24
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
     "audio_filename": null
   },
@@ -875,6 +898,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       23,
       24
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
     "audio_filename": null
   },
@@ -912,6 +936,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       25,
       26
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
     "audio_filename": null
   },
@@ -944,6 +969,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       25,
       26
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
     "audio_filename": null
   },
@@ -980,6 +1006,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       27,
       28
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
     "audio_filename": null
   },
@@ -1016,6 +1043,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       27,
       28
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
     "audio_filename": null
   },
@@ -1039,7 +1067,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "many; much; more; a lot of; too many; in excess; (after a numeral) ... odd; how (to what extent) (Taiwan pr. [duo2]); (bound form) multi-; poly-"
       },
       {
-        "character": "蘭",
+        "character": "兰",
         "pinyin": "lán",
         "meaning": "surname Lan; abbr. for Lanzhou 蘭州|兰州[Lan2 zhou1], Gansu; orchid (蘭花|兰花 Cymbidium goeringii); fragrant thoroughwort (蘭草|兰草 Eupatorium fortunei); lily magnolia (木蘭|木兰)"
       }
@@ -1053,6 +1081,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       30,
       31
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
     "audio_filename": null
   },
@@ -1090,6 +1119,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       30,
       31
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
     "audio_filename": null
   },
@@ -1127,6 +1157,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       30,
       31
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
     "audio_filename": null
   },
@@ -1164,6 +1195,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       33,
       34
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
     "audio_filename": null
   },
@@ -1192,7 +1224,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Li; power; force; strength; ability; strenuously"
       },
       {
-        "character": "諾",
+        "character": "诺",
         "pinyin": "nuò",
         "meaning": "to consent; to promise; (literary) yes!"
       }
@@ -1206,6 +1238,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       33,
       34
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
     "audio_filename": null
   },
@@ -1243,6 +1276,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       33,
       34
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
     "audio_filename": null
   },
@@ -1275,6 +1309,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       35,
       36
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
     "audio_filename": null
   },
@@ -1312,6 +1347,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       35,
       36
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
     "audio_filename": null
   },
@@ -1343,6 +1379,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       37,
       38
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
     "audio_filename": null
   },
@@ -1374,6 +1411,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       37,
       38
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
     "audio_filename": null
   },
@@ -1406,6 +1444,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       39,
       40
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
     "audio_filename": null
   },
@@ -1443,6 +1482,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       39,
       40
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
     "audio_filename": null
   },
@@ -1480,6 +1520,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       42,
       169
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
     "audio_filename": null
   },
@@ -1517,6 +1558,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       42,
       169
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
     "audio_filename": null
   },
@@ -1555,6 +1597,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       45,
       182
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
     "audio_filename": null
   },
@@ -1593,6 +1636,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       45,
       182
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
     "audio_filename": null
   },
@@ -1631,6 +1675,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       45,
       182
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
     "audio_filename": null
   },
@@ -1667,6 +1712,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       46,
       47
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
     "audio_filename": null
   },
@@ -1708,6 +1754,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       46,
       47
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
     "audio_filename": null
   },
@@ -1739,6 +1786,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       48,
       49
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
     "audio_filename": null
   },
@@ -1757,7 +1805,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "used in 摩挲[ma1 sa5]; to rub"
       },
       {
-        "character": "魯",
+        "character": "鲁",
         "pinyin": "lǔ",
         "meaning": "surname Lu; Lu, an ancient state of China 魯國|鲁国[Lu3 guo2]; short name for Shandong 山東|山东[Shan1 dong1]; (bound form) crass; stupid; rude; (used to represent the sounds of \"ru\", \"lu\" etc in loanwords)"
       },
@@ -1775,6 +1823,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       48,
       49
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
     "audio_filename": null
   },
@@ -1806,6 +1855,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       50,
       51
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
     "audio_filename": null
   },
@@ -1842,6 +1892,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       50,
       51
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
     "audio_filename": null
   },
@@ -1874,6 +1925,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       53,
       863
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
     "audio_filename": null
   },
@@ -1887,7 +1939,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/mɑʊ˥ lɑʊ˧˩˧ ta˥˩/",
     "etymology": [
       {
-        "character": "貓",
+        "character": "猫",
         "pinyin": "māo",
         "meaning": "cat (CL:隻|只[zhi1]); (dialect) to hide oneself; (loanword) (coll.) modem; used in 貓腰|猫腰[mao2 yao1]"
       },
@@ -1911,6 +1963,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       53,
       863
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
     "audio_filename": null
   },
@@ -1929,12 +1982,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(prefix) can; may; able to; -able; to approve; to permit; to suit; (particle used for emphasis) certainly; very; but; however; used in 可汗[ke4 han2]"
       },
       {
-        "character": "達",
+        "character": "达",
         "pinyin": "dá",
         "meaning": "surname Da; to attain; to reach; to amount to; to communicate; eminent"
       },
       {
-        "character": "鴨",
+        "character": "鸭",
         "pinyin": "yā",
         "meaning": "duck (CL:隻|只[zhi1]); (slang) male prostitute"
       }
@@ -1947,6 +2000,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       54,
       55
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
     "audio_filename": null
   },
@@ -1965,12 +2019,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "elder brother"
       },
       {
-        "character": "達",
+        "character": "达",
         "pinyin": "dá",
         "meaning": "surname Da; to attain; to reach; to amount to; to communicate; eminent"
       },
       {
-        "character": "鴨",
+        "character": "鸭",
         "pinyin": "yā",
         "meaning": "duck (CL:隻|只[zhi1]); (slang) male prostitute"
       }
@@ -1983,6 +2037,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       54,
       55
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
     "audio_filename": null
   },
@@ -2015,6 +2070,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       57,
       979
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
     "audio_filename": null
   },
@@ -2033,9 +2089,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Huo; fire; urgent; ammunition; fiery or flaming; internal heat (Chinese medicine); hot (popular); classifier for military units (old); Kangxi radical 86"
       },
       {
-        "character": "爆",
+        "character": "暴",
         "pinyin": "bào",
-        "meaning": "to explode; to burst; to stir-fry briefly; to quick-boil"
+        "meaning": "surname Bao; sudden; violent; cruel; to show or expose; to injure; variant of 曝[pu4]"
       },
       {
         "character": "猴",
@@ -2052,6 +2108,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       57,
       979
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
     "audio_filename": null
   },
@@ -2088,6 +2145,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       58,
       59
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
     "audio_filename": null
   },
@@ -2101,7 +2159,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/fɤŋ˥ su˥˩ koʊ˧˩˧/",
     "etymology": [
       {
-        "character": "風",
+        "character": "风",
         "pinyin": "fēng",
         "meaning": "wind; news; style; custom; manner; CL:陣|阵[zhen4],絲|丝[si1]"
       },
@@ -2124,6 +2182,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       58,
       59
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
     "audio_filename": null
   },
@@ -2167,6 +2226,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       62,
       186
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
     "audio_filename": null
   },
@@ -2205,6 +2265,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       62,
       186
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
     "audio_filename": null
   },
@@ -2248,6 +2309,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       62,
       186
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
     "audio_filename": null
   },
@@ -2261,7 +2323,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/kʰaɪ˧˩˧ ɕi˥/",
     "etymology": [
       {
-        "character": "凱",
+        "character": "凯",
         "pinyin": "kǎi",
         "meaning": "surname Kai; (bound form) triumphal music; (Tw) (coll.) generous with money; lavish in spending; chi (Greek letter Χχ)"
       },
@@ -2280,6 +2342,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       64,
       65
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
     "audio_filename": null
   },
@@ -2317,6 +2380,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       64,
       65
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
     "audio_filename": null
   },
@@ -2349,6 +2413,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       64,
       65
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
     "audio_filename": null
   },
@@ -2381,6 +2446,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       67,
       68
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
     "audio_filename": null
   },
@@ -2413,6 +2479,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       67,
       68
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
     "audio_filename": null
   },
@@ -2445,6 +2512,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       67,
       68
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
     "audio_filename": null
   },
@@ -2482,6 +2550,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       70,
       71
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
     "audio_filename": null
   },
@@ -2519,6 +2588,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       70,
       71
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
     "audio_filename": null
   },
@@ -2556,6 +2626,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       70,
       71
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
     "audio_filename": null
   },
@@ -2569,7 +2640,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ma˧˩˧ nɑʊ˧˩˧ ʂweɪ˧˩˧ mu˧˩˧/",
     "etymology": [
       {
-        "character": "瑪",
+        "character": "玛",
         "pinyin": "mǎ",
         "meaning": "used in 瑪瑙|玛瑙[ma3 nao3]"
       },
@@ -2597,6 +2668,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       72,
       73
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
     "audio_filename": null
   },
@@ -2638,6 +2710,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       72,
       73
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
     "audio_filename": null
   },
@@ -2675,6 +2748,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       75,
       76
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
     "audio_filename": null
   },
@@ -2712,6 +2786,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       75,
       76
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
     "audio_filename": null
   },
@@ -2749,6 +2824,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       75,
       76
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
     "audio_filename": null
   },
@@ -2772,7 +2848,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Huo; fire; urgent; ammunition; fiery or flaming; internal heat (Chinese medicine); hot (popular); classifier for military units (old); Kangxi radical 86"
       },
       {
-        "character": "馬",
+        "character": "马",
         "pinyin": "mǎ",
         "meaning": "surname Ma; abbr. for Malaysia 馬來西亞|马来西亚[Ma3 lai2 xi1 ya4]; horse; CL:匹[pi3]; horse or cavalry piece in Chinese chess; knight in Western chess"
       }
@@ -2785,6 +2861,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       77,
       78
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
     "audio_filename": null
   },
@@ -2808,7 +2885,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "flame; variant of 焰[yan4]"
       },
       {
-        "character": "馬",
+        "character": "马",
         "pinyin": "mǎ",
         "meaning": "surname Ma; abbr. for Malaysia 馬來西亞|马来西亚[Ma3 lai2 xi1 ya4]; horse; CL:匹[pi3]; horse or cavalry piece in Chinese chess; knight in Western chess"
       }
@@ -2821,6 +2898,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       77,
       78
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
     "audio_filename": null
   },
@@ -2844,7 +2922,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "foolish; stupid; expressionless; blank; variant of 待[dai1]; foolish; stupid (variant of 呆[dai1]); expressionless; blank (variant of 呆[dai1])"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -2858,6 +2936,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       80,
       199
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
     "audio_filename": null
   },
@@ -2876,12 +2955,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "foolish; stupid; expressionless; blank; variant of 待[dai1]; foolish; stupid (variant of 呆[dai1]); expressionless; blank (variant of 呆[dai1])"
       },
       {
-        "character": "殼",
+        "character": "壳",
         "pinyin": "ké",
-        "meaning": "(coll.) shell (of an egg, nut, crab etc); case; casing; housing (of a machine or device); (bound form) shell; Taiwan pr. [ke2]"
+        "meaning": "variant of 殼|壳[qiao4]; (coll.) shell (of an egg, nut, crab etc); case; casing; housing (of a machine or device); (bound form) shell; Taiwan pr. [ke2]"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -2895,6 +2974,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       80,
       199
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
     "audio_filename": null
   },
@@ -2932,6 +3012,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       82,
       462
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
     "audio_filename": null
   },
@@ -2979,32 +3060,28 @@ export const POKEMON_DATA: PokemonType[] = ((
       82,
       462
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
     "audio_filename": null
   },
   {
     "id": 83,
     "name_en": "Farfetchd",
-    "name_zh": "大蔥鴨",
-    "name_zh_simplified": "大葱鸭",
-    "pinyin": "Dà cōng yā",
-    "pinyin_numbered": "Da4 cong1 ya1",
-    "ipa": "/ta˥˩ tsʰʊŋ˥ ja˥/",
+    "name_zh": "鴨葱",
+    "name_zh_simplified": "鴨葱",
+    "pinyin": "Yā cōng",
+    "pinyin_numbered": "Ya1 cong1",
+    "ipa": "/ja˥ tsʰʊŋ˥/",
     "etymology": [
-      {
-        "character": "大",
-        "pinyin": "dà",
-        "meaning": "big; large; great; older (than another person); eldest (as in 大姐[da4 jie3]); greatly; freely; fully; (dialect) father; (dialect) uncle (father's brother); see 大夫[dai4 fu5]"
-      },
-      {
-        "character": "蔥",
-        "pinyin": "cōng",
-        "meaning": "scallion; green onion"
-      },
       {
         "character": "鴨",
         "pinyin": "yā",
         "meaning": "duck (CL:隻|只[zhi1]); (slang) male prostitute"
+      },
+      {
+        "character": "葱",
+        "pinyin": "cōng",
+        "meaning": "scallion; green onion"
       }
     ],
     "generation": 1,
@@ -3015,6 +3092,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       83,
       865
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
     "audio_filename": null
   },
@@ -3046,6 +3124,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       84,
       85
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
     "audio_filename": null
   },
@@ -3082,6 +3161,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       84,
       85
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
     "audio_filename": null
   },
@@ -3105,7 +3185,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Hai; ocean; sea; CL:個|个[ge4],片[pian4]; great number of people or things; (dialect) numerous"
       },
       {
-        "character": "獅",
+        "character": "狮",
         "pinyin": "shī",
         "meaning": "(bound form) lion"
       }
@@ -3118,6 +3198,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       86,
       87
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
     "audio_filename": null
   },
@@ -3141,7 +3222,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Hai; ocean; sea; CL:個|个[ge4],片[pian4]; great number of people or things; (dialect) numerous"
       },
       {
-        "character": "獅",
+        "character": "狮",
         "pinyin": "shī",
         "meaning": "(bound form) lion"
       }
@@ -3154,6 +3235,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       86,
       87
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
     "audio_filename": null
   },
@@ -3185,6 +3267,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       88,
       89
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
     "audio_filename": null
   },
@@ -3221,6 +3304,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       88,
       89
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
     "audio_filename": null
   },
@@ -3244,7 +3328,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "used in 喇舌[la3 ji1] to transcribe the Taiwanese word for \"tongue\"; tongue"
       },
       {
-        "character": "貝",
+        "character": "贝",
         "pinyin": "bèi",
         "meaning": "surname Bei; cowrie; shellfish; currency (archaic)"
       }
@@ -3257,6 +3341,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       90,
       91
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
     "audio_filename": null
   },
@@ -3280,7 +3365,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "first of the ten Heavenly Stems 十天干[shi2 tian1 gan1]; (used for an unspecified person or thing); first (in a list, as a party to a contract etc); letter \"A\" or roman \"I\" in list \"A, B, C\", or \"I, II, III\" etc; armor plating; shell or carapace; (of the fingers or toes) nail; bladed leather or metal armor (old); ranking system used in the Imperial examinations (old); civil administration unit in the baojia 保甲[bao3 jia3] system (old); ancient Chinese compass point: 75°"
       },
       {
-        "character": "貝",
+        "character": "贝",
         "pinyin": "bèi",
         "meaning": "surname Bei; cowrie; shellfish; currency (archaic)"
       }
@@ -3293,6 +3378,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       90,
       91
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
     "audio_filename": null
   },
@@ -3325,6 +3411,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       93,
       94
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
     "audio_filename": null
   },
@@ -3362,6 +3449,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       93,
       94
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
     "audio_filename": null
   },
@@ -3394,6 +3482,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       93,
       94
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
     "audio_filename": null
   },
@@ -3430,6 +3519,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       95,
       208
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
     "audio_filename": null
   },
@@ -3466,6 +3556,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       96,
       97
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
     "audio_filename": null
   },
@@ -3484,7 +3575,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to draw (e.g. a bow); to pull; to stretch sth; to extend; to lengthen; to involve or implicate in; to attract; to lead; to guide; to leave; to provide evidence or justification for; old unit of distance equal to 10 丈[zhang4], one-thirtieth of a km or 33.33 meters"
       },
       {
-        "character": "夢",
+        "character": "梦",
         "pinyin": "mèng",
         "meaning": "dream (CL:場|场[chang2]); (bound form) to dream"
       },
@@ -3507,6 +3598,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       96,
       97
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
     "audio_filename": null
   },
@@ -3525,7 +3617,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "big; large; great; older (than another person); eldest (as in 大姐[da4 jie3]); greatly; freely; fully; (dialect) father; (dialect) uncle (father's brother); see 大夫[dai4 fu5]"
       },
       {
-        "character": "鉗",
+        "character": "钳",
         "pinyin": "qián",
         "meaning": "pincers; pliers; tongs; claw (of animal); to grasp with pincers; to pinch; to clamp; to restrain; to restrict; to gag"
       },
@@ -3543,6 +3635,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       98,
       99
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
     "audio_filename": null
   },
@@ -3561,7 +3654,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "very large; huge; tremendous; gigantic; (coll.) very; extremely; variant of 巨[ju4]"
       },
       {
-        "character": "鉗",
+        "character": "钳",
         "pinyin": "qián",
         "meaning": "pincers; pliers; tongs; claw (of animal); to grasp with pincers; to pinch; to clamp; to restrain; to restrict; to gag"
       },
@@ -3579,6 +3672,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       98,
       99
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
     "audio_filename": null
   },
@@ -3597,12 +3691,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "used in 霹靂|霹雳[pi1 li4] and 霹雷[pi1 lei2]"
       },
       {
-        "character": "靂",
+        "character": "雳",
         "pinyin": "lì",
         "meaning": "used in 霹靂|霹雳[pi1 li4]"
       },
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
@@ -3620,6 +3714,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       100,
       101
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
     "audio_filename": null
   },
@@ -3633,7 +3728,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/wan˧˥ pʰi˧˥ leɪ˧˥ tan˥˩/",
     "etymology": [
       {
-        "character": "頑",
+        "character": "顽",
         "pinyin": "wán",
         "meaning": "mischievous; obstinate; to play; stupid; stubborn; naughty"
       },
@@ -3648,7 +3743,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Lei; thunder; (bound form) (military) mine, as in 地雷[di4 lei2] land mine; (coll.) to shock; to stun; to astound; (Tw) (coll.) spoiler; (Tw) (coll.) to reveal plot details to (sb)"
       },
       {
-        "character": "彈",
+        "character": "弹",
         "pinyin": "dàn",
         "meaning": "crossball; bullet; shot; shell; ball; to pluck (a string); to play (a string instrument); to spring or leap; to shoot (e.g. with a catapult); (of cotton) to fluff or tease; to flick; to flip; to accuse; to impeach; elastic (of materials)"
       }
@@ -3661,6 +3756,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       100,
       101
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
     "audio_filename": null
   },
@@ -3692,6 +3788,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       102,
       103
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
     "audio_filename": null
   },
@@ -3715,7 +3812,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 蜑[Dan4]; egg; CL:個|个[ge4],打[da2]; oval-shaped thing"
       },
       {
-        "character": "樹",
+        "character": "树",
         "pinyin": "shù",
         "meaning": "tree; CL:棵[ke1]; to cultivate; to set up"
       }
@@ -3728,6 +3825,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       102,
       103
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
     "audio_filename": null
   },
@@ -3769,6 +3867,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       104,
       105
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
     "audio_filename": null
   },
@@ -3810,6 +3909,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       104,
       105
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
     "audio_filename": null
   },
@@ -3823,7 +3923,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/feɪ˥ tʰweɪ˧˩˧ lɑŋ˧˥/",
     "etymology": [
       {
-        "character": "飛",
+        "character": "飞",
         "pinyin": "fēi",
         "meaning": "to fly"
       },
@@ -3848,6 +3948,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       107,
       237
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
     "audio_filename": null
   },
@@ -3886,6 +3987,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       107,
       237
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
     "audio_filename": null
   },
@@ -3909,7 +4011,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "used in 喇舌[la3 ji1] to transcribe the Taiwanese word for \"tongue\"; tongue"
       },
       {
-        "character": "頭",
+        "character": "头",
         "pinyin": "tóu",
         "meaning": "head; hair style; the top; end; beginning or end; a stub; remnant; chief; boss; side; aspect; first; leading; classifier for pigs or livestock; CL:個|个[ge4]; suffix for nouns"
       }
@@ -3922,6 +4024,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       108,
       463
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
     "audio_filename": null
   },
@@ -3945,7 +4048,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "Slovakia; Slovak; abbr. for 斯洛伐克[Si1 luo4 fa2 ke4]; (phonetic); this"
       },
       {
-        "character": "彈",
+        "character": "弹",
         "pinyin": "dàn",
         "meaning": "crossball; bullet; shot; shell; ball; to pluck (a string); to play (a string instrument); to spring or leap; to shoot (e.g. with a catapult); (of cotton) to fluff or tease; to flick; to flip; to accuse; to impeach; elastic (of materials)"
       }
@@ -3958,6 +4061,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       109,
       110
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
     "audio_filename": null
   },
@@ -3971,12 +4075,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʂwɑŋ˥ tan˥˩ wa˧˩˧ sɯ˥/",
     "etymology": [
       {
-        "character": "雙",
+        "character": "双",
         "pinyin": "shuāng",
-        "meaning": "surname Shuang; two; double; pair; both; even (number)"
+        "meaning": "variant of 雙|双[shuang1]; surname Shuang; two; double; pair; both; even (number)"
       },
       {
-        "character": "彈",
+        "character": "弹",
         "pinyin": "dàn",
         "meaning": "crossball; bullet; shot; shell; ball; to pluck (a string); to play (a string instrument); to spring or leap; to shoot (e.g. with a catapult); (of cotton) to fluff or tease; to flick; to flip; to accuse; to impeach; elastic (of materials)"
       },
@@ -3999,6 +4103,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       109,
       110
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
     "audio_filename": null
   },
@@ -4012,7 +4117,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tu˧˥ tɕjɑʊ˧˩˧ ɕi˥ njoʊ˧˥/",
     "etymology": [
       {
-        "character": "獨",
+        "character": "独",
         "pinyin": "dú",
         "meaning": "alone; independent; single; sole; only"
       },
@@ -4041,6 +4146,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       112,
       464
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
     "audio_filename": null
   },
@@ -4054,9 +4160,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tswan˥ tɕjɑʊ˧˩˧ ɕi˥ ʂoʊ˥˩/",
     "etymology": [
       {
-        "character": "鑽",
+        "character": "钻",
         "pinyin": "zuān",
-        "meaning": "to drill; to bore; to get into; to make one's way into; to enter (a hole); to thread one's way through; to study intensively; to dig into; to curry favor for personal gain; drill; auger; diamond"
+        "meaning": "variant of 鑽|钻[zuan4]; to drill; to bore; to get into; to make one's way into; to enter (a hole); to thread one's way through; to study intensively; to dig into; to curry favor for personal gain; drill; auger; diamond"
       },
       {
         "character": "角",
@@ -4069,7 +4175,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "rhinoceros; sharp"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -4083,6 +4189,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       112,
       464
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
     "audio_filename": null
   },
@@ -4120,6 +4227,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       113,
       242
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
     "audio_filename": null
   },
@@ -4156,6 +4264,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       114,
       465
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
     "audio_filename": null
   },
@@ -4174,7 +4283,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "pouch; bag; sack; pocket"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -4186,6 +4295,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       115
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
     "audio_filename": null
   },
@@ -4209,7 +4319,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Hai; ocean; sea; CL:個|个[ge4],片[pian4]; great number of people or things; (dialect) numerous"
       },
       {
-        "character": "馬",
+        "character": "马",
         "pinyin": "mǎ",
         "meaning": "surname Ma; abbr. for Malaysia 馬來西亞|马来西亚[Ma3 lai2 xi1 ya4]; horse; CL:匹[pi3]; horse or cavalry piece in Chinese chess; knight in Western chess"
       }
@@ -4223,6 +4333,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       117,
       230
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
     "audio_filename": null
   },
@@ -4246,7 +4357,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(onom.) whoosh; thorn; sting; thrust; to prick; to pierce; to stab; to assassinate; to murder"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -4260,6 +4371,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       117,
       230
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
     "audio_filename": null
   },
@@ -4283,7 +4395,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Jin; surname Kim (Korean); Jurchen Jin dynasty (1115–1234); gold; chemical element Au; generic term for lustrous and ductile metals; money; golden; highly respected; one of the eight categories of ancient musical instruments 八音[ba1 yin1]"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -4296,6 +4408,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       118,
       119
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
     "audio_filename": null
   },
@@ -4314,7 +4427,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Jin; surname Kim (Korean); Jurchen Jin dynasty (1115–1234); gold; chemical element Au; generic term for lustrous and ductile metals; money; golden; highly respected; one of the eight categories of ancient musical instruments 八音[ba1 yin1]"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       },
@@ -4332,6 +4445,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       118,
       119
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
     "audio_filename": null
   },
@@ -4368,6 +4482,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       120,
       121
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
     "audio_filename": null
   },
@@ -4381,9 +4496,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/pɑʊ˧˩˧ ʂɨ˧˥ xaɪ˧˩˧ ɕiŋ˥/",
     "etymology": [
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       },
       {
         "character": "石",
@@ -4409,6 +4524,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       120,
       121
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
     "audio_filename": null
   },
@@ -4427,9 +4543,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) evil spirit; devil; (prefix) supernatural; magical"
       },
       {
-        "character": "牆",
+        "character": "墙",
         "pinyin": "qiáng",
-        "meaning": "wall (CL:面[mian4],堵[du3]); (slang) to block (a website) (usu. in the passive: 被牆|被墙[bei4 qiang2])"
+        "meaning": "variant of 牆|墙[qiang2]; wall (CL:面[mian4],堵[du3]); (slang) to block (a website) (usu. in the passive: 被牆|被墙[bei4 qiang2])"
       },
       {
         "character": "人",
@@ -4451,6 +4567,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       122,
       866
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
     "audio_filename": null
   },
@@ -4464,7 +4581,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/feɪ˥ tʰjɛn˥ tʰɑŋ˧˥ lɑŋ˧˥/",
     "etymology": [
       {
-        "character": "飛",
+        "character": "飞",
         "pinyin": "fēi",
         "meaning": "to fly"
       },
@@ -4493,6 +4610,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       212,
       900
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
     "audio_filename": null
   },
@@ -4529,6 +4647,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       238,
       124
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
     "audio_filename": null
   },
@@ -4542,17 +4661,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tjɛn˥˩ tɕi˥ ʂoʊ˥˩/",
     "etymology": [
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
       {
-        "character": "擊",
+        "character": "击",
         "pinyin": "jī",
         "meaning": "to hit; to strike; to break; Taiwan pr. [ji2]"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -4566,6 +4685,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       125,
       466
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
     "audio_filename": null
   },
@@ -4579,7 +4699,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ja˥ tsweɪ˧˩˧ xwɔ˧˩˧ ʂoʊ˥˩/",
     "etymology": [
       {
-        "character": "鴨",
+        "character": "鸭",
         "pinyin": "yā",
         "meaning": "duck (CL:隻|只[zhi1]); (slang) male prostitute"
       },
@@ -4594,7 +4714,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Huo; fire; urgent; ammunition; fiery or flaming; internal heat (Chinese medicine); hot (popular); classifier for military units (old); Kangxi radical 86"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -4608,6 +4728,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       126,
       467
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
     "audio_filename": null
   },
@@ -4621,12 +4742,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/kʰaɪ˧˩˧ lwɔ˧˥ sɯ˥/",
     "etymology": [
       {
-        "character": "凱",
+        "character": "凯",
         "pinyin": "kǎi",
         "meaning": "surname Kai; (bound form) triumphal music; (Tw) (coll.) generous with money; lavish in spending; chi (Greek letter Χχ)"
       },
       {
-        "character": "羅",
+        "character": "罗",
         "pinyin": "luó",
         "meaning": "surname Luo; gauze; to collect; to gather; to catch; to sift"
       },
@@ -4643,6 +4764,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       127
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
     "audio_filename": null
   },
@@ -4666,7 +4788,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "Mt Tai 泰山[Tai4 Shan1] in Shandong; abbr. for Thailand; safe; peaceful; most; grand"
       },
       {
-        "character": "羅",
+        "character": "罗",
         "pinyin": "luó",
         "meaning": "surname Luo; gauze; to collect; to gather; to catch; to sift"
       }
@@ -4678,6 +4800,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       128
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
     "audio_filename": null
   },
@@ -4691,12 +4814,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/li˧˩˧ y˧˥ wɑŋ˧˥/",
     "etymology": [
       {
-        "character": "鯉",
+        "character": "鲤",
         "pinyin": "lǐ",
         "meaning": "carp"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       },
@@ -4714,6 +4837,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       129,
       130
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
     "audio_filename": null
   },
@@ -4732,12 +4856,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Bao; sudden; violent; cruel; to show or expose; to injure; variant of 曝[pu4]"
       },
       {
-        "character": "鯉",
+        "character": "鲤",
         "pinyin": "lǐ",
         "meaning": "carp"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -4750,6 +4874,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       129,
       130
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
     "audio_filename": null
   },
@@ -4790,6 +4915,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       131
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
     "audio_filename": null
   },
@@ -4808,7 +4934,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Bai; hundred; numerous; all kinds of"
       },
       {
-        "character": "變",
+        "character": "变",
         "pinyin": "biàn",
         "meaning": "to change; to become different; to transform; to vary; rebellion"
       },
@@ -4825,6 +4951,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       132
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
     "audio_filename": null
   },
@@ -4863,6 +4990,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       471,
       700
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
     "audio_filename": null
   },
@@ -4906,32 +5034,38 @@ export const POKEMON_DATA: PokemonType[] = ((
       471,
       700
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
     "audio_filename": null
   },
   {
     "id": 135,
     "name_en": "Jolteon",
-    "name_zh": "雷伊布",
-    "name_zh_simplified": "雷伊布",
-    "pinyin": "Léi yī bù",
-    "pinyin_numbered": "Lei2 yi1 bu4",
-    "ipa": "/leɪ˧˥ i˥ pu˥˩/",
+    "name_zh": "電光石火",
+    "name_zh_simplified": "电光石火",
+    "pinyin": "Diàn guāng shí huǒ",
+    "pinyin_numbered": "Dian4 guang1 shi2 huo3",
+    "ipa": "/tjɛn˥˩ kwɑŋ˥ ʂɨ˧˥ xwɔ˧˩˧/",
     "etymology": [
       {
-        "character": "雷",
-        "pinyin": "léi",
-        "meaning": "surname Lei; thunder; (bound form) (military) mine, as in 地雷[di4 lei2] land mine; (coll.) to shock; to stun; to astound; (Tw) (coll.) spoiler; (Tw) (coll.) to reveal plot details to (sb)"
+        "character": "电",
+        "pinyin": "diàn",
+        "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
       {
-        "character": "伊",
-        "pinyin": "yī",
-        "meaning": "surname Yi; (old) third person singular pronoun (\"he\" or \"she\"); second person singular pronoun (\"you\"); (May 4th period) third person singular feminine pronoun (\"she\"); (Classical Chinese) introductory particle with no specific meaning; (preceding a noun) that; (bound form) Iraq (abbr. for 伊拉克[Yi1 la1 ke4]); (bound form) Iran (abbr. for 伊朗[Yi1 lang3])"
+        "character": "光",
+        "pinyin": "guāng",
+        "meaning": "light; ray (CL:道[dao4]); bright; shiny; only; merely; used up; finished; to leave (a part of the body) uncovered"
       },
       {
-        "character": "布",
-        "pinyin": "bù",
-        "meaning": "variant of 布[bu4]; to announce; to spread; cloth; to declare; to make known"
+        "character": "石",
+        "pinyin": "shí",
+        "meaning": "surname Shi; abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei; dry measure for grain equal to ten dou 斗[dou3]; one hundred liters; ancient pr. [shi2]; rock; stone; stone inscription; one of the eight categories of ancient musical instruments 八音[ba1 yin1]"
+      },
+      {
+        "character": "火",
+        "pinyin": "huǒ",
+        "meaning": "surname Huo; fire; urgent; ammunition; fiery or flaming; internal heat (Chinese medicine); hot (popular); classifier for military units (old); Kangxi radical 86"
       }
     ],
     "generation": 1,
@@ -4949,6 +5083,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       471,
       700
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
     "audio_filename": null
   },
@@ -4992,6 +5127,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       471,
       700
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
     "audio_filename": null
   },
@@ -5010,12 +5146,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "many; much; more; a lot of; too many; in excess; (after a numeral) ... odd; how (to what extent) (Taiwan pr. [duo2]); (bound form) multi-; poly-"
       },
       {
-        "character": "邊",
+        "character": "边",
         "pinyin": "biān",
         "meaning": "side; edge; margin; border; boundary; CL:個|个[ge4]; simultaneously; suffix of a noun of locality"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -5029,6 +5165,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       233,
       474
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
     "audio_filename": null
   },
@@ -5052,7 +5189,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Shi; abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei; dry measure for grain equal to ten dou 斗[dou3]; one hundred liters; ancient pr. [shi2]; rock; stone; stone inscription; one of the eight categories of ancient musical instruments 八音[ba1 yin1]"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -5065,6 +5202,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       138,
       139
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
     "audio_filename": null
   },
@@ -5098,7 +5236,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Shi; abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei; dry measure for grain equal to ten dou 斗[dou3]; one hundred liters; ancient pr. [shi2]; rock; stone; stone inscription; one of the eight categories of ancient musical instruments 八音[ba1 yin1]"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -5111,6 +5249,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       138,
       139
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
     "audio_filename": null
   },
@@ -5147,6 +5286,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       140,
       141
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
     "audio_filename": null
   },
@@ -5160,9 +5300,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ljɛn˧˥ tɑʊ˥ kʰweɪ˥/",
     "etymology": [
       {
-        "character": "鐮",
+        "character": "镰",
         "pinyin": "lián",
-        "meaning": "(bound form) sickle"
+        "meaning": "old variant of 鐮|镰[lian2]; variant of 鐮|镰[lian2]; (bound form) sickle"
       },
       {
         "character": "刀",
@@ -5183,6 +5323,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       140,
       141
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
     "audio_filename": null
   },
@@ -5211,7 +5352,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Yi; alternative name for 絳|绛[Jiang4], the capital of the Jin State during the Spring and Autumn Period (770–475 BC); wing; area surrounding the bullseye of a target; to assist; one of the 28 constellations of Chinese astronomy; old variant of 翌"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -5223,6 +5364,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       142
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
     "audio_filename": null
   },
@@ -5246,7 +5388,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "Belgium; Belgian; abbr. for 比利時|比利时[Bi3 li4 shi2]; euphemistic variant of 屄[bi1]; to compare; (followed by a noun and adjective) more {adj.} than {noun}; ratio; to gesture; (Taiwan pr. [bi4] in some compounds derived from Classical Chinese)"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -5259,6 +5401,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       446,
       143
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
     "audio_filename": null
   },
@@ -5277,12 +5420,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "urgent; pressing; rapid; hurried; worried; to make (sb) anxious"
       },
       {
-        "character": "凍",
+        "character": "冻",
         "pinyin": "dòng",
         "meaning": "to freeze; to feel very cold; aspic or jelly"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -5294,6 +5437,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       144
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
     "audio_filename": null
   },
@@ -5307,17 +5451,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʂan˧˩˧ tjɛn˥˩ njɑʊ˧˩˧/",
     "etymology": [
       {
-        "character": "閃",
+        "character": "闪",
         "pinyin": "shǎn",
         "meaning": "surname Shan; to dodge; to duck out of the way; to beat it; shaken (by a fall); to sprain; to pull a muscle; lightning; spark; a flash; to flash (across one's mind); to leave behind; (Internet slang) (of a display of affection) \"dazzlingly\" saccharine"
       },
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -5329,6 +5473,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       145
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
     "audio_filename": null
   },
@@ -5352,7 +5497,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "flame; variant of 焰[yan4]"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -5364,6 +5509,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       146
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
     "audio_filename": null
   },
@@ -5387,7 +5533,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "you (informal, as opposed to courteous 您[nin2]); you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -5401,6 +5547,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       148,
       149
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
     "audio_filename": null
   },
@@ -5424,7 +5571,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "abbr. for 克羅地亞|克罗地亚[Ke4 luo2 di4 ya4], Croatia; (Tw) abbr. for 克羅埃西亞|克罗埃西亚[Ke4 luo2 ai1 xi1 ya4], Croatia; to be able to; to subdue; to restrain; to overcome; gram; Tibetan unit of land area, about 6 ares; Ke (c. 2000 BC), seventh of the legendary Flame Emperors, 炎帝[Yan2 di4] descended from Shennong 神農|神农[Shen2 nong2] Farmer God; variant of 克[ke4]; to overthrow; variant of 剋|克[ke4]"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -5438,6 +5585,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       148,
       149
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
     "audio_filename": null
   },
@@ -5456,7 +5604,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "rapid; quick; speed; rate; soon; almost; to make haste; clever; sharp (of knives or wits); forthright; plainspoken; gratified; pleased; pleasant"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -5470,6 +5618,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       148,
       149
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
     "audio_filename": null
   },
@@ -5488,7 +5637,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to exceed; to overtake; to surpass; to transcend; to pass; to cross; ultra-; super-"
       },
       {
-        "character": "夢",
+        "character": "梦",
         "pinyin": "mèng",
         "meaning": "dream (CL:場|场[chang2]); (bound form) to dream"
       }
@@ -5500,6 +5649,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       150
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
     "audio_filename": null
   },
@@ -5513,7 +5663,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/mɤŋ˥˩ xwan˥˩/",
     "etymology": [
       {
-        "character": "夢",
+        "character": "梦",
         "pinyin": "mèng",
         "meaning": "dream (CL:場|场[chang2]); (bound form) to dream"
       },
@@ -5530,6 +5680,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       151
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
     "audio_filename": null
   },
@@ -5553,9 +5704,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 草[cao3]; grass; straw; manuscript; draft (of a document); careless; rough; CL:棵[ke1],撮[zuo3],株[zhu1],根[gen1]; variant of 肏[cao4]"
       },
       {
-        "character": "葉",
+        "character": "叶",
         "pinyin": "yè",
-        "meaning": "surname Ye; leaf; page; lobe; (historical) period; classifier for small boats"
+        "meaning": "to be in harmony; surname Ye; leaf; page; lobe; (historical) period; classifier for small boats"
       }
     ],
     "generation": 2,
@@ -5567,6 +5718,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       153,
       154
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
     "audio_filename": null
   },
@@ -5590,9 +5742,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Gui; abbr. for Guangxi Autonomous Region 廣西壯族自治區|广西壮族自治区[Guang3 xi1 Zhuang4 zu2 Zi4 zhi4 qu1]; cassia; laurel"
       },
       {
-        "character": "葉",
+        "character": "叶",
         "pinyin": "yè",
-        "meaning": "surname Ye; leaf; page; lobe; (historical) period; classifier for small boats"
+        "meaning": "to be in harmony; surname Ye; leaf; page; lobe; (historical) period; classifier for small boats"
       }
     ],
     "generation": 2,
@@ -5604,6 +5756,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       153,
       154
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png",
     "audio_filename": null
   },
@@ -5641,6 +5794,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       153,
       154
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png",
     "audio_filename": null
   },
@@ -5678,6 +5832,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       156,
       157
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
     "audio_filename": null
   },
@@ -5715,6 +5870,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       156,
       157
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/156.png",
     "audio_filename": null
   },
@@ -5733,12 +5889,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Huo; fire; urgent; ammunition; fiery or flaming; internal heat (Chinese medicine); hot (popular); classifier for military units (old); Kangxi radical 86"
       },
       {
-        "character": "爆",
+        "character": "暴",
         "pinyin": "bào",
-        "meaning": "to explode; to burst; to stir-fry briefly; to quick-boil"
+        "meaning": "surname Bao; sudden; violent; cruel; to show or expose; to injure; variant of 曝[pu4]"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -5752,6 +5908,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       156,
       157
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png",
     "audio_filename": null
   },
@@ -5770,14 +5927,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "small; tiny; few; young"
       },
       {
-        "character": "鋸",
+        "character": "锯",
         "pinyin": "jù",
         "meaning": "variant of 鋦|锔[ju1]; a saw (CL:把[ba3]); to saw"
       },
       {
-        "character": "鱷",
+        "character": "鳄",
         "pinyin": "è",
-        "meaning": "(bound form) alligator; crocodile"
+        "meaning": "variant of 鱷|鳄[e4]; (bound form) alligator; crocodile"
       }
     ],
     "generation": 2,
@@ -5789,6 +5946,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       159,
       160
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png",
     "audio_filename": null
   },
@@ -5802,14 +5960,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/lan˧˥ ɤ˥˩/",
     "etymology": [
       {
-        "character": "藍",
+        "character": "蓝",
         "pinyin": "lán",
         "meaning": "surname Lan; blue; indigo plant"
       },
       {
-        "character": "鱷",
+        "character": "鳄",
         "pinyin": "è",
-        "meaning": "(bound form) alligator; crocodile"
+        "meaning": "variant of 鱷|鳄[e4]; (bound form) alligator; crocodile"
       }
     ],
     "generation": 2,
@@ -5821,6 +5979,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       159,
       160
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/159.png",
     "audio_filename": null
   },
@@ -5844,9 +6003,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Li; power; force; strength; ability; strenuously"
       },
       {
-        "character": "鱷",
+        "character": "鳄",
         "pinyin": "è",
-        "meaning": "(bound form) alligator; crocodile"
+        "meaning": "variant of 鱷|鳄[e4]; (bound form) alligator; crocodile"
       }
     ],
     "generation": 2,
@@ -5858,6 +6017,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       159,
       160
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png",
     "audio_filename": null
   },
@@ -5889,6 +6049,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       161,
       162
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/161.png",
     "audio_filename": null
   },
@@ -5925,6 +6086,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       161,
       162
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/162.png",
     "audio_filename": null
   },
@@ -5956,6 +6118,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       163,
       164
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png",
     "audio_filename": null
   },
@@ -5969,12 +6132,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/mɑʊ˥ tʰoʊ˧˥ jɛ˥˩ iŋ˥/",
     "etymology": [
       {
-        "character": "貓",
+        "character": "猫",
         "pinyin": "māo",
         "meaning": "cat (CL:隻|只[zhi1]); (dialect) to hide oneself; (loanword) (coll.) modem; used in 貓腰|猫腰[mao2 yao1]"
       },
       {
-        "character": "頭",
+        "character": "头",
         "pinyin": "tóu",
         "meaning": "head; hair style; the top; end; beginning or end; a stub; remnant; chief; boss; side; aspect; first; leading; classifier for pigs or livestock; CL:個|个[ge4]; suffix for nouns"
       },
@@ -5984,7 +6147,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 夜[ye4]; night"
       },
       {
-        "character": "鷹",
+        "character": "鹰",
         "pinyin": "yīng",
         "meaning": "general term for a bird of prey (eagle, hawk or falcon etc)"
       }
@@ -5997,6 +6160,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       163,
       164
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png",
     "audio_filename": null
   },
@@ -6020,9 +6184,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "dipper; ladle"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 2,
@@ -6033,6 +6197,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       165,
       166
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/165.png",
     "audio_filename": null
   },
@@ -6056,9 +6221,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "dipper; ladle"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 2,
@@ -6069,6 +6234,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       165,
       166
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/166.png",
     "audio_filename": null
   },
@@ -6082,12 +6248,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ɥœn˧˥ sɯ˥ ʈʂu˥/",
     "etymology": [
       {
-        "character": "圓",
+        "character": "圆",
         "pinyin": "yuán",
         "meaning": "circle; round; circular; spherical; (of the moon) full; unit of Chinese currency (yuan); tactful; to make consistent and whole (the narrative of a dream or a lie)"
       },
       {
-        "character": "絲",
+        "character": "丝",
         "pinyin": "sī",
         "meaning": "silk; thread-like thing; (cuisine) shreds or julienne strips; classifier: a trace (of smoke etc), a tiny bit etc"
       },
@@ -6105,6 +6271,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       167,
       168
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png",
     "audio_filename": null
   },
@@ -6146,6 +6313,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       167,
       168
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png",
     "audio_filename": null
   },
@@ -6183,6 +6351,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       42,
       169
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png",
     "audio_filename": null
   },
@@ -6196,17 +6365,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɤŋ˥ lʊŋ˧˥ y˧˥/",
     "etymology": [
       {
-        "character": "燈",
+        "character": "灯",
         "pinyin": "dēng",
         "meaning": "lamp; light; lantern; CL:盞|盏[zhan3]"
       },
       {
-        "character": "籠",
+        "character": "笼",
         "pinyin": "lóng",
         "meaning": "enclosing frame made of bamboo, wire etc; cage; basket; steamer basket; to envelop; to cover; (used in 籠子|笼子[long3 zi5]) large box; Taiwan pr. [long2]"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -6219,6 +6388,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       170,
       171
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/170.png",
     "audio_filename": null
   },
@@ -6232,12 +6402,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tjɛn˥˩ tɤŋ˥ kwaɪ˥˩/",
     "etymology": [
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
       {
-        "character": "燈",
+        "character": "灯",
         "pinyin": "dēng",
         "meaning": "lamp; light; lantern; CL:盞|盏[zhan3]"
       },
@@ -6255,6 +6425,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       170,
       171
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png",
     "audio_filename": null
   },
@@ -6287,6 +6458,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       25,
       26
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png",
     "audio_filename": null
   },
@@ -6305,14 +6477,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Pi; skin; peel; rind; outer layer; leather; hide; fur; cover; wrapping; outer covering; (of food) no longer crisp; soggy; (coll.) naughty; mischievous; pico- (10⁻¹²)"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       }
     ],
     "generation": 2,
@@ -6324,6 +6496,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       35,
       36
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png",
     "audio_filename": null
   },
@@ -6337,14 +6510,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/pɑʊ˧˩˧ pɑʊ˧˩˧ tiŋ˥/",
     "etymology": [
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       },
       {
         "character": "丁",
@@ -6361,6 +6534,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       39,
       40
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png",
     "audio_filename": null
   },
@@ -6398,6 +6572,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       176,
       468
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png",
     "audio_filename": null
   },
@@ -6440,6 +6615,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       176,
       468
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png",
     "audio_filename": null
   },
@@ -6476,6 +6652,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       177,
       178
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/177.png",
     "audio_filename": null
   },
@@ -6499,7 +6676,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "correct; right; so; thus; like this; -ly"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -6512,6 +6689,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       177,
       178
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/178.png",
     "audio_filename": null
   },
@@ -6549,6 +6727,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       180,
       181
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/179.png",
     "audio_filename": null
   },
@@ -6586,6 +6765,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       180,
       181
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/180.png",
     "audio_filename": null
   },
@@ -6599,12 +6779,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tjɛn˥˩ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -6618,6 +6798,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       180,
       181
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/181.png",
     "audio_filename": null
   },
@@ -6636,7 +6817,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) the Americas (abbr. for 美洲[Mei3 zhou1]); (bound form) USA (abbr. for 美國|美国[Mei3 guo2]); beautiful; very satisfactory; good; to beautify; to be pleased with oneself"
       },
       {
-        "character": "麗",
+        "character": "丽",
         "pinyin": "lì",
         "meaning": "Korea; beautiful"
       },
@@ -6656,6 +6837,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       45,
       182
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png",
     "audio_filename": null
   },
@@ -6669,7 +6851,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ma˧˩˧ li˥˩ lu˥˩/",
     "etymology": [
       {
-        "character": "瑪",
+        "character": "玛",
         "pinyin": "mǎ",
         "meaning": "used in 瑪瑙|玛瑙[ma3 nao3]"
       },
@@ -6693,6 +6875,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       183,
       184
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png",
     "audio_filename": null
   },
@@ -6706,7 +6889,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ma˧˩˧ li˥˩ lu˥˩ li˥˩/",
     "etymology": [
       {
-        "character": "瑪",
+        "character": "玛",
         "pinyin": "mǎ",
         "meaning": "used in 瑪瑙|玛瑙[ma3 nao3]"
       },
@@ -6721,7 +6904,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Lu; to show; to reveal; to betray; to expose; dew; syrup; nectar; outdoors (not under cover)"
       },
       {
-        "character": "麗",
+        "character": "丽",
         "pinyin": "lì",
         "meaning": "Korea; beautiful"
       }
@@ -6735,6 +6918,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       183,
       184
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png",
     "audio_filename": null
   },
@@ -6748,7 +6932,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʂu˥˩ tsʰaɪ˧˥ kwaɪ˥˩/",
     "etymology": [
       {
-        "character": "樹",
+        "character": "树",
         "pinyin": "shù",
         "meaning": "tree; CL:棵[ke1]; to cultivate; to set up"
       },
@@ -6771,6 +6955,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       438,
       185
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png",
     "audio_filename": null
   },
@@ -6814,6 +6999,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       62,
       186
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png",
     "audio_filename": null
   },
@@ -6851,6 +7037,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       188,
       189
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/187.png",
     "audio_filename": null
   },
@@ -6888,6 +7075,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       188,
       189
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/188.png",
     "audio_filename": null
   },
@@ -6925,6 +7113,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       188,
       189
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/189.png",
     "audio_filename": null
   },
@@ -6938,7 +7127,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂɑŋ˧˩˧ weɪ˧˩˧ kwaɪ˥˩ ʂoʊ˧˩˧/",
     "etymology": [
       {
-        "character": "長",
+        "character": "长",
         "pinyin": "zhǎng",
         "meaning": "long; (bound form) length; (bound form) strong point; forte; (bound form) to be good at; (literary) surplus; spare (Taiwan pr. [zhang4]); chief; head; elder; to grow; to develop; to increase; to enhance"
       },
@@ -6966,6 +7155,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       190,
       424
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png",
     "audio_filename": null
   },
@@ -6989,7 +7179,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) sun; day; day of the month; (bound form) Japan (abbr. for 日本[Ri4 ben3]); (vulgar) to fuck; to have sex with"
       },
       {
-        "character": "種",
+        "character": "种",
         "pinyin": "zhǒng",
         "meaning": "seed; species; kind; type; classifier for types, kinds, sorts; to plant; to grow; to cultivate"
       },
@@ -7007,6 +7197,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       191,
       192
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png",
     "audio_filename": null
   },
@@ -7048,6 +7239,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       191,
       192
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png",
     "audio_filename": null
   },
@@ -7084,6 +7276,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       193,
       469
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png",
     "audio_filename": null
   },
@@ -7097,7 +7290,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/u˥ pwɔ˥/",
     "etymology": [
       {
-        "character": "烏",
+        "character": "乌",
         "pinyin": "wū",
         "meaning": "abbr. for country names that begin with 烏|乌[wu1]: Ukraine 烏克蘭|乌克兰[Wu1 ke4 lan2], Uzbekistan 烏茲別克斯坦|乌兹别克斯坦[Wu1 zi1 bie2 ke4 si1 tan3] etc; surname Wu; crow; black; used in 烏拉|乌拉[wu4 la5]; used in 烏拉草|乌拉草[wu4 la5 cao3]"
       },
@@ -7116,6 +7309,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       195,
       980
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png",
     "audio_filename": null
   },
@@ -7148,6 +7342,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       195,
       980
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png",
     "audio_filename": null
   },
@@ -7166,7 +7361,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "highest; greatest; too (much); very; extremely"
       },
       {
-        "character": "陽",
+        "character": "阳",
         "pinyin": "yáng",
         "meaning": "positive (electric.); sun; male principle (Taoism); Yang, opposite: 陰|阴[yin1]"
       },
@@ -7196,6 +7391,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       471,
       700
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png",
     "audio_filename": null
   },
@@ -7244,6 +7440,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       471,
       700
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png",
     "audio_filename": null
   },
@@ -7267,9 +7464,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 暗[an4]; dark; to turn dark; secret; hidden; (literary) confused; ignorant; (literary) to close (a door); to eclipse; confused; ignorant (variant of 暗[an4]); dark (variant of 暗[an4])"
       },
       {
-        "character": "鴉",
+        "character": "鸦",
         "pinyin": "yā",
-        "meaning": "crow"
+        "meaning": "crow; variant of 鴉|鸦[ya1]"
       }
     ],
     "generation": 2,
@@ -7280,6 +7477,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       198,
       430
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png",
     "audio_filename": null
   },
@@ -7317,6 +7515,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       80,
       199
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/199.png",
     "audio_filename": null
   },
@@ -7330,7 +7529,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/mɤŋ˥˩ jɑʊ˥/",
     "etymology": [
       {
-        "character": "夢",
+        "character": "梦",
         "pinyin": "mèng",
         "meaning": "dream (CL:場|场[chang2]); (bound form) to dream"
       },
@@ -7348,6 +7547,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       200,
       429
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png",
     "audio_filename": null
   },
@@ -7371,12 +7571,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to know; to be aware"
       },
       {
-        "character": "圖",
+        "character": "图",
         "pinyin": "tú",
         "meaning": "diagram; picture; drawing; chart; map; CL:張|张[zhang1]; to plan; to scheme; to attempt; to pursue; to seek"
       },
       {
-        "character": "騰",
+        "character": "腾",
         "pinyin": "téng",
         "meaning": "(bound form) to gallop; to prance; (bound form) to soar; to hover; to make room; to clear out; to vacate; (verb suffix indicating repeated action)"
       }
@@ -7388,6 +7588,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       201
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201.png",
     "audio_filename": null
   },
@@ -7424,6 +7625,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       360,
       202
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/202.png",
     "audio_filename": null
   },
@@ -7460,6 +7662,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       203,
       981
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/203.png",
     "audio_filename": null
   },
@@ -7496,6 +7699,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       204,
       205
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/204.png",
     "audio_filename": null
   },
@@ -7537,6 +7741,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       204,
       205
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/205.png",
     "audio_filename": null
   },
@@ -7555,7 +7760,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Tu; Tu ethnic group; earth; dust; clay; local; indigenous; crude opium; unsophisticated; one of the eight categories of ancient musical instruments 八音[ba1 yin1]"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       },
@@ -7578,6 +7783,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       206,
       982
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/206.png",
     "audio_filename": null
   },
@@ -7596,9 +7802,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "day; sky; heaven"
       },
       {
-        "character": "蠍",
+        "character": "蝎",
         "pinyin": "xiē",
-        "meaning": "(bound form) scorpion"
+        "meaning": "variant of 蠍|蝎[xie1]; (bound form) scorpion"
       }
     ],
     "generation": 2,
@@ -7609,6 +7815,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       207,
       472
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/207.png",
     "audio_filename": null
   },
@@ -7627,7 +7834,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "big; large; great; older (than another person); eldest (as in 大姐[da4 jie3]); greatly; freely; fully; (dialect) father; (dialect) uncle (father's brother); see 大夫[dai4 fu5]"
       },
       {
-        "character": "鋼",
+        "character": "钢",
         "pinyin": "gāng",
         "meaning": "steel"
       },
@@ -7645,6 +7852,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       95,
       208
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png",
     "audio_filename": null
   },
@@ -7663,7 +7871,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 布[bu4]; to announce; to spread; cloth; to declare; to make known"
       },
       {
-        "character": "魯",
+        "character": "鲁",
         "pinyin": "lǔ",
         "meaning": "surname Lu; Lu, an ancient state of China 魯國|鲁国[Lu3 guo2]; short name for Shandong 山東|山东[Shan1 dong1]; (bound form) crass; stupid; rude; (used to represent the sounds of \"ru\", \"lu\" etc in loanwords)"
       }
@@ -7676,6 +7884,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       209,
       210
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/209.png",
     "audio_filename": null
   },
@@ -7694,7 +7903,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 布[bu4]; to announce; to spread; cloth; to declare; to make known"
       },
       {
-        "character": "魯",
+        "character": "鲁",
         "pinyin": "lǔ",
         "meaning": "surname Lu; Lu, an ancient state of China 魯國|鲁国[Lu3 guo2]; short name for Shandong 山東|山东[Shan1 dong1]; (bound form) crass; stupid; rude; (used to represent the sounds of \"ru\", \"lu\" etc in loanwords)"
       },
@@ -7712,6 +7921,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       209,
       210
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/210.png",
     "audio_filename": null
   },
@@ -7730,12 +7940,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "thousand; used in 鞦韆|秋千[qiu1 qian1]"
       },
       {
-        "character": "針",
+        "character": "针",
         "pinyin": "zhēn",
-        "meaning": "needle; pin; injection; stitch; CL:根[gen1],支[zhi1]"
+        "meaning": "needle; pin; injection; stitch; CL:根[gen1],支[zhi1]; variant of 針|针[zhen1], needle"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -7748,6 +7958,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       211,
       904
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/211.png",
     "audio_filename": null
   },
@@ -7766,7 +7977,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "very large; huge; tremendous; gigantic; (coll.) very; extremely; variant of 巨[ju4]"
       },
       {
-        "character": "鉗",
+        "character": "钳",
         "pinyin": "qián",
         "meaning": "pincers; pliers; tongs; claw (of animal); to grasp with pincers; to pinch; to clamp; to restrain; to restrict; to gag"
       },
@@ -7790,6 +8001,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       212,
       900
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png",
     "audio_filename": null
   },
@@ -7803,12 +8015,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/xu˧˥ xu˧˥/",
     "etymology": [
       {
-        "character": "壺",
+        "character": "壶",
         "pinyin": "hú",
         "meaning": "pot; classifier for bottled liquid"
       },
       {
-        "character": "壺",
+        "character": "壶",
         "pinyin": "hú",
         "meaning": "pot; classifier for bottled liquid"
       }
@@ -7820,6 +8032,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       213
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png",
     "audio_filename": null
   },
@@ -7848,7 +8061,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "abbr. for 克羅地亞|克罗地亚[Ke4 luo2 di4 ya4], Croatia; (Tw) abbr. for 克羅埃西亞|克罗埃西亚[Ke4 luo2 ai1 xi1 ya4], Croatia; to be able to; to subdue; to restrain; to overcome; gram; Tibetan unit of land area, about 6 ares; Ke (c. 2000 BC), seventh of the legendary Flame Emperors, 炎帝[Yan2 di4] descended from Shennong 神農|神农[Shen2 nong2] Farmer God; variant of 克[ke4]; to overthrow; variant of 剋|克[ke4]"
       },
       {
-        "character": "羅",
+        "character": "罗",
         "pinyin": "luó",
         "meaning": "surname Luo; gauze; to collect; to gather; to catch; to sift"
       },
@@ -7865,6 +8078,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       214
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png",
     "audio_filename": null
   },
@@ -7897,6 +8111,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       461,
       903
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png",
     "audio_filename": null
   },
@@ -7915,14 +8130,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Xiong; bear; (coll.) to scold; to rebuke; (coll.) weak; incapable"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       }
     ],
     "generation": 2,
@@ -7934,6 +8149,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       217,
       901
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/216.png",
     "audio_filename": null
   },
@@ -7971,6 +8187,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       217,
       901
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/217.png",
     "audio_filename": null
   },
@@ -7994,9 +8211,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "cliff; rock; variant of 巖|岩[yan2]; variant of 岩[yan2]"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 2,
@@ -8007,6 +8224,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       218,
       219
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/218.png",
     "audio_filename": null
   },
@@ -8030,7 +8248,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "cliff; rock; variant of 巖|岩[yan2]; variant of 岩[yan2]"
       },
       {
-        "character": "蝸",
+        "character": "蜗",
         "pinyin": "wō",
         "meaning": "snail; Taiwan pr. [gua1]; see 蝸牛|蜗牛[wo1 niu2]"
       },
@@ -8048,6 +8266,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       218,
       219
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/219.png",
     "audio_filename": null
   },
@@ -8071,7 +8290,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Shan; mountain; hill (CL:座[zuo4]); (coll.) small bundle of straw for silkworms to spin cocoons on"
       },
       {
-        "character": "豬",
+        "character": "猪",
         "pinyin": "zhū",
         "meaning": "hog; pig; swine; CL:口[kou3],頭|头[tou2]"
       }
@@ -8085,6 +8304,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       221,
       473
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/220.png",
     "audio_filename": null
   },
@@ -8098,7 +8318,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂɑŋ˧˩˧ mɑʊ˧˥ ʈʂu˥/",
     "etymology": [
       {
-        "character": "長",
+        "character": "长",
         "pinyin": "zhǎng",
         "meaning": "long; (bound form) length; (bound form) strong point; forte; (bound form) to be good at; (literary) surplus; spare (Taiwan pr. [zhang4]); chief; head; elder; to grow; to develop; to increase; to enhance"
       },
@@ -8108,7 +8328,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Mao; hair; feather; down; wool; mildew; mold; coarse or semifinished; young; raw; careless; unthinking; nervous; scared; (of currency) to devalue or depreciate; classifier for Chinese fractional monetary unit ( = 角[jiao3] , = one-tenth of a yuan or 10 fen 分[fen1])"
       },
       {
-        "character": "豬",
+        "character": "猪",
         "pinyin": "zhū",
         "meaning": "hog; pig; swine; CL:口[kou3],頭|头[tou2]"
       }
@@ -8122,6 +8342,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       221,
       473
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/221.png",
     "audio_filename": null
   },
@@ -8140,7 +8361,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "highest; greatest; too (much); very; extremely"
       },
       {
-        "character": "陽",
+        "character": "阳",
         "pinyin": "yáng",
         "meaning": "positive (electric.); sun; male principle (Taoism); Yang, opposite: 陰|阴[yin1]"
       },
@@ -8163,6 +8384,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       222,
       864
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/222.png",
     "audio_filename": null
   },
@@ -8176,7 +8398,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ pʰɑʊ˥˩ y˧˥/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
@@ -8186,7 +8408,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to sauté; to fry; to dry by heating; to prepare herbal medicine by roasting or parching (in a pan); cannon; CL:座[zuo4]; firecracker; variant of 炮[pao4]"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -8199,6 +8421,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       223,
       224
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png",
     "audio_filename": null
   },
@@ -8217,7 +8440,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Zhang; chapter; section; clause; movement (of symphony); seal; badge; regulation; order"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       },
@@ -8235,6 +8458,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       223,
       224
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/224.png",
     "audio_filename": null
   },
@@ -8258,7 +8482,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to make; to cause; to enable; to use; to employ; to send; to instruct sb to do sth; envoy; messenger"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -8270,6 +8494,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       225
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/225.png",
     "audio_filename": null
   },
@@ -8293,12 +8518,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 翅[chi4]; (bound form) wing (of a bird or insect)"
       },
       {
-        "character": "飛",
+        "character": "飞",
         "pinyin": "fēi",
         "meaning": "to fly"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -8311,6 +8536,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       458,
       226
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/226.png",
     "audio_filename": null
   },
@@ -8334,7 +8560,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "first of the ten Heavenly Stems 十天干[shi2 tian1 gan1]; (used for an unspecified person or thing); first (in a list, as a party to a contract etc); letter \"A\" or roman \"I\" in list \"A, B, C\", or \"I, II, III\" etc; armor plating; shell or carapace; (of the fingers or toes) nail; bladed leather or metal armor (old); ranking system used in the Imperial examinations (old); civil administration unit in the baojia 保甲[bao3 jia3] system (old); ancient Chinese compass point: 75°"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -8346,6 +8572,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       227
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/227.png",
     "audio_filename": null
   },
@@ -8364,7 +8591,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Dai; to put on or wear (glasses, hat, gloves etc); to respect; to bear; to support"
       },
       {
-        "character": "魯",
+        "character": "鲁",
         "pinyin": "lǔ",
         "meaning": "surname Lu; Lu, an ancient state of China 魯國|鲁国[Lu3 guo2]; short name for Shandong 山東|山东[Shan1 dong1]; (bound form) crass; stupid; rude; (used to represent the sounds of \"ru\", \"lu\" etc in loanwords)"
       },
@@ -8382,6 +8609,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       228,
       229
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/228.png",
     "audio_filename": null
   },
@@ -8400,7 +8628,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "short name for Heilongjiang 黑龍江|黑龙江[Hei1 long2 jiang1]; black; dark; sinister; secret; shady; illegal; to hide (sth) away; to vilify; (loanword) to hack (computing)"
       },
       {
-        "character": "魯",
+        "character": "鲁",
         "pinyin": "lǔ",
         "meaning": "surname Lu; Lu, an ancient state of China 魯國|鲁国[Lu3 guo2]; short name for Shandong 山東|山东[Shan1 dong1]; (bound form) crass; stupid; rude; (used to represent the sounds of \"ru\", \"lu\" etc in loanwords)"
       },
@@ -8418,6 +8646,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       228,
       229
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png",
     "audio_filename": null
   },
@@ -8436,7 +8665,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(onom.) whoosh; thorn; sting; thrust; to prick; to pierce; to stab; to assassinate; to murder"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       },
@@ -8455,6 +8684,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       117,
       230
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/230.png",
     "audio_filename": null
   },
@@ -8491,6 +8721,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       231,
       232
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/231.png",
     "audio_filename": null
   },
@@ -8504,7 +8735,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/twən˥˩ tɕja˧˩˧/",
     "etymology": [
       {
-        "character": "頓",
+        "character": "顿",
         "pinyin": "dùn",
         "meaning": "to stop; to pause; to arrange; to lay out; to kowtow; to stamp (one's foot); at once; classifier for meals, beatings, scoldings etc: time, bout, spell, meal"
       },
@@ -8522,6 +8753,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       231,
       232
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/232.png",
     "audio_filename": null
   },
@@ -8540,19 +8772,24 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "many; much; more; a lot of; too many; in excess; (after a numeral) ... odd; how (to what extent) (Taiwan pr. [duo2]); (bound form) multi-; poly-"
       },
       {
-        "character": "邊",
+        "character": "边",
         "pinyin": "biān",
         "meaning": "side; edge; margin; border; boundary; CL:個|个[ge4]; simultaneously; suffix of a noun of locality"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       },
       {
-        "character": "Ⅱ",
-        "pinyin": "Ⅱ",
+        "character": "２",
+        "pinyin": "２",
         "meaning": ""
+      },
+      {
+        "character": "型",
+        "pinyin": "xíng",
+        "meaning": "mold; type; style; model"
       }
     ],
     "generation": 2,
@@ -8564,6 +8801,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       233,
       474
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png",
     "audio_filename": null
   },
@@ -8577,7 +8815,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɕiŋ˥ tɕjɑʊ˧˩˧ lu˥˩/",
     "etymology": [
       {
-        "character": "驚",
+        "character": "惊",
         "pinyin": "jīng",
         "meaning": "to startle; to be frightened; to be scared; alarm"
       },
@@ -8600,6 +8838,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       234,
       899
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/234.png",
     "audio_filename": null
   },
@@ -8613,12 +8852,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰu˧˥ tʰu˧˥ tɕʰɥœn˧˩˧/",
     "etymology": [
       {
-        "character": "圖",
+        "character": "图",
         "pinyin": "tú",
         "meaning": "diagram; picture; drawing; chart; map; CL:張|张[zhang1]; to plan; to scheme; to attempt; to pursue; to seek"
       },
       {
-        "character": "圖",
+        "character": "图",
         "pinyin": "tú",
         "meaning": "diagram; picture; drawing; chart; map; CL:張|张[zhang1]; to plan; to scheme; to attempt; to pursue; to seek"
       },
@@ -8635,6 +8874,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       235
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png",
     "audio_filename": null
   },
@@ -8648,7 +8888,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/u˧˥ weɪ˥˩ ɕjɑʊ˧˩˧ tsɯ/",
     "etymology": [
       {
-        "character": "無",
+        "character": "无",
         "pinyin": "wú",
         "meaning": "used in 南無|南无[na1 mo2]; not to have; no; none; not; to lack; un-; -less"
       },
@@ -8678,6 +8918,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       107,
       237
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png",
     "audio_filename": null
   },
@@ -8691,7 +8932,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂan˥˩ u˧˩˧ lɑŋ˧˥/",
     "etymology": [
       {
-        "character": "戰",
+        "character": "战",
         "pinyin": "zhàn",
         "meaning": "to fight; fight; war; battle"
       },
@@ -8716,6 +8957,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       107,
       237
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/237.png",
     "audio_filename": null
   },
@@ -8752,6 +8994,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       238,
       124
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/238.png",
     "audio_filename": null
   },
@@ -8765,12 +9008,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tjɛn˥˩ tɕi˥ kwaɪ˥˩/",
     "etymology": [
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
       {
-        "character": "擊",
+        "character": "击",
         "pinyin": "jī",
         "meaning": "to hit; to strike; to break; Taiwan pr. [ji2]"
       },
@@ -8789,6 +9032,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       125,
       466
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/239.png",
     "audio_filename": null
   },
@@ -8802,7 +9046,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ja˥ tsweɪ˧˩˧ pɑʊ˧˩˧ pɑʊ˧˩˧/",
     "etymology": [
       {
-        "character": "鴨",
+        "character": "鸭",
         "pinyin": "yā",
         "meaning": "duck (CL:隻|只[zhi1]); (slang) male prostitute"
       },
@@ -8812,14 +9056,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "mouth; beak; nozzle; spout (of teapot etc); CL:張|张[zhang1],個|个[ge4]"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       }
     ],
     "generation": 2,
@@ -8831,6 +9075,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       126,
       467
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png",
     "audio_filename": null
   },
@@ -8866,6 +9111,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       241
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/241.png",
     "audio_filename": null
   },
@@ -8903,6 +9149,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       113,
       242
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png",
     "audio_filename": null
   },
@@ -8933,6 +9180,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       243
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/243.png",
     "audio_filename": null
   },
@@ -8963,6 +9211,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       244
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/244.png",
     "audio_filename": null
   },
@@ -8993,6 +9242,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       245
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/245.png",
     "audio_filename": null
   },
@@ -9035,6 +9285,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       247,
       248
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/246.png",
     "audio_filename": null
   },
@@ -9077,6 +9328,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       247,
       248
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/247.png",
     "audio_filename": null
   },
@@ -9119,6 +9371,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       247,
       248
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png",
     "audio_filename": null
   },
@@ -9142,7 +9395,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "odd (number); strange; odd; weird; wonderful; surprisingly; unusually"
       },
       {
-        "character": "亞",
+        "character": "亚",
         "pinyin": "yà",
         "meaning": "Asia; Asian; Taiwan pr. [Ya3]; second; next to; inferior; sub-; Taiwan pr. [ya3]"
       }
@@ -9154,6 +9407,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       249
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png",
     "audio_filename": null
   },
@@ -9167,7 +9421,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/fɤŋ˥˩ wɑŋ˧˥/",
     "etymology": [
       {
-        "character": "鳳",
+        "character": "凤",
         "pinyin": "fèng",
         "meaning": "surname Feng; phoenix"
       },
@@ -9184,6 +9438,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       250
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/250.png",
     "audio_filename": null
   },
@@ -9197,9 +9452,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʂɨ˧˥ la˥ pi˧˩˧/",
     "etymology": [
       {
-        "character": "時",
+        "character": "时",
         "pinyin": "shí",
-        "meaning": "surname Shi; o'clock; time; when; hour; season; period"
+        "meaning": "old variant of 時|时[shi2]; surname Shi; o'clock; time; when; hour; season; period"
       },
       {
         "character": "拉",
@@ -9219,6 +9474,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       251
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/251.png",
     "audio_filename": null
   },
@@ -9242,7 +9498,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to guard; to defend; to keep watch; to abide by the law; to observe (rules or ritual); nearby; adjoining"
       },
       {
-        "character": "宮",
+        "character": "宫",
         "pinyin": "gōng",
         "meaning": "surname Gong; palace; temple; castration (as corporal punishment); first note in pentatonic scale"
       }
@@ -9256,6 +9512,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       253,
       254
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png",
     "audio_filename": null
   },
@@ -9298,6 +9555,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       253,
       254
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/253.png",
     "audio_filename": null
   },
@@ -9335,6 +9593,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       253,
       254
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png",
     "audio_filename": null
   },
@@ -9358,9 +9617,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "infantile; young; old variant of 稚[zhi4]; variant of 稚[zhi4]"
       },
       {
-        "character": "雞",
+        "character": "鸡",
         "pinyin": "jī",
-        "meaning": "fowl; chicken; CL:隻|只[zhi1]; (slang) prostitute"
+        "meaning": "fowl; chicken; CL:隻|只[zhi1]; (slang) prostitute; variant of 雞|鸡[ji1]"
       }
     ],
     "generation": 3,
@@ -9372,6 +9631,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       256,
       257
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png",
     "audio_filename": null
   },
@@ -9390,14 +9650,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Li; power; force; strength; ability; strenuously"
       },
       {
-        "character": "壯",
+        "character": "壮",
         "pinyin": "zhuàng",
         "meaning": "Zhuang ethnic group, the largest ethnic minority in China; to strengthen; strong; robust"
       },
       {
-        "character": "雞",
+        "character": "鸡",
         "pinyin": "jī",
-        "meaning": "fowl; chicken; CL:隻|只[zhi1]; (slang) prostitute"
+        "meaning": "fowl; chicken; CL:隻|只[zhi1]; (slang) prostitute; variant of 雞|鸡[ji1]"
       }
     ],
     "generation": 3,
@@ -9409,6 +9669,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       256,
       257
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/256.png",
     "audio_filename": null
   },
@@ -9432,9 +9693,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "flame; variant of 焰[yan4]"
       },
       {
-        "character": "雞",
+        "character": "鸡",
         "pinyin": "jī",
-        "meaning": "fowl; chicken; CL:隻|只[zhi1]; (slang) prostitute"
+        "meaning": "fowl; chicken; CL:隻|只[zhi1]; (slang) prostitute; variant of 雞|鸡[ji1]"
       }
     ],
     "generation": 3,
@@ -9446,6 +9707,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       256,
       257
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png",
     "audio_filename": null
   },
@@ -9464,12 +9726,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Shui; Shui ethnic group; water; (after a name) ... River; to swim (used mostly in 會水|会水[hui4 shui3] and 水性[shui3 xing4]); (coll.) lacking in substance; shoddy; (bound form) additional cost; extra income; classifier for washings of a garment"
       },
       {
-        "character": "躍",
+        "character": "跃",
         "pinyin": "yuè",
         "meaning": "to jump; to leap"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -9483,6 +9745,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       259,
       260
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/258.png",
     "audio_filename": null
   },
@@ -9501,12 +9764,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "pond; pool"
       },
       {
-        "character": "躍",
+        "character": "跃",
         "pinyin": "yuè",
         "meaning": "to jump; to leap"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -9520,6 +9783,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       259,
       260
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/259.png",
     "audio_filename": null
   },
@@ -9557,6 +9821,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       259,
       260
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png",
     "audio_filename": null
   },
@@ -9593,6 +9858,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       261,
       262
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/261.png",
     "audio_filename": null
   },
@@ -9629,6 +9895,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       261,
       262
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/262.png",
     "audio_filename": null
   },
@@ -9647,7 +9914,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 蛇[she2]; snake; serpent; CL:條|条[tiao2]; used in 委蛇[wei1 yi2]"
       },
       {
-        "character": "紋",
+        "character": "纹",
         "pinyin": "wén",
         "meaning": "line; trace; mark; pattern; grain (of wood etc); to tattoo"
       },
@@ -9666,6 +9933,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       264,
       862
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/263.png",
     "audio_filename": null
   },
@@ -9684,9 +9952,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Zhi; Zhi (c. 2000 BC), fifth of the legendary Flame Emperors 炎帝[Yan2 di4] descended from Shennong 神農|神农[Shen2 nong2] Farmer God; straight; to straighten; fair and reasonable; frank; straightforward; (indicates continuing motion or action); vertical; vertical downward stroke in Chinese characters"
       },
       {
-        "character": "衝",
+        "character": "冲",
         "pinyin": "chōng",
-        "meaning": "thoroughfare; to go straight ahead; to rush; to clash; powerful; vigorous; pungent; towards; in view of"
+        "meaning": "(of water) to dash against; to mix with water; to infuse; to rinse; to flush; to develop (a film); to rise in the air; to clash; to collide with; thoroughfare; to go straight ahead; to rush; powerful; vigorous; pungent; towards; in view of"
       },
       {
         "character": "熊",
@@ -9703,6 +9971,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       264,
       862
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/264.png",
     "audio_filename": null
   },
@@ -9726,9 +9995,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "tail; remainder; remnant; extremity; sixth of the 28 constellations; classifier for fish; horse's tail; pointed posterior section of a locust etc"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 3,
@@ -9742,6 +10011,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       268,
       269
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png",
     "audio_filename": null
   },
@@ -9760,14 +10030,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "first of the ten Heavenly Stems 十天干[shi2 tian1 gan1]; (used for an unspecified person or thing); first (in a list, as a party to a contract etc); letter \"A\" or roman \"I\" in list \"A, B, C\", or \"I, II, III\" etc; armor plating; shell or carapace; (of the fingers or toes) nail; bladed leather or metal armor (old); ranking system used in the Imperial examinations (old); civil administration unit in the baojia 保甲[bao3 jia3] system (old); ancient Chinese compass point: 75°"
       },
       {
-        "character": "殼",
+        "character": "壳",
         "pinyin": "ké",
-        "meaning": "(coll.) shell (of an egg, nut, crab etc); case; casing; housing (of a machine or device); (bound form) shell; Taiwan pr. [ke2]"
+        "meaning": "variant of 殼|壳[qiao4]; (coll.) shell (of an egg, nut, crab etc); case; casing; housing (of a machine or device); (bound form) shell; Taiwan pr. [ke2]"
       },
       {
-        "character": "繭",
+        "character": "茧",
         "pinyin": "jiǎn",
-        "meaning": "(bound form) cocoon; (bound form) callus (variant of 趼[jian3])"
+        "meaning": "(bound form) cocoon; (bound form) callus (variant of 趼[jian3]); variant of 繭|茧[jian3]"
       }
     ],
     "generation": 3,
@@ -9781,6 +10051,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       268,
       269
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png",
     "audio_filename": null
   },
@@ -9799,12 +10070,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to hunt; to go hunting (as winter sport in former times); hunting dog; imperial tour"
       },
       {
-        "character": "獵",
+        "character": "猎",
         "pinyin": "liè",
         "meaning": "hunting"
       },
       {
-        "character": "鳳",
+        "character": "凤",
         "pinyin": "fèng",
         "meaning": "surname Feng; phoenix"
       },
@@ -9825,6 +10096,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       268,
       269
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png",
     "audio_filename": null
   },
@@ -9848,9 +10120,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "first of the ten Heavenly Stems 十天干[shi2 tian1 gan1]; (used for an unspecified person or thing); first (in a list, as a party to a contract etc); letter \"A\" or roman \"I\" in list \"A, B, C\", or \"I, II, III\" etc; armor plating; shell or carapace; (of the fingers or toes) nail; bladed leather or metal armor (old); ranking system used in the Imperial examinations (old); civil administration unit in the baojia 保甲[bao3 jia3] system (old); ancient Chinese compass point: 75°"
       },
       {
-        "character": "繭",
+        "character": "茧",
         "pinyin": "jiǎn",
-        "meaning": "(bound form) cocoon; (bound form) callus (variant of 趼[jian3])"
+        "meaning": "(bound form) cocoon; (bound form) callus (variant of 趼[jian3]); variant of 繭|茧[jian3]"
       }
     ],
     "generation": 3,
@@ -9864,6 +10136,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       268,
       269
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/268.png",
     "audio_filename": null
   },
@@ -9903,6 +10176,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       268,
       269
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/269.png",
     "audio_filename": null
   },
@@ -9916,14 +10190,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ljɛn˧˥ jɛ˥˩ tʰʊŋ˧˥ tsɯ/",
     "etymology": [
       {
-        "character": "蓮",
+        "character": "莲",
         "pinyin": "lián",
         "meaning": "lotus"
       },
       {
-        "character": "葉",
+        "character": "叶",
         "pinyin": "yè",
-        "meaning": "surname Ye; leaf; page; lobe; (historical) period; classifier for small boats"
+        "meaning": "to be in harmony; surname Ye; leaf; page; lobe; (historical) period; classifier for small boats"
       },
       {
         "character": "童",
@@ -9945,6 +10219,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       271,
       272
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/270.png",
     "audio_filename": null
   },
@@ -9958,7 +10233,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ljɛn˧˥ mɑʊ˥˩ ɕjɑʊ˧˩˧ tʰʊŋ˧˥/",
     "etymology": [
       {
-        "character": "蓮",
+        "character": "莲",
         "pinyin": "lián",
         "meaning": "lotus"
       },
@@ -9987,6 +10262,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       271,
       272
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/271.png",
     "audio_filename": null
   },
@@ -10000,7 +10276,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/lɤ˥˩ tʰjɛn˥ xɤ˧˥ tʰʊŋ˧˥/",
     "etymology": [
       {
-        "character": "樂",
+        "character": "乐",
         "pinyin": "lè",
         "meaning": "surname Le; surname Yue; used in place names; happy; cheerful; to laugh; music"
       },
@@ -10029,6 +10305,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       271,
       272
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/272.png",
     "audio_filename": null
   },
@@ -10047,7 +10324,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "oak; Quercus serrata"
       },
       {
-        "character": "實",
+        "character": "实",
         "pinyin": "shí",
         "meaning": "real; true; honest; really; solid; fruit; seed; definitely"
       },
@@ -10066,6 +10343,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       274,
       275
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/273.png",
     "audio_filename": null
   },
@@ -10079,7 +10357,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂɑŋ˧˩˧ pi˧˥ jɛ˥˩/",
     "etymology": [
       {
-        "character": "長",
+        "character": "长",
         "pinyin": "zhǎng",
         "meaning": "long; (bound form) length; (bound form) strong point; forte; (bound form) to be good at; (literary) surplus; spare (Taiwan pr. [zhang4]); chief; head; elder; to grow; to develop; to increase; to enhance"
       },
@@ -10089,9 +10367,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "nose"
       },
       {
-        "character": "葉",
+        "character": "叶",
         "pinyin": "yè",
-        "meaning": "surname Ye; leaf; page; lobe; (historical) period; classifier for small boats"
+        "meaning": "to be in harmony; surname Ye; leaf; page; lobe; (historical) period; classifier for small boats"
       }
     ],
     "generation": 3,
@@ -10103,6 +10381,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       274,
       275
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/274.png",
     "audio_filename": null
   },
@@ -10145,6 +10424,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       274,
       275
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/275.png",
     "audio_filename": null
   },
@@ -10181,6 +10461,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       276,
       277
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png",
     "audio_filename": null
   },
@@ -10217,6 +10498,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       276,
       277
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/277.png",
     "audio_filename": null
   },
@@ -10230,7 +10512,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂɑŋ˧˩˧ ʈʂʰɨ˥˩ oʊ˥/",
     "etymology": [
       {
-        "character": "長",
+        "character": "长",
         "pinyin": "zhǎng",
         "meaning": "long; (bound form) length; (bound form) strong point; forte; (bound form) to be good at; (literary) surplus; spare (Taiwan pr. [zhang4]); chief; head; elder; to grow; to develop; to increase; to enhance"
       },
@@ -10240,7 +10522,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 翅[chi4]; (bound form) wing (of a bird or insect)"
       },
       {
-        "character": "鷗",
+        "character": "鸥",
         "pinyin": "ōu",
         "meaning": "common gull"
       }
@@ -10253,6 +10535,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       278,
       279
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/278.png",
     "audio_filename": null
   },
@@ -10276,7 +10559,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "mouth; beak; nozzle; spout (of teapot etc); CL:張|张[zhang1],個|个[ge4]"
       },
       {
-        "character": "鷗",
+        "character": "鸥",
         "pinyin": "ōu",
         "meaning": "common gull"
       }
@@ -10289,6 +10572,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       278,
       279
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png",
     "audio_filename": null
   },
@@ -10307,7 +10591,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to pull; to play (a bowed instrument); to drag; to draw; to chat; (coll.) to empty one's bowels; to make a cut in (sth); to slit; to gash; to slash; used in 拉拉蛄[la4 la4 gu3]; variant of 落[la4]"
       },
       {
-        "character": "魯",
+        "character": "鲁",
         "pinyin": "lǔ",
         "meaning": "surname Lu; Lu, an ancient state of China 魯國|鲁国[Lu3 guo2]; short name for Shandong 山東|山东[Shan1 dong1]; (bound form) crass; stupid; rude; (used to represent the sounds of \"ru\", \"lu\" etc in loanwords)"
       },
@@ -10317,7 +10601,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to pull; to play (a bowed instrument); to drag; to draw; to chat; (coll.) to empty one's bowels; to make a cut in (sth); to slit; to gash; to slash; used in 拉拉蛄[la4 la4 gu3]; variant of 落[la4]"
       },
       {
-        "character": "絲",
+        "character": "丝",
         "pinyin": "sī",
         "meaning": "silk; thread-like thing; (cuisine) shreds or julienne strips; classifier: a trace (of smoke etc), a tiny bit etc"
       }
@@ -10332,6 +10616,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       282,
       475
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png",
     "audio_filename": null
   },
@@ -10350,7 +10635,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "odd (number); strange; odd; weird; wonderful; surprisingly; unusually"
       },
       {
-        "character": "魯",
+        "character": "鲁",
         "pinyin": "lǔ",
         "meaning": "surname Lu; Lu, an ancient state of China 魯國|鲁国[Lu3 guo2]; short name for Shandong 山東|山东[Shan1 dong1]; (bound form) crass; stupid; rude; (used to represent the sounds of \"ru\", \"lu\" etc in loanwords)"
       },
@@ -10375,6 +10660,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       282,
       475
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png",
     "audio_filename": null
   },
@@ -10413,6 +10699,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       282,
       475
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png",
     "audio_filename": null
   },
@@ -10454,6 +10741,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       283,
       284
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/283.png",
     "audio_filename": null
   },
@@ -10490,6 +10778,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       283,
       284
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/284.png",
     "audio_filename": null
   },
@@ -10526,6 +10815,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       285,
       286
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/285.png",
     "audio_filename": null
   },
@@ -10562,6 +10852,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       285,
       286
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/286.png",
     "audio_filename": null
   },
@@ -10575,9 +10866,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/lan˧˩˧ ʐən˧˥ tʰa˧˩˧/",
     "etymology": [
       {
-        "character": "懶",
+        "character": "懒",
         "pinyin": "lǎn",
-        "meaning": "lazy"
+        "meaning": "variant of 懶|懒[lan3]; lazy"
       },
       {
         "character": "人",
@@ -10585,7 +10876,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "person; people; CL:個|个[ge4],位[wei4],名[ming2]"
       },
       {
-        "character": "獺",
+        "character": "獭",
         "pinyin": "tǎ",
         "meaning": "otter; Taiwan pr. [ta4]"
       }
@@ -10599,6 +10890,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       288,
       289
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/287.png",
     "audio_filename": null
   },
@@ -10612,12 +10904,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/kwɔ˥˩ tʊŋ˥˩ ɥœn˧˥/",
     "etymology": [
       {
-        "character": "過",
+        "character": "过",
         "pinyin": "guò",
         "meaning": "surname Guo; to cross; to go over; to pass (time); to celebrate (a holiday); to live; to get along; excessively; too-; (experienced action marker)"
       },
       {
-        "character": "動",
+        "character": "动",
         "pinyin": "dòng",
         "meaning": "(of sth) to move; to set in movement; to displace; to touch; to make use of; to stir (emotions); to alter; abbr. for 動詞|动词[dong4 ci2], verb"
       },
@@ -10636,6 +10928,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       288,
       289
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/288.png",
     "audio_filename": null
   },
@@ -10649,7 +10942,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɕʰiŋ˧˩˧ tɕja˧˩˧ wɑŋ˧˥/",
     "etymology": [
       {
-        "character": "請",
+        "character": "请",
         "pinyin": "qǐng",
         "meaning": "to ask; to invite; please (do sth); to treat (to a meal etc); to request"
       },
@@ -10673,6 +10966,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       288,
       289
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/289.png",
     "audio_filename": null
   },
@@ -10715,6 +11009,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       291,
       292
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/290.png",
     "audio_filename": null
   },
@@ -10728,7 +11023,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ mjɛn˥˩ ʐən˧˩˧ ʈʂɤ˧˩˧/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
@@ -10757,6 +11052,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       291,
       292
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png",
     "audio_filename": null
   },
@@ -10770,14 +11066,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰwɔ˥ kʰɤ˧˥ ʐən˧˩˧ ʈʂɤ˧˩˧/",
     "etymology": [
       {
-        "character": "脫",
+        "character": "脱",
         "pinyin": "tuō",
         "meaning": "to shed; to take off; to escape; to get away from"
       },
       {
-        "character": "殼",
+        "character": "壳",
         "pinyin": "ké",
-        "meaning": "(coll.) shell (of an egg, nut, crab etc); case; casing; housing (of a machine or device); (bound form) shell; Taiwan pr. [ke2]"
+        "meaning": "variant of 殼|壳[qiao4]; (coll.) shell (of an egg, nut, crab etc); case; casing; housing (of a machine or device); (bound form) shell; Taiwan pr. [ke2]"
       },
       {
         "character": "忍",
@@ -10799,6 +11095,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       291,
       292
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/292.png",
     "audio_filename": null
   },
@@ -10836,6 +11133,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       294,
       295
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/293.png",
     "audio_filename": null
   },
@@ -10859,7 +11157,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to explode; to burst; to stir-fry briefly; to quick-boil"
       },
       {
-        "character": "彈",
+        "character": "弹",
         "pinyin": "dàn",
         "meaning": "crossball; bullet; shot; shell; ball; to pluck (a string); to play (a string instrument); to spring or leap; to shoot (e.g. with a catapult); (of cotton) to fluff or tease; to flick; to flip; to accuse; to impeach; elastic (of materials)"
       }
@@ -10873,6 +11171,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       294,
       295
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/294.png",
     "audio_filename": null
   },
@@ -10910,6 +11209,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       294,
       295
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/295.png",
     "audio_filename": null
   },
@@ -10951,6 +11251,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       296,
       297
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/296.png",
     "audio_filename": null
   },
@@ -10964,7 +11265,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ ʈʂɑŋ˧˩˧ li˥˩ ʂɨ˥˩/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
@@ -10992,6 +11293,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       296,
       297
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/297.png",
     "audio_filename": null
   },
@@ -11015,7 +11317,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Li; power; force; strength; ability; strenuously"
       },
       {
-        "character": "麗",
+        "character": "丽",
         "pinyin": "lì",
         "meaning": "Korea; beautiful"
       }
@@ -11029,6 +11331,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       183,
       184
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/298.png",
     "audio_filename": null
   },
@@ -11065,6 +11368,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       299,
       476
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png",
     "audio_filename": null
   },
@@ -11101,6 +11405,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       300,
       301
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/300.png",
     "audio_filename": null
   },
@@ -11114,7 +11419,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/joʊ˥ ja˧˩˧ mɑʊ˥/",
     "etymology": [
       {
-        "character": "優",
+        "character": "优",
         "pinyin": "yōu",
         "meaning": "excellent; superior"
       },
@@ -11124,7 +11429,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "elegant"
       },
       {
-        "character": "貓",
+        "character": "猫",
         "pinyin": "māo",
         "meaning": "cat (CL:隻|只[zhi1]); (dialect) to hide oneself; (loanword) (coll.) modem; used in 貓腰|猫腰[mao2 yao1]"
       }
@@ -11137,6 +11442,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       300,
       301
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/301.png",
     "audio_filename": null
   },
@@ -11172,6 +11478,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       302
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png",
     "audio_filename": null
   },
@@ -11207,6 +11514,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       303
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/303.png",
     "audio_filename": null
   },
@@ -11249,6 +11557,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       305,
       306
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/304.png",
     "audio_filename": null
   },
@@ -11286,6 +11595,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       305,
       306
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/305.png",
     "audio_filename": null
   },
@@ -11333,6 +11643,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       305,
       306
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png",
     "audio_filename": null
   },
@@ -11346,7 +11657,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ma˧˩˧ ʂa˥ na˥˩/",
     "etymology": [
       {
-        "character": "瑪",
+        "character": "玛",
         "pinyin": "mǎ",
         "meaning": "used in 瑪瑙|玛瑙[ma3 nao3]"
       },
@@ -11369,6 +11680,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       307,
       308
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png",
     "audio_filename": null
   },
@@ -11405,6 +11717,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       307,
       308
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/308.png",
     "audio_filename": null
   },
@@ -11428,7 +11741,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Lei; thunder; (bound form) (military) mine, as in 地雷[di4 lei2] land mine; (coll.) to shock; to stun; to astound; (Tw) (coll.) spoiler; (Tw) (coll.) to reveal plot details to (sb)"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -11441,6 +11754,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       309,
       310
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/309.png",
     "audio_filename": null
   },
@@ -11459,12 +11773,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Lei; thunder; (bound form) (military) mine, as in 地雷[di4 lei2] land mine; (coll.) to shock; to stun; to astound; (Tw) (coll.) spoiler; (Tw) (coll.) to reveal plot details to (sb)"
       },
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -11477,6 +11791,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       309,
       310
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/310.png",
     "audio_filename": null
   },
@@ -11495,7 +11810,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "first month of the lunar year; straight; upright; proper; main; principal; to correct; to rectify; exactly; just (at that time); right (in that place); (math.) positive"
       },
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
@@ -11517,6 +11832,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       311
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/311.png",
     "audio_filename": null
   },
@@ -11535,7 +11851,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to bear; to carry (on one's back); to turn one's back on; to be defeated; negative (math. etc)"
       },
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
@@ -11557,6 +11873,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       312
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/312.png",
     "audio_filename": null
   },
@@ -11570,19 +11887,19 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tjɛn˥˩ iŋ˧˥ ʈʂʰʊŋ˧˥/",
     "etymology": [
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
       {
-        "character": "螢",
+        "character": "萤",
         "pinyin": "yíng",
         "meaning": "firefly; glow-worm"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 3,
@@ -11592,6 +11909,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       313
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/313.png",
     "audio_filename": null
   },
@@ -11615,7 +11933,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "sweet; (fig.) pleasant; endearing; lovely"
       },
       {
-        "character": "螢",
+        "character": "萤",
         "pinyin": "yíng",
         "meaning": "firefly; glow-worm"
       }
@@ -11627,6 +11945,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       314
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/314.png",
     "audio_filename": null
   },
@@ -11645,7 +11964,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "poison; to poison; poisonous; malicious; cruel; fierce; narcotics"
       },
       {
-        "character": "薔",
+        "character": "蔷",
         "pinyin": "qiáng",
         "meaning": "used in 薔薇|蔷薇[qiang2 wei1]"
       },
@@ -11664,6 +11983,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       315,
       407
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png",
     "audio_filename": null
   },
@@ -11687,7 +12007,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to eat; food; animal feed; eclipse; to feed (a person or animal)"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -11700,6 +12020,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       316,
       317
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/316.png",
     "audio_filename": null
   },
@@ -11723,7 +12044,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to eat; food; animal feed; eclipse; to feed (a person or animal)"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -11736,6 +12057,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       316,
       317
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/317.png",
     "audio_filename": null
   },
@@ -11759,7 +12081,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "tooth; ivory; CL:顆|颗[ke1]"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -11772,6 +12094,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       318,
       319
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/318.png",
     "audio_filename": null
   },
@@ -11795,7 +12118,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "tooth; ivory; CL:顆|颗[ke1]"
       },
       {
-        "character": "鯊",
+        "character": "鲨",
         "pinyin": "shā",
         "meaning": "shark"
       }
@@ -11808,6 +12131,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       318,
       319
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/319.png",
     "audio_filename": null
   },
@@ -11831,7 +12155,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to roar; to howl; to shriek; roar or howl of an animal; bellow of rage"
       },
       {
-        "character": "鯨",
+        "character": "鲸",
         "pinyin": "jīng",
         "meaning": "whale"
       }
@@ -11844,6 +12168,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       320,
       321
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/320.png",
     "audio_filename": null
   },
@@ -11862,7 +12187,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to roar; to howl; to shriek; roar or howl of an animal; bellow of rage"
       },
       {
-        "character": "鯨",
+        "character": "鲸",
         "pinyin": "jīng",
         "meaning": "whale"
       },
@@ -11880,6 +12205,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       320,
       321
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/321.png",
     "audio_filename": null
   },
@@ -11903,9 +12229,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Huo; fire; urgent; ammunition; fiery or flaming; internal heat (Chinese medicine); hot (popular); classifier for military units (old); Kangxi radical 86"
       },
       {
-        "character": "駝",
+        "character": "驼",
         "pinyin": "tuó",
-        "meaning": "hump or hunchbacked; camel"
+        "meaning": "hump or hunchbacked; camel; variant of 駝|驼[tuo2]"
       }
     ],
     "generation": 3,
@@ -11916,6 +12242,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       322,
       323
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/322.png",
     "audio_filename": null
   },
@@ -11929,7 +12256,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/pʰən˥ xwɔ˧˩˧ tʰwɔ˧˥/",
     "etymology": [
       {
-        "character": "噴",
+        "character": "喷",
         "pinyin": "pēn",
         "meaning": "to spout; to spurt; to spray; to puff; (slang) to criticize scathingly (esp. online); (of a smell) strong; peak season (of a crop); (classifier for the ordinal number of a crop, in the context of multiple harvests)"
       },
@@ -11939,9 +12266,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Huo; fire; urgent; ammunition; fiery or flaming; internal heat (Chinese medicine); hot (popular); classifier for military units (old); Kangxi radical 86"
       },
       {
-        "character": "駝",
+        "character": "驼",
         "pinyin": "tuó",
-        "meaning": "hump or hunchbacked; camel"
+        "meaning": "hump or hunchbacked; camel; variant of 駝|驼[tuo2]"
       }
     ],
     "generation": 3,
@@ -11952,6 +12279,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       322,
       323
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/323.png",
     "audio_filename": null
   },
@@ -11975,7 +12303,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "wood charcoal; coal"
       },
       {
-        "character": "龜",
+        "character": "龟",
         "pinyin": "guī",
         "meaning": "tortoise; turtle; (coll.) cuckold; variant of 皸|皲[jun1]; used in 龜茲|龟兹[Qiu1 ci2]"
       }
@@ -11987,6 +12315,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       324
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/324.png",
     "audio_filename": null
   },
@@ -12010,7 +12339,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to jump; to hop; to skip over; to bounce; to palpitate"
       },
       {
-        "character": "豬",
+        "character": "猪",
         "pinyin": "zhū",
         "meaning": "hog; pig; swine; CL:口[kou3],頭|头[tou2]"
       }
@@ -12023,6 +12352,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       325,
       326
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/325.png",
     "audio_filename": null
   },
@@ -12046,7 +12376,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(onom.) pop; plop; pfff; putt-putt of a motor"
       },
       {
-        "character": "豬",
+        "character": "猪",
         "pinyin": "zhū",
         "meaning": "hog; pig; swine; CL:口[kou3],頭|头[tou2]"
       }
@@ -12059,6 +12389,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       325,
       326
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png",
     "audio_filename": null
   },
@@ -12094,6 +12425,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       327
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/327.png",
     "audio_filename": null
   },
@@ -12112,12 +12444,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "big; large; great; older (than another person); eldest (as in 大姐[da4 jie3]); greatly; freely; fully; (dialect) father; (dialect) uncle (father's brother); see 大夫[dai4 fu5]"
       },
       {
-        "character": "顎",
+        "character": "颚",
         "pinyin": "è",
         "meaning": "jaw; palate"
       },
       {
-        "character": "蟻",
+        "character": "蚁",
         "pinyin": "yǐ",
         "meaning": "ant"
       }
@@ -12131,6 +12463,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       329,
       330
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/328.png",
     "audio_filename": null
   },
@@ -12164,9 +12497,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "young"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 3,
@@ -12178,6 +12511,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       329,
       330
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/329.png",
     "audio_filename": null
   },
@@ -12220,6 +12554,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       329,
       330
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/330.png",
     "audio_filename": null
   },
@@ -12266,6 +12601,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       331,
       332
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/331.png",
     "audio_filename": null
   },
@@ -12279,7 +12615,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/mɤŋ˥˩ kɤ˥ ɕjɛn˥ ʐən˧˥ ʈʂɑŋ˧˩˧/",
     "etymology": [
       {
-        "character": "夢",
+        "character": "梦",
         "pinyin": "mèng",
         "meaning": "dream (CL:場|场[chang2]); (bound form) to dream"
       },
@@ -12312,6 +12648,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       331,
       332
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/332.png",
     "audio_filename": null
   },
@@ -12330,12 +12667,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "short name for Qinghai 青海[Qing1 hai3]; green; blue; black; youth; young (of people)"
       },
       {
-        "character": "綿",
+        "character": "绵",
         "pinyin": "mián",
-        "meaning": "silk floss; continuous; soft; weak; mild-mannered (dialect)"
+        "meaning": "silk floss; continuous; soft; weak; mild-mannered (dialect); old variant of 綿|绵[mian2]; cotton"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -12348,6 +12685,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       333,
       334
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png",
     "audio_filename": null
   },
@@ -12376,7 +12714,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "short name for Qinghai 青海[Qing1 hai3]; green; blue; black; youth; young (of people)"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -12389,6 +12727,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       333,
       334
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png",
     "audio_filename": null
   },
@@ -12402,7 +12741,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/mɑʊ˥ joʊ˥˩ ʈʂan˧˩˧/",
     "etymology": [
       {
-        "character": "貓",
+        "character": "猫",
         "pinyin": "māo",
         "meaning": "cat (CL:隻|只[zhi1]); (dialect) to hide oneself; (loanword) (coll.) modem; used in 貓腰|猫腰[mao2 yao1]"
       },
@@ -12412,7 +12751,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(zoology) weasel"
       },
       {
-        "character": "斬",
+        "character": "斩",
         "pinyin": "zhǎn",
         "meaning": "to behead (as form of capital punishment); to chop"
       }
@@ -12424,6 +12763,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       335
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/335.png",
     "audio_filename": null
   },
@@ -12437,7 +12777,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/fan˥˩ ʂɨ ʂɤ˧˥/",
     "etymology": [
       {
-        "character": "飯",
+        "character": "饭",
         "pinyin": "fàn",
         "meaning": "cooked rice; CL:碗[wan3]; meal; CL:頓|顿[dun4]; (loanword) fan; devotee"
       },
@@ -12459,6 +12799,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       336
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/336.png",
     "audio_filename": null
   },
@@ -12489,6 +12830,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       337
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/337.png",
     "audio_filename": null
   },
@@ -12507,7 +12849,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "highest; greatest; too (much); very; extremely"
       },
       {
-        "character": "陽",
+        "character": "阳",
         "pinyin": "yáng",
         "meaning": "positive (electric.); sun; male principle (Taoism); Yang, opposite: 陰|阴[yin1]"
       },
@@ -12524,6 +12866,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       338
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/338.png",
     "audio_filename": null
   },
@@ -12547,7 +12890,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "mud; clay; paste; pulp; restrained"
       },
       {
-        "character": "鰍",
+        "character": "鳅",
         "pinyin": "qiū",
         "meaning": "loach (family Cobitidae); used in 鯕鰍|鲯鳅[qi2 qiu1] (mahi-mahi, a fish unrelated to the loaches)"
       }
@@ -12560,6 +12903,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       339,
       340
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png",
     "audio_filename": null
   },
@@ -12573,12 +12917,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/njɛn˧˥ y˧˥ wɑŋ˧˥/",
     "etymology": [
       {
-        "character": "鯰",
+        "character": "鲶",
         "pinyin": "nián",
         "meaning": "sheatfish (Parasilurus asotus); oriental catfish; see also 鮎|鲇[nian2]"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       },
@@ -12596,6 +12940,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       339,
       340
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/340.png",
     "audio_filename": null
   },
@@ -12609,12 +12954,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/lʊŋ˧˥ ɕja˥ ɕjɑʊ˧˩˧ piŋ˥/",
     "etymology": [
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       },
       {
-        "character": "蝦",
+        "character": "虾",
         "pinyin": "xiā",
         "meaning": "used in 蝦蟆|虾蟆[ha2 ma5]; shrimp; prawn"
       },
@@ -12637,6 +12982,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       341,
       342
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/341.png",
     "audio_filename": null
   },
@@ -12650,7 +12996,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ ɑʊ˧˥ lʊŋ˧˥ ɕja˥/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
@@ -12660,12 +13006,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "chela; nippers; claw; pincers (of crabs, lobsters, scorpions etc)"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       },
       {
-        "character": "蝦",
+        "character": "虾",
         "pinyin": "xiā",
         "meaning": "used in 蝦蟆|虾蟆[ha2 ma5]; shrimp; prawn"
       }
@@ -12678,6 +13024,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       341,
       342
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/342.png",
     "audio_filename": null
   },
@@ -12714,6 +13061,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       343,
       344
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/343.png",
     "audio_filename": null
   },
@@ -12755,6 +13103,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       343,
       344
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/344.png",
     "audio_filename": null
   },
@@ -12768,7 +13117,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂʰu˥˩ ʂoʊ˧˩˧ paɪ˧˩˧ xɤ˧˥/",
     "etymology": [
       {
-        "character": "觸",
+        "character": "触",
         "pinyin": "chù",
         "meaning": "to touch; to make contact with sth; to stir up sb's emotions"
       },
@@ -12796,6 +13145,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       345,
       346
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/345.png",
     "audio_filename": null
   },
@@ -12809,12 +13159,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/jɑʊ˧˥ lan˧˥ paɪ˧˩˧ xɤ˧˥/",
     "etymology": [
       {
-        "character": "搖",
+        "character": "摇",
         "pinyin": "yáo",
         "meaning": "surname Yao; to shake; to rock; to row; to crank"
       },
       {
-        "character": "籃",
+        "character": "篮",
         "pinyin": "lán",
         "meaning": "basket (receptacle); basket (in basketball)"
       },
@@ -12837,6 +13187,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       345,
       346
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/346.png",
     "audio_filename": null
   },
@@ -12865,9 +13216,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "feather; 5th note in pentatonic scale"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 3,
@@ -12878,6 +13229,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       347,
       348
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/347.png",
     "audio_filename": null
   },
@@ -12919,6 +13271,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       347,
       348
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/348.png",
     "audio_filename": null
   },
@@ -12932,17 +13285,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂʰoʊ˧˩˧ ʈʂʰoʊ˧˩˧ y˧˥/",
     "etymology": [
       {
-        "character": "醜",
+        "character": "丑",
         "pinyin": "chǒu",
-        "meaning": "shameful; ugly; disgraceful"
+        "meaning": "surname Chou; clown; 2nd earthly branch: 1-3 a.m., 12th solar month (6th January to 3rd February), year of the Ox; ancient Chinese compass point: 30°; shameful; ugly; disgraceful"
       },
       {
-        "character": "醜",
+        "character": "丑",
         "pinyin": "chǒu",
-        "meaning": "shameful; ugly; disgraceful"
+        "meaning": "surname Chou; clown; 2nd earthly branch: 1-3 a.m., 12th solar month (6th January to 3rd February), year of the Ox; ancient Chinese compass point: 30°; shameful; ugly; disgraceful"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -12955,6 +13308,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       349,
       350
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png",
     "audio_filename": null
   },
@@ -12973,7 +13327,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) the Americas (abbr. for 美洲[Mei3 zhou1]); (bound form) USA (abbr. for 美國|美国[Mei3 guo2]); beautiful; very satisfactory; good; to beautify; to be pleased with oneself"
       },
       {
-        "character": "納",
+        "character": "纳",
         "pinyin": "nà",
         "meaning": "surname Na; to receive; to accept; to enjoy; to bring into; to pay (tax etc); nano- (one billionth); to reinforce sole of shoes or stockings by close sewing"
       },
@@ -12991,6 +13345,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       349,
       350
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png",
     "audio_filename": null
   },
@@ -13004,9 +13359,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/pʰjɑʊ˥ fu˧˥ pʰɑʊ˥˩ pʰɑʊ˥˩/",
     "etymology": [
       {
-        "character": "飄",
+        "character": "飘",
         "pinyin": "piāo",
-        "meaning": "to float (in the air); to flutter; to waft; complacent; frivolous; weak; shaky; wobbly"
+        "meaning": "variant of 飄|飘[piao1]; to float (in the air); to flutter; to waft; complacent; frivolous; weak; shaky; wobbly"
       },
       {
         "character": "浮",
@@ -13031,6 +13386,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       351
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/351.png",
     "audio_filename": null
   },
@@ -13044,17 +13400,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/pjɛn˥˩ in˧˩˧ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "變",
+        "character": "变",
         "pinyin": "biàn",
         "meaning": "to change; to become different; to transform; to vary; rebellion"
       },
       {
-        "character": "隱",
+        "character": "隐",
         "pinyin": "yǐn",
         "meaning": "(bound form) secret; hidden; concealed; crypto-; to lean upon"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -13066,6 +13422,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       352
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/352.png",
     "audio_filename": null
   },
@@ -13107,6 +13464,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       353,
       354
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/353.png",
     "audio_filename": null
   },
@@ -13120,7 +13478,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tsu˧˩˧ ʈʂoʊ˥˩ wa˧˥ wa˧˥/",
     "etymology": [
       {
-        "character": "詛",
+        "character": "诅",
         "pinyin": "zǔ",
         "meaning": "curse; swear (oath)"
       },
@@ -13148,6 +13506,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       353,
       354
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/354.png",
     "audio_filename": null
   },
@@ -13171,7 +13530,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to patrol; to make one's rounds; classifier for rounds of drinks; variant of 巡[xun2]"
       },
       {
-        "character": "靈",
+        "character": "灵",
         "pinyin": "líng",
         "meaning": "quick; alert; efficacious; effective; to come true; spirit; departed soul; coffin"
       }
@@ -13185,6 +13544,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       356,
       477
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png",
     "audio_filename": null
   },
@@ -13213,7 +13573,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 夜[ye4]; night"
       },
       {
-        "character": "靈",
+        "character": "灵",
         "pinyin": "líng",
         "meaning": "quick; alert; efficacious; effective; to come true; spirit; departed soul; coffin"
       }
@@ -13227,6 +13587,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       356,
       477
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png",
     "audio_filename": null
   },
@@ -13240,17 +13601,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʐɤ˥˩ taɪ˥˩ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "熱",
+        "character": "热",
         "pinyin": "rè",
         "meaning": "to warm up; to heat up; hot (of weather); heat; fervent"
       },
       {
-        "character": "帶",
+        "character": "带",
         "pinyin": "dài",
         "meaning": "band; belt; girdle; ribbon; tire; area; zone; region; CL:條|条[tiao2]; to wear; to carry; to take along; to bear (i.e. to have); to lead; to bring; to look after; to raise"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -13262,6 +13623,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       357
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/357.png",
     "audio_filename": null
   },
@@ -13275,17 +13637,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/fɤŋ˥ liŋ˧˥ liŋ˧˥/",
     "etymology": [
       {
-        "character": "風",
+        "character": "风",
         "pinyin": "fēng",
         "meaning": "wind; news; style; custom; manner; CL:陣|阵[zhen4],絲|丝[si1]"
       },
       {
-        "character": "鈴",
+        "character": "铃",
         "pinyin": "líng",
         "meaning": "(small) bell; CL:隻|只[zhi1]"
       },
       {
-        "character": "鈴",
+        "character": "铃",
         "pinyin": "líng",
         "meaning": "(small) bell; CL:隻|只[zhi1]"
       }
@@ -13298,6 +13660,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       433,
       358
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png",
     "audio_filename": null
   },
@@ -13326,7 +13689,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(textiles) shuttle"
       },
       {
-        "character": "魯",
+        "character": "鲁",
         "pinyin": "lǔ",
         "meaning": "surname Lu; Lu, an ancient state of China 魯國|鲁国[Lu3 guo2]; short name for Shandong 山東|山东[Shan1 dong1]; (bound form) crass; stupid; rude; (used to represent the sounds of \"ru\", \"lu\" etc in loanwords)"
       }
@@ -13338,6 +13701,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       359
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png",
     "audio_filename": null
   },
@@ -13374,6 +13738,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       360,
       202
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/360.png",
     "audio_filename": null
   },
@@ -13411,6 +13776,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       362,
       478
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png",
     "audio_filename": null
   },
@@ -13434,7 +13800,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "disembodied spirit; ghost; devil; (suffix) person with a certain vice or addiction etc; sly; crafty; resourceful (variant of 詭|诡[gui3]); one of the 28 constellations of ancient Chinese astronomy"
       },
       {
-        "character": "護",
+        "character": "护",
         "pinyin": "hù",
         "meaning": "to protect"
       }
@@ -13448,6 +13814,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       362,
       478
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/362.png",
     "audio_filename": null
   },
@@ -13485,6 +13852,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       364,
       365
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/363.png",
     "audio_filename": null
   },
@@ -13508,7 +13876,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) evil spirit; devil; (prefix) supernatural; magical"
       },
       {
-        "character": "獅",
+        "character": "狮",
         "pinyin": "shī",
         "meaning": "(bound form) lion"
       }
@@ -13522,6 +13890,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       364,
       365
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/364.png",
     "audio_filename": null
   },
@@ -13550,7 +13919,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Hai; ocean; sea; CL:個|个[ge4],片[pian4]; great number of people or things; (dialect) numerous"
       },
       {
-        "character": "獅",
+        "character": "狮",
         "pinyin": "shī",
         "meaning": "(bound form) lion"
       }
@@ -13564,6 +13933,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       364,
       365
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/365.png",
     "audio_filename": null
   },
@@ -13587,7 +13957,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "bead; pearl; CL:粒[li4],顆|颗[ke1]"
       },
       {
-        "character": "貝",
+        "character": "贝",
         "pinyin": "bèi",
         "meaning": "surname Bei; cowrie; shellfish; currency (archaic)"
       }
@@ -13601,6 +13971,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       367,
       368
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png",
     "audio_filename": null
   },
@@ -13614,7 +13985,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ljɛ˥˩ pan˥ y˧˥/",
     "etymology": [
       {
-        "character": "獵",
+        "character": "猎",
         "pinyin": "liè",
         "meaning": "hunting"
       },
@@ -13624,7 +13995,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "spot; colored patch; stripe; spotted; striped; variegated"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -13638,6 +14009,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       367,
       368
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/367.png",
     "audio_filename": null
   },
@@ -13651,7 +14023,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/iŋ˥ xwa˥ y˧˥/",
     "etymology": [
       {
-        "character": "櫻",
+        "character": "樱",
         "pinyin": "yīng",
         "meaning": "cherry"
       },
@@ -13661,7 +14033,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Hua; flower; blossom; CL:朵[duo3],支[zhi1],束[shu4],把[ba3],盆[pen2],簇[cu4]; fancy pattern; florid; to spend (money, time); (coll.) lecherous; lustful; old variant of 花[hua1]; variant of 花[hua1]; also pr. [wei3]"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -13675,6 +14047,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       367,
       368
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/368.png",
     "audio_filename": null
   },
@@ -13703,7 +14076,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "thorns"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -13715,6 +14088,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       369
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/369.png",
     "audio_filename": null
   },
@@ -13728,7 +14102,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/aɪ˥˩ ɕin˥ y˧˥/",
     "etymology": [
       {
-        "character": "愛",
+        "character": "爱",
         "pinyin": "ài",
         "meaning": "to love; to be fond of; to like; affection; to be inclined (to do sth); to tend to (happen)"
       },
@@ -13738,7 +14112,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "heart; mind; intention; center; core; CL:顆|颗[ke1],個|个[ge4]"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -13750,6 +14124,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       370
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/370.png",
     "audio_filename": null
   },
@@ -13763,17 +14138,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/pɑʊ˧˩˧ peɪ˥˩ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       },
       {
-        "character": "貝",
+        "character": "贝",
         "pinyin": "bèi",
         "meaning": "surname Bei; cowrie; shellfish; currency (archaic)"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -13787,6 +14162,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       372,
       373
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/371.png",
     "audio_filename": null
   },
@@ -13805,12 +14181,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "first of the ten Heavenly Stems 十天干[shi2 tian1 gan1]; (used for an unspecified person or thing); first (in a list, as a party to a contract etc); letter \"A\" or roman \"I\" in list \"A, B, C\", or \"I, II, III\" etc; armor plating; shell or carapace; (of the fingers or toes) nail; bladed leather or metal armor (old); ranking system used in the Imperial examinations (old); civil administration unit in the baojia 保甲[bao3 jia3] system (old); ancient Chinese compass point: 75°"
       },
       {
-        "character": "殼",
+        "character": "壳",
         "pinyin": "ké",
-        "meaning": "(coll.) shell (of an egg, nut, crab etc); case; casing; housing (of a machine or device); (bound form) shell; Taiwan pr. [ke2]"
+        "meaning": "variant of 殼|壳[qiao4]; (coll.) shell (of an egg, nut, crab etc); case; casing; housing (of a machine or device); (bound form) shell; Taiwan pr. [ke2]"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -13824,6 +14200,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       372,
       373
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/372.png",
     "audio_filename": null
   },
@@ -13842,12 +14219,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Bao; sudden; violent; cruel; to show or expose; to injure; variant of 曝[pu4]"
       },
       {
-        "character": "飛",
+        "character": "飞",
         "pinyin": "fēi",
         "meaning": "to fly"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -13861,6 +14238,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       372,
       373
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/373.png",
     "audio_filename": null
   },
@@ -13874,17 +14252,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ ja˧˩˧ liŋ˧˥/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
       {
-        "character": "啞",
+        "character": "哑",
         "pinyin": "yǎ",
         "meaning": "(onom.) sound of cawing; sound of infant learning to talk; variant of 呀[ya1]; mute; dumb; incapable of speech; (of a voice) hoarse; husky; (bound form) (of a bullet, bomb etc) dud"
       },
       {
-        "character": "鈴",
+        "character": "铃",
         "pinyin": "líng",
         "meaning": "(small) bell; CL:隻|只[zhi1]"
       }
@@ -13898,6 +14276,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       375,
       376
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/374.png",
     "audio_filename": null
   },
@@ -13916,7 +14295,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Jin; surname Kim (Korean); Jurchen Jin dynasty (1115–1234); gold; chemical element Au; generic term for lustrous and ductile metals; money; golden; highly respected; one of the eight categories of ancient musical instruments 八音[ba1 yin1]"
       },
       {
-        "character": "屬",
+        "character": "属",
         "pinyin": "shǔ",
         "meaning": "category; genus (taxonomy); family members; dependents; to belong to; subordinate to; affiliated with; be born in the year of (one of the 12 animals); to be; to prove to be; to constitute; to join together; to fix one's attention on; to concentrate on"
       },
@@ -13935,6 +14314,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       375,
       376
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/375.png",
     "audio_filename": null
   },
@@ -13972,6 +14352,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       375,
       376
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png",
     "audio_filename": null
   },
@@ -14012,6 +14393,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       377
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/377.png",
     "audio_filename": null
   },
@@ -14052,6 +14434,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       378
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/378.png",
     "audio_filename": null
   },
@@ -14085,7 +14468,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "odd (number); strange; odd; weird; wonderful; surprisingly; unusually"
       },
       {
-        "character": "魯",
+        "character": "鲁",
         "pinyin": "lǔ",
         "meaning": "surname Lu; Lu, an ancient state of China 魯國|鲁国[Lu3 guo2]; short name for Shandong 山東|山东[Shan1 dong1]; (bound form) crass; stupid; rude; (used to represent the sounds of \"ru\", \"lu\" etc in loanwords)"
       }
@@ -14097,6 +14480,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       379
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/379.png",
     "audio_filename": null
   },
@@ -14120,7 +14504,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "emperor"
       },
       {
-        "character": "亞",
+        "character": "亚",
         "pinyin": "yà",
         "meaning": "Asia; Asian; Taiwan pr. [Ya3]; second; next to; inferior; sub-; Taiwan pr. [ya3]"
       },
@@ -14137,6 +14521,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       380
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/380.png",
     "audio_filename": null
   },
@@ -14160,7 +14545,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "emperor"
       },
       {
-        "character": "歐",
+        "character": "欧",
         "pinyin": "ōu",
         "meaning": "Europe (abbr. for 歐洲|欧洲[Ou1 zhou1]); surname Ou; (used for transliteration); old variant of 謳|讴[ou1]"
       },
@@ -14177,6 +14562,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       381
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/381.png",
     "audio_filename": null
   },
@@ -14190,12 +14576,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/kaɪ˥˩ oʊ˥ kʰa˧˩˧/",
     "etymology": [
       {
-        "character": "蓋",
+        "character": "盖",
         "pinyin": "gài",
         "meaning": "surname Ge; lid; top; cover; canopy; to cover; to conceal; to build"
       },
       {
-        "character": "歐",
+        "character": "欧",
         "pinyin": "ōu",
         "meaning": "Europe (abbr. for 歐洲|欧洲[Ou1 zhou1]); surname Ou; (used for transliteration); old variant of 謳|讴[ou1]"
       },
@@ -14212,6 +14598,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       382
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png",
     "audio_filename": null
   },
@@ -14247,32 +14634,28 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       383
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png",
     "audio_filename": null
   },
   {
     "id": 384,
     "name_en": "Rayquaza",
-    "name_zh": "烈空坐",
-    "name_zh_simplified": "烈空坐",
-    "pinyin": "Liè kōng zuò",
-    "pinyin_numbered": "Lie4 kong1 zuo4",
-    "ipa": "/ljɛ˥˩ kʰʊŋ˥ tswɔ˥˩/",
+    "name_zh": "器官",
+    "name_zh_simplified": "器官",
+    "pinyin": "Qì guān",
+    "pinyin_numbered": "Qi4 guan1",
+    "ipa": "/tɕʰi˥˩ kwan˥/",
     "etymology": [
       {
-        "character": "烈",
-        "pinyin": "liè",
-        "meaning": "ardent; intense; fierce; stern; upright; to give one's life for a noble cause; exploits; achievements"
+        "character": "器",
+        "pinyin": "qì",
+        "meaning": "device; tool; utensil; CL:臺|台[tai2]"
       },
       {
-        "character": "空",
-        "pinyin": "kōng",
-        "meaning": "empty; air; sky; in vain; to empty; vacant; unoccupied; space; leisure; free time"
-      },
-      {
-        "character": "坐",
-        "pinyin": "zuò",
-        "meaning": "surname Zuo; to sit; to take a seat; to take (a bus, airplane etc); to bear fruit; variant of 座[zuo4]"
+        "character": "官",
+        "pinyin": "guān",
+        "meaning": "surname Guan; government official; governmental; official; public; organ of the body; CL:個|个[ge4]"
       }
     ],
     "generation": 3,
@@ -14282,6 +14665,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       384
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png",
     "audio_filename": null
   },
@@ -14317,6 +14701,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       385
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/385.png",
     "audio_filename": null
   },
@@ -14335,7 +14720,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to be a substitute for; to act on behalf of; to replace; to substitute; generation; dynasty; age; period; (historical) era; (geological) eon"
       },
       {
-        "character": "歐",
+        "character": "欧",
         "pinyin": "ōu",
         "meaning": "Europe (abbr. for 歐洲|欧洲[Ou1 zhou1]); surname Ou; (used for transliteration); old variant of 謳|讴[ou1]"
       },
@@ -14362,6 +14747,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       386
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/386.png",
     "audio_filename": null
   },
@@ -14385,7 +14771,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Miao; Miao ethnic group; sprout"
       },
       {
-        "character": "龜",
+        "character": "龟",
         "pinyin": "guī",
         "meaning": "tortoise; turtle; (coll.) cuckold; variant of 皸|皲[jun1]; used in 龜茲|龟兹[Qiu1 ci2]"
       }
@@ -14399,6 +14785,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       388,
       389
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png",
     "audio_filename": null
   },
@@ -14412,7 +14799,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʂu˥˩ lin˧˥ kweɪ˥/",
     "etymology": [
       {
-        "character": "樹",
+        "character": "树",
         "pinyin": "shù",
         "meaning": "tree; CL:棵[ke1]; to cultivate; to set up"
       },
@@ -14422,7 +14809,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Lin; Japanese surname Hayashi; (bound form) woods; forest; (bound form) circle(s) (i.e. specific group of people); (bound form) a collection (of similar things)"
       },
       {
-        "character": "龜",
+        "character": "龟",
         "pinyin": "guī",
         "meaning": "tortoise; turtle; (coll.) cuckold; variant of 皸|皲[jun1]; used in 龜茲|龟兹[Qiu1 ci2]"
       }
@@ -14436,6 +14823,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       388,
       389
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/388.png",
     "audio_filename": null
   },
@@ -14459,7 +14847,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "Taiwan (abbr.); surname Tai; used in place names; (classical) you (in letters); variant of 臺|台[tai2]; desk; table; counter; platform; stage; terrace; stand; support; station; broadcasting station; classifier for vehicles or machines; typhoon"
       },
       {
-        "character": "龜",
+        "character": "龟",
         "pinyin": "guī",
         "meaning": "tortoise; turtle; (coll.) cuckold; variant of 皸|皲[jun1]; used in 龜茲|龟兹[Qiu1 ci2]"
       }
@@ -14473,6 +14861,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       388,
       389
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png",
     "audio_filename": null
   },
@@ -14515,6 +14904,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       391,
       392
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png",
     "audio_filename": null
   },
@@ -14552,6 +14942,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       391,
       392
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/391.png",
     "audio_filename": null
   },
@@ -14589,6 +14980,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       391,
       392
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png",
     "audio_filename": null
   },
@@ -14626,6 +15018,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       394,
       395
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png",
     "audio_filename": null
   },
@@ -14663,6 +15056,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       394,
       395
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/394.png",
     "audio_filename": null
   },
@@ -14705,6 +15099,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       394,
       395
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png",
     "audio_filename": null
   },
@@ -14728,7 +15123,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "abbr. for 克羅地亞|克罗地亚[Ke4 luo2 di4 ya4], Croatia; (Tw) abbr. for 克羅埃西亞|克罗埃西亚[Ke4 luo2 ai1 xi1 ya4], Croatia; to be able to; to subdue; to restrain; to overcome; gram; Tibetan unit of land area, about 6 ares; Ke (c. 2000 BC), seventh of the legendary Flame Emperors, 炎帝[Yan2 di4] descended from Shennong 神農|神农[Shen2 nong2] Farmer God; variant of 克[ke4]; to overthrow; variant of 剋|克[ke4]"
       },
       {
-        "character": "兒",
+        "character": "儿",
         "pinyin": "ér",
         "meaning": "child; son; non-syllabic diminutive suffix; retroflex final"
       }
@@ -14742,6 +15137,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       397,
       398
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png",
     "audio_filename": null
   },
@@ -14765,7 +15161,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "abbr. for 克羅地亞|克罗地亚[Ke4 luo2 di4 ya4], Croatia; (Tw) abbr. for 克羅埃西亞|克罗埃西亚[Ke4 luo2 ai1 xi1 ya4], Croatia; to be able to; to subdue; to restrain; to overcome; gram; Tibetan unit of land area, about 6 ares; Ke (c. 2000 BC), seventh of the legendary Flame Emperors, 炎帝[Yan2 di4] descended from Shennong 神農|神农[Shen2 nong2] Farmer God; variant of 克[ke4]; to overthrow; variant of 剋|克[ke4]"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -14779,6 +15175,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       397,
       398
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/397.png",
     "audio_filename": null
   },
@@ -14802,7 +15199,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "abbr. for 克羅地亞|克罗地亚[Ke4 luo2 di4 ya4], Croatia; (Tw) abbr. for 克羅埃西亞|克罗埃西亚[Ke4 luo2 ai1 xi1 ya4], Croatia; to be able to; to subdue; to restrain; to overcome; gram; Tibetan unit of land area, about 6 ares; Ke (c. 2000 BC), seventh of the legendary Flame Emperors, 炎帝[Yan2 di4] descended from Shennong 神農|神农[Shen2 nong2] Farmer God; variant of 克[ke4]; to overthrow; variant of 剋|克[ke4]"
       },
       {
-        "character": "鷹",
+        "character": "鹰",
         "pinyin": "yīng",
         "meaning": "general term for a bird of prey (eagle, hawk or falcon etc)"
       }
@@ -14816,6 +15213,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       397,
       398
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png",
     "audio_filename": null
   },
@@ -14852,6 +15250,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       399,
       400
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png",
     "audio_filename": null
   },
@@ -14888,6 +15287,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       399,
       400
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png",
     "audio_filename": null
   },
@@ -14901,7 +15301,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ɥœn˧˥ fa˧˩˧ ʂɨ˥/",
     "etymology": [
       {
-        "character": "圓",
+        "character": "圆",
         "pinyin": "yuán",
         "meaning": "circle; round; circular; spherical; (of the moon) full; unit of Chinese currency (yuan); tactful; to make consistent and whole (the narrative of a dream or a lie)"
       },
@@ -14911,7 +15311,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 法[fa3]; France; French; abbr. for 法國|法国[Fa3 guo2]; Taiwan pr. [Fa4]; law; method; way; to emulate; (Buddhism) dharma; (abbr. for 法家[Fa3 jia1]) the Legalists; (physics) farad (abbr. for 法拉[fa3 la1]); old variant of 法[fa3]"
       },
       {
-        "character": "師",
+        "character": "师",
         "pinyin": "shī",
         "meaning": "surname Shi; teacher; master; expert; model; army division; (old) troops; to dispatch troops"
       }
@@ -14924,6 +15324,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       401,
       402
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png",
     "audio_filename": null
   },
@@ -14960,6 +15361,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       401,
       402
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png",
     "audio_filename": null
   },
@@ -14978,7 +15380,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "small; tiny; few; young"
       },
       {
-        "character": "貓",
+        "character": "猫",
         "pinyin": "māo",
         "meaning": "cat (CL:隻|只[zhi1]); (dialect) to hide oneself; (loanword) (coll.) modem; used in 貓腰|猫腰[mao2 yao1]"
       },
@@ -14997,6 +15399,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       404,
       405
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/403.png",
     "audio_filename": null
   },
@@ -15020,7 +15423,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "abbr. for 克羅地亞|克罗地亚[Ke4 luo2 di4 ya4], Croatia; (Tw) abbr. for 克羅埃西亞|克罗埃西亚[Ke4 luo2 ai1 xi1 ya4], Croatia; to be able to; to subdue; to restrain; to overcome; gram; Tibetan unit of land area, about 6 ares; Ke (c. 2000 BC), seventh of the legendary Flame Emperors, 炎帝[Yan2 di4] descended from Shennong 神農|神农[Shen2 nong2] Farmer God; variant of 克[ke4]; to overthrow; variant of 剋|克[ke4]"
       },
       {
-        "character": "貓",
+        "character": "猫",
         "pinyin": "māo",
         "meaning": "cat (CL:隻|只[zhi1]); (dialect) to hide oneself; (loanword) (coll.) modem; used in 貓腰|猫腰[mao2 yao1]"
       }
@@ -15034,6 +15437,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       404,
       405
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/404.png",
     "audio_filename": null
   },
@@ -15047,7 +15451,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/lwən˧˥ tɕʰin˧˥ mɑʊ˥/",
     "etymology": [
       {
-        "character": "倫",
+        "character": "伦",
         "pinyin": "lún",
         "meaning": "human relationship; order; coherence"
       },
@@ -15057,7 +15461,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "guqin 古琴[gu3 qin2] (a type of zither); musical instrument in general; variant of 琴[qin2], guqin or zither"
       },
       {
-        "character": "貓",
+        "character": "猫",
         "pinyin": "māo",
         "meaning": "cat (CL:隻|只[zhi1]); (dialect) to hide oneself; (loanword) (coll.) modem; used in 貓腰|猫腰[mao2 yao1]"
       }
@@ -15071,6 +15475,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       404,
       405
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png",
     "audio_filename": null
   },
@@ -15108,6 +15513,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       315,
       407
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png",
     "audio_filename": null
   },
@@ -15121,12 +15527,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/lwɔ˧˥ sɯ˥ leɪ˧˥ twɔ˧˩˧/",
     "etymology": [
       {
-        "character": "羅",
+        "character": "罗",
         "pinyin": "luó",
         "meaning": "surname Luo; gauze; to collect; to gather; to catch; to sift"
       },
       {
-        "character": "絲",
+        "character": "丝",
         "pinyin": "sī",
         "meaning": "silk; thread-like thing; (cuisine) shreds or julienne strips; classifier: a trace (of smoke etc), a tiny bit etc"
       },
@@ -15150,6 +15556,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       315,
       407
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png",
     "audio_filename": null
   },
@@ -15163,17 +15570,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰoʊ˧˥ kaɪ˥˩ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "頭",
+        "character": "头",
         "pinyin": "tóu",
         "meaning": "head; hair style; the top; end; beginning or end; a stub; remnant; chief; boss; side; aspect; first; leading; classifier for pigs or livestock; CL:個|个[ge4]; suffix for nouns"
       },
       {
-        "character": "蓋",
+        "character": "盖",
         "pinyin": "gài",
         "meaning": "surname Ge; lid; top; cover; canopy; to cover; to conceal; to build"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -15186,6 +15593,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       408,
       409
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png",
     "audio_filename": null
   },
@@ -15199,7 +15607,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂan˥˩ ʈʂʰweɪ˧˥ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "戰",
+        "character": "战",
         "pinyin": "zhàn",
         "meaning": "to fight; fight; war; battle"
       },
@@ -15209,7 +15617,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "mallet; pestle; beetle (for wedging or ramming)"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -15222,6 +15630,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       408,
       409
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png",
     "audio_filename": null
   },
@@ -15245,7 +15654,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "first of the ten Heavenly Stems 十天干[shi2 tian1 gan1]; (used for an unspecified person or thing); first (in a list, as a party to a contract etc); letter \"A\" or roman \"I\" in list \"A, B, C\", or \"I, II, III\" etc; armor plating; shell or carapace; (of the fingers or toes) nail; bladed leather or metal armor (old); ranking system used in the Imperial examinations (old); civil administration unit in the baojia 保甲[bao3 jia3] system (old); ancient Chinese compass point: 75°"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -15258,6 +15667,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       410,
       411
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png",
     "audio_filename": null
   },
@@ -15271,7 +15681,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/xu˥˩ ʈʂʰɤŋ˧˥ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "護",
+        "character": "护",
         "pinyin": "hù",
         "meaning": "to protect"
       },
@@ -15281,7 +15691,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "city walls; city; town; CL:座[zuo4],道[dao4],個|个[ge4]"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -15294,6 +15704,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       410,
       411
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png",
     "audio_filename": null
   },
@@ -15307,7 +15718,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɕjɛ˧˥ tsʰɑʊ˧˩˧ ɑɻ˧˥/",
     "etymology": [
       {
-        "character": "結",
+        "character": "结",
         "pinyin": "jié",
         "meaning": "(of a plant) to produce (fruit or seeds); Taiwan pr. [jie2]; knot; sturdy; bond; to tie; to bind; to check out (of a hotel)"
       },
@@ -15317,7 +15728,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 草[cao3]; grass; straw; manuscript; draft (of a document); careless; rough; CL:棵[ke1],撮[zuo3],株[zhu1],根[gen1]; variant of 肏[cao4]"
       },
       {
-        "character": "兒",
+        "character": "儿",
         "pinyin": "ér",
         "meaning": "child; son; non-syllabic diminutive suffix; retroflex final"
       }
@@ -15331,6 +15742,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       413,
       414
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png",
     "audio_filename": null
   },
@@ -15344,7 +15756,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɕjɛ˧˥ tsʰɑʊ˧˩˧ kweɪ˥˩ fu˥˩/",
     "etymology": [
       {
-        "character": "結",
+        "character": "结",
         "pinyin": "jié",
         "meaning": "(of a plant) to produce (fruit or seeds); Taiwan pr. [jie2]; knot; sturdy; bond; to tie; to bind; to check out (of a hotel)"
       },
@@ -15354,14 +15766,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 草[cao3]; grass; straw; manuscript; draft (of a document); careless; rough; CL:棵[ke1],撮[zuo3],株[zhu1],根[gen1]; variant of 肏[cao4]"
       },
       {
-        "character": "貴",
+        "character": "贵",
         "pinyin": "guì",
         "meaning": "short name for Guizhou 貴州|贵州[Gui4 zhou1]; expensive; (bound form) highly valued; precious; (bound form) noble; of high rank; (prefix) (honorific) your"
       },
       {
-        "character": "婦",
+        "character": "妇",
         "pinyin": "fù",
-        "meaning": "woman"
+        "meaning": "woman; old variant of 婦|妇[fu4]"
       }
     ],
     "generation": 4,
@@ -15373,6 +15785,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       413,
       414
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/413.png",
     "audio_filename": null
   },
@@ -15386,7 +15799,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʂən˥ ʂɨ˥˩ ɤ˧˥/",
     "etymology": [
       {
-        "character": "紳",
+        "character": "绅",
         "pinyin": "shēn",
         "meaning": "member of gentry"
       },
@@ -15410,6 +15823,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       413,
       414
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/414.png",
     "audio_filename": null
   },
@@ -15446,6 +15860,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       415,
       416
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png",
     "audio_filename": null
   },
@@ -15482,6 +15897,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       415,
       416
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png",
     "audio_filename": null
   },
@@ -15510,7 +15926,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Li; sharp; favorable; advantage; benefit; profit; interest; to do good to; to benefit"
       },
       {
-        "character": "茲",
+        "character": "兹",
         "pinyin": "zī",
         "meaning": "used in 龜茲|龟兹[Qiu1 ci2]; (literary) this; (literary) now; (literary) year"
       }
@@ -15522,6 +15938,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       417
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/417.png",
     "audio_filename": null
   },
@@ -15558,6 +15975,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       418,
       419
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/418.png",
     "audio_filename": null
   },
@@ -15576,7 +15994,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to float; superficial; floating; unstable; movable; provisional; temporary; transient; impetuous; hollow; inflated; to exceed; superfluous; excessive; surplus"
       },
       {
-        "character": "潛",
+        "character": "潜",
         "pinyin": "qián",
         "meaning": "hidden; secret; latent; to hide; to conceal; to submerge; to dive"
       },
@@ -15594,6 +16012,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       418,
       419
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/419.png",
     "audio_filename": null
   },
@@ -15607,7 +16026,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/iŋ˥ xwa˥ pɑʊ˧˩˧/",
     "etymology": [
       {
-        "character": "櫻",
+        "character": "樱",
         "pinyin": "yīng",
         "meaning": "cherry"
       },
@@ -15617,9 +16036,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Hua; flower; blossom; CL:朵[duo3],支[zhi1],束[shu4],把[ba3],盆[pen2],簇[cu4]; fancy pattern; florid; to spend (money, time); (coll.) lecherous; lustful; old variant of 花[hua1]; variant of 花[hua1]; also pr. [wei3]"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       }
     ],
     "generation": 4,
@@ -15630,6 +16049,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       420,
       421
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png",
     "audio_filename": null
   },
@@ -15643,7 +16063,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/iŋ˥ xwa˥ ɑɻ˧˥/",
     "etymology": [
       {
-        "character": "櫻",
+        "character": "樱",
         "pinyin": "yīng",
         "meaning": "cherry"
       },
@@ -15653,7 +16073,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Hua; flower; blossom; CL:朵[duo3],支[zhi1],束[shu4],把[ba3],盆[pen2],簇[cu4]; fancy pattern; florid; to spend (money, time); (coll.) lecherous; lustful; old variant of 花[hua1]; variant of 花[hua1]; also pr. [wei3]"
       },
       {
-        "character": "兒",
+        "character": "儿",
         "pinyin": "ér",
         "meaning": "child; son; non-syllabic diminutive suffix; retroflex final"
       }
@@ -15666,37 +16086,28 @@ export const POKEMON_DATA: PokemonType[] = ((
       420,
       421
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421.png",
     "audio_filename": null
   },
   {
     "id": 422,
     "name_en": "Shellos",
-    "name_zh": "無殼海兔",
-    "name_zh_simplified": "无壳海兔",
-    "pinyin": "Wú ké hǎi tù",
-    "pinyin_numbered": "Wu2 ke2 hai3 tu4",
-    "ipa": "/u˧˥ kʰɤ˧˥ xaɪ˧˩˧ tʰu˥˩/",
+    "name_zh": "東海",
+    "name_zh_simplified": "東海",
+    "pinyin": "Dōng hǎi",
+    "pinyin_numbered": "Dong1 hai3",
+    "ipa": "/tʊŋ˥ xaɪ˧˩˧/",
     "etymology": [
       {
-        "character": "無",
-        "pinyin": "wú",
-        "meaning": "used in 南無|南无[na1 mo2]; not to have; no; none; not; to lack; un-; -less"
-      },
-      {
-        "character": "殼",
-        "pinyin": "ké",
-        "meaning": "(coll.) shell (of an egg, nut, crab etc); case; casing; housing (of a machine or device); (bound form) shell; Taiwan pr. [ke2]"
+        "character": "東",
+        "pinyin": "dōng",
+        "meaning": "surname Dong; east; host (i.e. sitting on east side of guest); landlord"
       },
       {
         "character": "海",
         "pinyin": "hǎi",
         "meaning": "surname Hai; ocean; sea; CL:個|个[ge4],片[pian4]; great number of people or things; (dialect) numerous"
-      },
-      {
-        "character": "兔",
-        "pinyin": "tù",
-        "meaning": "variant of 兔[tu4]; rabbit"
       }
     ],
     "generation": 4,
@@ -15707,32 +16118,28 @@ export const POKEMON_DATA: PokemonType[] = ((
       422,
       423
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png",
     "audio_filename": null
   },
   {
     "id": 423,
     "name_en": "Gastrodon",
-    "name_zh": "海兔獸",
-    "name_zh_simplified": "海兔兽",
-    "pinyin": "Hǎi tù shòu",
-    "pinyin_numbered": "Hai3 tu4 shou4",
-    "ipa": "/xaɪ˧˩˧ tʰu˥˩ ʂoʊ˥˩/",
+    "name_zh": "東海",
+    "name_zh_simplified": "東海",
+    "pinyin": "Dōng hǎi",
+    "pinyin_numbered": "Dong1 hai3",
+    "ipa": "/tʊŋ˥ xaɪ˧˩˧/",
     "etymology": [
+      {
+        "character": "東",
+        "pinyin": "dōng",
+        "meaning": "surname Dong; east; host (i.e. sitting on east side of guest); landlord"
+      },
       {
         "character": "海",
         "pinyin": "hǎi",
         "meaning": "surname Hai; ocean; sea; CL:個|个[ge4],片[pian4]; great number of people or things; (dialect) numerous"
-      },
-      {
-        "character": "兔",
-        "pinyin": "tù",
-        "meaning": "variant of 兔[tu4]; rabbit"
-      },
-      {
-        "character": "獸",
-        "pinyin": "shòu",
-        "meaning": "beast; animal; beastly; bestial"
       }
     ],
     "generation": 4,
@@ -15743,6 +16150,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       422,
       423
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png",
     "audio_filename": null
   },
@@ -15756,9 +16164,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʂwɑŋ˥ weɪ˧˩˧ kwaɪ˥˩ ʂoʊ˧˩˧/",
     "etymology": [
       {
-        "character": "雙",
+        "character": "双",
         "pinyin": "shuāng",
-        "meaning": "surname Shuang; two; double; pair; both; even (number)"
+        "meaning": "variant of 雙|双[shuang1]; surname Shuang; two; double; pair; both; even (number)"
       },
       {
         "character": "尾",
@@ -15784,6 +16192,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       190,
       424
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
     "audio_filename": null
   },
@@ -15797,14 +16206,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/pʰjɑʊ˥ pʰjɑʊ˥ tɕʰjoʊ˧˥/",
     "etymology": [
       {
-        "character": "飄",
+        "character": "飘",
         "pinyin": "piāo",
-        "meaning": "to float (in the air); to flutter; to waft; complacent; frivolous; weak; shaky; wobbly"
+        "meaning": "variant of 飄|飘[piao1]; to float (in the air); to flutter; to waft; complacent; frivolous; weak; shaky; wobbly"
       },
       {
-        "character": "飄",
+        "character": "飘",
         "pinyin": "piāo",
-        "meaning": "to float (in the air); to flutter; to waft; complacent; frivolous; weak; shaky; wobbly"
+        "meaning": "variant of 飄|飘[piao1]; to float (in the air); to flutter; to waft; complacent; frivolous; weak; shaky; wobbly"
       },
       {
         "character": "球",
@@ -15820,6 +16229,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       425,
       426
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/425.png",
     "audio_filename": null
   },
@@ -15833,12 +16243,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/sweɪ˧˥ fɤŋ˥ tɕʰjoʊ˧˥/",
     "etymology": [
       {
-        "character": "隨",
+        "character": "随",
         "pinyin": "suí",
         "meaning": "surname Sui; to follow; to comply with; varying according to...; to allow; subsequently"
       },
       {
-        "character": "風",
+        "character": "风",
         "pinyin": "fēng",
         "meaning": "wind; news; style; custom; manner; CL:陣|阵[zhen4],絲|丝[si1]"
       },
@@ -15856,6 +16266,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       425,
       426
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/426.png",
     "audio_filename": null
   },
@@ -15869,14 +16280,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɕɥœn˧˩˧ tɕɥœn˧˩˧ ɑɻ˧˩˧/",
     "etymology": [
       {
-        "character": "捲",
+        "character": "卷",
         "pinyin": "juǎn",
-        "meaning": "to roll up; to sweep up; to carry along; a roll; classifier for rolls, spools etc"
+        "meaning": "to roll up; (fig.) to sweep up; to engulf; to drag into (a situation); (slang) to compete to an unhealthy degree; hypercompetitive; a roll; classifier for small rolled-up things (wad of paper money, movie reel etc); scroll; book; volume; chapter; examination paper; classifier for books, paintings: volume, scroll; to sweep up; to carry along; classifier for rolls, spools etc"
       },
       {
-        "character": "捲",
+        "character": "卷",
         "pinyin": "juǎn",
-        "meaning": "to roll up; to sweep up; to carry along; a roll; classifier for rolls, spools etc"
+        "meaning": "to roll up; (fig.) to sweep up; to engulf; to drag into (a situation); (slang) to compete to an unhealthy degree; hypercompetitive; a roll; classifier for small rolled-up things (wad of paper money, movie reel etc); scroll; book; volume; chapter; examination paper; classifier for books, paintings: volume, scroll; to sweep up; to carry along; classifier for rolls, spools etc"
       },
       {
         "character": "耳",
@@ -15892,6 +16303,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       427,
       428
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png",
     "audio_filename": null
   },
@@ -15905,7 +16317,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂɑŋ˧˩˧ ɑɻ˧˩˧ tʰu˥˩/",
     "etymology": [
       {
-        "character": "長",
+        "character": "长",
         "pinyin": "zhǎng",
         "meaning": "long; (bound form) length; (bound form) strong point; forte; (bound form) to be good at; (literary) surplus; spare (Taiwan pr. [zhang4]); chief; head; elder; to grow; to develop; to increase; to enhance"
       },
@@ -15928,6 +16340,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       427,
       428
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png",
     "audio_filename": null
   },
@@ -15941,7 +16354,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/mɤŋ˥˩ jɑʊ˥ mwɔ˧˥/",
     "etymology": [
       {
-        "character": "夢",
+        "character": "梦",
         "pinyin": "mèng",
         "meaning": "dream (CL:場|场[chang2]); (bound form) to dream"
       },
@@ -15964,6 +16377,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       200,
       429
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png",
     "audio_filename": null
   },
@@ -15977,22 +16391,22 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/u˥ ja˥ tʰoʊ˧˥ tʰoʊ˧˥/",
     "etymology": [
       {
-        "character": "烏",
+        "character": "乌",
         "pinyin": "wū",
         "meaning": "abbr. for country names that begin with 烏|乌[wu1]: Ukraine 烏克蘭|乌克兰[Wu1 ke4 lan2], Uzbekistan 烏茲別克斯坦|乌兹别克斯坦[Wu1 zi1 bie2 ke4 si1 tan3] etc; surname Wu; crow; black; used in 烏拉|乌拉[wu4 la5]; used in 烏拉草|乌拉草[wu4 la5 cao3]"
       },
       {
-        "character": "鴉",
+        "character": "鸦",
         "pinyin": "yā",
-        "meaning": "crow"
+        "meaning": "crow; variant of 鴉|鸦[ya1]"
       },
       {
-        "character": "頭",
+        "character": "头",
         "pinyin": "tóu",
         "meaning": "head; hair style; the top; end; beginning or end; a stub; remnant; chief; boss; side; aspect; first; leading; classifier for pigs or livestock; CL:個|个[ge4]; suffix for nouns"
       },
       {
-        "character": "頭",
+        "character": "头",
         "pinyin": "tóu",
         "meaning": "head; hair style; the top; end; beginning or end; a stub; remnant; chief; boss; side; aspect; first; leading; classifier for pigs or livestock; CL:個|个[ge4]; suffix for nouns"
       }
@@ -16005,6 +16419,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       198,
       430
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png",
     "audio_filename": null
   },
@@ -16041,6 +16456,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       431,
       432
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png",
     "audio_filename": null
   },
@@ -16054,7 +16470,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʊŋ˥ ʂɨ˥ mjɑʊ˥/",
     "etymology": [
       {
-        "character": "東",
+        "character": "东",
         "pinyin": "dōng",
         "meaning": "surname Dong; east; host (i.e. sitting on east side of guest); landlord"
       },
@@ -16077,6 +16493,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       431,
       432
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png",
     "audio_filename": null
   },
@@ -16090,17 +16507,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/liŋ˧˥ tɑŋ˥ ɕjɑŋ˧˩˧/",
     "etymology": [
       {
-        "character": "鈴",
+        "character": "铃",
         "pinyin": "líng",
         "meaning": "(small) bell; CL:隻|只[zhi1]"
       },
       {
-        "character": "鐺",
+        "character": "铛",
         "pinyin": "dāng",
         "meaning": "frying pan; griddle; clank; clang; sound of metal"
       },
       {
-        "character": "響",
+        "character": "响",
         "pinyin": "xiǎng",
         "meaning": "echo; sound; noise; to make a sound; to sound; to ring; loud; classifier for noises"
       }
@@ -16113,6 +16530,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       433,
       358
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png",
     "audio_filename": null
   },
@@ -16149,6 +16567,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       434,
       435
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png",
     "audio_filename": null
   },
@@ -16190,6 +16609,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       434,
       435
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/435.png",
     "audio_filename": null
   },
@@ -16203,12 +16623,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰʊŋ˧˥ tɕiŋ˥˩ kwaɪ˥˩/",
     "etymology": [
       {
-        "character": "銅",
+        "character": "铜",
         "pinyin": "tóng",
         "meaning": "copper (chemistry); see also 紅銅|红铜[hong2 tong2]; CL:塊|块[kuai4]"
       },
       {
-        "character": "鏡",
+        "character": "镜",
         "pinyin": "jìng",
         "meaning": "mirror; lens"
       },
@@ -16226,6 +16646,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       436,
       437
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png",
     "audio_filename": null
   },
@@ -16244,14 +16665,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "short name for Qinghai 青海[Qing1 hai3]; green; blue; black; youth; young (of people)"
       },
       {
-        "character": "銅",
+        "character": "铜",
         "pinyin": "tóng",
         "meaning": "copper (chemistry); see also 紅銅|红铜[hong2 tong2]; CL:塊|块[kuai4]"
       },
       {
-        "character": "鐘",
+        "character": "钟",
         "pinyin": "zhōng",
-        "meaning": "a (large) bell (CL:架[jia4]); clock (CL:座[zuo4]); amount of time; o'clock (CL:點|点[dian3],分[fen1],秒[miao3]) (as in 三點鐘|三点钟[san1 dian3 zhong1] \"three o'clock\" or \"three hours\" or 五分鐘|五分钟[wu3 fen1 zhong1] \"five minutes\" etc)"
+        "meaning": "surname Zhong; handleless cup; goblet; (bound form) to concentrate (one's affection etc); variant of 鐘|钟[zhong1]; a (large) bell (CL:架[jia4]); clock (CL:座[zuo4]); amount of time; o'clock (CL:點|点[dian3],分[fen1],秒[miao3]) (as in 三點鐘|三点钟[san1 dian3 zhong1] \"three o'clock\" or \"three hours\" or 五分鐘|五分钟[wu3 fen1 zhong1] \"five minutes\" etc)"
       }
     ],
     "generation": 4,
@@ -16262,6 +16683,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       436,
       437
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png",
     "audio_filename": null
   },
@@ -16298,6 +16720,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       438,
       185
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png",
     "audio_filename": null
   },
@@ -16335,6 +16758,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       122,
       866
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png",
     "audio_filename": null
   },
@@ -16372,6 +16796,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       113,
       242
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png",
     "audio_filename": null
   },
@@ -16395,7 +16820,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(literary) (of birds or insects) to chirp; (bound form) to make a cacophonous noise; variant of 噪[zao4]"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -16407,6 +16832,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       441
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/441.png",
     "audio_filename": null
   },
@@ -16442,6 +16868,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       442
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png",
     "audio_filename": null
   },
@@ -16455,17 +16882,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ɥœn˧˥ lu˥˩ ʂa˥/",
     "etymology": [
       {
-        "character": "圓",
+        "character": "圆",
         "pinyin": "yuán",
         "meaning": "circle; round; circular; spherical; (of the moon) full; unit of Chinese currency (yuan); tactful; to make consistent and whole (the narrative of a dream or a lie)"
       },
       {
-        "character": "陸",
+        "character": "陆",
         "pinyin": "lù",
         "meaning": "surname Lu; six (banker's anti-fraud numeral); (bound form) land (as opposed to the sea)"
       },
       {
-        "character": "鯊",
+        "character": "鲨",
         "pinyin": "shā",
         "meaning": "shark"
       }
@@ -16479,6 +16906,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       444,
       445
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/443.png",
     "audio_filename": null
   },
@@ -16502,12 +16930,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "tooth; ivory; CL:顆|颗[ke1]"
       },
       {
-        "character": "陸",
+        "character": "陆",
         "pinyin": "lù",
         "meaning": "surname Lu; six (banker's anti-fraud numeral); (bound form) land (as opposed to the sea)"
       },
       {
-        "character": "鯊",
+        "character": "鲨",
         "pinyin": "shā",
         "meaning": "shark"
       }
@@ -16521,6 +16949,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       444,
       445
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/444.png",
     "audio_filename": null
   },
@@ -16544,12 +16973,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to bite; to nip; variant of 咬[yao3]"
       },
       {
-        "character": "陸",
+        "character": "陆",
         "pinyin": "lù",
         "meaning": "surname Lu; six (banker's anti-fraud numeral); (bound form) land (as opposed to the sea)"
       },
       {
-        "character": "鯊",
+        "character": "鲨",
         "pinyin": "shā",
         "meaning": "shark"
       }
@@ -16563,6 +16992,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       444,
       445
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png",
     "audio_filename": null
   },
@@ -16591,7 +17021,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "Belgium; Belgian; abbr. for 比利時|比利时[Bi3 li4 shi2]; euphemistic variant of 屄[bi1]; to compare; (followed by a noun and adjective) more {adj.} than {noun}; ratio; to gesture; (Taiwan pr. [bi4] in some compounds derived from Classical Chinese)"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -16604,6 +17034,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       446,
       143
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png",
     "audio_filename": null
   },
@@ -16622,7 +17053,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Li; sharp; favorable; advantage; benefit; profit; interest; to do good to; to benefit"
       },
       {
-        "character": "歐",
+        "character": "欧",
         "pinyin": "ōu",
         "meaning": "Europe (abbr. for 歐洲|欧洲[Ou1 zhou1]); surname Ou; (used for transliteration); old variant of 謳|讴[ou1]"
       },
@@ -16640,6 +17071,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       447,
       448
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png",
     "audio_filename": null
   },
@@ -16668,7 +17100,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Li; sharp; favorable; advantage; benefit; profit; interest; to do good to; to benefit"
       },
       {
-        "character": "歐",
+        "character": "欧",
         "pinyin": "ōu",
         "meaning": "Europe (abbr. for 歐洲|欧洲[Ou1 zhou1]); surname Ou; (used for transliteration); old variant of 謳|讴[ou1]"
       }
@@ -16681,6 +17113,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       447,
       448
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
     "audio_filename": null
   },
@@ -16704,7 +17137,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "river (CL:條|条[tiao2],道[dao4]); (bound form) the Yellow River; (bound form) the Milky Way; (bound form) (on restaurant menus) rice noodles 河粉[he2 fen3]"
       },
       {
-        "character": "馬",
+        "character": "马",
         "pinyin": "mǎ",
         "meaning": "surname Ma; abbr. for Malaysia 馬來西亞|马来西亚[Ma3 lai2 xi1 ya4]; horse; CL:匹[pi3]; horse or cavalry piece in Chinese chess; knight in Western chess"
       }
@@ -16717,6 +17150,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       449,
       450
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/449.png",
     "audio_filename": null
   },
@@ -16735,12 +17169,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "river (CL:條|条[tiao2],道[dao4]); (bound form) the Yellow River; (bound form) the Milky Way; (bound form) (on restaurant menus) rice noodles 河粉[he2 fen3]"
       },
       {
-        "character": "馬",
+        "character": "马",
         "pinyin": "mǎ",
         "meaning": "surname Ma; abbr. for Malaysia 馬來西亞|马来西亚[Ma3 lai2 xi1 ya4]; horse; CL:匹[pi3]; horse or cavalry piece in Chinese chess; knight in Western chess"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -16753,6 +17187,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       449,
       450
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png",
     "audio_filename": null
   },
@@ -16766,7 +17201,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɕʰjɛn˧˥ weɪ˧˩˧ ɕjɛ˥/",
     "etymology": [
       {
-        "character": "鉗",
+        "character": "钳",
         "pinyin": "qián",
         "meaning": "pincers; pliers; tongs; claw (of animal); to grasp with pincers; to pinch; to clamp; to restrain; to restrict; to gag"
       },
@@ -16776,9 +17211,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "tail; remainder; remnant; extremity; sixth of the 28 constellations; classifier for fish; horse's tail; pointed posterior section of a locust etc"
       },
       {
-        "character": "蠍",
+        "character": "蝎",
         "pinyin": "xiē",
-        "meaning": "(bound form) scorpion"
+        "meaning": "variant of 蠍|蝎[xie1]; (bound form) scorpion"
       }
     ],
     "generation": 4,
@@ -16789,6 +17224,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       451,
       452
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/451.png",
     "audio_filename": null
   },
@@ -16802,7 +17238,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/lʊŋ˧˥ wɑŋ˧˥ ɕjɛ˥/",
     "etymology": [
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       },
@@ -16812,9 +17248,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Wang; king or monarch; best or strongest of its type; grand; great; (literary) (of a monarch) to reign over (a kingdom)"
       },
       {
-        "character": "蠍",
+        "character": "蝎",
         "pinyin": "xiē",
-        "meaning": "(bound form) scorpion"
+        "meaning": "variant of 蠍|蝎[xie1]; (bound form) scorpion"
       }
     ],
     "generation": 4,
@@ -16825,6 +17261,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       451,
       452
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png",
     "audio_filename": null
   },
@@ -16861,6 +17298,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       453,
       454
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png",
     "audio_filename": null
   },
@@ -16897,6 +17335,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       453,
       454
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png",
     "audio_filename": null
   },
@@ -16920,7 +17359,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "tooth; ivory; CL:顆|颗[ke1]"
       },
       {
-        "character": "籠",
+        "character": "笼",
         "pinyin": "lóng",
         "meaning": "enclosing frame made of bamboo, wire etc; cage; basket; steamer basket; to envelop; to cover; (used in 籠子|笼子[long3 zi5]) large box; Taiwan pr. [long2]"
       }
@@ -16932,6 +17371,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       455
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/455.png",
     "audio_filename": null
   },
@@ -16945,9 +17385,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/iŋ˧˥ kwɑŋ˥ y˧˥/",
     "etymology": [
       {
-        "character": "螢",
+        "character": "荧",
         "pinyin": "yíng",
-        "meaning": "firefly; glow-worm"
+        "meaning": "a glimmer; glimmering; twinkling; fluorescence; phosphorescence; perplexed; dazzled and confused; planet Mars (arch.)"
       },
       {
         "character": "光",
@@ -16955,7 +17395,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "light; ray (CL:道[dao4]); bright; shiny; only; merely; used up; finished; to leave (a part of the body) uncovered"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -16968,6 +17408,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       456,
       457
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png",
     "audio_filename": null
   },
@@ -16991,7 +17432,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "rainbow"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -17004,6 +17445,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       456,
       457
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png",
     "audio_filename": null
   },
@@ -17027,12 +17469,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "ball used for playing games (variant of 球[qiu2]); ball; sphere; globe; CL:個|个[ge4]; ball game; match; CL:場|场[chang3]"
       },
       {
-        "character": "飛",
+        "character": "飞",
         "pinyin": "fēi",
         "meaning": "to fly"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -17045,6 +17487,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       458,
       226
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png",
     "audio_filename": null
   },
@@ -17081,6 +17524,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       459,
       460
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png",
     "audio_filename": null
   },
@@ -17117,6 +17561,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       459,
       460
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png",
     "audio_filename": null
   },
@@ -17130,7 +17575,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ma˧˩˧ njoʊ˧˩˧ la˥/",
     "etymology": [
       {
-        "character": "瑪",
+        "character": "玛",
         "pinyin": "mǎ",
         "meaning": "used in 瑪瑙|玛瑙[ma3 nao3]"
       },
@@ -17154,6 +17599,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       461,
       903
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png",
     "audio_filename": null
   },
@@ -17196,6 +17642,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       82,
       462
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png",
     "audio_filename": null
   },
@@ -17232,6 +17679,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       108,
       463
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png",
     "audio_filename": null
   },
@@ -17274,6 +17722,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       112,
       464
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png",
     "audio_filename": null
   },
@@ -17310,6 +17759,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       114,
       465
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png",
     "audio_filename": null
   },
@@ -17323,12 +17773,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tjɛn˥˩ tɕi˥ mwɔ˧˥ ʂoʊ˥˩/",
     "etymology": [
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
       {
-        "character": "擊",
+        "character": "击",
         "pinyin": "jī",
         "meaning": "to hit; to strike; to break; Taiwan pr. [ji2]"
       },
@@ -17338,7 +17788,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) evil spirit; devil; (prefix) supernatural; magical"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -17352,6 +17802,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       125,
       466
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png",
     "audio_filename": null
   },
@@ -17365,7 +17816,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ja˥ tsweɪ˧˩˧ jɛn˧˥ ʂoʊ˥˩/",
     "etymology": [
       {
-        "character": "鴨",
+        "character": "鸭",
         "pinyin": "yā",
         "meaning": "duck (CL:隻|只[zhi1]); (slang) male prostitute"
       },
@@ -17380,7 +17831,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "flame; inflammation; -itis"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -17394,6 +17845,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       126,
       467
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png",
     "audio_filename": null
   },
@@ -17436,6 +17888,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       176,
       468
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png",
     "audio_filename": null
   },
@@ -17449,7 +17902,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ɥœn˧˩˧ ku˧˩˧ tɕy˥˩ tʰiŋ˧˥/",
     "etymology": [
       {
-        "character": "遠",
+        "character": "远",
         "pinyin": "yuǎn",
         "meaning": "far; distant; remote; (intensifier in a comparison) by far; much (lower etc); to distance oneself from (classical)"
       },
@@ -17477,6 +17930,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       193,
       469
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png",
     "audio_filename": null
   },
@@ -17490,9 +17944,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/jɛ˥˩ i˥ pu˥˩/",
     "etymology": [
       {
-        "character": "葉",
+        "character": "叶",
         "pinyin": "yè",
-        "meaning": "surname Ye; leaf; page; lobe; (historical) period; classifier for small boats"
+        "meaning": "to be in harmony; surname Ye; leaf; page; lobe; (historical) period; classifier for small boats"
       },
       {
         "character": "伊",
@@ -17520,6 +17974,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       471,
       700
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png",
     "audio_filename": null
   },
@@ -17563,6 +18018,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       471,
       700
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png",
     "audio_filename": null
   },
@@ -17581,9 +18037,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "day; sky; heaven"
       },
       {
-        "character": "蠍",
+        "character": "蝎",
         "pinyin": "xiē",
-        "meaning": "(bound form) scorpion"
+        "meaning": "variant of 蠍|蝎[xie1]; (bound form) scorpion"
       },
       {
         "character": "王",
@@ -17599,6 +18055,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       207,
       472
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png",
     "audio_filename": null
   },
@@ -17622,7 +18079,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "tooth; ivory; CL:顆|颗[ke1]"
       },
       {
-        "character": "豬",
+        "character": "猪",
         "pinyin": "zhū",
         "meaning": "hog; pig; swine; CL:口[kou3],頭|头[tou2]"
       }
@@ -17636,6 +18093,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       221,
       473
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png",
     "audio_filename": null
   },
@@ -17654,19 +18112,24 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "many; much; more; a lot of; too many; in excess; (after a numeral) ... odd; how (to what extent) (Taiwan pr. [duo2]); (bound form) multi-; poly-"
       },
       {
-        "character": "邊",
+        "character": "边",
         "pinyin": "biān",
         "meaning": "side; edge; margin; border; boundary; CL:個|个[ge4]; simultaneously; suffix of a noun of locality"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       },
       {
-        "character": "Ｚ",
-        "pinyin": "Ｚ",
-        "meaning": ""
+        "character": "乙",
+        "pinyin": "yǐ",
+        "meaning": "second of the ten Heavenly Stems 十天干[shi2 tian1 gan1]; second in order; letter \"B\" or Roman \"II\" in list \"A, B, C\", or \"I, II, III\" etc; second party (in legal contract, usually 乙方[yi3 fang1], as opposed to 甲方[jia3 fang1]); ethyl; bent; winding; radical in Chinese characters (Kangxi radical 5); ancient Chinese compass point: 105°; turning stroke (in Chinese characters), aka 折[zhe2]"
+      },
+      {
+        "character": "型",
+        "pinyin": "xíng",
+        "meaning": "mold; type; style; model"
       }
     ],
     "generation": 4,
@@ -17678,6 +18141,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       233,
       474
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png",
     "audio_filename": null
   },
@@ -17721,6 +18185,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       282,
       475
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png",
     "audio_filename": null
   },
@@ -17762,6 +18227,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       299,
       476
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png",
     "audio_filename": null
   },
@@ -17790,7 +18256,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) evil spirit; devil; (prefix) supernatural; magical"
       },
       {
-        "character": "靈",
+        "character": "灵",
         "pinyin": "líng",
         "meaning": "quick; alert; efficacious; effective; to come true; spirit; departed soul; coffin"
       }
@@ -17804,6 +18270,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       356,
       477
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png",
     "audio_filename": null
   },
@@ -17841,6 +18308,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       362,
       478
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/478.png",
     "audio_filename": null
   },
@@ -17876,6 +18344,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       479
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479.png",
     "audio_filename": null
   },
@@ -17911,6 +18380,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       480
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png",
     "audio_filename": null
   },
@@ -17951,6 +18421,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       481
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/481.png",
     "audio_filename": null
   },
@@ -17964,7 +18435,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ja˥˩ kʰɤ˥˩ nwɔ˥˩ mu˧˩˧/",
     "etymology": [
       {
-        "character": "亞",
+        "character": "亚",
         "pinyin": "yà",
         "meaning": "Asia; Asian; Taiwan pr. [Ya3]; second; next to; inferior; sub-; Taiwan pr. [ya3]"
       },
@@ -17974,7 +18445,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "abbr. for 克羅地亞|克罗地亚[Ke4 luo2 di4 ya4], Croatia; (Tw) abbr. for 克羅埃西亞|克罗埃西亚[Ke4 luo2 ai1 xi1 ya4], Croatia; to be able to; to subdue; to restrain; to overcome; gram; Tibetan unit of land area, about 6 ares; Ke (c. 2000 BC), seventh of the legendary Flame Emperors, 炎帝[Yan2 di4] descended from Shennong 神農|神农[Shen2 nong2] Farmer God; variant of 克[ke4]; to overthrow; variant of 剋|克[ke4]"
       },
       {
-        "character": "諾",
+        "character": "诺",
         "pinyin": "nuò",
         "meaning": "to consent; to promise; (literary) yes!"
       },
@@ -17991,6 +18462,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       482
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/482.png",
     "audio_filename": null
   },
@@ -18014,7 +18486,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "tooth; ivory; CL:顆|颗[ke1]"
       },
       {
-        "character": "盧",
+        "character": "卢",
         "pinyin": "lú",
         "meaning": "surname Lu; abbr. for Luxembourg 盧森堡|卢森堡[Lu2 sen1 bao3]; (old) rice vessel; black; old variant of 廬|庐[lu2]; (slang) (Tw) troublesome; fussy"
       },
@@ -18031,6 +18503,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       483
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png",
     "audio_filename": null
   },
@@ -18059,7 +18532,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "odd (number); strange; odd; weird; wonderful; surprisingly; unusually"
       },
       {
-        "character": "亞",
+        "character": "亚",
         "pinyin": "yà",
         "meaning": "Asia; Asian; Taiwan pr. [Ya3]; second; next to; inferior; sub-; Taiwan pr. [ya3]"
       }
@@ -18071,6 +18544,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       484
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png",
     "audio_filename": null
   },
@@ -18094,7 +18568,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "many; much; more; a lot of; too many; in excess; (after a numeral) ... odd; how (to what extent) (Taiwan pr. [duo2]); (bound form) multi-; poly-"
       },
       {
-        "character": "藍",
+        "character": "蓝",
         "pinyin": "lán",
         "meaning": "surname Lan; blue; indigo plant"
       },
@@ -18111,6 +18585,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       485
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png",
     "audio_filename": null
   },
@@ -18156,6 +18631,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       486
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/486.png",
     "audio_filename": null
   },
@@ -18169,7 +18645,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɕʰi˧˥ la˥ ti˥˩ na˥˩/",
     "etymology": [
       {
-        "character": "騎",
+        "character": "骑",
         "pinyin": "qí",
         "meaning": "(Tw) saddle horse; mounted soldier; to sit astride; to ride (a horse, bike etc); classifier for saddle horses"
       },
@@ -18184,7 +18660,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "emperor"
       },
       {
-        "character": "納",
+        "character": "纳",
         "pinyin": "nà",
         "meaning": "surname Na; to receive; to accept; to enjoy; to bring into; to pay (tax etc); nano- (one billionth); to reinforce sole of shoes or stockings by close sewing"
       }
@@ -18196,6 +18672,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       487
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png",
     "audio_filename": null
   },
@@ -18229,7 +18706,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Li; sharp; favorable; advantage; benefit; profit; interest; to do good to; to benefit"
       },
       {
-        "character": "亞",
+        "character": "亚",
         "pinyin": "yà",
         "meaning": "Asia; Asian; Taiwan pr. [Ya3]; second; next to; inferior; sub-; Taiwan pr. [ya3]"
       }
@@ -18241,6 +18718,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       488
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png",
     "audio_filename": null
   },
@@ -18259,12 +18737,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "fall of snow"
       },
       {
-        "character": "歐",
+        "character": "欧",
         "pinyin": "ōu",
         "meaning": "Europe (abbr. for 歐洲|欧洲[Ou1 zhou1]); surname Ou; (used for transliteration); old variant of 謳|讴[ou1]"
       },
       {
-        "character": "納",
+        "character": "纳",
         "pinyin": "nà",
         "meaning": "surname Na; to receive; to accept; to enjoy; to bring into; to pay (tax etc); nano- (one billionth); to reinforce sole of shoes or stockings by close sewing"
       }
@@ -18277,6 +18755,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       489,
       490
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png",
     "audio_filename": null
   },
@@ -18290,12 +18769,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ma˧˩˧ na˥˩ feɪ˥/",
     "etymology": [
       {
-        "character": "瑪",
+        "character": "玛",
         "pinyin": "mǎ",
         "meaning": "used in 瑪瑙|玛瑙[ma3 nao3]"
       },
       {
-        "character": "納",
+        "character": "纳",
         "pinyin": "nà",
         "meaning": "surname Na; to receive; to accept; to enjoy; to bring into; to pay (tax etc); nano- (one billionth); to reinforce sole of shoes or stockings by close sewing"
       },
@@ -18313,6 +18792,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       489,
       490
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png",
     "audio_filename": null
   },
@@ -18326,7 +18806,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ta˧˥ kʰɤ˥˩ laɪ˧˥ i˥/",
     "etymology": [
       {
-        "character": "達",
+        "character": "达",
         "pinyin": "dá",
         "meaning": "surname Da; to attain; to reach; to amount to; to communicate; eminent"
       },
@@ -18336,7 +18816,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "abbr. for 克羅地亞|克罗地亚[Ke4 luo2 di4 ya4], Croatia; (Tw) abbr. for 克羅埃西亞|克罗埃西亚[Ke4 luo2 ai1 xi1 ya4], Croatia; to be able to; to subdue; to restrain; to overcome; gram; Tibetan unit of land area, about 6 ares; Ke (c. 2000 BC), seventh of the legendary Flame Emperors, 炎帝[Yan2 di4] descended from Shennong 神農|神农[Shen2 nong2] Farmer God; variant of 克[ke4]; to overthrow; variant of 剋|克[ke4]"
       },
       {
-        "character": "萊",
+        "character": "莱",
         "pinyin": "lái",
         "meaning": "name of weed plant (fat hen, goosefoot, pigweed etc); Chenopodium album"
       },
@@ -18353,6 +18833,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       491
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/491.png",
     "audio_filename": null
   },
@@ -18366,7 +18847,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ɕjɛ˥˩ mi˧˩˧/",
     "etymology": [
       {
-        "character": "謝",
+        "character": "谢",
         "pinyin": "xiè",
         "meaning": "surname Xie; to thank; (bound form) to apologize; (bound form) to decline; to refuse; (bound form) (of flowers, leaves etc) to wither"
       },
@@ -18383,6 +18864,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       492
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/492.png",
     "audio_filename": null
   },
@@ -18401,9 +18883,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "prefix used before monosyllabic names, kinship terms etc to indicate familiarity; used in transliteration; (bound form) Afghanistan (abbr. for 阿富汗[A1 fu4 han4]); (bound form) Albania (abbr. for 阿爾巴尼亞|阿尔巴尼亚[A1 er3 ba1 ni2 ya4]); (bound form) Algeria (abbr. for 阿爾及利亞|阿尔及利亚[A1 er3 ji2 li4 ya4]); (bound form) Argentina (abbr. for 阿根廷[A1 gen1 ting2]); also pr. [a4]; (literary) to flatter; to curry favor with"
       },
       {
-        "character": "爾",
+        "character": "尔",
         "pinyin": "ěr",
-        "meaning": "thus; so; like that; you; thou"
+        "meaning": "variant of 爾|尔[er3]; thus; so; like that; you; thou"
       },
       {
         "character": "宙",
@@ -18423,6 +18905,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       493
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493.png",
     "audio_filename": null
   },
@@ -18463,6 +18946,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       494
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/494.png",
     "audio_filename": null
   },
@@ -18500,6 +18984,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       496,
       497
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png",
     "audio_filename": null
   },
@@ -18537,6 +19022,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       496,
       497
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/496.png",
     "audio_filename": null
   },
@@ -18574,6 +19060,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       496,
       497
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png",
     "audio_filename": null
   },
@@ -18597,7 +19084,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "old variant of 暖[nuan3]; warm; to warm; variant of 暖[nuan3]; variant of 暖[nuan3], warm"
       },
       {
-        "character": "豬",
+        "character": "猪",
         "pinyin": "zhū",
         "meaning": "hog; pig; swine; CL:口[kou3],頭|头[tou2]"
       }
@@ -18611,6 +19098,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       499,
       500
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/498.png",
     "audio_filename": null
   },
@@ -18634,7 +19122,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to sauté; to stir-fry; to speculate (in real estate etc); to scalp; to hype up; to sack; to fire (sb)"
       },
       {
-        "character": "豬",
+        "character": "猪",
         "pinyin": "zhū",
         "meaning": "hog; pig; swine; CL:口[kou3],頭|头[tou2]"
       }
@@ -18648,6 +19136,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       499,
       500
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/499.png",
     "audio_filename": null
   },
@@ -18685,6 +19174,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       499,
       500
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png",
     "audio_filename": null
   },
@@ -18708,7 +19198,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Shui; Shui ethnic group; water; (after a name) ... River; to swim (used mostly in 會水|会水[hui4 shui3] and 水性[shui3 xing4]); (coll.) lacking in substance; shoddy; (bound form) additional cost; extra income; classifier for washings of a garment"
       },
       {
-        "character": "獺",
+        "character": "獭",
         "pinyin": "tǎ",
         "meaning": "otter; Taiwan pr. [ta4]"
       }
@@ -18722,6 +19212,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       502,
       503
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/501.png",
     "audio_filename": null
   },
@@ -18735,9 +19226,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʂwɑŋ˥ ʐən˥˩ wan˧˥/",
     "etymology": [
       {
-        "character": "雙",
+        "character": "双",
         "pinyin": "shuāng",
-        "meaning": "surname Shuang; two; double; pair; both; even (number)"
+        "meaning": "variant of 雙|双[shuang1]; surname Shuang; two; double; pair; both; even (number)"
       },
       {
         "character": "刃",
@@ -18759,6 +19250,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       502,
       503
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/502.png",
     "audio_filename": null
   },
@@ -18777,9 +19269,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "big; large; great; older (than another person); eldest (as in 大姐[da4 jie3]); greatly; freely; fully; (dialect) father; (dialect) uncle (father's brother); see 大夫[dai4 fu5]"
       },
       {
-        "character": "劍",
+        "character": "剑",
         "pinyin": "jiàn",
-        "meaning": "double-edged sword; CL:口[kou3],把[ba3]; classifier for blows of a sword"
+        "meaning": "double-edged sword; CL:口[kou3],把[ba3]; classifier for blows of a sword; variant of 劍|剑[jian4]"
       },
       {
         "character": "鬼",
@@ -18796,6 +19288,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       502,
       503
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/503.png",
     "audio_filename": null
   },
@@ -18832,6 +19325,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       504,
       505
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/504.png",
     "audio_filename": null
   },
@@ -18868,6 +19362,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       504,
       505
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/505.png",
     "audio_filename": null
   },
@@ -18886,7 +19381,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "small; tiny; few; young"
       },
       {
-        "character": "約",
+        "character": "约",
         "pinyin": "yuē",
         "meaning": "to weigh in a balance or on a scale; to make an appointment; to invite; approximately; pact; treaty; to economize; to restrict; to reduce (a fraction); concise"
       },
@@ -18905,6 +19400,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       507,
       508
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/506.png",
     "audio_filename": null
   },
@@ -18923,7 +19419,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "abbr. for 哈薩克斯坦|哈萨克斯坦[Ha1 sa4 ke4 si1 tan3], Kazakhstan; abbr. for 哈爾濱|哈尔滨[Ha1 er3 bin1], Harbin; (interj.) ha!; (onom. for laughter); (slang) to be infatuated with; to adore; (bound form) husky (dog) (abbr. for 哈士奇[ha1 shi4 qi2]); a Pekinese; a pug; (dialect) to scold"
       },
       {
-        "character": "約",
+        "character": "约",
         "pinyin": "yuē",
         "meaning": "to weigh in a balance or on a scale; to make an appointment; to invite; approximately; pact; treaty; to economize; to restrict; to reduce (a fraction); concise"
       },
@@ -18942,6 +19438,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       507,
       508
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/507.png",
     "audio_filename": null
   },
@@ -18955,7 +19452,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂɑŋ˧˩˧ mɑʊ˧˥ koʊ˧˩˧/",
     "etymology": [
       {
-        "character": "長",
+        "character": "长",
         "pinyin": "zhǎng",
         "meaning": "long; (bound form) length; (bound form) strong point; forte; (bound form) to be good at; (literary) surplus; spare (Taiwan pr. [zhang4]); chief; head; elder; to grow; to develop; to increase; to enhance"
       },
@@ -18979,6 +19476,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       507,
       508
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/508.png",
     "audio_filename": null
   },
@@ -19002,7 +19500,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "hand; (formal) to hold; person engaged in certain types of work; person skilled in certain types of work; personal(ly); convenient; classifier for skill; CL:雙|双[shuang1],隻|只[zhi1]"
       },
       {
-        "character": "貓",
+        "character": "猫",
         "pinyin": "māo",
         "meaning": "cat (CL:隻|只[zhi1]); (dialect) to hide oneself; (loanword) (coll.) modem; used in 貓腰|猫腰[mao2 yao1]"
       }
@@ -19015,6 +19513,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       509,
       510
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/509.png",
     "audio_filename": null
   },
@@ -19046,6 +19545,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       509,
       510
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/510.png",
     "audio_filename": null
   },
@@ -19082,6 +19582,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       511,
       512
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/511.png",
     "audio_filename": null
   },
@@ -19118,6 +19619,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       511,
       512
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/512.png",
     "audio_filename": null
   },
@@ -19154,6 +19656,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       513,
       514
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png",
     "audio_filename": null
   },
@@ -19190,6 +19693,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       513,
       514
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png",
     "audio_filename": null
   },
@@ -19226,6 +19730,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       515,
       516
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/515.png",
     "audio_filename": null
   },
@@ -19262,6 +19767,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       515,
       516
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/516.png",
     "audio_filename": null
   },
@@ -19280,12 +19786,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to eat; food; animal feed; eclipse; to feed (a person or animal)"
       },
       {
-        "character": "夢",
+        "character": "梦",
         "pinyin": "mèng",
         "meaning": "dream (CL:場|场[chang2]); (bound form) to dream"
       },
       {
-        "character": "夢",
+        "character": "梦",
         "pinyin": "mèng",
         "meaning": "dream (CL:場|场[chang2]); (bound form) to dream"
       }
@@ -19298,6 +19804,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       517,
       518
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/517.png",
     "audio_filename": null
   },
@@ -19311,17 +19818,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/mɤŋ˥˩ mɤŋ˥˩ ʂɨ˧˥/",
     "etymology": [
       {
-        "character": "夢",
+        "character": "梦",
         "pinyin": "mèng",
         "meaning": "dream (CL:場|场[chang2]); (bound form) to dream"
       },
       {
-        "character": "夢",
+        "character": "梦",
         "pinyin": "mèng",
         "meaning": "dream (CL:場|场[chang2]); (bound form) to dream"
       },
       {
-        "character": "蝕",
+        "character": "蚀",
         "pinyin": "shí",
         "meaning": "to nibble away at sth; to eat into; to erode"
       }
@@ -19334,6 +19841,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       517,
       518
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/518.png",
     "audio_filename": null
   },
@@ -19357,7 +19865,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "legume; pulse; bean; pea (CL:顆|颗[ke1],粒[li4]) (variant of 豆[dou4]); legume; pulse; bean; pea (CL:顆|颗[ke1],粒[li4]); (old) stemmed cup or bowl"
       },
       {
-        "character": "鴿",
+        "character": "鸽",
         "pinyin": "gē",
         "meaning": "pigeon; dove"
       }
@@ -19371,6 +19879,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       520,
       521
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/519.png",
     "audio_filename": null
   },
@@ -19394,7 +19903,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(onom.) for the sound of a bird, an empty stomach etc"
       },
       {
-        "character": "鴿",
+        "character": "鸽",
         "pinyin": "gē",
         "meaning": "pigeon; dove"
       }
@@ -19408,6 +19917,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       520,
       521
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/520.png",
     "audio_filename": null
   },
@@ -19436,9 +19946,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "ringed pheasant"
       },
       {
-        "character": "雞",
+        "character": "鸡",
         "pinyin": "jī",
-        "meaning": "fowl; chicken; CL:隻|只[zhi1]; (slang) prostitute"
+        "meaning": "fowl; chicken; CL:隻|只[zhi1]; (slang) prostitute; variant of 雞|鸡[ji1]"
       }
     ],
     "generation": 5,
@@ -19450,6 +19960,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       520,
       521
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/521.png",
     "audio_filename": null
   },
@@ -19473,7 +19984,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "spot; colored patch; stripe; spotted; striped; variegated"
       },
       {
-        "character": "馬",
+        "character": "马",
         "pinyin": "mǎ",
         "meaning": "surname Ma; abbr. for Malaysia 馬來西亞|马来西亚[Ma3 lai2 xi1 ya4]; horse; CL:匹[pi3]; horse or cavalry piece in Chinese chess; knight in Western chess"
       }
@@ -19486,6 +19997,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       522,
       523
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/522.png",
     "audio_filename": null
   },
@@ -19504,7 +20016,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Lei; thunder; (bound form) (military) mine, as in 地雷[di4 lei2] land mine; (coll.) to shock; to stun; to astound; (Tw) (coll.) spoiler; (Tw) (coll.) to reveal plot details to (sb)"
       },
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
@@ -19514,7 +20026,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "spot; colored patch; stripe; spotted; striped; variegated"
       },
       {
-        "character": "馬",
+        "character": "马",
         "pinyin": "mǎ",
         "meaning": "surname Ma; abbr. for Malaysia 馬來西亞|马来西亚[Ma3 lai2 xi1 ya4]; horse; CL:匹[pi3]; horse or cavalry piece in Chinese chess; knight in Western chess"
       }
@@ -19527,6 +20039,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       522,
       523
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/523.png",
     "audio_filename": null
   },
@@ -19564,6 +20077,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       525,
       526
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/524.png",
     "audio_filename": null
   },
@@ -19601,6 +20115,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       525,
       526
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/525.png",
     "audio_filename": null
   },
@@ -19614,7 +20129,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/pʰɑŋ˧˥ jɛn˧˥ kwaɪ˥˩/",
     "etymology": [
       {
-        "character": "龐",
+        "character": "庞",
         "pinyin": "páng",
         "meaning": "surname Pang; (bound form) huge; (bound form) numerous and disordered; (bound form) face"
       },
@@ -19638,6 +20153,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       525,
       526
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/526.png",
     "audio_filename": null
   },
@@ -19651,12 +20167,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/kwən˧˩˧ kwən˧˩˧ pjɛn˥ fu˧˥/",
     "etymology": [
       {
-        "character": "滾",
+        "character": "滚",
         "pinyin": "gǔn",
         "meaning": "to boil; to roll; to take a hike; Get lost!"
       },
       {
-        "character": "滾",
+        "character": "滚",
         "pinyin": "gǔn",
         "meaning": "to boil; to roll; to take a hike; Get lost!"
       },
@@ -19679,6 +20195,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       527,
       528
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/527.png",
     "audio_filename": null
   },
@@ -19715,37 +20232,28 @@ export const POKEMON_DATA: PokemonType[] = ((
       527,
       528
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/528.png",
     "audio_filename": null
   },
   {
     "id": 529,
     "name_en": "Drilbur",
-    "name_zh": "螺釘地鼠",
-    "name_zh_simplified": "螺钉地鼠",
-    "pinyin": "Luó dīng dì shǔ",
-    "pinyin_numbered": "Luo2 ding1 di4 shu3",
-    "ipa": "/lwɔ˧˥ tiŋ˥ ti˥˩ ʂu˧˩˧/",
+    "name_zh": "土竜",
+    "name_zh_simplified": "土竜",
+    "pinyin": "Tǔ lóng",
+    "pinyin_numbered": "Tu3 long2",
+    "ipa": "/tʰu˧˩˧ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "螺",
-        "pinyin": "luó",
-        "meaning": "spiral shell; snail; conch"
+        "character": "土",
+        "pinyin": "tǔ",
+        "meaning": "surname Tu; Tu ethnic group; earth; dust; clay; local; indigenous; crude opium; unsophisticated; one of the eight categories of ancient musical instruments 八音[ba1 yin1]"
       },
       {
-        "character": "釘",
-        "pinyin": "dīng",
-        "meaning": "nail; to follow closely; to keep at sb (to do sth); variant of 盯[ding1]; to join things together by fixing them in place at one or more points; to nail; to pin; to staple; to sew on"
-      },
-      {
-        "character": "地",
-        "pinyin": "dì",
-        "meaning": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct; earth; ground; field; place; land; CL:片[pian4]"
-      },
-      {
-        "character": "鼠",
-        "pinyin": "shǔ",
-        "meaning": "(bound form) rat; mouse"
+        "character": "竜",
+        "pinyin": "lóng",
+        "meaning": ""
       }
     ],
     "generation": 5,
@@ -19756,6 +20264,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       529,
       530
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/529.png",
     "audio_filename": null
   },
@@ -19769,12 +20278,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/lʊŋ˧˥ tʰoʊ˧˥ ti˥˩ ʂu˧˩˧/",
     "etymology": [
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       },
       {
-        "character": "頭",
+        "character": "头",
         "pinyin": "tóu",
         "meaning": "head; hair style; the top; end; beginning or end; a stub; remnant; chief; boss; side; aspect; first; leading; classifier for pigs or livestock; CL:個|个[ge4]; suffix for nouns"
       },
@@ -19797,6 +20306,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       529,
       530
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/530.png",
     "audio_filename": null
   },
@@ -19842,6 +20352,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       531
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/531.png",
     "audio_filename": null
   },
@@ -19860,7 +20371,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to move (i.e. relocate oneself); to move (sth relatively heavy or bulky); to shift; to copy indiscriminately"
       },
       {
-        "character": "運",
+        "character": "运",
         "pinyin": "yùn",
         "meaning": "to move; to transport; to use; to apply; fortune; luck; fate"
       },
@@ -19884,6 +20395,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       533,
       534
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/532.png",
     "audio_filename": null
   },
@@ -19897,7 +20409,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ ku˧˩˧ tʰu˧˩˧ ʐən˧˥/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
@@ -19926,6 +20438,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       533,
       534
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/533.png",
     "audio_filename": null
   },
@@ -19968,6 +20481,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       533,
       534
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png",
     "audio_filename": null
   },
@@ -19981,7 +20495,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ɥœn˧˥ kʰɤ˥ toʊ˧˩˧/",
     "etymology": [
       {
-        "character": "圓",
+        "character": "圆",
         "pinyin": "yuán",
         "meaning": "circle; round; circular; spherical; (of the moon) full; unit of Chinese currency (yuan); tactful; to make consistent and whole (the narrative of a dream or a lie)"
       },
@@ -20005,6 +20519,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       536,
       537
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/535.png",
     "audio_filename": null
   },
@@ -20018,7 +20533,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/lan˧˥ ʈʂʰan˧˥ ʈʂʰu˧˥/",
     "etymology": [
       {
-        "character": "藍",
+        "character": "蓝",
         "pinyin": "lán",
         "meaning": "surname Lan; blue; indigo plant"
       },
@@ -20042,6 +20557,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       536,
       537
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/536.png",
     "audio_filename": null
   },
@@ -20079,6 +20595,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       536,
       537
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/537.png",
     "audio_filename": null
   },
@@ -20114,6 +20631,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       538
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/538.png",
     "audio_filename": null
   },
@@ -20132,7 +20650,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(loanword) dozen; Taiwan pr. [da3]; a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打傘|打伞[da3 san3] \"to hold an umbrella\", 打電話|打电话[da3 dian4 hua4] \"to make a phone call\", 打針|打针[da3 zhen1] \"to get an injection\", 打手套[da3 shou3 tao4] \"to knit gloves\", 打氣|打气[da3 qi4] \"to inflate\"); to hit; to strike; to fight; (coll.) from; since (as in 打那以後|打那以后[da3 na4 yi3 hou4] \"since then\")"
       },
       {
-        "character": "擊",
+        "character": "击",
         "pinyin": "jī",
         "meaning": "to hit; to strike; to break; Taiwan pr. [ji2]"
       },
@@ -20149,6 +20667,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       539
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/539.png",
     "audio_filename": null
   },
@@ -20162,14 +20681,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂʰʊŋ˧˥ pɑʊ˧˩˧ pɑʊ˥/",
     "etymology": [
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       },
       {
         "character": "包",
@@ -20186,6 +20705,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       541,
       542
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/540.png",
     "audio_filename": null
   },
@@ -20199,9 +20719,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/pɑʊ˧˩˧ pɑʊ˥ tɕjɛn˧˩˧/",
     "etymology": [
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       },
       {
         "character": "包",
@@ -20209,9 +20729,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Bao; to cover; to wrap; to hold; to include; to take charge of; to contract (to or for); package; wrapper; container; bag; to hold or embrace; bundle; packet; CL:個|个[ge4],隻|只[zhi1]"
       },
       {
-        "character": "繭",
+        "character": "茧",
         "pinyin": "jiǎn",
-        "meaning": "(bound form) cocoon; (bound form) callus (variant of 趼[jian3])"
+        "meaning": "(bound form) cocoon; (bound form) callus (variant of 趼[jian3]); variant of 繭|茧[jian3]"
       }
     ],
     "generation": 5,
@@ -20223,6 +20743,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       541,
       542
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/541.png",
     "audio_filename": null
   },
@@ -20241,14 +20762,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "Bulgaria (abbr. for 保加利亞|保加利亚[Bao3 jia1 li4 ya4]); to defend; to protect; to keep; to guarantee; to ensure; (old) civil administration unit in the baojia 保甲[bao3 jia3] system"
       },
       {
-        "character": "母",
+        "character": "姆",
         "pinyin": "mǔ",
-        "meaning": "mother; elderly female relative; origin; source; (of animals) female"
+        "meaning": "used in 姆媽|姆妈[m1 ma1]; (old) female tutor; used in 保姆[bao3 mu3]"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 5,
@@ -20260,6 +20781,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       541,
       542
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png",
     "audio_filename": null
   },
@@ -20302,6 +20824,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       544,
       545
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/543.png",
     "audio_filename": null
   },
@@ -20315,19 +20838,19 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂʰɤ˥ lwən˧˥ tɕʰjoʊ˧˥/",
     "etymology": [
       {
-        "character": "車",
+        "character": "车",
         "pinyin": "chē",
         "meaning": "surname Che; car; vehicle; CL:輛|辆[liang4]; machine; to shape with a lathe; Kangxi radical 159; war chariot (archaic); rook (in Chinese chess); rook (in chess)"
       },
       {
-        "character": "輪",
+        "character": "轮",
         "pinyin": "lún",
         "meaning": "wheel; disk; ring; steamship; to take turns; to rotate; classifier for big round objects: disk, or recurring events: round, turn"
       },
       {
-        "character": "毬",
+        "character": "球",
         "pinyin": "qiú",
-        "meaning": "ball used for playing games (variant of 球[qiu2])"
+        "meaning": "ball used for playing games (variant of 球[qiu2]); ball; sphere; globe; CL:個|个[ge4]; ball game; match; CL:場|场[chang3]"
       }
     ],
     "generation": 5,
@@ -20339,6 +20862,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       544,
       545
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/544.png",
     "audio_filename": null
   },
@@ -20376,6 +20900,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       544,
       545
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png",
     "audio_filename": null
   },
@@ -20412,6 +20937,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       546,
       547
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/546.png",
     "audio_filename": null
   },
@@ -20425,7 +20951,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/fɤŋ˥ jɑʊ˥ tɕiŋ˥/",
     "etymology": [
       {
-        "character": "風",
+        "character": "风",
         "pinyin": "fēng",
         "meaning": "wind; news; style; custom; manner; CL:陣|阵[zhen4],絲|丝[si1]"
       },
@@ -20448,6 +20974,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       546,
       547
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/547.png",
     "audio_filename": null
   },
@@ -20494,6 +21021,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       548,
       549
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/548.png",
     "audio_filename": null
   },
@@ -20512,7 +21040,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "old variant of 裙[qun2]; (bound form) skirt"
       },
       {
-        "character": "兒",
+        "character": "儿",
         "pinyin": "ér",
         "meaning": "child; son; non-syllabic diminutive suffix; retroflex final"
       },
@@ -20535,6 +21063,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       548,
       549
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/549.png",
     "audio_filename": null
   },
@@ -20553,17 +21082,17 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "old variant of 野[ye3]; field; plain; open space; limit; boundary; rude; feral"
       },
       {
-        "character": "蠻",
+        "character": "蛮",
         "pinyin": "mán",
         "meaning": "barbarian; bullying; very; quite; rough; reckless"
       },
       {
-        "character": "鱸",
+        "character": "鲈",
         "pinyin": "lú",
         "meaning": "common perch; bass"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -20576,6 +21105,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       550,
       902
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/550.png",
     "audio_filename": null
   },
@@ -20599,9 +21129,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "eye (CL:隻|只[zhi1],雙|双[shuang1]); (often used with 一[yi1]) a look; a glance; small hole; (bound form) salient point; classifier for wells, cave-dwellings etc"
       },
       {
-        "character": "鱷",
+        "character": "鳄",
         "pinyin": "è",
-        "meaning": "(bound form) alligator; crocodile"
+        "meaning": "variant of 鱷|鳄[e4]; (bound form) alligator; crocodile"
       }
     ],
     "generation": 5,
@@ -20613,6 +21143,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       552,
       553
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/551.png",
     "audio_filename": null
   },
@@ -20636,9 +21167,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "muddy; turbid (variant of 渾|浑[hun2]); brainless; foolish (variant of 渾|浑[hun2]); Taiwan pr. [hun4]; to mix; to mingle; muddled; to drift along; to muddle along; to pass for; to get along with sb; thoughtless; reckless"
       },
       {
-        "character": "鱷",
+        "character": "鳄",
         "pinyin": "è",
-        "meaning": "(bound form) alligator; crocodile"
+        "meaning": "variant of 鱷|鳄[e4]; (bound form) alligator; crocodile"
       }
     ],
     "generation": 5,
@@ -20650,6 +21181,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       552,
       553
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/552.png",
     "audio_filename": null
   },
@@ -20673,9 +21205,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "used in 流氓[liu2 mang2]; (literary) common people"
       },
       {
-        "character": "鱷",
+        "character": "鳄",
         "pinyin": "è",
-        "meaning": "(bound form) alligator; crocodile"
+        "meaning": "variant of 鱷|鳄[e4]; (bound form) alligator; crocodile"
       }
     ],
     "generation": 5,
@@ -20687,6 +21219,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       552,
       553
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/553.png",
     "audio_filename": null
   },
@@ -20705,7 +21238,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Huo; fire; urgent; ammunition; fiery or flaming; internal heat (Chinese medicine); hot (popular); classifier for military units (old); Kangxi radical 86"
       },
       {
-        "character": "紅",
+        "character": "红",
         "pinyin": "hóng",
         "meaning": "surname Hong; used in 女紅|女红[nu : 3 gong1]; red; popular; revolutionary; bonus"
       },
@@ -20733,6 +21266,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       554,
       555
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/554.png",
     "audio_filename": null
   },
@@ -20746,7 +21280,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ta˧˥ mwɔ˧˥ feɪ˥˩ feɪ˥˩/",
     "etymology": [
       {
-        "character": "達",
+        "character": "达",
         "pinyin": "dá",
         "meaning": "surname Da; to attain; to reach; to amount to; to communicate; eminent"
       },
@@ -20774,6 +21308,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       554,
       555
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/555.png",
     "audio_filename": null
   },
@@ -20792,7 +21327,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Sha; granule; hoarse; raspy; sand; powder; CL:粒[li4]; abbr. for Tsar or Tsarist Russia; (dialect) to sift; to sieve"
       },
       {
-        "character": "鈴",
+        "character": "铃",
         "pinyin": "líng",
         "meaning": "(small) bell; CL:隻|只[zhi1]"
       },
@@ -20819,6 +21354,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       556
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/556.png",
     "audio_filename": null
   },
@@ -20855,6 +21391,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       557,
       558
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/557.png",
     "audio_filename": null
   },
@@ -20896,6 +21433,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       557,
       558
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/558.png",
     "audio_filename": null
   },
@@ -20937,6 +21475,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       559,
       560
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/559.png",
     "audio_filename": null
   },
@@ -20950,7 +21489,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰoʊ˧˥ tɕin˥ xwən˥˩ xwən˥˩/",
     "etymology": [
       {
-        "character": "頭",
+        "character": "头",
         "pinyin": "tóu",
         "meaning": "head; hair style; the top; end; beginning or end; a stub; remnant; chief; boss; side; aspect; first; leading; classifier for pigs or livestock; CL:個|个[ge4]; suffix for nouns"
       },
@@ -20978,6 +21517,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       559,
       560
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/560.png",
     "audio_filename": null
   },
@@ -20996,12 +21536,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "elephant; CL:隻|只[zhi1]; shape; form; appearance; to imitate"
       },
       {
-        "character": "徵",
+        "character": "征",
         "pinyin": "zhēng",
-        "meaning": "to invite; to recruit; to levy (taxes); to draft (troops); phenomenon; symptom; characteristic sign (used as proof); evidence; 4th note in the ancient Chinese pentatonic scale 五音[wu3 yin1], corresponding to sol"
+        "meaning": "journey; trip; expedition; to go on long campaign; to attack; to invite; to recruit; to levy (taxes); to draft (troops); phenomenon; symptom; characteristic sign (used as proof); evidence"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -21013,6 +21553,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       561
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/561.png",
     "audio_filename": null
   },
@@ -21055,6 +21596,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       563,
       867
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/562.png",
     "audio_filename": null
   },
@@ -21068,14 +21610,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/sɯ˧˩˧ ʂən˧˥ kwan˥/",
     "etymology": [
       {
-        "character": "死",
-        "pinyin": "sǐ",
-        "meaning": "to die; impassable; uncrossable; inflexible; rigid; extremely; damned"
+        "character": "迭",
+        "pinyin": "dié",
+        "meaning": "alternately; repeatedly"
       },
       {
-        "character": "神",
-        "pinyin": "shén",
-        "meaning": "God; god; deity; supernatural; magical; mysterious; spirit; mind; energy; lively; expressive; look; expression; (coll.) awesome; amazing"
+        "character": "失",
+        "pinyin": "shī",
+        "meaning": "to lose; to miss; to fail"
       },
       {
         "character": "棺",
@@ -21092,6 +21634,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       563,
       867
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/563.png",
     "audio_filename": null
   },
@@ -21110,7 +21653,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Yuan; (Japanese surname) Hara; former; original; primary; raw; level; cause; source"
       },
       {
-        "character": "蓋",
+        "character": "盖",
         "pinyin": "gài",
         "meaning": "surname Ge; lid; top; cover; canopy; to cover; to conceal; to build"
       },
@@ -21120,7 +21663,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Hai; ocean; sea; CL:個|个[ge4],片[pian4]; great number of people or things; (dialect) numerous"
       },
       {
-        "character": "龜",
+        "character": "龟",
         "pinyin": "guī",
         "meaning": "tortoise; turtle; (coll.) cuckold; variant of 皸|皲[jun1]; used in 龜茲|龟兹[Qiu1 ci2]"
       }
@@ -21133,6 +21676,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       564,
       565
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/564.png",
     "audio_filename": null
   },
@@ -21161,7 +21705,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Hai; ocean; sea; CL:個|个[ge4],片[pian4]; great number of people or things; (dialect) numerous"
       },
       {
-        "character": "龜",
+        "character": "龟",
         "pinyin": "guī",
         "meaning": "tortoise; turtle; (coll.) cuckold; variant of 皸|皲[jun1]; used in 龜茲|龟兹[Qiu1 ci2]"
       }
@@ -21174,6 +21718,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       564,
       565
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png",
     "audio_filename": null
   },
@@ -21202,7 +21747,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "small; tiny; few; young"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -21215,6 +21760,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       566,
       567
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/566.png",
     "audio_filename": null
   },
@@ -21243,7 +21789,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "big; large; great; older (than another person); eldest (as in 大姐[da4 jie3]); greatly; freely; fully; (dialect) father; (dialect) uncle (father's brother); see 大夫[dai4 fu5]"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -21256,6 +21802,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       566,
       567
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/567.png",
     "audio_filename": null
   },
@@ -21292,6 +21839,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       568,
       569
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/568.png",
     "audio_filename": null
   },
@@ -21310,7 +21858,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "ash; dust; lime; gray; discouraged; dejected"
       },
       {
-        "character": "塵",
+        "character": "尘",
         "pinyin": "chén",
         "meaning": "dust; dirt; earth"
       },
@@ -21328,6 +21876,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       568,
       569
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/569.png",
     "audio_filename": null
   },
@@ -21346,12 +21895,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Suo; abbr. for 索馬里|索马里[Suo3 ma3 li3], Somalia; to search; to demand; to ask; to exact; large rope; isolated"
       },
       {
-        "character": "羅",
+        "character": "罗",
         "pinyin": "luó",
         "meaning": "surname Luo; gauze; to collect; to gather; to catch; to sift"
       },
       {
-        "character": "亞",
+        "character": "亚",
         "pinyin": "yà",
         "meaning": "Asia; Asian; Taiwan pr. [Ya3]; second; next to; inferior; sub-; Taiwan pr. [ya3]"
       }
@@ -21364,6 +21913,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       570,
       571
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/570.png",
     "audio_filename": null
   },
@@ -21382,12 +21932,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Suo; abbr. for 索馬里|索马里[Suo3 ma3 li3], Somalia; to search; to demand; to ask; to exact; large rope; isolated"
       },
       {
-        "character": "羅",
+        "character": "罗",
         "pinyin": "luó",
         "meaning": "surname Luo; gauze; to collect; to gather; to catch; to sift"
       },
       {
-        "character": "亞",
+        "character": "亚",
         "pinyin": "yà",
         "meaning": "Asia; Asian; Taiwan pr. [Ya3]; second; next to; inferior; sub-; Taiwan pr. [ya3]"
       },
@@ -21405,6 +21955,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       570,
       571
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png",
     "audio_filename": null
   },
@@ -21446,6 +21997,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       572,
       573
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/572.png",
     "audio_filename": null
   },
@@ -21464,7 +22016,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "odd (number); strange; odd; weird; wonderful; surprisingly; unusually"
       },
       {
-        "character": "諾",
+        "character": "诺",
         "pinyin": "nuò",
         "meaning": "to consent; to promise; (literary) yes!"
       },
@@ -21487,6 +22039,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       572,
       573
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/573.png",
     "audio_filename": null
   },
@@ -21510,14 +22063,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "Germany; German; abbr. for 德國|德国[De2 guo2]; virtue; goodness; morality; ethics; kindness; favor; character; kind; variant of 德[de2]"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       }
     ],
     "generation": 5,
@@ -21529,6 +22082,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       575,
       576
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/574.png",
     "audio_filename": null
   },
@@ -21571,6 +22125,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       575,
       576
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/575.png",
     "audio_filename": null
   },
@@ -21613,6 +22168,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       575,
       576
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/576.png",
     "audio_filename": null
   },
@@ -21626,7 +22182,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tan˥ lwan˧˩˧ ɕi˥˩ pɑʊ˥ tɕʰjoʊ˧˥/",
     "etymology": [
       {
-        "character": "單",
+        "character": "单",
         "pinyin": "dān",
         "meaning": "surname Shan; used in 單于|单于[chan2 yu2]; bill; list; form; single; only; sole; odd number; CL:個|个[ge4]"
       },
@@ -21636,7 +22192,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "egg; ovum; spawn; (coll.) testicles; (old) penis; (expletive) fucking"
       },
       {
-        "character": "細",
+        "character": "细",
         "pinyin": "xì",
         "meaning": "thin or slender; finely particulate; thin and soft; fine; delicate; trifling; (of a sound) quiet; frugal"
       },
@@ -21660,6 +22216,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       578,
       579
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/577.png",
     "audio_filename": null
   },
@@ -21673,9 +22230,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʂwɑŋ˥ lwan˧˩˧ ɕi˥˩ pɑʊ˥ tɕʰjoʊ˧˥/",
     "etymology": [
       {
-        "character": "雙",
+        "character": "双",
         "pinyin": "shuāng",
-        "meaning": "surname Shuang; two; double; pair; both; even (number)"
+        "meaning": "variant of 雙|双[shuang1]; surname Shuang; two; double; pair; both; even (number)"
       },
       {
         "character": "卵",
@@ -21683,7 +22240,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "egg; ovum; spawn; (coll.) testicles; (old) penis; (expletive) fucking"
       },
       {
-        "character": "細",
+        "character": "细",
         "pinyin": "xì",
         "meaning": "thin or slender; finely particulate; thin and soft; fine; delicate; trifling; (of a sound) quiet; frugal"
       },
@@ -21707,6 +22264,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       578,
       579
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/578.png",
     "audio_filename": null
   },
@@ -21730,7 +22288,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to make; to build; to manufacture; to invent; to fabricate; to go to; party (in a lawsuit or legal agreement); crop; classifier for crops"
       },
       {
-        "character": "細",
+        "character": "细",
         "pinyin": "xì",
         "meaning": "thin or slender; finely particulate; thin and soft; fine; delicate; trifling; (of a sound) quiet; frugal"
       },
@@ -21754,6 +22312,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       578,
       579
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/579.png",
     "audio_filename": null
   },
@@ -21767,19 +22326,19 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ja˥ pɑʊ˧˩˧ pɑʊ˧˩˧/",
     "etymology": [
       {
-        "character": "鴨",
+        "character": "鸭",
         "pinyin": "yā",
         "meaning": "duck (CL:隻|只[zhi1]); (slang) male prostitute"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       }
     ],
     "generation": 5,
@@ -21790,6 +22349,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       580,
       581
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/580.png",
     "audio_filename": null
   },
@@ -21813,9 +22373,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "day; sky; heaven"
       },
       {
-        "character": "鵝",
+        "character": "鹅",
         "pinyin": "é",
-        "meaning": "goose; CL:隻|只[zhi1]"
+        "meaning": "variant of 鵝|鹅[e2]; goose; CL:隻|只[zhi1]"
       }
     ],
     "generation": 5,
@@ -21826,6 +22386,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       580,
       581
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/581.png",
     "audio_filename": null
   },
@@ -21863,6 +22424,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       583,
       584
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/582.png",
     "audio_filename": null
   },
@@ -21900,6 +22462,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       583,
       584
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/583.png",
     "audio_filename": null
   },
@@ -21913,9 +22476,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʂwɑŋ˥ peɪ˥˩ twɔ˥ twɔ˥ piŋ˥/",
     "etymology": [
       {
-        "character": "雙",
+        "character": "双",
         "pinyin": "shuāng",
-        "meaning": "surname Shuang; two; double; pair; both; even (number)"
+        "meaning": "variant of 雙|双[shuang1]; surname Shuang; two; double; pair; both; even (number)"
       },
       {
         "character": "倍",
@@ -21947,6 +22510,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       583,
       584
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/584.png",
     "audio_filename": null
   },
@@ -21983,6 +22547,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       585,
       586
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585.png",
     "audio_filename": null
   },
@@ -22019,6 +22584,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       585,
       586
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586.png",
     "audio_filename": null
   },
@@ -22032,12 +22598,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tjɛn˥˩ feɪ˥ ʂu˧˩˧/",
     "etymology": [
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
       {
-        "character": "飛",
+        "character": "飞",
         "pinyin": "fēi",
         "meaning": "to fly"
       },
@@ -22054,6 +22620,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       587
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/587.png",
     "audio_filename": null
   },
@@ -22067,19 +22634,19 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/kaɪ˥˩ kaɪ˥˩ ʈʂʰʊŋ˧˥/",
     "etymology": [
       {
-        "character": "蓋",
+        "character": "盖",
         "pinyin": "gài",
         "meaning": "surname Ge; lid; top; cover; canopy; to cover; to conceal; to build"
       },
       {
-        "character": "蓋",
+        "character": "盖",
         "pinyin": "gài",
         "meaning": "surname Ge; lid; top; cover; canopy; to cover; to conceal; to build"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 5,
@@ -22090,6 +22657,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       588,
       589
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/588.png",
     "audio_filename": null
   },
@@ -22103,7 +22671,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɕʰi˧˥ ʂɨ˥˩ wɔ˥ njoʊ˧˥/",
     "etymology": [
       {
-        "character": "騎",
+        "character": "骑",
         "pinyin": "qí",
         "meaning": "(Tw) saddle horse; mounted soldier; to sit astride; to ride (a horse, bike etc); classifier for saddle horses"
       },
@@ -22113,7 +22681,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Shi; member of the senior ministerial class (old); scholar (old); bachelor; honorific; soldier; noncommissioned officer; specialist worker"
       },
       {
-        "character": "蝸",
+        "character": "蜗",
         "pinyin": "wō",
         "meaning": "snail; Taiwan pr. [gua1]; see 蝸牛|蜗牛[wo1 niu2]"
       },
@@ -22131,6 +22699,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       588,
       589
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/589.png",
     "audio_filename": null
   },
@@ -22172,6 +22741,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       590,
       591
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/590.png",
     "audio_filename": null
   },
@@ -22185,7 +22755,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/paɪ˥˩ lu˥˩ tɕʰjoʊ˧˥ ku˥/",
     "etymology": [
       {
-        "character": "敗",
+        "character": "败",
         "pinyin": "bài",
         "meaning": "to defeat; to damage; to lose (to an opponent); to fail; to wither"
       },
@@ -22213,6 +22783,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       590,
       591
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/591.png",
     "audio_filename": null
   },
@@ -22226,19 +22797,19 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɕʰiŋ˥ pʰjɑʊ˥ pʰjɑʊ˥/",
     "etymology": [
       {
-        "character": "輕",
+        "character": "轻",
         "pinyin": "qīng",
         "meaning": "light; easy; gentle; soft; reckless; unimportant; frivolous; small in number; unstressed; neutral; to disparage"
       },
       {
-        "character": "飄",
+        "character": "飘",
         "pinyin": "piāo",
-        "meaning": "to float (in the air); to flutter; to waft; complacent; frivolous; weak; shaky; wobbly"
+        "meaning": "variant of 飄|飘[piao1]; to float (in the air); to flutter; to waft; complacent; frivolous; weak; shaky; wobbly"
       },
       {
-        "character": "飄",
+        "character": "飘",
         "pinyin": "piāo",
-        "meaning": "to float (in the air); to flutter; to waft; complacent; frivolous; weak; shaky; wobbly"
+        "meaning": "variant of 飄|飘[piao1]; to float (in the air); to flutter; to waft; complacent; frivolous; weak; shaky; wobbly"
       }
     ],
     "generation": 5,
@@ -22249,6 +22820,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       592,
       593
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/592.png",
     "audio_filename": null
   },
@@ -22285,6 +22857,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       592,
       593
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/593.png",
     "audio_filename": null
   },
@@ -22303,9 +22876,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "Bulgaria (abbr. for 保加利亞|保加利亚[Bao3 jia1 li4 ya4]); to defend; to protect; to keep; to guarantee; to ensure; (old) civil administration unit in the baojia 保甲[bao3 jia3] system"
       },
       {
-        "character": "母",
+        "character": "姆",
         "pinyin": "mǔ",
-        "meaning": "mother; elderly female relative; origin; source; (of animals) female"
+        "meaning": "used in 姆媽|姆妈[m1 ma1]; (old) female tutor; used in 保姆[bao3 mu3]"
       },
       {
         "character": "曼",
@@ -22325,6 +22898,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       594
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/594.png",
     "audio_filename": null
   },
@@ -22338,19 +22912,19 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tjɛn˥˩ tjɛn˥˩ ʈʂʰʊŋ˧˥/",
     "etymology": [
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 5,
@@ -22361,6 +22935,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       595,
       596
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/595.png",
     "audio_filename": null
   },
@@ -22374,7 +22949,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tjɛn˥˩ ʈʂɨ˥ ʈʂu˥/",
     "etymology": [
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
@@ -22397,6 +22972,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       595,
       596
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png",
     "audio_filename": null
   },
@@ -22410,7 +22986,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂʊŋ˧˩˧ tsɯ tʰjɛ˧˩˧ tɕʰjoʊ˧˥/",
     "etymology": [
       {
-        "character": "種",
+        "character": "种",
         "pinyin": "zhǒng",
         "meaning": "seed; species; kind; type; classifier for types, kinds, sorts; to plant; to grow; to cultivate"
       },
@@ -22420,7 +22996,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "son; child; seed; egg; small thing; 1st earthly branch: 11 p.m.–1 a.m., midnight, 11th solar month (7th December to 5th January), year of the rat; viscount, fourth of five orders of nobility 五等爵位[wu3 deng3 jue2 wei4]; ancient Chinese compass point: 0° (north); subsidiary; subordinate; (prefix) sub-; noun suffix, as in 椅子[yi3 zi5] \"chair\""
       },
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
@@ -22438,6 +23014,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       597,
       598
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/597.png",
     "audio_filename": null
   },
@@ -22451,7 +23028,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɕjɛn˥ kwɔ˧˩˧ ja˧˩˧ liŋ˧˥/",
     "etymology": [
       {
-        "character": "堅",
+        "character": "坚",
         "pinyin": "jiān",
         "meaning": "strong; solid; firm; unyielding; resolute"
       },
@@ -22461,12 +23038,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "fruit; result; resolute; indeed; if really"
       },
       {
-        "character": "啞",
+        "character": "哑",
         "pinyin": "yǎ",
         "meaning": "(onom.) sound of cawing; sound of infant learning to talk; variant of 呀[ya1]; mute; dumb; incapable of speech; (of a voice) hoarse; husky; (bound form) (of a bullet, bomb etc) dud"
       },
       {
-        "character": "鈴",
+        "character": "铃",
         "pinyin": "líng",
         "meaning": "(small) bell; CL:隻|只[zhi1]"
       }
@@ -22479,6 +23056,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       597,
       598
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/598.png",
     "audio_filename": null
   },
@@ -22492,17 +23070,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂʰɨ˧˩˧ lwən˧˥ ɑɻ˧˥/",
     "etymology": [
       {
-        "character": "齒",
+        "character": "齿",
         "pinyin": "chǐ",
         "meaning": "(bound form) tooth; (bound form) to regard as worthy of mention"
       },
       {
-        "character": "輪",
+        "character": "轮",
         "pinyin": "lún",
         "meaning": "wheel; disk; ring; steamship; to take turns; to rotate; classifier for big round objects: disk, or recurring events: round, turn"
       },
       {
-        "character": "兒",
+        "character": "儿",
         "pinyin": "ér",
         "meaning": "child; son; non-syllabic diminutive suffix; retroflex final"
       }
@@ -22516,6 +23094,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       600,
       601
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/599.png",
     "audio_filename": null
   },
@@ -22529,17 +23108,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂʰɨ˧˩˧ lwən˧˥ tsu˧˩˧/",
     "etymology": [
       {
-        "character": "齒",
+        "character": "齿",
         "pinyin": "chǐ",
         "meaning": "(bound form) tooth; (bound form) to regard as worthy of mention"
       },
       {
-        "character": "輪",
+        "character": "轮",
         "pinyin": "lún",
         "meaning": "wheel; disk; ring; steamship; to take turns; to rotate; classifier for big round objects: disk, or recurring events: round, turn"
       },
       {
-        "character": "組",
+        "character": "组",
         "pinyin": "zǔ",
         "meaning": "surname Zu; to form; to organize; group; team; classifier for sets, series, groups of people, batteries"
       }
@@ -22553,6 +23132,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       600,
       601
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/600.png",
     "audio_filename": null
   },
@@ -22566,12 +23146,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂʰɨ˧˩˧ lwən˧˥ kwaɪ˥˩/",
     "etymology": [
       {
-        "character": "齒",
+        "character": "齿",
         "pinyin": "chǐ",
         "meaning": "(bound form) tooth; (bound form) to regard as worthy of mention"
       },
       {
-        "character": "輪",
+        "character": "轮",
         "pinyin": "lún",
         "meaning": "wheel; disk; ring; steamship; to take turns; to rotate; classifier for big round objects: disk, or recurring events: round, turn"
       },
@@ -22590,6 +23170,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       600,
       601
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/601.png",
     "audio_filename": null
   },
@@ -22618,7 +23199,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "small; tiny; few; young"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -22632,6 +23213,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       603,
       604
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/602.png",
     "audio_filename": null
   },
@@ -22655,7 +23237,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "hemp (variant of 麻[ma2]); surname Ma; generic name for hemp, flax etc; hemp or flax fiber for textile materials; sesame; CL:縷|缕[lu:3]; (of materials) rough or coarse; pocked; pitted; to have pins and needles or tingling; to feel numb"
       },
       {
-        "character": "鰻",
+        "character": "鳗",
         "pinyin": "mán",
         "meaning": "(bound form) eel (Anguilla japonica)"
       }
@@ -22669,6 +23251,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       603,
       604
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/603.png",
     "audio_filename": null
   },
@@ -22692,12 +23275,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "hemp (variant of 麻[ma2]); surname Ma; generic name for hemp, flax etc; hemp or flax fiber for textile materials; sesame; CL:縷|缕[lu:3]; (of materials) rough or coarse; pocked; pitted; to have pins and needles or tingling; to feel numb"
       },
       {
-        "character": "鰻",
+        "character": "鳗",
         "pinyin": "mán",
         "meaning": "(bound form) eel (Anguilla japonica)"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       },
@@ -22716,6 +23299,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       603,
       604
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/604.png",
     "audio_filename": null
   },
@@ -22752,6 +23336,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       605,
       606
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/605.png",
     "audio_filename": null
   },
@@ -22788,6 +23373,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       605,
       606
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/606.png",
     "audio_filename": null
   },
@@ -22801,7 +23387,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂu˧˥ kwɑŋ˥ liŋ˧˥/",
     "etymology": [
       {
-        "character": "燭",
+        "character": "烛",
         "pinyin": "zhú",
         "meaning": "candle; (literary) to illuminate"
       },
@@ -22811,7 +23397,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "light; ray (CL:道[dao4]); bright; shiny; only; merely; used up; finished; to leave (a part of the body) uncovered"
       },
       {
-        "character": "靈",
+        "character": "灵",
         "pinyin": "líng",
         "meaning": "quick; alert; efficacious; effective; to come true; spirit; departed soul; coffin"
       }
@@ -22825,6 +23411,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       608,
       609
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/607.png",
     "audio_filename": null
   },
@@ -22838,7 +23425,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɤŋ˥ xwɔ˧˩˧ joʊ˥ liŋ˧˥/",
     "etymology": [
       {
-        "character": "燈",
+        "character": "灯",
         "pinyin": "dēng",
         "meaning": "lamp; light; lantern; CL:盞|盏[zhan3]"
       },
@@ -22853,7 +23440,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "remote; hidden away; secluded; serene; peaceful; to imprison; in superstition indicates the underworld; ancient district spanning Liaonang and Hebei provinces"
       },
       {
-        "character": "靈",
+        "character": "灵",
         "pinyin": "líng",
         "meaning": "quick; alert; efficacious; effective; to come true; spirit; departed soul; coffin"
       }
@@ -22867,6 +23454,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       608,
       609
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/608.png",
     "audio_filename": null
   },
@@ -22890,7 +23478,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "crystal"
       },
       {
-        "character": "燈",
+        "character": "灯",
         "pinyin": "dēng",
         "meaning": "lamp; light; lantern; CL:盞|盏[zhan3]"
       },
@@ -22900,7 +23488,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Huo; fire; urgent; ammunition; fiery or flaming; internal heat (Chinese medicine); hot (popular); classifier for military units (old); Kangxi radical 86"
       },
       {
-        "character": "靈",
+        "character": "灵",
         "pinyin": "líng",
         "meaning": "quick; alert; efficacious; effective; to come true; spirit; departed soul; coffin"
       }
@@ -22914,6 +23502,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       608,
       609
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png",
     "audio_filename": null
   },
@@ -22946,6 +23535,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       611,
       612
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/610.png",
     "audio_filename": null
   },
@@ -22969,7 +23559,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "tooth; ivory; CL:顆|颗[ke1]"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -22983,6 +23573,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       611,
       612
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/611.png",
     "audio_filename": null
   },
@@ -22996,9 +23587,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʂwɑŋ˥ fu˧˩˧ ʈʂan˥˩ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "雙",
+        "character": "双",
         "pinyin": "shuāng",
-        "meaning": "surname Shuang; two; double; pair; both; even (number)"
+        "meaning": "variant of 雙|双[shuang1]; surname Shuang; two; double; pair; both; even (number)"
       },
       {
         "character": "斧",
@@ -23006,12 +23597,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "hatchet"
       },
       {
-        "character": "戰",
+        "character": "战",
         "pinyin": "zhàn",
         "meaning": "to fight; fight; war; battle"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -23025,6 +23616,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       611,
       612
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png",
     "audio_filename": null
   },
@@ -23038,7 +23630,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/pʰən˥ tʰi˥˩ ɕjʊŋ˧˥/",
     "etymology": [
       {
-        "character": "噴",
+        "character": "喷",
         "pinyin": "pēn",
         "meaning": "to spout; to spurt; to spray; to puff; (slang) to criticize scathingly (esp. online); (of a smell) strong; peak season (of a crop); (classifier for the ordinal number of a crop, in the context of multiple harvests)"
       },
@@ -23061,6 +23653,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       613,
       614
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/613.png",
     "audio_filename": null
   },
@@ -23074,7 +23667,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʊŋ˥˩ ɥœn˧˥ ɕjʊŋ˧˥/",
     "etymology": [
       {
-        "character": "凍",
+        "character": "冻",
         "pinyin": "dòng",
         "meaning": "to freeze; to feel very cold; aspic or jelly"
       },
@@ -23097,6 +23690,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       613,
       614
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/614.png",
     "audio_filename": null
   },
@@ -23110,9 +23704,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɕi˧˩˧ xɤ˧˥ ɕɥœ˧˩˧ xwa˥/",
     "etymology": [
       {
-        "character": "幾",
+        "character": "几",
         "pinyin": "jǐ",
-        "meaning": "(literary) almost; how many; how much; several; a few"
+        "meaning": "small table; (literary) almost; how many; how much; several; a few"
       },
       {
         "character": "何",
@@ -23137,6 +23731,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       615
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/615.png",
     "audio_filename": null
   },
@@ -23160,7 +23755,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "mouth; beak; nozzle; spout (of teapot etc); CL:張|张[zhang1],個|个[ge4]"
       },
       {
-        "character": "蝸",
+        "character": "蜗",
         "pinyin": "wō",
         "meaning": "snail; Taiwan pr. [gua1]; see 蝸牛|蜗牛[wo1 niu2]"
       }
@@ -23173,6 +23768,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       616,
       617
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/616.png",
     "audio_filename": null
   },
@@ -23196,9 +23792,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 捷[jie2]; quick; nimble; Czech; Czech Republic; abbr. for 捷克[Jie2 ke4]; victory; triumph; prompt"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 5,
@@ -23209,6 +23805,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       616,
       617
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png",
     "audio_filename": null
   },
@@ -23232,7 +23829,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "Ba, a state during the Zhou dynasty (in present-day Chongqing and the eastern part of Sichuan); the east of Sichuan and Chongqing Municipality; surname Ba; (bound form) abbr. for 巴勒斯坦[Ba1 le4 si1 tan3] (Palestine), 巴基斯坦[Ba1 ji1 si1 tan3] (Pakistan) or 巴西[Ba1 xi1] (Brazil); to long for; to wish; to cling to; to stick to; sth that sticks; close to; next to; spread open; informal abbr. for bus 巴士[ba1 shi4]; bar (unit of pressure); nominalizing suffix on certain nouns, such as 尾巴[wei3 ba5], tail"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -23244,6 +23841,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       618
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png",
     "audio_filename": null
   },
@@ -23280,6 +23878,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       619,
       620
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/619.png",
     "audio_filename": null
   },
@@ -23293,7 +23892,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʂɨ˥ fu˥˩ joʊ˥˩/",
     "etymology": [
       {
-        "character": "師",
+        "character": "师",
         "pinyin": "shī",
         "meaning": "surname Shi; teacher; master; expert; model; army division; (old) troops; to dispatch troops"
       },
@@ -23316,6 +23915,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       619,
       620
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/620.png",
     "audio_filename": null
   },
@@ -23339,7 +23939,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "face; side; surface; aspect; top; classifier for objects with flat surfaces such as drums, mirrors, flags etc; variant of 麵|面[mian4]; flour; noodles; (of food) soft (not crunchy); (slang) (of a person) ineffectual; spineless"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -23351,6 +23951,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       621
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/621.png",
     "audio_filename": null
   },
@@ -23392,6 +23993,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       622,
       623
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/622.png",
     "audio_filename": null
   },
@@ -23433,6 +24035,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       622,
       623
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/623.png",
     "audio_filename": null
   },
@@ -23446,7 +24049,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɕy˥ tɑʊ˥ ɕjɑʊ˧˩˧ piŋ˥/",
     "etymology": [
       {
-        "character": "駒",
+        "character": "驹",
         "pinyin": "jū",
         "meaning": "colt"
       },
@@ -23475,6 +24078,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       625,
       983
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/624.png",
     "audio_filename": null
   },
@@ -23493,7 +24097,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to hack; to chop; to split open; (of lightning) to strike; to split in two; to divide"
       },
       {
-        "character": "斬",
+        "character": "斩",
         "pinyin": "zhǎn",
         "meaning": "to behead (as form of capital punishment); to chop"
       },
@@ -23517,6 +24121,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       625,
       983
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/625.png",
     "audio_filename": null
   },
@@ -23540,7 +24145,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to deep fry; (coll.) to blanch (a vegetable); Taiwan pr. [zha4]; to burst; to explode; to blow up; to bomb; (coll.) to fly into a rage; (coll.) to scamper off; to scatter"
       },
       {
-        "character": "頭",
+        "character": "头",
         "pinyin": "tóu",
         "meaning": "head; hair style; the top; end; beginning or end; a stub; remnant; chief; boss; side; aspect; first; leading; classifier for pigs or livestock; CL:個|个[ge4]; suffix for nouns"
       },
@@ -23562,6 +24167,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       626
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/626.png",
     "audio_filename": null
   },
@@ -23580,7 +24186,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Mao; hair; feather; down; wool; mildew; mold; coarse or semifinished; young; raw; careless; unthinking; nervous; scared; (of currency) to devalue or depreciate; classifier for Chinese fractional monetary unit ( = 角[jiao3] , = one-tenth of a yuan or 10 fen 分[fen1])"
       },
       {
-        "character": "頭",
+        "character": "头",
         "pinyin": "tóu",
         "meaning": "head; hair style; the top; end; beginning or end; a stub; remnant; chief; boss; side; aspect; first; leading; classifier for pigs or livestock; CL:個|个[ge4]; suffix for nouns"
       },
@@ -23590,7 +24196,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "small; tiny; few; young"
       },
       {
-        "character": "鷹",
+        "character": "鹰",
         "pinyin": "yīng",
         "meaning": "general term for a bird of prey (eagle, hawk or falcon etc)"
       }
@@ -23603,6 +24209,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       627,
       628
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/627.png",
     "audio_filename": null
   },
@@ -23631,7 +24238,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "male; staminate; grand; imposing; powerful; mighty; person or state having great power and influence"
       },
       {
-        "character": "鷹",
+        "character": "鹰",
         "pinyin": "yīng",
         "meaning": "general term for a bird of prey (eagle, hawk or falcon etc)"
       }
@@ -23644,6 +24251,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       627,
       628
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/628.png",
     "audio_filename": null
   },
@@ -23657,12 +24265,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰu˥ iŋ˥ ja˥ tʰoʊ˧˥/",
     "etymology": [
       {
-        "character": "禿",
+        "character": "秃",
         "pinyin": "tū",
         "meaning": "bald (lacking hair or feathers); barren; bare; denuded; blunt (lacking a point); (of a piece of writing) unsatisfactory; lacking something"
       },
       {
-        "character": "鷹",
+        "character": "鹰",
         "pinyin": "yīng",
         "meaning": "general term for a bird of prey (eagle, hawk or falcon etc)"
       },
@@ -23672,7 +24280,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "fork; branch; bifurcation; girl"
       },
       {
-        "character": "頭",
+        "character": "头",
         "pinyin": "tóu",
         "meaning": "head; hair style; the top; end; beginning or end; a stub; remnant; chief; boss; side; aspect; first; leading; classifier for pigs or livestock; CL:個|个[ge4]; suffix for nouns"
       }
@@ -23685,6 +24293,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       629,
       630
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/629.png",
     "audio_filename": null
   },
@@ -23698,12 +24307,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰu˥ iŋ˥ na˥˩/",
     "etymology": [
       {
-        "character": "禿",
+        "character": "秃",
         "pinyin": "tū",
         "meaning": "bald (lacking hair or feathers); barren; bare; denuded; blunt (lacking a point); (of a piece of writing) unsatisfactory; lacking something"
       },
       {
-        "character": "鷹",
+        "character": "鹰",
         "pinyin": "yīng",
         "meaning": "general term for a bird of prey (eagle, hawk or falcon etc)"
       },
@@ -23721,6 +24330,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       629,
       630
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/630.png",
     "audio_filename": null
   },
@@ -23739,12 +24349,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to smelt; to fuse"
       },
       {
-        "character": "蟻",
+        "character": "蚁",
         "pinyin": "yǐ",
         "meaning": "ant"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -23756,6 +24366,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       631
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/631.png",
     "audio_filename": null
   },
@@ -23769,12 +24380,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ i˧˩˧/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
       {
-        "character": "蟻",
+        "character": "蚁",
         "pinyin": "yǐ",
         "meaning": "ant"
       }
@@ -23786,6 +24397,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       632
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/632.png",
     "audio_filename": null
   },
@@ -23799,7 +24411,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tan˥ ʂoʊ˧˩˧ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "單",
+        "character": "单",
         "pinyin": "dān",
         "meaning": "surname Shan; used in 單于|单于[chan2 yu2]; bill; list; form; single; only; sole; odd number; CL:個|个[ge4]"
       },
@@ -23809,7 +24421,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "head; chief; first (occasion, thing etc); classifier for poems, songs etc"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -23823,6 +24435,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       634,
       635
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/633.png",
     "audio_filename": null
   },
@@ -23836,9 +24449,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʂwɑŋ˥ ʂoʊ˧˩˧ pɑʊ˥˩ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "雙",
+        "character": "双",
         "pinyin": "shuāng",
-        "meaning": "surname Shuang; two; double; pair; both; even (number)"
+        "meaning": "variant of 雙|双[shuang1]; surname Shuang; two; double; pair; both; even (number)"
       },
       {
         "character": "首",
@@ -23851,7 +24464,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Bao; sudden; violent; cruel; to show or expose; to injure; variant of 曝[pu4]"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -23865,6 +24478,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       634,
       635
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/634.png",
     "audio_filename": null
   },
@@ -23888,12 +24502,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "head; chief; first (occasion, thing etc); classifier for poems, songs etc"
       },
       {
-        "character": "惡",
+        "character": "恶",
         "pinyin": "è",
         "meaning": "used in 惡心|恶心[e3 xin1]; evil; fierce; vicious; ugly; coarse; to harm; to hate; to loathe; ashamed; to fear; to slander"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -23907,6 +24521,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       634,
       635
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png",
     "audio_filename": null
   },
@@ -23925,14 +24540,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to burn; to ignite; to light; fig. to spark off (hopes); to start (debate); to raise (hopes)"
       },
       {
-        "character": "燒",
+        "character": "烧",
         "pinyin": "shāo",
         "meaning": "to burn; to cook; to stew; to bake; to roast; to heat; to boil (tea, water etc); fever; to run a temperature; (coll.) to let things go to one's head"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 5,
@@ -23943,6 +24558,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       636,
       637
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/636.png",
     "audio_filename": null
   },
@@ -23979,6 +24595,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       636,
       637
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png",
     "audio_filename": null
   },
@@ -24019,6 +24636,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       638
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/638.png",
     "audio_filename": null
   },
@@ -24059,6 +24677,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       639
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/639.png",
     "audio_filename": null
   },
@@ -24072,7 +24691,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/pi˥˩ li˥˩ tɕi˧˥ wɤŋ˥/",
     "etymology": [
       {
-        "character": "畢",
+        "character": "毕",
         "pinyin": "bì",
         "meaning": "surname Bi; the whole of; to finish; to complete; complete; full; finished"
       },
@@ -24099,6 +24718,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       640
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/640.png",
     "audio_filename": null
   },
@@ -24112,19 +24732,19 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/lʊŋ˧˥ tɕɥœn˧˩˧ yn˧˥/",
     "etymology": [
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       },
       {
-        "character": "捲",
+        "character": "卷",
         "pinyin": "juǎn",
-        "meaning": "to roll up; to sweep up; to carry along; a roll; classifier for rolls, spools etc"
+        "meaning": "to roll up; (fig.) to sweep up; to engulf; to drag into (a situation); (slang) to compete to an unhealthy degree; hypercompetitive; a roll; classifier for small rolled-up things (wad of paper money, movie reel etc); scroll; book; volume; chapter; examination paper; classifier for books, paintings: volume, scroll; to sweep up; to carry along; classifier for rolls, spools etc"
       },
       {
-        "character": "雲",
+        "character": "云",
         "pinyin": "yún",
-        "meaning": "surname Yun; short name for Yunnan 雲南|云南[Yun2 nan2]; cloud; CL:朵[duo3]"
+        "meaning": "(classical) to say; surname Yun; short name for Yunnan 雲南|云南[Yun2 nan2]; cloud; CL:朵[duo3]"
       }
     ],
     "generation": 5,
@@ -24134,6 +24754,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       641
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/641.png",
     "audio_filename": null
   },
@@ -24152,14 +24773,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Lei; thunder; (bound form) (military) mine, as in 地雷[di4 lei2] land mine; (coll.) to shock; to stun; to astound; (Tw) (coll.) spoiler; (Tw) (coll.) to reveal plot details to (sb)"
       },
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
       {
-        "character": "雲",
+        "character": "云",
         "pinyin": "yún",
-        "meaning": "surname Yun; short name for Yunnan 雲南|云南[Yun2 nan2]; cloud; CL:朵[duo3]"
+        "meaning": "(classical) to say; surname Yun; short name for Yunnan 雲南|云南[Yun2 nan2]; cloud; CL:朵[duo3]"
       }
     ],
     "generation": 5,
@@ -24169,6 +24790,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       642
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/642.png",
     "audio_filename": null
   },
@@ -24182,7 +24804,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/laɪ˧˥ ɕi˥ la˥ mu˧˩˧/",
     "etymology": [
       {
-        "character": "萊",
+        "character": "莱",
         "pinyin": "lái",
         "meaning": "name of weed plant (fat hen, goosefoot, pigweed etc); Chenopodium album"
       },
@@ -24209,6 +24831,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       643
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/643.png",
     "audio_filename": null
   },
@@ -24232,7 +24855,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "abbr. for 克羅地亞|克罗地亚[Ke4 luo2 di4 ya4], Croatia; (Tw) abbr. for 克羅埃西亞|克罗埃西亚[Ke4 luo2 ai1 xi1 ya4], Croatia; to be able to; to subdue; to restrain; to overcome; gram; Tibetan unit of land area, about 6 ares; Ke (c. 2000 BC), seventh of the legendary Flame Emperors, 炎帝[Yan2 di4] descended from Shennong 神農|神农[Shen2 nong2] Farmer God; variant of 克[ke4]; to overthrow; variant of 剋|克[ke4]"
       },
       {
-        "character": "羅",
+        "character": "罗",
         "pinyin": "luó",
         "meaning": "surname Luo; gauze; to collect; to gather; to catch; to sift"
       },
@@ -24249,6 +24872,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       644
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png",
     "audio_filename": null
   },
@@ -24272,9 +24896,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct; earth; ground; field; place; land; CL:片[pian4]"
       },
       {
-        "character": "雲",
+        "character": "云",
         "pinyin": "yún",
-        "meaning": "surname Yun; short name for Yunnan 雲南|云南[Yun2 nan2]; cloud; CL:朵[duo3]"
+        "meaning": "(classical) to say; surname Yun; short name for Yunnan 雲南|云南[Yun2 nan2]; cloud; CL:朵[duo3]"
       }
     ],
     "generation": 5,
@@ -24284,6 +24908,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       645
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/645.png",
     "audio_filename": null
   },
@@ -24319,6 +24944,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       646
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/646.png",
     "audio_filename": null
   },
@@ -24332,7 +24958,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/kʰaɪ˧˩˧ lu˥˩ ti˧˥ oʊ˥/",
     "etymology": [
       {
-        "character": "凱",
+        "character": "凯",
         "pinyin": "kǎi",
         "meaning": "surname Kai; (bound form) triumphal music; (Tw) (coll.) generous with money; lavish in spending; chi (Greek letter Χχ)"
       },
@@ -24347,7 +24973,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to enlighten"
       },
       {
-        "character": "歐",
+        "character": "欧",
         "pinyin": "ōu",
         "meaning": "Europe (abbr. for 歐洲|欧洲[Ou1 zhou1]); surname Ou; (used for transliteration); old variant of 謳|讴[ou1]"
       }
@@ -24359,6 +24985,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       647
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/647.png",
     "audio_filename": null
   },
@@ -24399,6 +25026,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       648
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/648.png",
     "audio_filename": null
   },
@@ -24412,17 +25040,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/kaɪ˥˩ nwɔ˥˩ saɪ˥˩ kʰɤ˥˩ tʰɤ˥˩/",
     "etymology": [
       {
-        "character": "蓋",
+        "character": "盖",
         "pinyin": "gài",
         "meaning": "surname Ge; lid; top; cover; canopy; to cover; to conceal; to build"
       },
       {
-        "character": "諾",
+        "character": "诺",
         "pinyin": "nuò",
         "meaning": "to consent; to promise; (literary) yes!"
       },
       {
-        "character": "賽",
+        "character": "赛",
         "pinyin": "sài",
         "meaning": "to compete; competition; match; to surpass; better than; superior to; to excel"
       },
@@ -24444,6 +25072,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       649
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/649.png",
     "audio_filename": null
   },
@@ -24481,6 +25110,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       651,
       652
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png",
     "audio_filename": null
   },
@@ -24523,6 +25153,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       651,
       652
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png",
     "audio_filename": null
   },
@@ -24565,6 +25196,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       651,
       652
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png",
     "audio_filename": null
   },
@@ -24602,6 +25234,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       654,
       655
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png",
     "audio_filename": null
   },
@@ -24615,7 +25248,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂɑŋ˧˩˧ weɪ˧˩˧ xwɔ˧˩˧ xu˧˥/",
     "etymology": [
       {
-        "character": "長",
+        "character": "长",
         "pinyin": "zhǎng",
         "meaning": "long; (bound form) length; (bound form) strong point; forte; (bound form) to be good at; (literary) surplus; spare (Taiwan pr. [zhang4]); chief; head; elder; to grow; to develop; to increase; to enhance"
       },
@@ -24644,6 +25277,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       654,
       655
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/654.png",
     "audio_filename": null
   },
@@ -24667,7 +25301,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Huo; fire; urgent; ammunition; fiery or flaming; internal heat (Chinese medicine); hot (popular); classifier for military units (old); Kangxi radical 86"
       },
       {
-        "character": "紅",
+        "character": "红",
         "pinyin": "hóng",
         "meaning": "surname Hong; used in 女紅|女红[nu : 3 gong1]; red; popular; revolutionary; bonus"
       },
@@ -24686,6 +25320,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       654,
       655
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png",
     "audio_filename": null
   },
@@ -24728,6 +25363,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       657,
       658
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png",
     "audio_filename": null
   },
@@ -24746,7 +25382,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "used in 呱呱[gu1 gu1]; Taiwan pr. [wa1]; used in 呱呱[gua1 gua1]"
       },
       {
-        "character": "頭",
+        "character": "头",
         "pinyin": "tóu",
         "meaning": "head; hair style; the top; end; beginning or end; a stub; remnant; chief; boss; side; aspect; first; leading; classifier for pigs or livestock; CL:個|个[ge4]; suffix for nouns"
       },
@@ -24765,6 +25401,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       657,
       658
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png",
     "audio_filename": null
   },
@@ -24783,7 +25420,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "first of the ten Heavenly Stems 十天干[shi2 tian1 gan1]; (used for an unspecified person or thing); first (in a list, as a party to a contract etc); letter \"A\" or roman \"I\" in list \"A, B, C\", or \"I, II, III\" etc; armor plating; shell or carapace; (of the fingers or toes) nail; bladed leather or metal armor (old); ranking system used in the Imperial examinations (old); civil administration unit in the baojia 保甲[bao3 jia3] system (old); ancient Chinese compass point: 75°"
       },
       {
-        "character": "賀",
+        "character": "贺",
         "pinyin": "hè",
         "meaning": "surname He; to congratulate"
       },
@@ -24807,6 +25444,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       657,
       658
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png",
     "audio_filename": null
   },
@@ -24843,6 +25481,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       659,
       660
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/659.png",
     "audio_filename": null
   },
@@ -24879,6 +25518,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       659,
       660
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png",
     "audio_filename": null
   },
@@ -24916,6 +25556,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       662,
       663
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/661.png",
     "audio_filename": null
   },
@@ -24953,6 +25594,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       662,
       663
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/662.png",
     "audio_filename": null
   },
@@ -24976,7 +25618,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "arrow; CL:支[zhi1]"
       },
       {
-        "character": "鷹",
+        "character": "鹰",
         "pinyin": "yīng",
         "meaning": "general term for a bird of prey (eagle, hawk or falcon etc)"
       }
@@ -24990,6 +25632,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       662,
       663
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png",
     "audio_filename": null
   },
@@ -25013,9 +25656,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 蝶[die2]; (bound form) butterfly"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 6,
@@ -25027,6 +25670,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       665,
       666
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/664.png",
     "audio_filename": null
   },
@@ -25064,6 +25708,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       665,
       666
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/665.png",
     "audio_filename": null
   },
@@ -25101,6 +25746,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       665,
       666
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666.png",
     "audio_filename": null
   },
@@ -25119,12 +25765,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "small; tiny; few; young"
       },
       {
-        "character": "獅",
+        "character": "狮",
         "pinyin": "shī",
         "meaning": "(bound form) lion"
       },
       {
-        "character": "獅",
+        "character": "狮",
         "pinyin": "shī",
         "meaning": "(bound form) lion"
       }
@@ -25137,6 +25783,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       667,
       668
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/667.png",
     "audio_filename": null
   },
@@ -25160,7 +25807,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "flame; inflammation; -itis"
       },
       {
-        "character": "獅",
+        "character": "狮",
         "pinyin": "shī",
         "meaning": "(bound form) lion"
       }
@@ -25173,6 +25820,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       667,
       668
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/668.png",
     "audio_filename": null
   },
@@ -25210,6 +25858,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       670,
       671
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669.png",
     "audio_filename": null
   },
@@ -25228,9 +25877,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Hua; flower; blossom; CL:朵[duo3],支[zhi1],束[shu4],把[ba3],盆[pen2],簇[cu4]; fancy pattern; florid; to spend (money, time); (coll.) lecherous; lustful; old variant of 花[hua1]; variant of 花[hua1]; also pr. [wei3]"
       },
       {
-        "character": "葉",
+        "character": "叶",
         "pinyin": "yè",
-        "meaning": "surname Ye; leaf; page; lobe; (historical) period; classifier for small boats"
+        "meaning": "to be in harmony; surname Ye; leaf; page; lobe; (historical) period; classifier for small boats"
       },
       {
         "character": "蒂",
@@ -25247,6 +25896,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       670,
       671
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670.png",
     "audio_filename": null
   },
@@ -25265,7 +25915,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Hua; flower; blossom; CL:朵[duo3],支[zhi1],束[shu4],把[ba3],盆[pen2],簇[cu4]; fancy pattern; florid; to spend (money, time); (coll.) lecherous; lustful; old variant of 花[hua1]; variant of 花[hua1]; also pr. [wei3]"
       },
       {
-        "character": "潔",
+        "character": "洁",
         "pinyin": "jié",
         "meaning": "clean"
       },
@@ -25289,6 +25939,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       670,
       671
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png",
     "audio_filename": null
   },
@@ -25307,7 +25958,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Zuo; to sit; to take a seat; to take (a bus, airplane etc); to bear fruit; variant of 座[zuo4]"
       },
       {
-        "character": "騎",
+        "character": "骑",
         "pinyin": "qí",
         "meaning": "(Tw) saddle horse; mounted soldier; to sit astride; to ride (a horse, bike etc); classifier for saddle horses"
       },
@@ -25330,6 +25981,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       672,
       673
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/672.png",
     "audio_filename": null
   },
@@ -25348,7 +26000,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Zuo; to sit; to take a seat; to take (a bus, airplane etc); to bear fruit; variant of 座[zuo4]"
       },
       {
-        "character": "騎",
+        "character": "骑",
         "pinyin": "qí",
         "meaning": "(Tw) saddle horse; mounted soldier; to sit astride; to ride (a horse, bike etc); classifier for saddle horses"
       },
@@ -25371,6 +26023,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       672,
       673
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/673.png",
     "audio_filename": null
   },
@@ -25384,7 +26037,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/wan˧˥ pʰi˧˥ ɕjʊŋ˧˥ mɑʊ˥/",
     "etymology": [
       {
-        "character": "頑",
+        "character": "顽",
         "pinyin": "wán",
         "meaning": "mischievous; obstinate; to play; stupid; stubborn; naughty"
       },
@@ -25399,7 +26052,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Xiong; bear; (coll.) to scold; to rebuke; (coll.) weak; incapable"
       },
       {
-        "character": "貓",
+        "character": "猫",
         "pinyin": "māo",
         "meaning": "cat (CL:隻|只[zhi1]); (dialect) to hide oneself; (loanword) (coll.) modem; used in 貓腰|猫腰[mao2 yao1]"
       }
@@ -25412,6 +26065,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       674,
       675
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png",
     "audio_filename": null
   },
@@ -25425,14 +26079,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ljoʊ˧˥ mɑŋ˧˥ ɕjʊŋ˧˥ mɑʊ˥/",
     "etymology": [
       {
-        "character": "流",
-        "pinyin": "liú",
-        "meaning": "to flow; to disseminate; to circulate or spread; to move or drift; to degenerate; to banish or send into exile; stream of water or sth resembling one; class, rate or grade"
+        "character": "霸",
+        "pinyin": "bà",
+        "meaning": "variant of 霸[ba4]; hegemon; tyrant; lord; feudal chief; to rule by force; to usurp; (in modern advertising) master"
       },
       {
-        "character": "氓",
-        "pinyin": "máng",
-        "meaning": "used in 流氓[liu2 mang2]; (literary) common people"
+        "character": "道",
+        "pinyin": "dào",
+        "meaning": "road; path (CL:條|条[tiao2],股[gu3]); (bound form) way; reason; principle; (bound form) a skill; an art; a specialization; (Daoism) the Way; the Dao; to say (introducing a direct quotation, as in a novel); (bound form) to express; to extend (polite words); classifier for long thin things (rivers, cracks, shadows etc), barriers (walls, doors etc), questions (in an exam etc), commands, courses in a meal, steps in a process; (old) circuit (administrative division)"
       },
       {
         "character": "熊",
@@ -25440,7 +26094,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Xiong; bear; (coll.) to scold; to rebuke; (coll.) weak; incapable"
       },
       {
-        "character": "貓",
+        "character": "猫",
         "pinyin": "māo",
         "meaning": "cat (CL:隻|只[zhi1]); (dialect) to hide oneself; (loanword) (coll.) modem; used in 貓腰|猫腰[mao2 yao1]"
       }
@@ -25453,6 +26107,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       674,
       675
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png",
     "audio_filename": null
   },
@@ -25471,7 +26126,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "many; much; more; a lot of; too many; in excess; (after a numeral) ... odd; how (to what extent) (Taiwan pr. [duo2]); (bound form) multi-; poly-"
       },
       {
-        "character": "麗",
+        "character": "丽",
         "pinyin": "lì",
         "meaning": "Korea; beautiful"
       },
@@ -25481,7 +26136,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Mi; uncooked rice; meter (unit of length); (slang) Chinese yuan"
       },
       {
-        "character": "亞",
+        "character": "亚",
         "pinyin": "yà",
         "meaning": "Asia; Asian; Taiwan pr. [Ya3]; second; next to; inferior; sub-; Taiwan pr. [ya3]"
       }
@@ -25493,6 +26148,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       676
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676.png",
     "audio_filename": null
   },
@@ -25524,6 +26180,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       677,
       678
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png",
     "audio_filename": null
   },
@@ -25565,6 +26222,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       677,
       678
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/678.png",
     "audio_filename": null
   },
@@ -25578,14 +26236,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tu˧˥ tɕjɛn˥˩ tɕʰjɑʊ˥˩/",
     "etymology": [
       {
-        "character": "獨",
+        "character": "独",
         "pinyin": "dú",
         "meaning": "alone; independent; single; sole; only"
       },
       {
-        "character": "劍",
+        "character": "剑",
         "pinyin": "jiàn",
-        "meaning": "double-edged sword; CL:口[kou3],把[ba3]; classifier for blows of a sword"
+        "meaning": "double-edged sword; CL:口[kou3],把[ba3]; classifier for blows of a sword; variant of 劍|剑[jian4]"
       },
       {
         "character": "鞘",
@@ -25602,6 +26260,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       680,
       681
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/679.png",
     "audio_filename": null
   },
@@ -25615,14 +26274,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʂwɑŋ˥ tɕjɛn˥˩ tɕʰjɑʊ˥˩/",
     "etymology": [
       {
-        "character": "雙",
+        "character": "双",
         "pinyin": "shuāng",
-        "meaning": "surname Shuang; two; double; pair; both; even (number)"
+        "meaning": "variant of 雙|双[shuang1]; surname Shuang; two; double; pair; both; even (number)"
       },
       {
-        "character": "劍",
+        "character": "剑",
         "pinyin": "jiàn",
-        "meaning": "double-edged sword; CL:口[kou3],把[ba3]; classifier for blows of a sword"
+        "meaning": "double-edged sword; CL:口[kou3],把[ba3]; classifier for blows of a sword; variant of 劍|剑[jian4]"
       },
       {
         "character": "鞘",
@@ -25639,6 +26298,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       680,
       681
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png",
     "audio_filename": null
   },
@@ -25652,7 +26312,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɕjɛn˥ twən˥˩ tɕjɛn˥˩ kwaɪ˥˩/",
     "etymology": [
       {
-        "character": "堅",
+        "character": "坚",
         "pinyin": "jiān",
         "meaning": "strong; solid; firm; unyielding; resolute"
       },
@@ -25662,9 +26322,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "shield (CL:面[mian4]); (currency) Vietnamese dong; currency unit of several countries (Indonesian rupiah, Dutch gulden etc)"
       },
       {
-        "character": "劍",
+        "character": "剑",
         "pinyin": "jiàn",
-        "meaning": "double-edged sword; CL:口[kou3],把[ba3]; classifier for blows of a sword"
+        "meaning": "double-edged sword; CL:口[kou3],把[ba3]; classifier for blows of a sword; variant of 劍|剑[jian4]"
       },
       {
         "character": "怪",
@@ -25681,6 +26341,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       680,
       681
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png",
     "audio_filename": null
   },
@@ -25717,6 +26378,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       682,
       683
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png",
     "audio_filename": null
   },
@@ -25753,6 +26415,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       682,
       683
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/683.png",
     "audio_filename": null
   },
@@ -25766,14 +26429,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/mjɛn˧˥ mjɛn˧˥ pʰɑʊ˥˩ fu˧˥/",
     "etymology": [
       {
-        "character": "綿",
+        "character": "绵",
         "pinyin": "mián",
-        "meaning": "silk floss; continuous; soft; weak; mild-mannered (dialect)"
+        "meaning": "silk floss; continuous; soft; weak; mild-mannered (dialect); old variant of 綿|绵[mian2]; cotton"
       },
       {
-        "character": "綿",
+        "character": "绵",
         "pinyin": "mián",
-        "meaning": "silk floss; continuous; soft; weak; mild-mannered (dialect)"
+        "meaning": "silk floss; continuous; soft; weak; mild-mannered (dialect); old variant of 綿|绵[mian2]; cotton"
       },
       {
         "character": "泡",
@@ -25794,6 +26457,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       684,
       685
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/684.png",
     "audio_filename": null
   },
@@ -25830,6 +26494,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       684,
       685
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/685.png",
     "audio_filename": null
   },
@@ -25853,7 +26518,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(onom.) sound of singing, cheering etc; (phonetic); (dialect) to chat; sentence-final particle, contraction of 了啊, indicating exclamation; particle placed after each item in a list of examples"
       },
       {
-        "character": "魷",
+        "character": "鱿",
         "pinyin": "yóu",
         "meaning": "(bound form) squid"
       }
@@ -25866,6 +26531,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       686,
       687
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/686.png",
     "audio_filename": null
   },
@@ -25879,12 +26545,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/u˥ tseɪ˧˥ wɑŋ˧˥/",
     "etymology": [
       {
-        "character": "烏",
+        "character": "乌",
         "pinyin": "wū",
         "meaning": "abbr. for country names that begin with 烏|乌[wu1]: Ukraine 烏克蘭|乌克兰[Wu1 ke4 lan2], Uzbekistan 烏茲別克斯坦|乌兹别克斯坦[Wu1 zi1 bie2 ke4 si1 tan3] etc; surname Wu; crow; black; used in 烏拉|乌拉[wu4 la5]; used in 烏拉草|乌拉草[wu4 la5 cao3]"
       },
       {
-        "character": "賊",
+        "character": "贼",
         "pinyin": "zéi",
         "meaning": "thief; robber; (bound form) traitor; subversive; (bound form) evil; wicked; sly; shifty; devious; (literary) to harm; to injure; (coll.) extremely; insanely; damn (common in NE China and Taiwan)"
       },
@@ -25902,6 +26568,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       686,
       687
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/687.png",
     "audio_filename": null
   },
@@ -25915,17 +26582,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/kweɪ˥ tɕjɑʊ˧˩˧ tɕjɑʊ˧˩˧/",
     "etymology": [
       {
-        "character": "龜",
+        "character": "龟",
         "pinyin": "guī",
         "meaning": "tortoise; turtle; (coll.) cuckold; variant of 皸|皲[jun1]; used in 龜茲|龟兹[Qiu1 ci2]"
       },
       {
-        "character": "腳",
+        "character": "脚",
         "pinyin": "jiǎo",
         "meaning": "foot; leg (of an animal or an object); base (of an object); CL:雙|双[shuang1],隻|只[zhi1]; classifier for kicks; role (variant of 角[jue2])"
       },
       {
-        "character": "腳",
+        "character": "脚",
         "pinyin": "jiǎo",
         "meaning": "foot; leg (of an animal or an object); base (of an object); CL:雙|双[shuang1],隻|只[zhi1]; classifier for kicks; role (variant of 角[jue2])"
       }
@@ -25938,6 +26605,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       688,
       689
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png",
     "audio_filename": null
   },
@@ -25951,7 +26619,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/kweɪ˥ tsu˧˥ tɕy˥˩ kʰaɪ˧˩˧/",
     "etymology": [
       {
-        "character": "龜",
+        "character": "龟",
         "pinyin": "guī",
         "meaning": "tortoise; turtle; (coll.) cuckold; variant of 皸|皲[jun1]; used in 龜茲|龟兹[Qiu1 ci2]"
       },
@@ -25966,7 +26634,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "very large; huge; tremendous; gigantic; (coll.) very; extremely; variant of 巨[ju4]"
       },
       {
-        "character": "鎧",
+        "character": "铠",
         "pinyin": "kǎi",
         "meaning": "armor"
       }
@@ -25979,6 +26647,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       688,
       689
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/689.png",
     "audio_filename": null
   },
@@ -26015,6 +26684,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       690,
       691
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/690.png",
     "audio_filename": null
   },
@@ -26038,7 +26708,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "aquatic grasses; elegant"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -26051,6 +26721,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       690,
       691
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/691.png",
     "audio_filename": null
   },
@@ -26064,7 +26735,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ pi˥˩ tɕʰjɑŋ˥ ɕja˥/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
@@ -26074,12 +26745,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "arm"
       },
       {
-        "character": "槍",
+        "character": "枪",
         "pinyin": "qiāng",
-        "meaning": "surname Qiang; gun; firearm; rifle; spear; thing with shape or function similar to a gun; CL:支[zhi1],把[ba3],桿|杆[gan3],條|条[tiao2],枝[zhi1]; to substitute for another person in a test; to knock; classifier for rifle shots"
+        "meaning": "surname Qiang; gun; firearm; rifle; spear; thing with shape or function similar to a gun; CL:支[zhi1],把[ba3],桿|杆[gan3],條|条[tiao2],枝[zhi1]; to substitute for another person in a test; to knock; classifier for rifle shots; variant of 槍|枪[qiang1]"
       },
       {
-        "character": "蝦",
+        "character": "虾",
         "pinyin": "xiā",
         "meaning": "used in 蝦蟆|虾蟆[ha2 ma5]; shrimp; prawn"
       }
@@ -26092,6 +26763,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       692,
       693
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/692.png",
     "audio_filename": null
   },
@@ -26105,7 +26777,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/kɑŋ˥ pʰɑʊ˥˩ pi˥˩ ɕja˥/",
     "etymology": [
       {
-        "character": "鋼",
+        "character": "钢",
         "pinyin": "gāng",
         "meaning": "steel"
       },
@@ -26120,7 +26792,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "arm"
       },
       {
-        "character": "蝦",
+        "character": "虾",
         "pinyin": "xiā",
         "meaning": "used in 蝦蟆|虾蟆[ha2 ma5]; shrimp; prawn"
       }
@@ -26133,6 +26805,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       692,
       693
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/693.png",
     "audio_filename": null
   },
@@ -26146,12 +26819,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/san˧˩˧ tjɛn˥˩ ɕi˥/",
     "etymology": [
       {
-        "character": "傘",
+        "character": "伞",
         "pinyin": "sǎn",
-        "meaning": "umbrella; parasol; CL:把[ba3]"
+        "meaning": "umbrella; parasol; CL:把[ba3]; damask silk; variant of 傘|伞[san3]"
       },
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
@@ -26169,6 +26842,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       694,
       695
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/694.png",
     "audio_filename": null
   },
@@ -26187,14 +26861,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "light; ray (CL:道[dao4]); bright; shiny; only; merely; used up; finished; to leave (a part of the body) uncovered"
       },
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
       {
-        "character": "傘",
+        "character": "伞",
         "pinyin": "sǎn",
-        "meaning": "umbrella; parasol; CL:把[ba3]"
+        "meaning": "umbrella; parasol; CL:把[ba3]; damask silk; variant of 傘|伞[san3]"
       },
       {
         "character": "蜥",
@@ -26210,6 +26884,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       694,
       695
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png",
     "audio_filename": null
   },
@@ -26223,14 +26898,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/pɑʊ˧˩˧ pɑʊ˧˩˧ pɑʊ˥˩ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       },
       {
         "character": "暴",
@@ -26238,7 +26913,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Bao; sudden; violent; cruel; to show or expose; to injure; variant of 曝[pu4]"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -26251,6 +26926,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       696,
       697
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/696.png",
     "audio_filename": null
   },
@@ -26269,12 +26945,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "odd; strange; uncanny; (bound form) monster; supernatural being; to find strange; to regard as odd; to blame; (coll.) somewhat; rather; variant of 怪[guai4]"
       },
       {
-        "character": "顎",
+        "character": "颚",
         "pinyin": "è",
         "meaning": "jaw; palate"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -26287,6 +26963,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       696,
       697
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/697.png",
     "audio_filename": null
   },
@@ -26310,7 +26987,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Xue; snow; CL:場|场[chang2]; (literary) to wipe away (a humiliation etc)"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -26323,6 +27000,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       698,
       699
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/698.png",
     "audio_filename": null
   },
@@ -26351,7 +27029,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "very large; huge; tremendous; gigantic; (coll.) very; extremely; variant of 巨[ju4]"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -26364,6 +27042,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       698,
       699
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/699.png",
     "audio_filename": null
   },
@@ -26412,6 +27091,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       471,
       700
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png",
     "audio_filename": null
   },
@@ -26435,7 +27115,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Jue; angle; corner; horn; horn-shaped; unit of money equal to 0.1 yuan, or 10 cents (a dime); CL:個|个[ge4]; role (theater); to compete; ancient three legged wine vessel; third note of pentatonic scale"
       },
       {
-        "character": "鷹",
+        "character": "鹰",
         "pinyin": "yīng",
         "meaning": "general term for a bird of prey (eagle, hawk or falcon etc)"
       },
@@ -26452,6 +27132,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       701
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/701.png",
     "audio_filename": null
   },
@@ -26487,6 +27168,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       702
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/702.png",
     "audio_filename": null
   },
@@ -26510,9 +27192,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(transitive or intransitive) to break into pieces; to shatter; to crumble; broken; fragmentary; scattered; garrulous"
       },
       {
-        "character": "鑽",
+        "character": "钻",
         "pinyin": "zuān",
-        "meaning": "to drill; to bore; to get into; to make one's way into; to enter (a hole); to thread one's way through; to study intensively; to dig into; to curry favor for personal gain; drill; auger; diamond"
+        "meaning": "variant of 鑽|钻[zuan4]; to drill; to bore; to get into; to make one's way into; to enter (a hole); to thread one's way through; to study intensively; to dig into; to curry favor for personal gain; drill; auger; diamond"
       }
     ],
     "generation": 6,
@@ -26522,6 +27204,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       703
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/703.png",
     "audio_filename": null
   },
@@ -26545,9 +27228,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "sticky; glutinous; (Tw) to adhere; to stick on; to glue"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       }
     ],
     "generation": 6,
@@ -26559,6 +27242,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       705,
       706
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png",
     "audio_filename": null
   },
@@ -26582,7 +27266,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) the Americas (abbr. for 美洲[Mei3 zhou1]); (bound form) USA (abbr. for 美國|美国[Mei3 guo2]); beautiful; very satisfactory; good; to beautify; to be pleased with oneself"
       },
       {
-        "character": "兒",
+        "character": "儿",
         "pinyin": "ér",
         "meaning": "child; son; non-syllabic diminutive suffix; retroflex final"
       }
@@ -26596,6 +27280,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       705,
       706
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png",
     "audio_filename": null
   },
@@ -26619,7 +27304,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) the Americas (abbr. for 美洲[Mei3 zhou1]); (bound form) USA (abbr. for 美國|美国[Mei3 guo2]); beautiful; very satisfactory; good; to beautify; to be pleased with oneself"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -26633,6 +27318,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       705,
       706
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png",
     "audio_filename": null
   },
@@ -26646,7 +27332,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/jɑʊ˥˩ tɕʰɥœn˥ ɑɻ˧˥/",
     "etymology": [
       {
-        "character": "鑰",
+        "character": "钥",
         "pinyin": "yào",
         "meaning": "key; also pr. [yao4]"
       },
@@ -26656,7 +27342,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to confine; to lock up; to pen in; livestock enclosure; pen; fold; sty; circle; ring; loop; (fig.) social circle; niche group; community; fandom; classifier for loops, orbits, laps; to surround; to encircle; to circle (sth); to mark with a circle"
       },
       {
-        "character": "兒",
+        "character": "儿",
         "pinyin": "ér",
         "meaning": "child; son; non-syllabic diminutive suffix; retroflex final"
       }
@@ -26668,6 +27354,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       707
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/707.png",
     "audio_filename": null
   },
@@ -26691,7 +27378,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Mu; (bound form) tree; (bound form) wood; unresponsive; numb; wooden"
       },
       {
-        "character": "靈",
+        "character": "灵",
         "pinyin": "líng",
         "meaning": "quick; alert; efficacious; effective; to come true; spirit; departed soul; coffin"
       }
@@ -26704,6 +27391,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       708,
       709
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png",
     "audio_filename": null
   },
@@ -26740,6 +27428,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       708,
       709
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png",
     "audio_filename": null
   },
@@ -26776,6 +27465,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       710,
       711
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png",
     "audio_filename": null
   },
@@ -26817,6 +27507,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       710,
       711
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png",
     "audio_filename": null
   },
@@ -26835,9 +27526,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "ice; CL:塊|块[kuai4]; to chill sth; (of an object or substance) to feel cold; (of a person) cold; unfriendly; (slang) methamphetamine; variant of 冰[bing1]"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       }
     ],
     "generation": 6,
@@ -26848,6 +27539,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       712,
       713
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png",
     "audio_filename": null
   },
@@ -26884,6 +27576,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       712,
       713
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/713.png",
     "audio_filename": null
   },
@@ -26915,6 +27608,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       714,
       715
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png",
     "audio_filename": null
   },
@@ -26938,7 +27632,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) Poland (abbr. for 波蘭|波兰[Bo1 lan2]); surname Bo; wave; ripple; storm; surge"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -26951,6 +27645,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       714,
       715
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png",
     "audio_filename": null
   },
@@ -26969,9 +27664,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "wise; a sage"
       },
       {
-        "character": "爾",
+        "character": "尔",
         "pinyin": "ěr",
-        "meaning": "thus; so; like that; you; thou"
+        "meaning": "variant of 爾|尔[er3]; thus; so; like that; you; thou"
       },
       {
         "character": "尼",
@@ -26979,7 +27674,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "Buddhist nun; (often used in phonetic spellings)"
       },
       {
-        "character": "亞",
+        "character": "亚",
         "pinyin": "yà",
         "meaning": "Asia; Asian; Taiwan pr. [Ya3]; second; next to; inferior; sub-; Taiwan pr. [ya3]"
       },
@@ -26996,6 +27691,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       716
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png",
     "audio_filename": null
   },
@@ -27019,9 +27715,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Pei; (of a garment) long and flowing; variant of 裴[pei2]"
       },
       {
-        "character": "爾",
+        "character": "尔",
         "pinyin": "ěr",
-        "meaning": "thus; so; like that; you; thou"
+        "meaning": "variant of 爾|尔[er3]; thus; so; like that; you; thou"
       },
       {
         "character": "塔",
@@ -27029,9 +27725,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "pagoda (abbr. for 塔婆[ta3 po2], a loanword from Sanskrit stūpa); tower; pylon (CL:座[zuo4]); (loanword) (pastry) tart; old variant of 塔[ta3]"
       },
       {
-        "character": "爾",
+        "character": "尔",
         "pinyin": "ěr",
-        "meaning": "thus; so; like that; you; thou"
+        "meaning": "variant of 爾|尔[er3]; thus; so; like that; you; thou"
       }
     ],
     "generation": 6,
@@ -27041,6 +27737,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       717
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/717.png",
     "audio_filename": null
   },
@@ -27064,9 +27761,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "used in 格登[ge1 deng1]; used in 格格[ge1 ge1]; square; lattice; grid; frame; compartment; partition; slot (within a larger unit); (bound form) standard; norm; specification; (bound form) character; disposition; moral quality; style; aesthetic tone; (bound form) rhetorical form; stylistic pattern; (bound form) (linguistics) grammatical case; (literary) to correct; to rectify; (literary) to arrive at; to reach; (literary) to obstruct; to hinder; (literary) to investigate exhaustively; classifier for compartments, slots or cells within a larger unit"
       },
       {
-        "character": "爾",
+        "character": "尔",
         "pinyin": "ěr",
-        "meaning": "thus; so; like that; you; thou"
+        "meaning": "variant of 爾|尔[er3]; thus; so; like that; you; thou"
       },
       {
         "character": "德",
@@ -27081,6 +27778,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       718
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png",
     "audio_filename": null
   },
@@ -27116,6 +27814,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       719
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/719.png",
     "audio_filename": null
   },
@@ -27146,6 +27845,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       720
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/720.png",
     "audio_filename": null
   },
@@ -27164,12 +27864,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) Poland (abbr. for 波蘭|波兰[Bo1 lan2]); surname Bo; wave; ripple; storm; surge"
       },
       {
-        "character": "爾",
+        "character": "尔",
         "pinyin": "ěr",
-        "meaning": "thus; so; like that; you; thou"
+        "meaning": "variant of 爾|尔[er3]; thus; so; like that; you; thou"
       },
       {
-        "character": "凱",
+        "character": "凯",
         "pinyin": "kǎi",
         "meaning": "surname Kai; (bound form) triumphal music; (Tw) (coll.) generous with money; lavish in spending; chi (Greek letter Χχ)"
       },
@@ -27191,6 +27891,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       721
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/721.png",
     "audio_filename": null
   },
@@ -27214,7 +27915,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Mu; (bound form) tree; (bound form) wood; unresponsive; numb; wooden"
       },
       {
-        "character": "梟",
+        "character": "枭",
         "pinyin": "xiāo",
         "meaning": "owl; valiant; trafficker"
       }
@@ -27228,6 +27929,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       723,
       724
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/722.png",
     "audio_filename": null
   },
@@ -27251,7 +27953,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "feather; 5th note in pentatonic scale"
       },
       {
-        "character": "梟",
+        "character": "枭",
         "pinyin": "xiāo",
         "meaning": "owl; valiant; trafficker"
       }
@@ -27265,6 +27967,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       723,
       724
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/723.png",
     "audio_filename": null
   },
@@ -27288,12 +27991,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "old variant of 射[she4]; to shoot; to launch; to allude to; radio- (chemistry)"
       },
       {
-        "character": "樹",
+        "character": "树",
         "pinyin": "shù",
         "meaning": "tree; CL:棵[ke1]; to cultivate; to set up"
       },
       {
-        "character": "梟",
+        "character": "枭",
         "pinyin": "xiāo",
         "meaning": "owl; valiant; trafficker"
       }
@@ -27307,6 +28010,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       723,
       724
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/724.png",
     "audio_filename": null
   },
@@ -27344,6 +28048,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       726,
       727
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/725.png",
     "audio_filename": null
   },
@@ -27362,7 +28067,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "flame; inflammation; -itis"
       },
       {
-        "character": "熱",
+        "character": "热",
         "pinyin": "rè",
         "meaning": "to warm up; to heat up; hot (of weather); heat; fervent"
       },
@@ -27381,6 +28086,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       726,
       727
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/726.png",
     "audio_filename": null
   },
@@ -27394,7 +28100,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂʰɨ˥˩ jɛn˥˩ pʰɑʊ˧˥ ɕjɑʊ˥ xu˧˩˧/",
     "etymology": [
       {
-        "character": "熾",
+        "character": "炽",
         "pinyin": "chì",
         "meaning": "to burn; to blaze; splendid; illustrious"
       },
@@ -27428,6 +28134,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       726,
       727
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png",
     "audio_filename": null
   },
@@ -27456,7 +28163,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Hai; ocean; sea; CL:個|个[ge4],片[pian4]; great number of people or things; (dialect) numerous"
       },
       {
-        "character": "獅",
+        "character": "狮",
         "pinyin": "shī",
         "meaning": "(bound form) lion"
       }
@@ -27470,6 +28177,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       729,
       730
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/728.png",
     "audio_filename": null
   },
@@ -27498,7 +28206,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Hai; ocean; sea; CL:個|个[ge4],片[pian4]; great number of people or things; (dialect) numerous"
       },
       {
-        "character": "獅",
+        "character": "狮",
         "pinyin": "shī",
         "meaning": "(bound form) lion"
       }
@@ -27512,6 +28220,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       729,
       730
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/729.png",
     "audio_filename": null
   },
@@ -27530,7 +28239,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "the West; abbr. for Spain 西班牙[Xi1 ban1 ya2]; Spanish; west"
       },
       {
-        "character": "獅",
+        "character": "狮",
         "pinyin": "shī",
         "meaning": "(bound form) lion"
       },
@@ -27554,6 +28263,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       729,
       730
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/730.png",
     "audio_filename": null
   },
@@ -27572,12 +28282,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "small; tiny; few; young"
       },
       {
-        "character": "篤",
+        "character": "笃",
         "pinyin": "dǔ",
         "meaning": "(bound form) sincere; genuine; (bound form) (of an illness) serious"
       },
       {
-        "character": "兒",
+        "character": "儿",
         "pinyin": "ér",
         "meaning": "child; son; non-syllabic diminutive suffix; retroflex final"
       }
@@ -27591,6 +28301,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       732,
       733
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/731.png",
     "audio_filename": null
   },
@@ -27619,7 +28330,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to peck"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -27633,6 +28344,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       732,
       733
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/732.png",
     "audio_filename": null
   },
@@ -27646,7 +28358,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂʰʊŋ˥˩ tsweɪ˧˩˧ ta˥˩ njɑʊ˧˩˧/",
     "etymology": [
       {
-        "character": "銃",
+        "character": "铳",
         "pinyin": "chòng",
         "meaning": "ancient firearm; gun"
       },
@@ -27661,7 +28373,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "big; large; great; older (than another person); eldest (as in 大姐[da4 jie3]); greatly; freely; fully; (dialect) father; (dialect) uncle (father's brother); see 大夫[dai4 fu5]"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -27675,6 +28387,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       732,
       733
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/733.png",
     "audio_filename": null
   },
@@ -27688,7 +28401,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/mɑʊ˥ joʊ˥˩ ʂɑʊ˧˩˧/",
     "etymology": [
       {
-        "character": "貓",
+        "character": "猫",
         "pinyin": "māo",
         "meaning": "cat (CL:隻|只[zhi1]); (dialect) to hide oneself; (loanword) (coll.) modem; used in 貓腰|猫腰[mao2 yao1]"
       },
@@ -27711,6 +28424,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       734,
       735
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/734.png",
     "audio_filename": null
   },
@@ -27724,7 +28438,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/mɑʊ˥ joʊ˥˩ tʰan˥˩ ʈʂɑŋ˧˩˧/",
     "etymology": [
       {
-        "character": "貓",
+        "character": "猫",
         "pinyin": "māo",
         "meaning": "cat (CL:隻|只[zhi1]); (dialect) to hide oneself; (loanword) (coll.) modem; used in 貓腰|猫腰[mao2 yao1]"
       },
@@ -27739,7 +28453,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to explore; to search out; to scout; to visit; to stretch forward"
       },
       {
-        "character": "長",
+        "character": "长",
         "pinyin": "zhǎng",
         "meaning": "long; (bound form) length; (bound form) strong point; forte; (bound form) to be good at; (literary) surplus; spare (Taiwan pr. [zhang4]); chief; head; elder; to grow; to develop; to increase; to enhance"
       }
@@ -27752,6 +28466,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       734,
       735
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/735.png",
     "audio_filename": null
   },
@@ -27765,19 +28480,19 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɕʰjɑŋ˧˥ ɤ˥˩ tɕi˥ mu˧˩˧ ʈʂʰʊŋ˧˥/",
     "etymology": [
       {
-        "character": "強",
+        "character": "强",
         "pinyin": "qiáng",
-        "meaning": "surname Qiang; stubborn; unyielding; strong; powerful; better; slightly more than; vigorous; violent; best in their category, e.g. see 百強|百强[bai3 qiang2]; to force; to compel; to strive; to make an effort"
+        "meaning": "surname Qiang; stubborn; unyielding; strong; powerful; better; slightly more than; vigorous; violent; best in their category, e.g. see 百強|百强[bai3 qiang2]; to force; to compel; to strive; to make an effort; variant of 強|强[jiang4]; variant of 強|强[qiang2]; variant of 強|强[qiang3]"
       },
       {
-        "character": "顎",
+        "character": "颚",
         "pinyin": "è",
         "meaning": "jaw; palate"
       },
       {
-        "character": "雞",
+        "character": "鸡",
         "pinyin": "jī",
-        "meaning": "fowl; chicken; CL:隻|只[zhi1]; (slang) prostitute"
+        "meaning": "fowl; chicken; CL:隻|只[zhi1]; (slang) prostitute; variant of 雞|鸡[ji1]"
       },
       {
         "character": "母",
@@ -27785,9 +28500,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "mother; elderly female relative; origin; source; (of animals) female"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 7,
@@ -27799,6 +28514,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       737,
       738
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/736.png",
     "audio_filename": null
   },
@@ -27812,19 +28528,19 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂʰʊŋ˧˥ tjɛn˥˩ pɑʊ˧˩˧/",
     "etymology": [
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       },
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       }
     ],
     "generation": 7,
@@ -27836,6 +28552,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       737,
       738
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/737.png",
     "audio_filename": null
   },
@@ -27849,14 +28566,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɕʰjɑʊ˥ nʊŋ˧˥ pʰɑʊ˥˩ ʈʂʰʊŋ˧˥/",
     "etymology": [
       {
-        "character": "鍬",
+        "character": "锹",
         "pinyin": "qiāo",
-        "meaning": "shovel; spade"
+        "meaning": "variant of 鍬|锹[qiao1]; shovel; spade"
       },
       {
-        "character": "農",
+        "character": "农",
         "pinyin": "nóng",
-        "meaning": "surname Nong; (bound form) agriculture"
+        "meaning": "surname Nong; (bound form) agriculture; variant of 農|农[nong2]"
       },
       {
         "character": "炮",
@@ -27864,9 +28581,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to sauté; to fry; to dry by heating; to prepare herbal medicine by roasting or parching (in a pan); cannon; CL:座[zuo4]; firecracker; variant of 炮[pao4]"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 7,
@@ -27878,6 +28595,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       737,
       738
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/738.png",
     "audio_filename": null
   },
@@ -27896,7 +28614,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "good; appropriate; proper; all right!; (before a verb) easy to; (before a verb) good to; (before an adjective for exclamatory effect) so; (verb complement indicating completion); (of two people) close; on intimate terms; (after a personal pronoun) hello; to be fond of; to have a tendency to; to be prone to"
       },
       {
-        "character": "勝",
+        "character": "胜",
         "pinyin": "shèng",
         "meaning": "victory; success; to beat; to defeat; to surpass; victorious; superior to; to get the better of; better than; surpassing; superb (of vista); beautiful (scenery); wonderful (view); (Taiwan pr. [sheng1]) able to bear; equal to (a task)"
       },
@@ -27914,6 +28632,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       739,
       740
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/739.png",
     "audio_filename": null
   },
@@ -27932,7 +28651,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "good; appropriate; proper; all right!; (before a verb) easy to; (before a verb) good to; (before an adjective for exclamatory effect) so; (verb complement indicating completion); (of two people) close; on intimate terms; (after a personal pronoun) hello; to be fond of; to have a tendency to; to be prone to"
       },
       {
-        "character": "勝",
+        "character": "胜",
         "pinyin": "shèng",
         "meaning": "victory; success; to beat; to defeat; to surpass; victorious; superior to; to get the better of; better than; surpassing; superb (of vista); beautiful (scenery); wonderful (view); (Taiwan pr. [sheng1]) able to bear; equal to (a task)"
       },
@@ -27955,6 +28674,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       739,
       740
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/740.png",
     "audio_filename": null
   },
@@ -27978,7 +28698,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to dance; to wield; to brandish"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -27990,6 +28710,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       741
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/741.png",
     "audio_filename": null
   },
@@ -28021,6 +28742,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       742,
       743
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/742.png",
     "audio_filename": null
   },
@@ -28039,7 +28761,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 蝶[die2]; (bound form) butterfly"
       },
       {
-        "character": "結",
+        "character": "结",
         "pinyin": "jié",
         "meaning": "(of a plant) to produce (fruit or seeds); Taiwan pr. [jie2]; knot; sturdy; bond; to tie; to bind; to check out (of a hotel)"
       },
@@ -28062,6 +28784,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       742,
       743
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/743.png",
     "audio_filename": null
   },
@@ -28098,6 +28821,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       744,
       745
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/744.png",
     "audio_filename": null
   },
@@ -28139,6 +28863,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       744,
       745
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/745.png",
     "audio_filename": null
   },
@@ -28162,7 +28887,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Ding; male adult; the 4th of the 10 Heavenly Stems 天干[tian1 gan1]; fourth (used like \"4\" or \"D\"); small cube of meat or vegetable; (literary) to encounter; (archaic) ancient Chinese compass point: 195°; (chemistry) butyl; used in 丁丁[zheng1 zheng1]"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -28174,6 +28899,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       746
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/746.png",
     "audio_filename": null
   },
@@ -28192,7 +28918,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "good; appropriate; proper; all right!; (before a verb) easy to; (before a verb) good to; (before an adjective for exclamatory effect) so; (verb complement indicating completion); (of two people) close; on intimate terms; (after a personal pronoun) hello; to be fond of; to have a tendency to; to be prone to"
       },
       {
-        "character": "壞",
+        "character": "坏",
         "pinyin": "huài",
         "meaning": "bad; spoiled; broken; to break down; (suffix) to the utmost"
       },
@@ -28210,6 +28936,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       747,
       748
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/747.png",
     "audio_filename": null
   },
@@ -28228,7 +28955,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to exceed; to overtake; to surpass; to transcend; to pass; to cross; ultra-; super-"
       },
       {
-        "character": "壞",
+        "character": "坏",
         "pinyin": "huài",
         "meaning": "bad; spoiled; broken; to break down; (suffix) to the utmost"
       },
@@ -28246,6 +28973,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       747,
       748
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png",
     "audio_filename": null
   },
@@ -28264,9 +28992,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "mud; clay; paste; pulp; restrained"
       },
       {
-        "character": "驢",
+        "character": "驴",
         "pinyin": "lǘ",
-        "meaning": "donkey; CL:頭|头[tou2]"
+        "meaning": "variant of 驢|驴[lu:2]; donkey; CL:頭|头[tou2]"
       },
       {
         "character": "仔",
@@ -28282,6 +29010,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       749,
       750
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/749.png",
     "audio_filename": null
   },
@@ -28310,7 +29039,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to pull; to draw (a cart or a bow); to roll up; to coil; to carry on the arm; to lament the dead; (fig.) to pull against; to recover; variant of 挽[wan3]; to draw (a cart)"
       },
       {
-        "character": "馬",
+        "character": "马",
         "pinyin": "mǎ",
         "meaning": "surname Ma; abbr. for Malaysia 馬來西亞|马来西亚[Ma3 lai2 xi1 ya4]; horse; CL:匹[pi3]; horse or cavalry piece in Chinese chess; knight in Western chess"
       }
@@ -28323,6 +29052,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       749,
       750
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/750.png",
     "audio_filename": null
   },
@@ -28354,6 +29084,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       751,
       752
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/751.png",
     "audio_filename": null
   },
@@ -28390,6 +29121,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       751,
       752
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/752.png",
     "audio_filename": null
   },
@@ -28403,9 +29135,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/weɪ˧˩˧ tʰɑŋ˧˥ tsʰɑʊ˧˩˧/",
     "etymology": [
       {
-        "character": "偽",
+        "character": "伪",
         "pinyin": "wěi",
-        "meaning": "false; fake; forged; bogus; (prefix) pseudo-; Taiwan pr. [wei4]"
+        "meaning": "false; fake; forged; bogus; (prefix) pseudo-; Taiwan pr. [wei4]; variant of 偽|伪[wei3]"
       },
       {
         "character": "螳",
@@ -28426,6 +29158,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       753,
       754
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/753.png",
     "audio_filename": null
   },
@@ -28439,7 +29172,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/lan˧˥ tʰɑŋ˧˥ xwa˥/",
     "etymology": [
       {
-        "character": "蘭",
+        "character": "兰",
         "pinyin": "lán",
         "meaning": "surname Lan; abbr. for Lanzhou 蘭州|兰州[Lan2 zhou1], Gansu; orchid (蘭花|兰花 Cymbidium goeringii); fragrant thoroughwort (蘭草|兰草 Eupatorium fortunei); lily magnolia (木蘭|木兰)"
       },
@@ -28462,6 +29195,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       753,
       754
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/754.png",
     "audio_filename": null
   },
@@ -28498,6 +29232,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       755,
       756
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/755.png",
     "audio_filename": null
   },
@@ -28511,7 +29246,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɤŋ˥ ʈʂɑʊ˥˩ jɛ˥˩ ku˥/",
     "etymology": [
       {
-        "character": "燈",
+        "character": "灯",
         "pinyin": "dēng",
         "meaning": "lamp; light; lantern; CL:盞|盏[zhan3]"
       },
@@ -28539,6 +29274,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       755,
       756
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/756.png",
     "audio_filename": null
   },
@@ -28557,7 +29293,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 夜[ye4]; night"
       },
       {
-        "character": "盜",
+        "character": "盗",
         "pinyin": "dào",
         "meaning": "to steal; to rob; to plunder; thief; bandit; robber"
       },
@@ -28580,6 +29316,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       757,
       758
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/757.png",
     "audio_filename": null
   },
@@ -28616,6 +29353,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       757,
       758
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/758.png",
     "audio_filename": null
   },
@@ -28652,6 +29390,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       759,
       760
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/759.png",
     "audio_filename": null
   },
@@ -28670,9 +29409,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to wear; to put on; to dress; to bore through; to pierce; to perforate; to penetrate; to pass through; to thread"
       },
       {
-        "character": "著",
-        "pinyin": "zhù",
-        "meaning": "a move in chess (Taiwan pr. [zhuo2]); trick; tactic; (dialect) okay; all right; (dialect) to put in; to add; to touch; to come in contact with; to feel; to be affected by; to catch fire; to burn; (coll.) to fall asleep; (after a verb) hitting the mark; succeeding in; aspect particle indicating action in progress or ongoing state; to wear (clothes); to contact; to use; to apply; to make known; to show; to prove; to write; book; outstanding; used in 執著|执著[zhi2 zhuo2]"
+        "character": "着",
+        "pinyin": "zhe",
+        "meaning": "variant of 著|着[zhao1]; variant of 著|着[zhao2]; variant of 著|着[zhe5]; variant of 著|着[zhuo2]; a move in chess (Taiwan pr. [zhuo2]); trick; tactic; (dialect) okay; all right; (dialect) to put in; to add; to touch; to come in contact with; to feel; to be affected by; to catch fire; to burn; (coll.) to fall asleep; (after a verb) hitting the mark; succeeding in; aspect particle indicating action in progress or ongoing state; to wear (clothes); to contact; to use; to apply"
       },
       {
         "character": "熊",
@@ -28688,6 +29427,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       759,
       760
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/760.png",
     "audio_filename": null
   },
@@ -28725,6 +29465,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       762,
       763
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/761.png",
     "audio_filename": null
   },
@@ -28762,6 +29503,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       762,
       763
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/762.png",
     "audio_filename": null
   },
@@ -28804,6 +29546,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       762,
       763
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png",
     "audio_filename": null
   },
@@ -28822,17 +29565,17 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Hua; flower; blossom; CL:朵[duo3],支[zhi1],束[shu4],把[ba3],盆[pen2],簇[cu4]; fancy pattern; florid; to spend (money, time); (coll.) lecherous; lustful; old variant of 花[hua1]; variant of 花[hua1]; also pr. [wei3]"
       },
       {
-        "character": "療",
+        "character": "疗",
         "pinyin": "liáo",
         "meaning": "to treat; to cure; therapy"
       },
       {
-        "character": "環",
+        "character": "环",
         "pinyin": "huán",
         "meaning": "surname Huan; ring; hoop; loop; (chain) link; classifier for scores in archery etc; to surround; to encircle; to hem in"
       },
       {
-        "character": "環",
+        "character": "环",
         "pinyin": "huán",
         "meaning": "surname Huan; ring; hoop; loop; (chain) link; classifier for scores in archery etc; to surround; to encircle; to hem in"
       }
@@ -28844,6 +29587,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       764
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/764.png",
     "audio_filename": null
   },
@@ -28862,7 +29606,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(literary) wise; wisdom"
       },
       {
-        "character": "揮",
+        "character": "挥",
         "pinyin": "huī",
         "meaning": "to wave; to brandish; to command; to conduct; to scatter; to disperse"
       },
@@ -28879,6 +29623,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       765
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/765.png",
     "audio_filename": null
   },
@@ -28897,7 +29642,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to throw (sth in a specific direction: ball, javelin, grenade etc); to cast (a ballot); to cast (a glance, a shadow etc); to put in (money for investment, a coin to operate a slot machine); to send (a letter, a manuscript etc); to throw oneself into (a river, a well etc to commit suicide); to go to; to seek refuge; to place oneself into the hands of; (coll.) to rinse (clothes) in water"
       },
       {
-        "character": "擲",
+        "character": "掷",
         "pinyin": "zhì",
         "meaning": "to toss; to throw dice; Taiwan pr. [zhi2]"
       },
@@ -28914,6 +29659,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       766
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/766.png",
     "audio_filename": null
   },
@@ -28927,7 +29673,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tan˧˩˧ ɕjɑʊ˧˩˧ ʈʂʰʊŋ˧˥/",
     "etymology": [
       {
-        "character": "膽",
+        "character": "胆",
         "pinyin": "dǎn",
         "meaning": "gall bladder; courage; guts; gall; inner container (e.g. bladder of a football, inner container of a thermos)"
       },
@@ -28937,9 +29683,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "small; tiny; few; young"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 7,
@@ -28950,6 +29696,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       767,
       768
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/767.png",
     "audio_filename": null
   },
@@ -28991,6 +29738,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       767,
       768
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/768.png",
     "audio_filename": null
   },
@@ -29027,6 +29775,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       769,
       770
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/769.png",
     "audio_filename": null
   },
@@ -29055,7 +29804,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) fortress; stronghold; (often used to transliterate -berg, -burg etc in place names); (bound form) burger (abbr. for 漢堡|汉堡[han4 bao3]); village (used in place names); variant of 鋪|铺[pu4]; used in place names"
       },
       {
-        "character": "爺",
+        "character": "爷",
         "pinyin": "yé",
         "meaning": "grandpa; old gentleman"
       }
@@ -29068,6 +29817,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       769,
       770
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/770.png",
     "audio_filename": null
   },
@@ -29091,9 +29841,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Hai; ocean; sea; CL:個|个[ge4],片[pian4]; great number of people or things; (dialect) numerous"
       },
       {
-        "character": "參",
+        "character": "参",
         "pinyin": "cān",
-        "meaning": "three (banker's anti-fraud numeral); to take part in; to participate; to join; to attend; to counsel; unequal; varied; irregular; uneven; not uniform; abbr. for 參議院|参议院 Senate, Upper House; used in 參差|参差[cen1 ci1]; ginseng; one of the 28 constellations"
+        "meaning": "variant of 參|参[can1]; to take part in; to participate; to join; to attend; to counsel; unequal; varied; irregular; uneven; not uniform; abbr. for 參議院|参议院 Senate, Upper House; used in 參差|参差[cen1 ci1]; ginseng; one of the 28 constellations; old variant of 參|参[can1]; variant of 參|参[shen1]"
       }
     ],
     "generation": 7,
@@ -29103,6 +29853,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       771
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/771.png",
     "audio_filename": null
   },
@@ -29116,7 +29867,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʂu˧˩˧ ɕiŋ˥˩ ： kʰʊŋ˥/",
     "etymology": [
       {
-        "character": "屬",
+        "character": "属",
         "pinyin": "shǔ",
         "meaning": "category; genus (taxonomy); family members; dependents; to belong to; subordinate to; affiliated with; be born in the year of (one of the 12 animals); to be; to prove to be; to constitute; to join together; to fix one's attention on; to concentrate on"
       },
@@ -29144,6 +29895,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       772,
       773
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png",
     "audio_filename": null
   },
@@ -29157,7 +29909,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/in˧˥ pan˥˩ ʈʂan˥˩ ʂoʊ˥˩/",
     "etymology": [
       {
-        "character": "銀",
+        "character": "银",
         "pinyin": "yín",
         "meaning": "silver; silver-colored; relating to money or currency"
       },
@@ -29167,12 +29919,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "partner; companion; comrade; associate; to accompany"
       },
       {
-        "character": "戰",
+        "character": "战",
         "pinyin": "zhàn",
         "meaning": "to fight; fight; war; battle"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -29185,6 +29937,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       772,
       773
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773.png",
     "audio_filename": null
   },
@@ -29203,7 +29956,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "small; tiny; few; young"
       },
       {
-        "character": "隕",
+        "character": "陨",
         "pinyin": "yǔn",
         "meaning": "(bound form) to fall from the sky; variant of 殞|殒[yun3]"
       },
@@ -29220,6 +29973,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       774
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/774.png",
     "audio_filename": null
   },
@@ -29233,7 +29987,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʂu˥˩ ʈʂən˧˩˧ weɪ˧˩˧ ɕjʊŋ˧˥/",
     "etymology": [
       {
-        "character": "樹",
+        "character": "树",
         "pinyin": "shù",
         "meaning": "tree; CL:棵[ke1]; to cultivate; to set up"
       },
@@ -29260,6 +30014,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       775
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/775.png",
     "audio_filename": null
   },
@@ -29283,12 +30038,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "flame; variant of 焰[yan4]"
       },
       {
-        "character": "龜",
+        "character": "龟",
         "pinyin": "guī",
         "meaning": "tortoise; turtle; (coll.) cuckold; variant of 皸|皲[jun1]; used in 龜茲|龟兹[Qiu1 ci2]"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -29300,6 +30055,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       776
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/776.png",
     "audio_filename": null
   },
@@ -29328,14 +30084,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "Germany; German; abbr. for 德國|德国[De2 guo2]; virtue; goodness; morality; ethics; kindness; favor; character; kind; variant of 德[de2]"
       },
       {
-        "character": "瑪",
+        "character": "玛",
         "pinyin": "mǎ",
         "meaning": "used in 瑪瑙|玛瑙[ma3 nao3]"
       },
       {
-        "character": "爾",
+        "character": "尔",
         "pinyin": "ěr",
-        "meaning": "thus; so; like that; you; thou"
+        "meaning": "variant of 爾|尔[er3]; thus; so; like that; you; thou"
       }
     ],
     "generation": 7,
@@ -29345,6 +30101,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       777
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/777.png",
     "audio_filename": null
   },
@@ -29358,19 +30115,19 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/mi˧˥ ni˧˩˧ Ｑ/",
     "etymology": [
       {
-        "character": "謎",
+        "character": "谜",
         "pinyin": "mí",
         "meaning": "see 謎兒|谜儿[mei4 r5], riddle; riddle"
       },
       {
-        "character": "擬",
+        "character": "拟",
         "pinyin": "nǐ",
-        "meaning": "to plan to; to draft (a plan); to imitate; to assess; to compare; pseudo-"
+        "meaning": "doubtful; suspicious; variant of 擬|拟[ni3]; to emulate; to imitate; to plan to; to draft (a plan); to assess; to compare; pseudo-"
       },
       {
-        "character": "Ｑ",
-        "pinyin": "Ｑ",
-        "meaning": ""
+        "character": "丘",
+        "pinyin": "qiū",
+        "meaning": "surname Qiu; mound; hillock; grave; classifier for fields; hillock; mound (variant of 丘[qiu1])"
       }
     ],
     "generation": 7,
@@ -29380,6 +30137,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       778
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/778.png",
     "audio_filename": null
   },
@@ -29413,7 +30171,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Pi; skin; peel; rind; outer layer; leather; hide; fur; cover; wrapping; outer covering; (of food) no longer crisp; soggy; (coll.) naughty; mischievous; pico- (10⁻¹²)"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -29425,6 +30183,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       779
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/779.png",
     "audio_filename": null
   },
@@ -29448,7 +30207,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Weng; elderly man; father; father-in-law; neck feathers of a bird (old)"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -29460,6 +30219,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       780
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/780.png",
     "audio_filename": null
   },
@@ -29488,7 +30248,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "helm; rudder"
       },
       {
-        "character": "輪",
+        "character": "轮",
         "pinyin": "lún",
         "meaning": "wheel; disk; ring; steamship; to take turns; to rotate; classifier for big round objects: disk, or recurring events: round, turn"
       }
@@ -29500,6 +30260,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       781
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/781.png",
     "audio_filename": null
   },
@@ -29518,14 +30279,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "heart; mind; intention; center; core; CL:顆|颗[ke1],個|个[ge4]"
       },
       {
-        "character": "鱗",
+        "character": "鳞",
         "pinyin": "lín",
         "meaning": "scales (of fish, snakes etc)"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       }
     ],
     "generation": 7,
@@ -29537,6 +30298,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       783,
       784
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/782.png",
     "audio_filename": null
   },
@@ -29550,7 +30312,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/lin˧˥ tɕja˧˩˧ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "鱗",
+        "character": "鳞",
         "pinyin": "lín",
         "meaning": "scales (of fish, snakes etc)"
       },
@@ -29560,7 +30322,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "first of the ten Heavenly Stems 十天干[shi2 tian1 gan1]; (used for an unspecified person or thing); first (in a list, as a party to a contract etc); letter \"A\" or roman \"I\" in list \"A, B, C\", or \"I, II, III\" etc; armor plating; shell or carapace; (of the fingers or toes) nail; bladed leather or metal armor (old); ranking system used in the Imperial examinations (old); civil administration unit in the baojia 保甲[bao3 jia3] system (old); ancient Chinese compass point: 75°"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -29574,6 +30336,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       783,
       784
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/783.png",
     "audio_filename": null
   },
@@ -29597,7 +30360,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "tail; remainder; remnant; extremity; sixth of the 28 constellations; classifier for fish; horse's tail; pointed posterior section of a locust etc"
       },
       {
-        "character": "鱗",
+        "character": "鳞",
         "pinyin": "lín",
         "meaning": "scales (of fish, snakes etc)"
       },
@@ -29607,7 +30370,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "first of the ten Heavenly Stems 十天干[shi2 tian1 gan1]; (used for an unspecified person or thing); first (in a list, as a party to a contract etc); letter \"A\" or roman \"I\" in list \"A, B, C\", or \"I, II, III\" etc; armor plating; shell or carapace; (of the fingers or toes) nail; bladed leather or metal armor (old); ranking system used in the Imperial examinations (old); civil administration unit in the baojia 保甲[bao3 jia3] system (old); ancient Chinese compass point: 75°"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -29621,6 +30384,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       783,
       784
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/784.png",
     "audio_filename": null
   },
@@ -29649,12 +30413,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": ""
       },
       {
-        "character": "鳴",
+        "character": "鸣",
         "pinyin": "míng",
         "meaning": "to cry (of birds, animals and insects); to make a sound; to voice (one's gratitude, grievance etc)"
       },
       {
-        "character": "鳴",
+        "character": "鸣",
         "pinyin": "míng",
         "meaning": "to cry (of birds, animals and insects); to make a sound; to voice (one's gratitude, grievance etc)"
       }
@@ -29666,6 +30430,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       785
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/785.png",
     "audio_filename": null
   },
@@ -29711,6 +30476,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       786
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/786.png",
     "audio_filename": null
   },
@@ -29756,6 +30522,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       787
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/787.png",
     "audio_filename": null
   },
@@ -29784,12 +30551,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": ""
       },
       {
-        "character": "鰭",
+        "character": "鳍",
         "pinyin": "qí",
         "meaning": "fin"
       },
       {
-        "character": "鰭",
+        "character": "鳍",
         "pinyin": "qí",
         "meaning": "fin"
       }
@@ -29801,6 +30568,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       788
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/788.png",
     "audio_filename": null
   },
@@ -29844,6 +30612,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       791,
       792
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/789.png",
     "audio_filename": null
   },
@@ -29887,42 +30656,48 @@ export const POKEMON_DATA: PokemonType[] = ((
       791,
       792
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/790.png",
     "audio_filename": null
   },
   {
     "id": 791,
     "name_en": "Solgaleo",
-    "name_zh": "索爾迦雷歐",
-    "name_zh_simplified": "索尔迦雷欧",
-    "pinyin": "Suǒ ěr jiā léi ōu",
-    "pinyin_numbered": "Suo3 er3 jia1 lei2 ou1",
-    "ipa": "/swɔ˧˩˧ ɑɻ˧˩˧ tɕja˥ leɪ˧˥ oʊ˥/",
+    "name_zh": "吞食太陽之獸",
+    "name_zh_simplified": "吞食太阳之兽",
+    "pinyin": "Tūn shí tài yáng zhī shòu",
+    "pinyin_numbered": "Tun1 shi2 tai4 yang2 zhi1 shou4",
+    "ipa": "/tʰwən˥ ʂɨ˧˥ tʰaɪ˥˩ jɑŋ˧˥ ʈʂɨ˥ ʂoʊ˥˩/",
     "etymology": [
       {
-        "character": "索",
-        "pinyin": "suǒ",
-        "meaning": "surname Suo; abbr. for 索馬里|索马里[Suo3 ma3 li3], Somalia; to search; to demand; to ask; to exact; large rope; isolated"
+        "character": "吞",
+        "pinyin": "tūn",
+        "meaning": "to swallow; to take"
       },
       {
-        "character": "爾",
-        "pinyin": "ěr",
-        "meaning": "thus; so; like that; you; thou"
+        "character": "食",
+        "pinyin": "shí",
+        "meaning": "to eat; food; animal feed; eclipse; to feed (a person or animal)"
       },
       {
-        "character": "迦",
-        "pinyin": "jiā",
-        "meaning": "(phonetic sound for Buddhist terms)"
+        "character": "太",
+        "pinyin": "tài",
+        "meaning": "highest; greatest; too (much); very; extremely"
       },
       {
-        "character": "雷",
-        "pinyin": "léi",
-        "meaning": "surname Lei; thunder; (bound form) (military) mine, as in 地雷[di4 lei2] land mine; (coll.) to shock; to stun; to astound; (Tw) (coll.) spoiler; (Tw) (coll.) to reveal plot details to (sb)"
+        "character": "阳",
+        "pinyin": "yáng",
+        "meaning": "positive (electric.); sun; male principle (Taoism); Yang, opposite: 陰|阴[yin1]"
       },
       {
-        "character": "歐",
-        "pinyin": "ōu",
-        "meaning": "Europe (abbr. for 歐洲|欧洲[Ou1 zhou1]); surname Ou; (used for transliteration); old variant of 謳|讴[ou1]"
+        "character": "之",
+        "pinyin": "zhī",
+        "meaning": "(possessive particle, literary equivalent of 的[de5]); him; her; it"
+      },
+      {
+        "character": "兽",
+        "pinyin": "shòu",
+        "meaning": "beast; animal; beastly; bestial"
       }
     ],
     "generation": 7,
@@ -29935,37 +30710,58 @@ export const POKEMON_DATA: PokemonType[] = ((
       791,
       792
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/791.png",
     "audio_filename": null
   },
   {
     "id": 792,
     "name_en": "Lunala",
-    "name_zh": "露奈雅拉",
-    "name_zh_simplified": "露奈雅拉",
-    "pinyin": "Lù nài yǎ lā",
-    "pinyin_numbered": "Lu4 nai4 ya3 la1",
-    "ipa": "/lu˥˩ naɪ˥˩ ja˧˩˧ la˥/",
+    "name_zh": "稱為邀引月亮之獸",
+    "name_zh_simplified": "稱為邀引月亮之兽",
+    "pinyin": "Chēng wèi yāo yǐn yuè liàng zhī shòu",
+    "pinyin_numbered": "Cheng1 wei4 yao1 yin3 yue4 liang4 zhi1 shou4",
+    "ipa": "/ʈʂʰɤŋ˥ weɪ˥˩ jɑʊ˥ in˧˩˧ ɥœ˥˩ ljɑŋ˥˩ ʈʂɨ˥ ʂoʊ˥˩/",
     "etymology": [
       {
-        "character": "露",
-        "pinyin": "lù",
-        "meaning": "surname Lu; to show; to reveal; to betray; to expose; dew; syrup; nectar; outdoors (not under cover)"
+        "character": "稱",
+        "pinyin": "chēng",
+        "meaning": "to fit; to match; to suit; (coll.) to have; to possess; Taiwan pr. [cheng4]; to weigh; to state; to name; name; appellation; to praise; old variant of 秤[cheng4]"
       },
       {
-        "character": "奈",
-        "pinyin": "nài",
-        "meaning": "used in expressions that convey frustration and futility, such as 無奈|无奈[wu2 nai4] and 莫可奈何|莫可奈何[mo4 ke3 nai4 he2] (literary); used for its phonetic value in writing foreign words"
+        "character": "為",
+        "pinyin": "wèi",
+        "meaning": "as (in the capacity of); to take sth as; to act as; to serve as; to behave as; to become; to be; to do; by (in the passive voice); because of; for; to"
       },
       {
-        "character": "雅",
-        "pinyin": "yǎ",
-        "meaning": "elegant"
+        "character": "邀",
+        "pinyin": "yāo",
+        "meaning": "to invite; to request; to intercept; to solicit; to seek"
       },
       {
-        "character": "拉",
-        "pinyin": "lā",
-        "meaning": "to pull; to play (a bowed instrument); to drag; to draw; to chat; (coll.) to empty one's bowels; to make a cut in (sth); to slit; to gash; to slash; used in 拉拉蛄[la4 la4 gu3]; variant of 落[la4]"
+        "character": "引",
+        "pinyin": "yǐn",
+        "meaning": "to draw (e.g. a bow); to pull; to stretch sth; to extend; to lengthen; to involve or implicate in; to attract; to lead; to guide; to leave; to provide evidence or justification for; old unit of distance equal to 10 丈[zhang4], one-thirtieth of a km or 33.33 meters"
+      },
+      {
+        "character": "月",
+        "pinyin": "yuè",
+        "meaning": "moon; month; monthly; CL:個|个[ge4],輪|轮[lun2]"
+      },
+      {
+        "character": "亮",
+        "pinyin": "liàng",
+        "meaning": "bright; light; to shine; to flash; loud and clear; to show (one's passport etc); to make public (one's views etc)"
+      },
+      {
+        "character": "之",
+        "pinyin": "zhī",
+        "meaning": "(possessive particle, literary equivalent of 的[de5]); him; her; it"
+      },
+      {
+        "character": "兽",
+        "pinyin": "shòu",
+        "meaning": "beast; animal; beastly; bestial"
       }
     ],
     "generation": 7,
@@ -29978,6 +30774,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       791,
       792
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/792.png",
     "audio_filename": null
   },
@@ -29991,7 +30788,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ɕy˥ u˧˥ i˥ tɤ˧˥/",
     "etymology": [
       {
-        "character": "虛",
+        "character": "虚",
         "pinyin": "xū",
         "meaning": "emptiness; void; abstract theory or guiding principles; empty or unoccupied; diffident or timid; false; humble or modest; (of health) weak; virtual; in vain"
       },
@@ -30018,6 +30815,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       793
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/793.png",
     "audio_filename": null
   },
@@ -30053,6 +30851,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       794
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/794.png",
     "audio_filename": null
   },
@@ -30066,7 +30865,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/feɪ˥˩ lwɔ˥˩ meɪ˧˩˧ lɑŋ˧˥/",
     "etymology": [
       {
-        "character": "費",
+        "character": "费",
         "pinyin": "fèi",
         "meaning": "surname Fei; to cost; to spend; fee; wasteful; expenses"
       },
@@ -30093,6 +30892,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       795
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/795.png",
     "audio_filename": null
   },
@@ -30106,7 +30906,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tjɛn˥˩ ʂu˥˩ mu˥˩/",
     "etymology": [
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
@@ -30128,6 +30928,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       796
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/796.png",
     "audio_filename": null
   },
@@ -30141,7 +30942,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ xwɔ˧˩˧ xweɪ˥ jɛ˥˩/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
@@ -30151,7 +30952,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Huo; fire; urgent; ammunition; fiery or flaming; internal heat (Chinese medicine); hot (popular); classifier for military units (old); Kangxi radical 86"
       },
       {
-        "character": "輝",
+        "character": "辉",
         "pinyin": "huī",
         "meaning": "(bound form) radiance; brilliance; to shine"
       },
@@ -30168,6 +30969,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       797
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/797.png",
     "audio_filename": null
   },
@@ -30181,9 +30983,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂɨ˧˩˧ y˥˩ tɕjɛn˥˩/",
     "etymology": [
       {
-        "character": "紙",
+        "character": "纸",
         "pinyin": "zhǐ",
-        "meaning": "paper (CL:張|张[zhang1],沓[da2]); classifier for documents, letters etc"
+        "meaning": "variant of 紙|纸[zhi3]; paper (CL:張|张[zhang1],沓[da2]); classifier for documents, letters etc"
       },
       {
         "character": "御",
@@ -30191,9 +30993,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) imperial; royal; (literary) to drive (a carriage); (literary) to manage; to govern; (bound form) to defend; to resist"
       },
       {
-        "character": "劍",
+        "character": "剑",
         "pinyin": "jiàn",
-        "meaning": "double-edged sword; CL:口[kou3],把[ba3]; classifier for blows of a sword"
+        "meaning": "double-edged sword; CL:口[kou3],把[ba3]; classifier for blows of a sword; variant of 劍|剑[jian4]"
       }
     ],
     "generation": 7,
@@ -30203,6 +31005,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       798
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/798.png",
     "audio_filename": null
   },
@@ -30216,7 +31019,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ɤ˥˩ ʂɨ˧˥ ta˥˩ wɑŋ˧˥/",
     "etymology": [
       {
-        "character": "惡",
+        "character": "恶",
         "pinyin": "è",
         "meaning": "used in 惡心|恶心[e3 xin1]; evil; fierce; vicious; ugly; coarse; to harm; to hate; to loathe; ashamed; to fear; to slander"
       },
@@ -30243,6 +31046,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       799
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/799.png",
     "audio_filename": null
   },
@@ -30271,12 +31075,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Luo; old name of several rivers (in Henan, Shaanxi, Sichuan and Anhui); used in transliteration"
       },
       {
-        "character": "茲",
+        "character": "兹",
         "pinyin": "zī",
         "meaning": "used in 龜茲|龟兹[Qiu1 ci2]; (literary) this; (literary) now; (literary) year"
       },
       {
-        "character": "瑪",
+        "character": "玛",
         "pinyin": "mǎ",
         "meaning": "used in 瑪瑙|玛瑙[ma3 nao3]"
       }
@@ -30288,6 +31092,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       800
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/800.png",
     "audio_filename": null
   },
@@ -30301,12 +31106,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ma˧˩˧ tɕi˥ ja˧˩˧ na˥˩/",
     "etymology": [
       {
-        "character": "瑪",
+        "character": "玛",
         "pinyin": "mǎ",
         "meaning": "used in 瑪瑙|玛瑙[ma3 nao3]"
       },
       {
-        "character": "機",
+        "character": "机",
         "pinyin": "jī",
         "meaning": "surname Ji; (bound form) machine; mechanism; (bound form) aircraft; (bound form) an opportunity; (bound form) crucial point; pivot; (bound form) quick-witted; flexible; (bound form) organic"
       },
@@ -30328,6 +31133,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       801
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/801.png",
     "audio_filename": null
   },
@@ -30341,7 +31147,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ma˧˩˧ ɕja˥˩ twɔ˥/",
     "etymology": [
       {
-        "character": "瑪",
+        "character": "玛",
         "pinyin": "mǎ",
         "meaning": "used in 瑪瑙|玛瑙[ma3 nao3]"
       },
@@ -30363,6 +31169,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       802
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/802.png",
     "audio_filename": null
   },
@@ -30381,7 +31188,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "poison; to poison; poisonous; malicious; cruel; fierce; narcotics"
       },
       {
-        "character": "貝",
+        "character": "贝",
         "pinyin": "bèi",
         "meaning": "surname Bei; cowrie; shellfish; currency (archaic)"
       },
@@ -30399,6 +31206,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       803,
       804
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/803.png",
     "audio_filename": null
   },
@@ -30417,17 +31225,17 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "four; 4"
       },
       {
-        "character": "顎",
+        "character": "颚",
         "pinyin": "è",
         "meaning": "jaw; palate"
       },
       {
-        "character": "針",
+        "character": "针",
         "pinyin": "zhēn",
-        "meaning": "needle; pin; injection; stitch; CL:根[gen1],支[zhi1]"
+        "meaning": "needle; pin; injection; stitch; CL:根[gen1],支[zhi1]; variant of 針|针[zhen1], needle"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -30440,6 +31248,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       803,
       804
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/804.png",
     "audio_filename": null
   },
@@ -30453,7 +31262,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/leɪ˧˩˧ leɪ˧˩˧ ʂɨ˧˥/",
     "etymology": [
       {
-        "character": "壘",
+        "character": "垒",
         "pinyin": "lěi",
         "meaning": "rampart; base (in baseball); to build with stones, bricks etc"
       },
@@ -30475,6 +31284,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       805
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/805.png",
     "audio_filename": null
   },
@@ -30493,7 +31303,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(onom.) bang; thump"
       },
       {
-        "character": "頭",
+        "character": "头",
         "pinyin": "tóu",
         "meaning": "head; hair style; the top; end; beginning or end; a stub; remnant; chief; boss; side; aspect; first; leading; classifier for pigs or livestock; CL:個|个[ge4]; suffix for nouns"
       },
@@ -30515,6 +31325,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       806
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/806.png",
     "audio_filename": null
   },
@@ -30538,7 +31349,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to pull; to play (a bowed instrument); to drag; to draw; to chat; (coll.) to empty one's bowels; to make a cut in (sth); to slit; to gash; to slash; used in 拉拉蛄[la4 la4 gu3]; variant of 落[la4]"
       },
       {
-        "character": "奧",
+        "character": "奥",
         "pinyin": "ào",
         "meaning": "(bound form) Austria (abbr. for 奧地利|奥地利[Ao4 di4 li4]); (bound form) Olympics (abbr. for 奧林匹克|奥林匹克[Ao4 lin2 pi3 ke4]); obscure; mysterious"
       },
@@ -30555,6 +31366,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       807
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/807.png",
     "audio_filename": null
   },
@@ -30573,9 +31385,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) the Americas (abbr. for 美洲[Mei3 zhou1]); (bound form) USA (abbr. for 美國|美国[Mei3 guo2]); beautiful; very satisfactory; good; to beautify; to be pleased with oneself"
       },
       {
-        "character": "錄",
+        "character": "录",
         "pinyin": "lù",
-        "meaning": "surname Lu; diary; record; to hit; to copy"
+        "meaning": "to carve wood; surname Lu; diary; record; to hit; to copy"
       },
       {
         "character": "坦",
@@ -30590,6 +31402,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       808
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/808.png",
     "audio_filename": null
   },
@@ -30608,9 +31421,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) the Americas (abbr. for 美洲[Mei3 zhou1]); (bound form) USA (abbr. for 美國|美国[Mei3 guo2]); beautiful; very satisfactory; good; to beautify; to be pleased with oneself"
       },
       {
-        "character": "錄",
+        "character": "录",
         "pinyin": "lù",
-        "meaning": "surname Lu; diary; record; to hit; to copy"
+        "meaning": "to carve wood; surname Lu; diary; record; to hit; to copy"
       },
       {
         "character": "梅",
@@ -30630,6 +31443,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       809
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/809.png",
     "audio_filename": null
   },
@@ -30667,6 +31481,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       811,
       812
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/810.png",
     "audio_filename": null
   },
@@ -30704,6 +31519,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       811,
       812
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/811.png",
     "audio_filename": null
   },
@@ -30717,7 +31533,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/xʊŋ˥ leɪ˧˥ tɕin˥ kɑŋ˥ ɕiŋ˥/",
     "etymology": [
       {
-        "character": "轟",
+        "character": "轰",
         "pinyin": "hōng",
         "meaning": "explosion; bang; boom; rumble; to attack; to shoo away; to expel"
       },
@@ -30732,7 +31548,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Jin; surname Kim (Korean); Jurchen Jin dynasty (1115–1234); gold; chemical element Au; generic term for lustrous and ductile metals; money; golden; highly respected; one of the eight categories of ancient musical instruments 八音[ba1 yin1]"
       },
       {
-        "character": "剛",
+        "character": "刚",
         "pinyin": "gāng",
         "meaning": "(literary) hard; firm; strong; exactly; precisely; barely; only just; just; only a short while ago"
       },
@@ -30751,6 +31567,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       811,
       812
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/812.png",
     "audio_filename": null
   },
@@ -30774,7 +31591,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 兔[tu4]; rabbit"
       },
       {
-        "character": "兒",
+        "character": "儿",
         "pinyin": "ér",
         "meaning": "child; son; non-syllabic diminutive suffix; retroflex final"
       }
@@ -30788,6 +31605,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       814,
       815
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/813.png",
     "audio_filename": null
   },
@@ -30801,7 +31619,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰɤŋ˧˥ tsʰu˥˩ ɕjɑʊ˧˩˧ tɕjɑŋ˥/",
     "etymology": [
       {
-        "character": "騰",
+        "character": "腾",
         "pinyin": "téng",
         "meaning": "(bound form) to gallop; to prance; (bound form) to soar; to hover; to make room; to clear out; to vacate; (verb suffix indicating repeated action)"
       },
@@ -30816,7 +31634,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "small; tiny; few; young"
       },
       {
-        "character": "將",
+        "character": "将",
         "pinyin": "jiāng",
         "meaning": "will; shall; to use; to take; to checkmate; just a short while ago; (introduces object of main verb, used in the same way as 把[ba3]); (bound form) a general; (literary) to command; to lead; (Chinese chess) general (on the black side, equivalent to a king in Western chess); to desire; to invite; to request"
       }
@@ -30830,6 +31648,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       814,
       815
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/814.png",
     "audio_filename": null
   },
@@ -30843,7 +31662,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʂan˧˩˧ jɛn˥˩ wɑŋ˧˥ pʰaɪ˧˥/",
     "etymology": [
       {
-        "character": "閃",
+        "character": "闪",
         "pinyin": "shǎn",
         "meaning": "surname Shan; to dodge; to duck out of the way; to beat it; shaken (by a fall); to sprain; to pull a muscle; lightning; spark; a flash; to flash (across one's mind); to leave behind; (Internet slang) (of a display of affection) \"dazzlingly\" saccharine"
       },
@@ -30872,6 +31691,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       814,
       815
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/815.png",
     "audio_filename": null
   },
@@ -30885,7 +31705,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/leɪ˥˩ jɛn˧˩˧ ɕi˥/",
     "etymology": [
       {
-        "character": "淚",
+        "character": "泪",
         "pinyin": "lèi",
         "meaning": "(bound form) tears; teardrops"
       },
@@ -30909,6 +31729,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       817,
       818
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/816.png",
     "audio_filename": null
   },
@@ -30922,14 +31743,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/pjɛn˥˩ sɤ˥˩ ɕi˥/",
     "etymology": [
       {
-        "character": "變",
+        "character": "变",
         "pinyin": "biàn",
         "meaning": "to change; to become different; to transform; to vary; rebellion"
       },
       {
-        "character": "澀",
+        "character": "涩",
         "pinyin": "sè",
-        "meaning": "astringent; tart; acerbity; unsmooth; rough (surface); hard to understand; obscure"
+        "meaning": "astringent; tart; acerbity; unsmooth; rough (surface); hard to understand; obscure; old variant of 澀|涩[se4]"
       },
       {
         "character": "蜥",
@@ -30946,6 +31767,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       817,
       818
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/817.png",
     "audio_filename": null
   },
@@ -30988,6 +31810,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       817,
       818
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/818.png",
     "audio_filename": null
   },
@@ -31001,7 +31824,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰan˥ ɕin˥ li˥˩ ʂu˧˩˧/",
     "etymology": [
       {
-        "character": "貪",
+        "character": "贪",
         "pinyin": "tān",
         "meaning": "to have a voracious desire for; to covet; greedy; corrupt"
       },
@@ -31029,6 +31852,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       819,
       820
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/819.png",
     "audio_filename": null
   },
@@ -31047,7 +31871,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "Tibetan ethnic group; Tibet Autonomous Region (short name for 西藏自治區|西藏自治区[Xi1 zang4 Zi4 zhi4 qu1]); to conceal; to hide away; to harbor; to store; to collect; storehouse; depository; Buddhist or Taoist scripture"
       },
       {
-        "character": "飽",
+        "character": "饱",
         "pinyin": "bǎo",
         "meaning": "to eat till full; satisfied"
       },
@@ -31070,6 +31894,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       819,
       820
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/820.png",
     "audio_filename": null
   },
@@ -31107,6 +31932,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       822,
       823
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/821.png",
     "audio_filename": null
   },
@@ -31120,14 +31946,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/lan˧˥ ja˥/",
     "etymology": [
       {
-        "character": "藍",
+        "character": "蓝",
         "pinyin": "lán",
         "meaning": "surname Lan; blue; indigo plant"
       },
       {
-        "character": "鴉",
+        "character": "鸦",
         "pinyin": "yā",
-        "meaning": "crow"
+        "meaning": "crow; variant of 鴉|鸦[ya1]"
       }
     ],
     "generation": 8,
@@ -31139,6 +31965,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       822,
       823
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/822.png",
     "audio_filename": null
   },
@@ -31152,19 +31979,19 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/kɑŋ˥ kʰaɪ˧˩˧ ja˥/",
     "etymology": [
       {
-        "character": "鋼",
+        "character": "钢",
         "pinyin": "gāng",
         "meaning": "steel"
       },
       {
-        "character": "鎧",
+        "character": "铠",
         "pinyin": "kǎi",
         "meaning": "armor"
       },
       {
-        "character": "鴉",
+        "character": "鸦",
         "pinyin": "yā",
-        "meaning": "crow"
+        "meaning": "crow; variant of 鴉|鸦[ya1]"
       }
     ],
     "generation": 8,
@@ -31176,6 +32003,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       822,
       823
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/823.png",
     "audio_filename": null
   },
@@ -31194,14 +32022,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Suo; abbr. for 索馬里|索马里[Suo3 ma3 li3], Somalia; to search; to demand; to ask; to exact; large rope; isolated"
       },
       {
-        "character": "偵",
+        "character": "侦",
         "pinyin": "zhēn",
-        "meaning": "to scout; to spy; to detect"
+        "meaning": "to scout; to spy; to detect; old variant of 偵|侦[zhen1]"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 8,
@@ -31213,6 +32041,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       825,
       826
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/824.png",
     "audio_filename": null
   },
@@ -31236,9 +32065,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to cover; to spread over; a cover; a shade; a hood; bamboo fish trap; bamboo chicken coop; (Tw) (coll.) to protect; to have sb's back; (Tw) (coll.) awesome; incredible; (Tw) (coll.) (often as 罩得住[zhao4 de2 zhu4]) to have things under control; to be able to handle it"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 8,
@@ -31250,6 +32079,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       825,
       826
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/825.png",
     "audio_filename": null
   },
@@ -31268,7 +32098,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "old variant of 以[yi3]; abbr. for Israel 以色列[Yi3 se4 lie4]; to use; by means of; according to; in order to; because of; at (a certain date or place)"
       },
       {
-        "character": "歐",
+        "character": "欧",
         "pinyin": "ōu",
         "meaning": "Europe (abbr. for 歐洲|欧洲[Ou1 zhou1]); surname Ou; (used for transliteration); old variant of 謳|讴[ou1]"
       },
@@ -31292,6 +32122,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       825,
       826
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/826.png",
     "audio_filename": null
   },
@@ -31305,14 +32136,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰoʊ˥ ɑɻ˧˥ xu˧˥/",
     "etymology": [
       {
-        "character": "偷",
-        "pinyin": "tōu",
-        "meaning": "to steal; to pilfer; to snatch; thief; stealthily"
+        "character": "狡",
+        "pinyin": "jiǎo",
+        "meaning": "crafty; cunning; sly"
       },
       {
-        "character": "兒",
-        "pinyin": "ér",
-        "meaning": "child; son; non-syllabic diminutive suffix; retroflex final"
+        "character": "小",
+        "pinyin": "xiǎo",
+        "meaning": "small; tiny; few; young"
       },
       {
         "character": "狐",
@@ -31328,6 +32159,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       827,
       828
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/827.png",
     "audio_filename": null
   },
@@ -31341,9 +32173,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/xu˧˥ ta˥˩ tɑʊ˥˩/",
     "etymology": [
       {
-        "character": "狐",
-        "pinyin": "hú",
-        "meaning": "fox"
+        "character": "猾",
+        "pinyin": "huá",
+        "meaning": "sly"
       },
       {
         "character": "大",
@@ -31351,9 +32183,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "big; large; great; older (than another person); eldest (as in 大姐[da4 jie3]); greatly; freely; fully; (dialect) father; (dialect) uncle (father's brother); see 大夫[dai4 fu5]"
       },
       {
-        "character": "盜",
-        "pinyin": "dào",
-        "meaning": "to steal; to rob; to plunder; thief; bandit; robber"
+        "character": "狐",
+        "pinyin": "hú",
+        "meaning": "fox"
       }
     ],
     "generation": 8,
@@ -31364,6 +32196,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       827,
       828
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/828.png",
     "audio_filename": null
   },
@@ -31400,6 +32233,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       829,
       830
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/829.png",
     "audio_filename": null
   },
@@ -31436,6 +32270,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       829,
       830
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/830.png",
     "audio_filename": null
   },
@@ -31454,7 +32289,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Mao; hair; feather; down; wool; mildew; mold; coarse or semifinished; young; raw; careless; unthinking; nervous; scared; (of currency) to devalue or depreciate; classifier for Chinese fractional monetary unit ( = 角[jiao3] , = one-tenth of a yuan or 10 fen 分[fen1])"
       },
       {
-        "character": "辮",
+        "character": "辫",
         "pinyin": "biàn",
         "meaning": "a braid or queue; to plait"
       },
@@ -31472,6 +32307,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       831,
       832
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/831.png",
     "audio_filename": null
   },
@@ -31513,6 +32349,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       831,
       832
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/832.png",
     "audio_filename": null
   },
@@ -31536,7 +32373,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to bite; to nip; variant of 咬[yao3]"
       },
       {
-        "character": "龜",
+        "character": "龟",
         "pinyin": "guī",
         "meaning": "tortoise; turtle; (coll.) cuckold; variant of 皸|皲[jun1]; used in 龜茲|龟兹[Qiu1 ci2]"
       }
@@ -31549,6 +32386,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       833,
       834
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/833.png",
     "audio_filename": null
   },
@@ -31572,7 +32410,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to devour; to bite"
       },
       {
-        "character": "龜",
+        "character": "龟",
         "pinyin": "guī",
         "meaning": "tortoise; turtle; (coll.) cuckold; variant of 皸|皲[jun1]; used in 龜茲|龟兹[Qiu1 ci2]"
       }
@@ -31585,6 +32423,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       833,
       834
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/834.png",
     "audio_filename": null
   },
@@ -31598,12 +32437,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/laɪ˧˥ tjɛn˥˩ wɑŋ˥/",
     "etymology": [
       {
-        "character": "來",
+        "character": "来",
         "pinyin": "lái",
         "meaning": "to come; (used as a substitute for a more specific verb); hither (directional complement for motion toward the speaker, as in 回來|回来[hui2 lai5]); ever since (as in 自古以來|自古以来[zi4 gu3 yi3 lai2]); for the past (amount of time); (prefix) the coming ...; the next ... (as in 來世|来世[lai2 shi4]); (between two verbs) in order to; (after a round number) approximately; (used after 得[de2] to indicate possibility, as in 談得來|谈得来[tan2 de5 lai2], or after 不[bu4] to indicate impossibility, as in 吃不來|吃不来[chi1 bu5 lai2])"
       },
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
@@ -31621,6 +32460,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       835,
       836
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/835.png",
     "audio_filename": null
   },
@@ -31639,7 +32479,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) to pursue; to chase; to drive away; one by one; individually"
       },
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
@@ -31657,6 +32497,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       835,
       836
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/836.png",
     "audio_filename": null
   },
@@ -31694,6 +32535,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       838,
       839
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/837.png",
     "audio_filename": null
   },
@@ -31717,7 +32559,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "wood charcoal; coal"
       },
       {
-        "character": "車",
+        "character": "车",
         "pinyin": "chē",
         "meaning": "surname Che; car; vehicle; CL:輛|辆[liang4]; machine; to shape with a lathe; Kangxi radical 159; war chariot (archaic); rook (in Chinese chess); rook (in chess)"
       }
@@ -31731,6 +32573,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       838,
       839
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/838.png",
     "audio_filename": null
   },
@@ -31768,6 +32611,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       838,
       839
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/839.png",
     "audio_filename": null
   },
@@ -31791,9 +32635,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "fruit; result; resolute; indeed; if really"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 8,
@@ -31807,6 +32651,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       1011,
       1019
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/840.png",
     "audio_filename": null
   },
@@ -31820,9 +32665,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/pʰiŋ˧˥ kwɔ˧˩˧ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "蘋",
+        "character": "苹",
         "pinyin": "píng",
-        "meaning": "used in 蘋果|苹果[ping2 guo3]; clover fern (Marsilea quadrifolia)"
+        "meaning": "(artemisia); duckweed; used in 蘋果|苹果[ping2 guo3]"
       },
       {
         "character": "裹",
@@ -31830,7 +32675,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to wrap around; bundle; parcel; package; to press into service; to pressgang; to make off with (sth)"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -31846,6 +32691,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       1011,
       1019
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/841.png",
     "audio_filename": null
   },
@@ -31859,9 +32705,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/fɤŋ˥ mi˥˩ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "豐",
+        "character": "丰",
         "pinyin": "fēng",
-        "meaning": "surname Feng; abundant; plentiful; fertile; plump; great"
+        "meaning": "luxuriant; buxom; variant of 豐|丰[feng1]; variant of 風|风[feng1]; appearance; charm; surname Feng; abundant; plentiful; fertile; plump; great"
       },
       {
         "character": "蜜",
@@ -31869,7 +32715,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "honey"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -31885,6 +32731,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       1011,
       1019
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/842.png",
     "audio_filename": null
   },
@@ -31921,6 +32768,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       843,
       844
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/843.png",
     "audio_filename": null
   },
@@ -31957,6 +32805,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       843,
       844
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/844.png",
     "audio_filename": null
   },
@@ -31980,7 +32829,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "moon; month; monthly; CL:個|个[ge4],輪|轮[lun2]"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -31992,6 +32841,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       845
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/845.png",
     "audio_filename": null
   },
@@ -32015,7 +32865,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(textiles) shuttle"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -32028,6 +32878,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       846,
       847
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/846.png",
     "audio_filename": null
   },
@@ -32069,6 +32920,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       846,
       847
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/847.png",
     "audio_filename": null
   },
@@ -32082,17 +32934,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tu˧˥ tjɛn˥˩ iŋ˥/",
     "etymology": [
       {
-        "character": "毒",
-        "pinyin": "dú",
-        "meaning": "poison; to poison; poisonous; malicious; cruel; fierce; narcotics"
-      },
-      {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
       {
-        "character": "嬰",
+        "character": "音",
+        "pinyin": "yīn",
+        "meaning": "sound; noise; note (of musical scale); tone; news; syllable; reading (phonetic value of a character)"
+      },
+      {
+        "character": "婴",
         "pinyin": "yīng",
         "meaning": "infant; baby"
       }
@@ -32105,6 +32957,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       848,
       849
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/848.png",
     "audio_filename": null
   },
@@ -32118,7 +32971,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂʰan˥˩ ɕjɛn˧˥ ʐʊŋ˧˥ ɥœn˧˥/",
     "etymology": [
       {
-        "character": "顫",
+        "character": "颤",
         "pinyin": "chàn",
         "meaning": "to tremble; to shiver; to shake; to vibrate; Taiwan pr. [zhan4]"
       },
@@ -32128,7 +32981,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "bow string; string of musical instrument; watchspring; chord (segment of curve); hypotenuse; CL:根[gen1]"
       },
       {
-        "character": "蠑",
+        "character": "蝾",
         "pinyin": "róng",
         "meaning": "salamander"
       },
@@ -32146,6 +32999,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       848,
       849
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/849.png",
     "audio_filename": null
   },
@@ -32159,7 +33013,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʂɑʊ˥ xwɔ˧˩˧ kʊŋ˥/",
     "etymology": [
       {
-        "character": "燒",
+        "character": "烧",
         "pinyin": "shāo",
         "meaning": "to burn; to cook; to stew; to bake; to roast; to heat; to boil (tea, water etc); fever; to run a temperature; (coll.) to let things go to one's head"
       },
@@ -32182,6 +33036,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       850,
       851
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/850.png",
     "audio_filename": null
   },
@@ -32218,6 +33073,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       850,
       851
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/851.png",
     "audio_filename": null
   },
@@ -32254,6 +33110,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       852,
       853
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/852.png",
     "audio_filename": null
   },
@@ -32282,7 +33139,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Wu; martial; military"
       },
       {
-        "character": "師",
+        "character": "师",
         "pinyin": "shī",
         "meaning": "surname Shi; teacher; master; expert; model; army division; (old) troops; to dispatch troops"
       }
@@ -32295,6 +33152,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       852,
       853
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/853.png",
     "audio_filename": null
   },
@@ -32308,7 +33166,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/laɪ˧˥ peɪ˥ ʈʂʰa˧˥/",
     "etymology": [
       {
-        "character": "來",
+        "character": "来",
         "pinyin": "lái",
         "meaning": "to come; (used as a substitute for a more specific verb); hither (directional complement for motion toward the speaker, as in 回來|回来[hui2 lai5]); ever since (as in 自古以來|自古以来[zi4 gu3 yi3 lai2]); for the past (amount of time); (prefix) the coming ...; the next ... (as in 來世|来世[lai2 shi4]); (between two verbs) in order to; (after a round number) approximately; (used after 得[de2] to indicate possibility, as in 談得來|谈得来[tan2 de5 lai2], or after 不[bu4] to indicate impossibility, as in 吃不來|吃不来[chi1 bu5 lai2])"
       },
@@ -32331,6 +33189,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       854,
       855
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/854.png",
     "audio_filename": null
   },
@@ -32354,7 +33213,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to think; to consider"
       },
       {
-        "character": "壺",
+        "character": "壶",
         "pinyin": "hú",
         "meaning": "pot; classifier for bottled liquid"
       }
@@ -32367,6 +33226,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       854,
       855
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/855.png",
     "audio_filename": null
   },
@@ -32409,6 +33269,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       857,
       858
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/856.png",
     "audio_filename": null
   },
@@ -32451,6 +33312,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       857,
       858
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/857.png",
     "audio_filename": null
   },
@@ -32479,7 +33341,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "used in 姆媽|姆妈[m1 ma1]; (old) female tutor; used in 保姆[bao3 mu3]"
       },
       {
-        "character": "溫",
+        "character": "温",
         "pinyin": "wēn",
         "meaning": "surname Wen; warm; lukewarm; to warm up; (bound form) temperature; (bound form) mild; soft; tender; to review (a lesson etc); (TCM) fever; epidemic; pestilence (old variant of 瘟[wen1])"
       }
@@ -32493,6 +33355,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       857,
       858
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/858.png",
     "audio_filename": null
   },
@@ -32506,7 +33369,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɑʊ˧˩˧ tan˥˩ ɕjɑʊ˧˩˧ jɑʊ˥/",
     "etymology": [
       {
-        "character": "搗",
+        "character": "捣",
         "pinyin": "dǎo",
         "meaning": "to pound; to beat; to hull; to attack; to disturb; to stir"
       },
@@ -32535,6 +33398,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       860,
       861
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/859.png",
     "audio_filename": null
   },
@@ -32548,7 +33412,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂa˥˩ xu˧˩˧ mwɔ˧˥/",
     "etymology": [
       {
-        "character": "詐",
+        "character": "诈",
         "pinyin": "zhà",
         "meaning": "to cheat; to swindle; to pretend; to feign; to draw sb out; to try to extract information by deceit or bluff"
       },
@@ -32572,6 +33436,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       860,
       861
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/860.png",
     "audio_filename": null
   },
@@ -32585,7 +33450,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂɑŋ˧˩˧ mɑʊ˧˥ tɕy˥˩ mwɔ˧˥/",
     "etymology": [
       {
-        "character": "長",
+        "character": "长",
         "pinyin": "zhǎng",
         "meaning": "long; (bound form) length; (bound form) strong point; forte; (bound form) to be good at; (literary) surplus; spare (Taiwan pr. [zhang4]); chief; head; elder; to grow; to develop; to increase; to enhance"
       },
@@ -32614,6 +33479,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       860,
       861
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/861.png",
     "audio_filename": null
   },
@@ -32632,7 +33498,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to block up (a road, pipe etc); to stop up (a hole); (fig.) (of a person) choked up with anxiety or stress; wall (literary); (classifier for walls)"
       },
       {
-        "character": "攔",
+        "character": "拦",
         "pinyin": "lán",
         "meaning": "to block sb's path; to obstruct; to flag down (a taxi)"
       },
@@ -32651,6 +33517,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       264,
       862
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/862.png",
     "audio_filename": null
   },
@@ -32669,7 +33536,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(onom.) meow; cat's mewing"
       },
       {
-        "character": "頭",
+        "character": "头",
         "pinyin": "tóu",
         "meaning": "head; hair style; the top; end; beginning or end; a stub; remnant; chief; boss; side; aspect; first; leading; classifier for pigs or livestock; CL:個|个[ge4]; suffix for nouns"
       },
@@ -32688,6 +33555,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       53,
       863
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/863.png",
     "audio_filename": null
   },
@@ -32706,7 +33574,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) evil spirit; devil; (prefix) supernatural; magical"
       },
       {
-        "character": "靈",
+        "character": "灵",
         "pinyin": "líng",
         "meaning": "quick; alert; efficacious; effective; to come true; spirit; departed soul; coffin"
       },
@@ -32729,6 +33597,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       222,
       864
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/864.png",
     "audio_filename": null
   },
@@ -32742,14 +33611,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tsʰʊŋ˥ joʊ˧˥ piŋ˥/",
     "etymology": [
       {
-        "character": "蔥",
+        "character": "葱",
         "pinyin": "cōng",
         "meaning": "scallion; green onion"
       },
       {
-        "character": "遊",
+        "character": "游",
         "pinyin": "yóu",
-        "meaning": "to walk; to tour; to roam; to travel"
+        "meaning": "surname You; to swim; variant of 遊|游[you2]; to walk; to tour; to roam; to travel"
       },
       {
         "character": "兵",
@@ -32765,6 +33634,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       83,
       865
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/865.png",
     "audio_filename": null
   },
@@ -32807,6 +33677,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       122,
       866
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/866.png",
     "audio_filename": null
   },
@@ -32820,14 +33691,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/sɯ˧˩˧ ʂən˧˥ pan˧˩˧/",
     "etymology": [
       {
-        "character": "死",
-        "pinyin": "sǐ",
-        "meaning": "to die; impassable; uncrossable; inflexible; rigid; extremely; damned"
+        "character": "迭",
+        "pinyin": "dié",
+        "meaning": "alternately; repeatedly"
       },
       {
-        "character": "神",
-        "pinyin": "shén",
-        "meaning": "God; god; deity; supernatural; magical; mysterious; spirit; mind; energy; lively; expressive; look; expression; (coll.) awesome; amazing"
+        "character": "失",
+        "pinyin": "shī",
+        "meaning": "to lose; to miss; to fail"
       },
       {
         "character": "板",
@@ -32844,6 +33715,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       563,
       867
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/867.png",
     "audio_filename": null
   },
@@ -32880,6 +33752,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       868,
       869
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/868.png",
     "audio_filename": null
   },
@@ -32916,6 +33789,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       868,
       869
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869.png",
     "audio_filename": null
   },
@@ -32934,7 +33808,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to arrange; to line up; file; series; (in data tables) column; (Tw) row"
       },
       {
-        "character": "陣",
+        "character": "阵",
         "pinyin": "zhèn",
         "meaning": "disposition of troops; wave; spate; burst; spell; short period of time; classifier for events or states of short duration"
       },
@@ -32951,6 +33825,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       870
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/870.png",
     "audio_filename": null
   },
@@ -32979,7 +33854,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Hai; ocean; sea; CL:個|个[ge4],片[pian4]; great number of people or things; (dialect) numerous"
       },
       {
-        "character": "膽",
+        "character": "胆",
         "pinyin": "dǎn",
         "meaning": "gall bladder; courage; guts; gall; inner container (e.g. bladder of a football, inner container of a thermos)"
       }
@@ -32991,6 +33866,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       871
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/871.png",
     "audio_filename": null
   },
@@ -33014,9 +33890,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to swallow; to take"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 8,
@@ -33027,6 +33903,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       872,
       873
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/872.png",
     "audio_filename": null
   },
@@ -33045,7 +33922,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Xue; snow; CL:場|场[chang2]; (literary) to wipe away (a humiliation etc)"
       },
       {
-        "character": "絨",
+        "character": "绒",
         "pinyin": "róng",
         "meaning": "velvet; woolen"
       },
@@ -33063,6 +33940,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       872,
       873
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/873.png",
     "audio_filename": null
   },
@@ -33098,6 +33976,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       874
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/874.png",
     "audio_filename": null
   },
@@ -33121,9 +34000,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to build by laying bricks or stones; used in 砌末[qie4 mo5]"
       },
       {
-        "character": "鵝",
+        "character": "鹅",
         "pinyin": "é",
-        "meaning": "goose; CL:隻|只[zhi1]"
+        "meaning": "variant of 鵝|鹅[e2]; goose; CL:隻|只[zhi1]"
       }
     ],
     "generation": 8,
@@ -33133,6 +34012,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       875
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/875.png",
     "audio_filename": null
   },
@@ -33146,7 +34026,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/aɪ˥˩ kwan˧˩˧ ʂɨ˥˩/",
     "etymology": [
       {
-        "character": "愛",
+        "character": "爱",
         "pinyin": "ài",
         "meaning": "to love; to be fond of; to like; affection; to be inclined (to do sth); to tend to (happen)"
       },
@@ -33168,6 +34048,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       876
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/876.png",
     "audio_filename": null
   },
@@ -33186,12 +34067,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Mo; do not; there is none who"
       },
       {
-        "character": "魯",
+        "character": "鲁",
         "pinyin": "lǔ",
         "meaning": "surname Lu; Lu, an ancient state of China 魯國|鲁国[Lu3 guo2]; short name for Shandong 山東|山东[Shan1 dong1]; (bound form) crass; stupid; rude; (used to represent the sounds of \"ru\", \"lu\" etc in loanwords)"
       },
       {
-        "character": "貝",
+        "character": "贝",
         "pinyin": "bèi",
         "meaning": "surname Bei; cowrie; shellfish; currency (archaic)"
       },
@@ -33208,6 +34089,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       877
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/877.png",
     "audio_filename": null
   },
@@ -33221,7 +34103,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰʊŋ˧˥ ɕjɑŋ˥˩/",
     "etymology": [
       {
-        "character": "銅",
+        "character": "铜",
         "pinyin": "tóng",
         "meaning": "copper (chemistry); see also 紅銅|红铜[hong2 tong2]; CL:塊|块[kuai4]"
       },
@@ -33239,6 +34121,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       878,
       879
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/878.png",
     "audio_filename": null
   },
@@ -33262,7 +34145,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Wang; king or monarch; best or strongest of its type; grand; great; (literary) (of a monarch) to reign over (a kingdom)"
       },
       {
-        "character": "銅",
+        "character": "铜",
         "pinyin": "tóng",
         "meaning": "copper (chemistry); see also 紅銅|红铜[hong2 tong2]; CL:塊|块[kuai4]"
       },
@@ -33280,6 +34163,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       878,
       879
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/879.png",
     "audio_filename": null
   },
@@ -33298,12 +34182,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Lei; thunder; (bound form) (military) mine, as in 地雷[di4 lei2] land mine; (coll.) to shock; to stun; to astound; (Tw) (coll.) spoiler; (Tw) (coll.) to reveal plot details to (sb)"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -33315,6 +34199,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       880
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/880.png",
     "audio_filename": null
   },
@@ -33333,7 +34218,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Lei; thunder; (bound form) (military) mine, as in 地雷[di4 lei2] land mine; (coll.) to shock; to stun; to astound; (Tw) (coll.) spoiler; (Tw) (coll.) to reveal plot details to (sb)"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       },
@@ -33343,7 +34228,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Hai; ocean; sea; CL:個|个[ge4],片[pian4]; great number of people or things; (dialect) numerous"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -33355,6 +34240,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       881
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/881.png",
     "audio_filename": null
   },
@@ -33368,17 +34254,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/saɪ˥ y˧˥ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "鰓",
+        "character": "鳃",
         "pinyin": "sāi",
         "meaning": "gills of fish"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -33390,6 +34276,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       882
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/882.png",
     "audio_filename": null
   },
@@ -33403,12 +34290,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/saɪ˥ y˧˥ xaɪ˧˩˧ ʂoʊ˥˩/",
     "etymology": [
       {
-        "character": "鰓",
+        "character": "鳃",
         "pinyin": "sāi",
         "meaning": "gills of fish"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       },
@@ -33418,7 +34305,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Hai; ocean; sea; CL:個|个[ge4],片[pian4]; great number of people or things; (dialect) numerous"
       },
       {
-        "character": "獸",
+        "character": "兽",
         "pinyin": "shòu",
         "meaning": "beast; animal; beastly; bestial"
       }
@@ -33430,6 +34317,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       883
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/883.png",
     "audio_filename": null
   },
@@ -33443,17 +34331,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/Lv3 kɑŋ˥ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "鋁",
+        "character": "铝",
         "pinyin": "lǚ",
         "meaning": "aluminum (chemistry)"
       },
       {
-        "character": "鋼",
+        "character": "钢",
         "pinyin": "gāng",
         "meaning": "steel"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -33466,6 +34354,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       884,
       1018
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/884.png",
     "audio_filename": null
   },
@@ -33484,7 +34373,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "many; much; more; a lot of; too many; in excess; (after a numeral) ... odd; how (to what extent) (Taiwan pr. [duo2]); (bound form) multi-; poly-"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       },
@@ -33499,7 +34388,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "the West; abbr. for Spain 西班牙[Xi1 ban1 ya2]; Spanish; west"
       },
       {
-        "character": "亞",
+        "character": "亚",
         "pinyin": "yà",
         "meaning": "Asia; Asian; Taiwan pr. [Ya3]; second; next to; inferior; sub-; Taiwan pr. [ya3]"
       }
@@ -33513,6 +34402,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       886,
       887
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/885.png",
     "audio_filename": null
   },
@@ -33531,7 +34421,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "many; much; more; a lot of; too many; in excess; (after a numeral) ... odd; how (to what extent) (Taiwan pr. [duo2]); (bound form) multi-; poly-"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       },
@@ -33550,6 +34440,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       886,
       887
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/886.png",
     "audio_filename": null
   },
@@ -33568,7 +34459,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "many; much; more; a lot of; too many; in excess; (after a numeral) ... odd; how (to what extent) (Taiwan pr. [duo2]); (bound form) multi-; poly-"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       },
@@ -33578,7 +34469,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "Ba, a state during the Zhou dynasty (in present-day Chongqing and the eastern part of Sichuan); the east of Sichuan and Chongqing Municipality; surname Ba; (bound form) abbr. for 巴勒斯坦[Ba1 le4 si1 tan3] (Palestine), 巴基斯坦[Ba1 ji1 si1 tan3] (Pakistan) or 巴西[Ba1 xi1] (Brazil); to long for; to wish; to cling to; to stick to; sth that sticks; close to; next to; spread open; informal abbr. for bus 巴士[ba1 shi4]; bar (unit of pressure); nominalizing suffix on certain nouns, such as 尾巴[wei3 ba5], tail"
       },
       {
-        "character": "魯",
+        "character": "鲁",
         "pinyin": "lǔ",
         "meaning": "surname Lu; Lu, an ancient state of China 魯國|鲁国[Lu3 guo2]; short name for Shandong 山東|山东[Shan1 dong1]; (bound form) crass; stupid; rude; (used to represent the sounds of \"ru\", \"lu\" etc in loanwords)"
       },
@@ -33597,6 +34488,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       886,
       887
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/887.png",
     "audio_filename": null
   },
@@ -33610,12 +34502,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tsʰɑŋ˥ ɕjɑŋ˧˩˧/",
     "etymology": [
       {
-        "character": "蒼",
+        "character": "苍",
         "pinyin": "cāng",
         "meaning": "surname Cang; dark blue; deep green; ash-gray"
       },
       {
-        "character": "響",
+        "character": "响",
         "pinyin": "xiǎng",
         "meaning": "echo; sound; noise; to make a sound; to sound; to ring; loud; classifier for noises"
       }
@@ -33627,6 +34519,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       888
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/888.png",
     "audio_filename": null
   },
@@ -33645,7 +34538,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "Tibetan ethnic group; Tibet Autonomous Region (short name for 西藏自治區|西藏自治区[Xi1 zang4 Zi4 zhi4 qu1]); to conceal; to hide away; to harbor; to store; to collect; storehouse; depository; Buddhist or Taoist scripture"
       },
       {
-        "character": "瑪",
+        "character": "玛",
         "pinyin": "mǎ",
         "meaning": "used in 瑪瑙|玛瑙[ma3 nao3]"
       },
@@ -33667,6 +34560,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       889
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/889.png",
     "audio_filename": null
   },
@@ -33680,12 +34574,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/u˧˥ tɕi˧˥ tʰaɪ˥˩ na˥˩/",
     "etymology": [
       {
-        "character": "無",
+        "character": "无",
         "pinyin": "wú",
         "meaning": "used in 南無|南无[na1 mo2]; not to have; no; none; not; to lack; un-; -less"
       },
       {
-        "character": "極",
+        "character": "极",
         "pinyin": "jí",
         "meaning": "extremely; pole (geography, physics); utmost; top"
       },
@@ -33707,6 +34601,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       890
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/890.png",
     "audio_filename": null
   },
@@ -33743,6 +34638,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       891,
       892
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/891.png",
     "audio_filename": null
   },
@@ -33771,7 +34667,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Xiong; bear; (coll.) to scold; to rebuke; (coll.) weak; incapable"
       },
       {
-        "character": "師",
+        "character": "师",
         "pinyin": "shī",
         "meaning": "surname Shi; teacher; master; expert; model; army division; (old) troops; to dispatch troops"
       }
@@ -33784,6 +34680,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       891,
       892
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/892.png",
     "audio_filename": null
   },
@@ -33797,7 +34694,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/sa˥˩ lu˥˩ tɤ˧˥/",
     "etymology": [
       {
-        "character": "薩",
+        "character": "萨",
         "pinyin": "sà",
         "meaning": "surname Sa; used in 菩薩|菩萨[pu2 sa4]; used in transliteration"
       },
@@ -33819,6 +34716,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       893
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/893.png",
     "audio_filename": null
   },
@@ -33864,6 +34762,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       894
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/894.png",
     "audio_filename": null
   },
@@ -33887,7 +34786,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "short name for Jilin 吉林[Ji2 lin2]; surname Ji; lucky; giga- (meaning billion or 10^9)"
       },
       {
-        "character": "鐸",
+        "character": "铎",
         "pinyin": "duó",
         "meaning": "surname Duo; large ancient bell"
       },
@@ -33909,6 +34808,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       895
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/895.png",
     "audio_filename": null
   },
@@ -33932,7 +34832,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Bao; sudden; violent; cruel; to show or expose; to injure; variant of 曝[pu4]"
       },
       {
-        "character": "馬",
+        "character": "马",
         "pinyin": "mǎ",
         "meaning": "surname Ma; abbr. for Malaysia 馬來西亞|马来西亚[Ma3 lai2 xi1 ya4]; horse; CL:匹[pi3]; horse or cavalry piece in Chinese chess; knight in Western chess"
       }
@@ -33944,6 +34844,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       896
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/896.png",
     "audio_filename": null
   },
@@ -33957,7 +34858,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/liŋ˧˥ joʊ˥ ma˧˩˧/",
     "etymology": [
       {
-        "character": "靈",
+        "character": "灵",
         "pinyin": "líng",
         "meaning": "quick; alert; efficacious; effective; to come true; spirit; departed soul; coffin"
       },
@@ -33967,7 +34868,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "remote; hidden away; secluded; serene; peaceful; to imprison; in superstition indicates the underworld; ancient district spanning Liaonang and Hebei provinces"
       },
       {
-        "character": "馬",
+        "character": "马",
         "pinyin": "mǎ",
         "meaning": "surname Ma; abbr. for Malaysia 馬來西亞|马来西亚[Ma3 lai2 xi1 ya4]; horse; CL:匹[pi3]; horse or cavalry piece in Chinese chess; knight in Western chess"
       }
@@ -33979,6 +34880,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       897
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/897.png",
     "audio_filename": null
   },
@@ -34014,6 +34916,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       898
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/898.png",
     "audio_filename": null
   },
@@ -34027,7 +34930,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/kweɪ˧˩˧ tɕjɑʊ˧˩˧ lu˥˩/",
     "etymology": [
       {
-        "character": "詭",
+        "character": "诡",
         "pinyin": "guǐ",
         "meaning": "(bound form) sly; crafty; (literary) weird; bizarre; (literary) contradictory; inconsistent"
       },
@@ -34050,6 +34953,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       234,
       899
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/899.png",
     "audio_filename": null
   },
@@ -34092,6 +34996,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       212,
       900
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/900.png",
     "audio_filename": null
   },
@@ -34129,6 +35034,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       217,
       901
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/901.png",
     "audio_filename": null
   },
@@ -34157,7 +35063,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "black; mysterious"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -34170,6 +35076,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       550,
       902
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/902.png",
     "audio_filename": null
   },
@@ -34207,6 +35114,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       461,
       903
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/903.png",
     "audio_filename": null
   },
@@ -34220,17 +35128,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/wan˥˩ ʈʂən˥ y˧˥/",
     "etymology": [
       {
-        "character": "萬",
+        "character": "万",
         "pinyin": "wàn",
-        "meaning": "surname Wan; ten thousand; a great number"
+        "meaning": "used in 万俟[Mo4 qi2]; surname Wan; ten thousand; a great number"
       },
       {
-        "character": "針",
+        "character": "针",
         "pinyin": "zhēn",
-        "meaning": "needle; pin; injection; stitch; CL:根[gen1],支[zhi1]"
+        "meaning": "needle; pin; injection; stitch; CL:根[gen1],支[zhi1]; variant of 針|针[zhen1], needle"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -34243,6 +35151,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       211,
       904
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/904.png",
     "audio_filename": null
   },
@@ -34261,14 +35170,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) one's family, esp. wife and children; (literary) to regard with love and affection; to feel concern for; (literary) to regard with love and affection; to feel concern for (variant of 眷[juan4])"
       },
       {
-        "character": "戀",
+        "character": "恋",
         "pinyin": "liàn",
         "meaning": "to feel attached to; to long for; to love"
       },
       {
-        "character": "雲",
+        "character": "云",
         "pinyin": "yún",
-        "meaning": "surname Yun; short name for Yunnan 雲南|云南[Yun2 nan2]; cloud; CL:朵[duo3]"
+        "meaning": "(classical) to say; surname Yun; short name for Yunnan 雲南|云南[Yun2 nan2]; cloud; CL:朵[duo3]"
       }
     ],
     "generation": 8,
@@ -34278,6 +35187,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       905
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/905.png",
     "audio_filename": null
   },
@@ -34296,9 +35206,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "abbr. for Xinjiang 新疆[Xin1 jiang1]; abbr. for Singapore 新加坡[Xin1 jia1 po1]; surname Xin; new; newly; meso- (chemistry)"
       },
       {
-        "character": "葉",
+        "character": "叶",
         "pinyin": "yè",
-        "meaning": "surname Ye; leaf; page; lobe; (historical) period; classifier for small boats"
+        "meaning": "to be in harmony; surname Ye; leaf; page; lobe; (historical) period; classifier for small boats"
       },
       {
         "character": "喵",
@@ -34315,6 +35225,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       907,
       908
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png",
     "audio_filename": null
   },
@@ -34352,6 +35263,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       907,
       908
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/907.png",
     "audio_filename": null
   },
@@ -34399,6 +35311,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       907,
       908
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/908.png",
     "audio_filename": null
   },
@@ -34422,9 +35335,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Huo; fire; urgent; ammunition; fiery or flaming; internal heat (Chinese medicine); hot (popular); classifier for military units (old); Kangxi radical 86"
       },
       {
-        "character": "鱷",
+        "character": "鳄",
         "pinyin": "è",
-        "meaning": "(bound form) alligator; crocodile"
+        "meaning": "variant of 鱷|鳄[e4]; (bound form) alligator; crocodile"
       }
     ],
     "generation": 9,
@@ -34436,6 +35349,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       910,
       911
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/909.png",
     "audio_filename": null
   },
@@ -34454,14 +35368,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to broil; to roast"
       },
       {
-        "character": "燙",
+        "character": "烫",
         "pinyin": "tàng",
         "meaning": "to scald; to burn (by scalding); to blanch (cooking); to heat (sth) up in hot water; to perm; to iron; scalding hot"
       },
       {
-        "character": "鱷",
+        "character": "鳄",
         "pinyin": "è",
-        "meaning": "(bound form) alligator; crocodile"
+        "meaning": "variant of 鱷|鳄[e4]; (bound form) alligator; crocodile"
       }
     ],
     "generation": 9,
@@ -34473,6 +35387,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       910,
       911
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/910.png",
     "audio_filename": null
   },
@@ -34491,7 +35406,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "used in 骨碌碌[gu1 lu4 lu4]; used in 骨碌[gu1 lu5]; used in 骨朵[gu1 duo5]; bone"
       },
       {
-        "character": "紋",
+        "character": "纹",
         "pinyin": "wén",
         "meaning": "line; trace; mark; pattern; grain (of wood etc); to tattoo"
       },
@@ -34501,14 +35416,14 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "very large; huge; tremendous; gigantic; (coll.) very; extremely; variant of 巨[ju4]"
       },
       {
-        "character": "聲",
+        "character": "声",
         "pinyin": "shēng",
         "meaning": "sound; voice; tone; noise; reputation; classifier for sounds"
       },
       {
-        "character": "鱷",
+        "character": "鳄",
         "pinyin": "è",
-        "meaning": "(bound form) alligator; crocodile"
+        "meaning": "variant of 鱷|鳄[e4]; (bound form) alligator; crocodile"
       }
     ],
     "generation": 9,
@@ -34520,6 +35435,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       910,
       911
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/911.png",
     "audio_filename": null
   },
@@ -34533,7 +35449,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʐwən˥˩ ʂweɪ˧˩˧ ja˥/",
     "etymology": [
       {
-        "character": "潤",
+        "character": "润",
         "pinyin": "rùn",
         "meaning": "moist; glossy; sleek; to moisten; to lubricate; to embellish; to enhance; profit; remuneration; (neologism c. 2021) (slang) (loanword from \"run\") to emigrate (in order to flee adverse conditions)"
       },
@@ -34543,7 +35459,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Shui; Shui ethnic group; water; (after a name) ... River; to swim (used mostly in 會水|会水[hui4 shui3] and 水性[shui3 xing4]); (coll.) lacking in substance; shoddy; (bound form) additional cost; extra income; classifier for washings of a garment"
       },
       {
-        "character": "鴨",
+        "character": "鸭",
         "pinyin": "yā",
         "meaning": "duck (CL:隻|只[zhi1]); (slang) male prostitute"
       }
@@ -34557,6 +35473,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       913,
       914
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/912.png",
     "audio_filename": null
   },
@@ -34570,17 +35487,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/jʊŋ˧˩˧ ɥœ˥˩ ja˥/",
     "etymology": [
       {
-        "character": "湧",
+        "character": "涌",
         "pinyin": "yǒng",
-        "meaning": "to bubble up; to rush forth"
+        "meaning": "(used in place names); variant of 湧|涌[yong3]; to bubble up; to rush forth"
       },
       {
-        "character": "躍",
+        "character": "跃",
         "pinyin": "yuè",
         "meaning": "to jump; to leap"
       },
       {
-        "character": "鴨",
+        "character": "鸭",
         "pinyin": "yā",
         "meaning": "duck (CL:隻|只[zhi1]); (slang) male prostitute"
       }
@@ -34594,6 +35511,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       913,
       914
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/913.png",
     "audio_filename": null
   },
@@ -34612,9 +35530,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "mad; wild; violent"
       },
       {
-        "character": "歡",
+        "character": "欢",
         "pinyin": "huān",
-        "meaning": "joyous; happy; pleased"
+        "meaning": "variant of 歡|欢[huan1]; joyous; happy; pleased; hubbub; clamor; a breed of horse"
       },
       {
         "character": "浪",
@@ -34627,7 +35545,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to dance; to wield; to brandish"
       },
       {
-        "character": "鴨",
+        "character": "鸭",
         "pinyin": "yā",
         "meaning": "duck (CL:隻|只[zhi1]); (slang) male prostitute"
       }
@@ -34641,6 +35559,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       913,
       914
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/914.png",
     "audio_filename": null
   },
@@ -34654,7 +35573,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/aɪ˥˩ ʈʂʰɨ˥ tʰwən˧˥/",
     "etymology": [
       {
-        "character": "愛",
+        "character": "爱",
         "pinyin": "ài",
         "meaning": "to love; to be fond of; to like; affection; to be inclined (to do sth); to tend to (happen)"
       },
@@ -34677,6 +35596,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       915,
       916
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/915.png",
     "audio_filename": null
   },
@@ -34690,9 +35610,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/pʰjɑʊ˥ ɕjɑŋ˥ tʰwən˧˥/",
     "etymology": [
       {
-        "character": "飄",
+        "character": "飘",
         "pinyin": "piāo",
-        "meaning": "to float (in the air); to flutter; to waft; complacent; frivolous; weak; shaky; wobbly"
+        "meaning": "variant of 飄|飘[piao1]; to float (in the air); to flutter; to waft; complacent; frivolous; weak; shaky; wobbly"
       },
       {
         "character": "香",
@@ -34713,6 +35633,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       915,
       916
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/916.png",
     "audio_filename": null
   },
@@ -34726,9 +35647,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰwan˧˥ ʈʂu˥ ʈʂu˥/",
     "etymology": [
       {
-        "character": "團",
+        "character": "团",
         "pinyin": "tuán",
-        "meaning": "round; lump; ball; to roll into a ball; to gather; regiment; group; society; classifier for a lump or a soft mass: wad (of paper), ball (of wool), cloud (of smoke)"
+        "meaning": "round; lump; ball; to roll into a ball; to gather; regiment; group; society; classifier for a lump or a soft mass: wad (of paper), ball (of wool), cloud (of smoke); dumpling"
       },
       {
         "character": "珠",
@@ -34749,6 +35670,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       917,
       918
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/917.png",
     "audio_filename": null
   },
@@ -34785,6 +35707,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       917,
       918
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/918.png",
     "audio_filename": null
   },
@@ -34821,6 +35744,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       919,
       920
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/919.png",
     "audio_filename": null
   },
@@ -34857,6 +35781,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       919,
       920
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/920.png",
     "audio_filename": null
   },
@@ -34875,7 +35800,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "variant of 布[bu4]; to announce; to spread; cloth; to declare; to make known"
       },
       {
-        "character": "撥",
+        "character": "拨",
         "pinyin": "bō",
         "meaning": "to push aside with the hand, foot, a stick etc; to dial; to allocate; to set aside (money); to poke (the fire); to pluck (a string instrument); to turn round; classifier: group, batch"
       }
@@ -34889,6 +35814,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       922,
       923
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/921.png",
     "audio_filename": null
   },
@@ -34912,7 +35838,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Tu; Tu ethnic group; earth; dust; clay; local; indigenous; crude opium; unsophisticated; one of the eight categories of ancient musical instruments 八音[ba1 yin1]"
       },
       {
-        "character": "撥",
+        "character": "拨",
         "pinyin": "bō",
         "meaning": "to push aside with the hand, foot, a stick etc; to dial; to allocate; to set aside (money); to poke (the fire); to pluck (a string instrument); to turn round; classifier: group, batch"
       }
@@ -34926,6 +35852,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       922,
       923
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/922.png",
     "audio_filename": null
   },
@@ -34954,7 +35881,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Tu; Tu ethnic group; earth; dust; clay; local; indigenous; crude opium; unsophisticated; one of the eight categories of ancient musical instruments 八音[ba1 yin1]"
       },
       {
-        "character": "撥",
+        "character": "拨",
         "pinyin": "bō",
         "meaning": "to push aside with the hand, foot, a stick etc; to dial; to allocate; to set aside (money); to poke (the fire); to pluck (a string instrument); to turn round; classifier: group, batch"
       }
@@ -34968,6 +35895,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       922,
       923
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/923.png",
     "audio_filename": null
   },
@@ -34986,7 +35914,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "one; single; a (article); as soon as; entire; whole; all; throughout; \"one\" radical in Chinese characters (Kangxi radical 1); also pr. [yao1] for greater clarity when spelling out numbers digit by digit"
       },
       {
-        "character": "對",
+        "character": "对",
         "pinyin": "duì",
         "meaning": "right; correct; towards; at; for; concerning; regarding; to treat (sb a certain way); to face; (bound form) opposite; facing; matching; to match together; to adjust; to fit; to suit; to answer; to reply; to add; to pour in (a fluid); to check; to compare; classifier: couple; pair"
       },
@@ -35004,6 +35932,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       924,
       925
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/924.png",
     "audio_filename": null
   },
@@ -35040,6 +35969,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       924,
       925
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/925.png",
     "audio_filename": null
   },
@@ -35076,6 +36006,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       926,
       927
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/926.png",
     "audio_filename": null
   },
@@ -35112,6 +36043,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       926,
       927
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/927.png",
     "audio_filename": null
   },
@@ -35149,6 +36081,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       929,
       930
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/928.png",
     "audio_filename": null
   },
@@ -35162,7 +36095,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ɑʊ˥˩ li˥˩ njoʊ˧˩˧/",
     "etymology": [
       {
-        "character": "奧",
+        "character": "奥",
         "pinyin": "ào",
         "meaning": "(bound form) Austria (abbr. for 奧地利|奥地利[Ao4 di4 li4]); (bound form) Olympics (abbr. for 奧林匹克|奥林匹克[Ao4 lin2 pi3 ke4]); obscure; mysterious"
       },
@@ -35172,7 +36105,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Li; sharp; favorable; advantage; benefit; profit; interest; to do good to; to benefit"
       },
       {
-        "character": "紐",
+        "character": "纽",
         "pinyin": "niǔ",
         "meaning": "to turn; to wrench; button; nu (Greek letter Νν)"
       }
@@ -35186,6 +36119,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       929,
       930
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/929.png",
     "audio_filename": null
   },
@@ -35199,7 +36133,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ɑʊ˥˩ li˥˩ wa˧˩˧/",
     "etymology": [
       {
-        "character": "奧",
+        "character": "奥",
         "pinyin": "ào",
         "meaning": "(bound form) Austria (abbr. for 奧地利|奥地利[Ao4 di4 li4]); (bound form) Olympics (abbr. for 奧林匹克|奥林匹克[Ao4 lin2 pi3 ke4]); obscure; mysterious"
       },
@@ -35223,6 +36157,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       929,
       930
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/930.png",
     "audio_filename": null
   },
@@ -35241,7 +36176,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "Nu ethnic group; anger; fury; flourishing; vigorous"
       },
       {
-        "character": "鸚",
+        "character": "鹦",
         "pinyin": "yīng",
         "meaning": "(bound form) parrot"
       },
@@ -35258,6 +36193,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       931
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/931.png",
     "audio_filename": null
   },
@@ -35271,7 +36207,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/jɛn˧˥ ʂɨ˧˥ pɑʊ˧˩˧/",
     "etymology": [
       {
-        "character": "鹽",
+        "character": "盐",
         "pinyin": "yán",
         "meaning": "salt; CL:粒[li4]"
       },
@@ -35281,9 +36217,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Shi; abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei; dry measure for grain equal to ten dou 斗[dou3]; one hundred liters; ancient pr. [shi2]; rock; stone; stone inscription; one of the eight categories of ancient musical instruments 八音[ba1 yin1]"
       },
       {
-        "character": "寶",
+        "character": "宝",
         "pinyin": "bǎo",
-        "meaning": "jewel; gem; treasure; precious"
+        "meaning": "variant of 寶|宝[bao3]; jewel; gem; treasure; precious"
       }
     ],
     "generation": 9,
@@ -35295,6 +36231,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       933,
       934
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/932.png",
     "audio_filename": null
   },
@@ -35308,7 +36245,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/jɛn˧˥ ʂɨ˧˥ leɪ˧˩˧/",
     "etymology": [
       {
-        "character": "鹽",
+        "character": "盐",
         "pinyin": "yán",
         "meaning": "salt; CL:粒[li4]"
       },
@@ -35318,7 +36255,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Shi; abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei; dry measure for grain equal to ten dou 斗[dou3]; one hundred liters; ancient pr. [shi2]; rock; stone; stone inscription; one of the eight categories of ancient musical instruments 八音[ba1 yin1]"
       },
       {
-        "character": "壘",
+        "character": "垒",
         "pinyin": "lěi",
         "meaning": "rampart; base (in baseball); to build with stones, bricks etc"
       }
@@ -35332,6 +36269,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       933,
       934
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/933.png",
     "audio_filename": null
   },
@@ -35345,7 +36283,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/jɛn˧˥ ʂɨ˧˥ tɕy˥˩ liŋ˧˥/",
     "etymology": [
       {
-        "character": "鹽",
+        "character": "盐",
         "pinyin": "yán",
         "meaning": "salt; CL:粒[li4]"
       },
@@ -35360,7 +36298,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "very large; huge; tremendous; gigantic; (coll.) very; extremely; variant of 巨[ju4]"
       },
       {
-        "character": "靈",
+        "character": "灵",
         "pinyin": "líng",
         "meaning": "quick; alert; efficacious; effective; to come true; spirit; departed soul; coffin"
       }
@@ -35374,6 +36312,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       933,
       934
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/934.png",
     "audio_filename": null
   },
@@ -35411,6 +36350,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       936,
       937
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/935.png",
     "audio_filename": null
   },
@@ -35424,22 +36364,22 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/xʊŋ˧˥ ljɛn˧˥ kʰaɪ˧˩˧ tɕʰi˧˥/",
     "etymology": [
       {
-        "character": "紅",
+        "character": "红",
         "pinyin": "hóng",
         "meaning": "surname Hong; used in 女紅|女红[nu : 3 gong1]; red; popular; revolutionary; bonus"
       },
       {
-        "character": "蓮",
+        "character": "莲",
         "pinyin": "lián",
         "meaning": "lotus"
       },
       {
-        "character": "鎧",
+        "character": "铠",
         "pinyin": "kǎi",
         "meaning": "armor"
       },
       {
-        "character": "騎",
+        "character": "骑",
         "pinyin": "qí",
         "meaning": "(Tw) saddle horse; mounted soldier; to sit astride; to ride (a horse, bike etc); classifier for saddle horses"
       }
@@ -35453,6 +36393,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       936,
       937
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/936.png",
     "audio_filename": null
   },
@@ -35466,7 +36407,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tsʰɑŋ˥ jɛn˧˥ ʐən˥˩ kweɪ˧˩˧/",
     "etymology": [
       {
-        "character": "蒼",
+        "character": "苍",
         "pinyin": "cāng",
         "meaning": "surname Cang; dark blue; deep green; ash-gray"
       },
@@ -35495,6 +36436,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       936,
       937
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png",
     "audio_filename": null
   },
@@ -35531,6 +36473,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       938,
       939
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/938.png",
     "audio_filename": null
   },
@@ -35544,7 +36487,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tjɛn˥˩ tu˥˩ wa˥/",
     "etymology": [
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
@@ -35567,6 +36510,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       938,
       939
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/939.png",
     "audio_filename": null
   },
@@ -35580,7 +36524,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tjɛn˥˩ xaɪ˧˩˧ jɛn˥˩/",
     "etymology": [
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
@@ -35603,6 +36547,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       940,
       941
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/940.png",
     "audio_filename": null
   },
@@ -35621,7 +36566,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "big; large; great; older (than another person); eldest (as in 大姐[da4 jie3]); greatly; freely; fully; (dialect) father; (dialect) uncle (father's brother); see 大夫[dai4 fu5]"
       },
       {
-        "character": "電",
+        "character": "电",
         "pinyin": "diàn",
         "meaning": "lightning; electricity; electric (bound form); to get (or give) an electric shock; phone call or telegram etc; to send via telephone or telegram etc"
       },
@@ -35644,6 +36589,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       940,
       941
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/941.png",
     "audio_filename": null
   },
@@ -35680,6 +36626,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       942,
       943
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/942.png",
     "audio_filename": null
   },
@@ -35716,6 +36663,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       942,
       943
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/943.png",
     "audio_filename": null
   },
@@ -35739,7 +36687,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "juice"
       },
       {
-        "character": "鼴",
+        "character": "鼹",
         "pinyin": "yǎn",
         "meaning": "mole"
       }
@@ -35752,6 +36700,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       944,
       945
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/944.png",
     "audio_filename": null
   },
@@ -35765,12 +36714,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰu˧˥ pjɑʊ˥ kʰɤ˥˩/",
     "etymology": [
       {
-        "character": "塗",
+        "character": "涂",
         "pinyin": "tú",
-        "meaning": "to apply (paint etc); to smear; to daub; to blot out; to scribble; to scrawl; (literary) mud; street"
+        "meaning": "to apply (paint etc); to smear; to daub; to blot out; to scribble; to scrawl; (literary) mud; street; surname Tu; variant of 途[tu2]"
       },
       {
-        "character": "標",
+        "character": "标",
         "pinyin": "biāo",
         "meaning": "mark; sign; label; to mark with a symbol, label, lettering etc; to bear (a brand name, registration number etc); prize; award; bid; target; quota; (old) the topmost branches of a tree; visible symptom; classifier for military units"
       },
@@ -35788,6 +36737,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       944,
       945
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/945.png",
     "audio_filename": null
   },
@@ -35801,7 +36751,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/na˥˩ ʂɨ˥˩ tsʰɑʊ˧˩˧/",
     "etymology": [
       {
-        "character": "納",
+        "character": "纳",
         "pinyin": "nà",
         "meaning": "surname Na; to receive; to accept; to enjoy; to bring into; to pay (tax etc); nano- (one billionth); to reinforce sole of shoes or stockings by close sewing"
       },
@@ -35824,6 +36774,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       946,
       947
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/946.png",
     "audio_filename": null
   },
@@ -35842,7 +36793,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "terror; terrified; afraid; frightened"
       },
       {
-        "character": "納",
+        "character": "纳",
         "pinyin": "nà",
         "meaning": "surname Na; to receive; to accept; to enjoy; to bring into; to pay (tax etc); nano- (one billionth); to reinforce sole of shoes or stockings by close sewing"
       },
@@ -35865,6 +36816,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       946,
       947
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/947.png",
     "audio_filename": null
   },
@@ -35906,6 +36858,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       948,
       949
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/948.png",
     "audio_filename": null
   },
@@ -35919,7 +36872,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/lu˥˩ ti˥˩ ʂweɪ˧˩˧ mu˧˩˧/",
     "etymology": [
       {
-        "character": "陸",
+        "character": "陆",
         "pinyin": "lù",
         "meaning": "surname Lu; six (banker's anti-fraud numeral); (bound form) land (as opposed to the sea)"
       },
@@ -35947,6 +36900,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       948,
       949
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/949.png",
     "audio_filename": null
   },
@@ -35982,6 +36936,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       950
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/950.png",
     "audio_filename": null
   },
@@ -35995,7 +36950,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʐɤ˥˩ la˥˩ wa˧˥/",
     "etymology": [
       {
-        "character": "熱",
+        "character": "热",
         "pinyin": "rè",
         "meaning": "to warm up; to heat up; hot (of weather); heat; fervent"
       },
@@ -36018,6 +36973,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       951,
       952
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/951.png",
     "audio_filename": null
   },
@@ -36054,6 +37010,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       951,
       952
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/952.png",
     "audio_filename": null
   },
@@ -36067,12 +37024,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂʰʊŋ˧˥ kwən˧˩˧ ni˧˥/",
     "etymology": [
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       },
       {
-        "character": "滾",
+        "character": "滚",
         "pinyin": "gǔn",
         "meaning": "to boil; to roll; to take a hike; Get lost!"
       },
@@ -36090,6 +37047,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       953,
       954
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/953.png",
     "audio_filename": null
   },
@@ -36103,9 +37061,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ʈʂʰʊŋ˧˥ tɕja˧˩˧ ʂɤŋ˥˩/",
     "etymology": [
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       },
       {
         "character": "甲",
@@ -36113,9 +37071,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "first of the ten Heavenly Stems 十天干[shi2 tian1 gan1]; (used for an unspecified person or thing); first (in a list, as a party to a contract etc); letter \"A\" or roman \"I\" in list \"A, B, C\", or \"I, II, III\" etc; armor plating; shell or carapace; (of the fingers or toes) nail; bladed leather or metal armor (old); ranking system used in the Imperial examinations (old); civil administration unit in the baojia 保甲[bao3 jia3] system (old); ancient Chinese compass point: 75°"
       },
       {
-        "character": "聖",
+        "character": "圣",
         "pinyin": "shèng",
-        "meaning": "(bound form) peerless (in wisdom, moral virtue, skill etc); (bound form) peerless individual; paragon (sage, saint, emperor, master of a skill etc); (bound form) holy; sacred"
+        "meaning": "(literary) to dig with persistent effort (e.g. to gather wild vegetables); variant of 聖|圣[sheng4]; (bound form) peerless (in wisdom, moral virtue, skill etc); (bound form) peerless individual; paragon (sage, saint, emperor, master of a skill etc); (bound form) holy; sacred"
       }
     ],
     "generation": 9,
@@ -36126,6 +37084,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       953,
       954
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/954.png",
     "audio_filename": null
   },
@@ -36139,17 +37098,17 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/pʰjɑʊ˥ pʰjɑʊ˥ ʈʂʰu˧˥/",
     "etymology": [
       {
-        "character": "飄",
+        "character": "飘",
         "pinyin": "piāo",
-        "meaning": "to float (in the air); to flutter; to waft; complacent; frivolous; weak; shaky; wobbly"
+        "meaning": "variant of 飄|飘[piao1]; to float (in the air); to flutter; to waft; complacent; frivolous; weak; shaky; wobbly"
       },
       {
-        "character": "飄",
+        "character": "飘",
         "pinyin": "piāo",
-        "meaning": "to float (in the air); to flutter; to waft; complacent; frivolous; weak; shaky; wobbly"
+        "meaning": "variant of 飄|飘[piao1]; to float (in the air); to flutter; to waft; complacent; frivolous; weak; shaky; wobbly"
       },
       {
-        "character": "雛",
+        "character": "雏",
         "pinyin": "chú",
         "meaning": "(bound form) chick; young bird"
       }
@@ -36162,6 +37121,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       955,
       956
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/955.png",
     "audio_filename": null
   },
@@ -36185,12 +37145,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Neng; can; to be able to; might possibly; ability; (physics) energy"
       },
       {
-        "character": "艷",
+        "character": "艳",
         "pinyin": "yàn",
-        "meaning": "variant of 豔|艳[yan4]"
+        "meaning": "variant of 豔|艳[yan4]; old variant of 豔|艳[yan4]; bright; fresh and attractive; glamorous; (bound form) amorous; romantic; (literary) to admire; to envy"
       },
       {
-        "character": "鴕",
+        "character": "鸵",
         "pinyin": "tuó",
         "meaning": "ostrich"
       }
@@ -36203,6 +37163,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       955,
       956
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/956.png",
     "audio_filename": null
   },
@@ -36221,7 +37182,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "small; tiny; few; young"
       },
       {
-        "character": "鍛",
+        "character": "锻",
         "pinyin": "duàn",
         "meaning": "to forge; to discipline; wrought"
       },
@@ -36240,6 +37201,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       958,
       959
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/957.png",
     "audio_filename": null
   },
@@ -36258,7 +37220,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "opportunely; coincidentally; as it happens; skillful; timely"
       },
       {
-        "character": "鍛",
+        "character": "锻",
         "pinyin": "duàn",
         "meaning": "to forge; to discipline; wrought"
       },
@@ -36277,6 +37239,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       958,
       959
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/958.png",
     "audio_filename": null
   },
@@ -36295,7 +37258,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "very large; huge; tremendous; gigantic; (coll.) very; extremely; variant of 巨[ju4]"
       },
       {
-        "character": "鍛",
+        "character": "锻",
         "pinyin": "duàn",
         "meaning": "to forge; to discipline; wrought"
       },
@@ -36314,6 +37277,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       958,
       959
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/959.png",
     "audio_filename": null
   },
@@ -36350,6 +37314,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       960,
       961
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/960.png",
     "audio_filename": null
   },
@@ -36391,6 +37356,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       960,
       961
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/961.png",
     "audio_filename": null
   },
@@ -36414,7 +37380,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Shi; abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei; dry measure for grain equal to ten dou 斗[dou3]; one hundred liters; ancient pr. [shi2]; rock; stone; stone inscription; one of the eight categories of ancient musical instruments 八音[ba1 yin1]"
       },
       {
-        "character": "鳥",
+        "character": "鸟",
         "pinyin": "niǎo",
         "meaning": "variant of 屌[diao3]; penis; bird; CL:隻|只[zhi1],群[qun2]; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn"
       }
@@ -36426,6 +37392,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       962
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/962.png",
     "audio_filename": null
   },
@@ -36467,6 +37434,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       963,
       964
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/963.png",
     "audio_filename": null
   },
@@ -36490,7 +37458,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "suckling pig"
       },
       {
-        "character": "俠",
+        "character": "侠",
         "pinyin": "xiá",
         "meaning": "knight-errant; brave and chivalrous; hero; heroic"
       }
@@ -36503,6 +37471,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       963,
       964
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/964.png",
     "audio_filename": null
   },
@@ -36539,6 +37508,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       965,
       966
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/965.png",
     "audio_filename": null
   },
@@ -36580,6 +37550,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       965,
       966
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/966.png",
     "audio_filename": null
   },
@@ -36615,6 +37586,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       967
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/967.png",
     "audio_filename": null
   },
@@ -36650,6 +37622,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       968
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/968.png",
     "audio_filename": null
   },
@@ -36686,6 +37659,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       969,
       970
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/969.png",
     "audio_filename": null
   },
@@ -36722,6 +37696,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       969,
       970
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/970.png",
     "audio_filename": null
   },
@@ -36758,6 +37733,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       971,
       972
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/971.png",
     "audio_filename": null
   },
@@ -36776,9 +37752,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "grave; tomb; mausoleum"
       },
       {
-        "character": "揚",
+        "character": "扬",
         "pinyin": "yáng",
-        "meaning": "abbr. for Yangzhou 揚州|扬州[Yang2 zhou1] in Jiangsu; surname Yang; to raise; to hoist; the action of tossing or winnowing; scattering (in the wind); to flutter; to propagate"
+        "meaning": "abbr. for Yangzhou 揚州|扬州[Yang2 zhou1] in Jiangsu; surname Yang; to raise; to hoist; the action of tossing or winnowing; scattering (in the wind); to flutter; to propagate; variant of 揚|扬[yang2]"
       },
       {
         "character": "犬",
@@ -36794,6 +37770,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       971,
       972
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/972.png",
     "audio_filename": null
   },
@@ -36812,12 +37789,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to wind around; to wrap round; to coil; tangle; to involve; to bother; to annoy"
       },
       {
-        "character": "紅",
+        "character": "红",
         "pinyin": "hóng",
         "meaning": "surname Hong; used in 女紅|女红[nu : 3 gong1]; red; popular; revolutionary; bonus"
       },
       {
-        "character": "鶴",
+        "character": "鹤",
         "pinyin": "hè",
         "meaning": "crane"
       }
@@ -36829,6 +37806,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       973
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/973.png",
     "audio_filename": null
   },
@@ -36847,7 +37825,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "to walk; to go; to run; to move (of vehicle); to visit; to leave; to go away; to die (euph.); from; through; away (in compound verbs, such as 撤走[che4 zou3]); to change (shape, form, meaning)"
       },
       {
-        "character": "鯨",
+        "character": "鲸",
         "pinyin": "jīng",
         "meaning": "whale"
       }
@@ -36860,6 +37838,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       974,
       975
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/974.png",
     "audio_filename": null
   },
@@ -36883,7 +37862,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "big; large; great; older (than another person); eldest (as in 大姐[da4 jie3]); greatly; freely; fully; (dialect) father; (dialect) uncle (father's brother); see 大夫[dai4 fu5]"
       },
       {
-        "character": "鯨",
+        "character": "鲸",
         "pinyin": "jīng",
         "meaning": "whale"
       }
@@ -36896,6 +37875,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       974,
       975
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/975.png",
     "audio_filename": null
   },
@@ -36909,7 +37889,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɕʰiŋ˥ ʂən˥ ɕɥœ˧˩˧/",
     "etymology": [
       {
-        "character": "輕",
+        "character": "轻",
         "pinyin": "qīng",
         "meaning": "light; easy; gentle; soft; reckless; unimportant; frivolous; small in number; unstressed; neutral; to disparage"
       },
@@ -36919,7 +37899,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "body; life; oneself; personally; one's morality and conduct; the main part of a structure or body; pregnant; classifier for sets of clothes: suit, twinset; Kangxi radical 158"
       },
       {
-        "character": "鱈",
+        "character": "鳕",
         "pinyin": "xuě",
         "meaning": "codfish; Gadus macrocephalus"
       }
@@ -36931,6 +37911,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       976
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/976.png",
     "audio_filename": null
   },
@@ -36966,6 +37947,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       977
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/977.png",
     "audio_filename": null
   },
@@ -36989,7 +37971,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Li; to stand; to set up; to establish; to lay down; to draw up; at once; immediately"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -37001,6 +37983,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       978
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/978.png",
     "audio_filename": null
   },
@@ -37014,7 +37997,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tɕʰi˥˩ ʂɨ˥˩ xoʊ˧˥/",
     "etymology": [
       {
-        "character": "棄",
+        "character": "弃",
         "pinyin": "qì",
         "meaning": "to abandon; to relinquish; to discard; to throw away"
       },
@@ -37038,6 +38021,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       57,
       979
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/979.png",
     "audio_filename": null
   },
@@ -37070,6 +38054,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       195,
       980
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/980.png",
     "audio_filename": null
   },
@@ -37106,6 +38091,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       203,
       981
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/981.png",
     "audio_filename": null
   },
@@ -37124,17 +38110,17 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Tu; Tu ethnic group; earth; dust; clay; local; indigenous; crude opium; unsophisticated; one of the eight categories of ancient musical instruments 八音[ba1 yin1]"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       },
       {
-        "character": "節",
+        "character": "节",
         "pinyin": "jié",
         "meaning": "see 節骨眼|节骨眼[jie1 gu5 yan3]; joint; node; (bound form) section; segment; solar term (one of the 24 divisions of the year in the traditional Chinese calendar); seasonal festival; (bound form) to economize; to save; (bound form) moral integrity; chastity; classifier for segments: lessons, train wagons, biblical verses etc; knot (nautical miles per hour)"
       },
       {
-        "character": "節",
+        "character": "节",
         "pinyin": "jié",
         "meaning": "see 節骨眼|节骨眼[jie1 gu5 yan3]; joint; node; (bound form) section; segment; solar term (one of the 24 divisions of the year in the traditional Chinese calendar); seasonal festival; (bound form) to economize; to save; (bound form) moral integrity; chastity; classifier for segments: lessons, train wagons, biblical verses etc; knot (nautical miles per hour)"
       }
@@ -37147,6 +38133,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       206,
       982
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/982.png",
     "audio_filename": null
   },
@@ -37170,12 +38157,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Dao; knife; blade; single-edged sword; cutlass (CL:把[ba3]); (slang) (loanword) dollar; classifier for sets of one hundred sheets (of paper); classifier for knife cuts or stabs; (Internet slang) to bargain; to ask for a small discount (esp. on second-hand marketplaces)"
       },
       {
-        "character": "將",
+        "character": "将",
         "pinyin": "jiāng",
         "meaning": "will; shall; to use; to take; to checkmate; just a short while ago; (introduces object of main verb, used in the same way as 把[ba3]); (bound form) a general; (literary) to command; to lead; (Chinese chess) general (on the black side, equivalent to a king in Western chess); to desire; to invite; to request"
       },
       {
-        "character": "軍",
+        "character": "军",
         "pinyin": "jūn",
         "meaning": "(bound form) army; military"
       }
@@ -37189,6 +38176,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       625,
       983
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/983.png",
     "audio_filename": null
   },
@@ -37207,7 +38195,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "male; staminate; grand; imposing; powerful; mighty; person or state having great power and influence"
       },
       {
-        "character": "偉",
+        "character": "伟",
         "pinyin": "wěi",
         "meaning": "big; large; great"
       },
@@ -37224,6 +38212,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       984
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/984.png",
     "audio_filename": null
   },
@@ -37259,6 +38248,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       985
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/985.png",
     "audio_filename": null
   },
@@ -37277,7 +38267,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "ferocious; fierce; violent; brave; suddenly; abrupt; (slang) awesome"
       },
       {
-        "character": "惡",
+        "character": "恶",
         "pinyin": "è",
         "meaning": "used in 惡心|恶心[e3 xin1]; evil; fierce; vicious; ugly; coarse; to harm; to hate; to loathe; ashamed; to fear; to slander"
       },
@@ -37294,6 +38284,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       986
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/986.png",
     "audio_filename": null
   },
@@ -37317,9 +38308,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Yi; alternative name for 絳|绛[Jiang4], the capital of the Jin State during the Spring and Autumn Period (770–475 BC); wing; area surrounding the bullseye of a target; to assist; one of the 28 constellations of Chinese astronomy; old variant of 翌"
       },
       {
-        "character": "髮",
-        "pinyin": "fà",
-        "meaning": "hair; Taiwan pr. [fa3]"
+        "character": "发",
+        "pinyin": "fā",
+        "meaning": "to send out; to show (one's feeling); to issue; to develop; to make a bundle of money; classifier for gunshots (rounds); hair; Taiwan pr. [fa3]"
       }
     ],
     "generation": 9,
@@ -37329,32 +38320,43 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       987
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/987.png",
     "audio_filename": null
   },
   {
     "id": 988,
     "name_en": "Slither Wing",
-    "name_zh": "爬地翅",
-    "name_zh_simplified": "爬地翅",
-    "pinyin": "Pá dì chì",
-    "pinyin_numbered": "Pa2 di4 chi4",
-    "ipa": "/pʰa˧˥ ti˥˩ ʈʂʰɨ˥˩/",
+    "name_zh": "地を這う羽",
+    "name_zh_simplified": "地を這う羽",
+    "pinyin": "Dì を zhè う yǔ",
+    "pinyin_numbered": "Di4 を zhe4 う yu3",
+    "ipa": "/ti˥˩ を ʈʂɤ˥˩ う y˧˩˧/",
     "etymology": [
-      {
-        "character": "爬",
-        "pinyin": "pá",
-        "meaning": "to crawl; to climb; to get up or sit up"
-      },
       {
         "character": "地",
         "pinyin": "dì",
         "meaning": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct; earth; ground; field; place; land; CL:片[pian4]"
       },
       {
-        "character": "翅",
-        "pinyin": "chì",
-        "meaning": "variant of 翅[chi4]; (bound form) wing (of a bird or insect)"
+        "character": "を",
+        "pinyin": "を",
+        "meaning": ""
+      },
+      {
+        "character": "這",
+        "pinyin": "zhè",
+        "meaning": "(pronoun) this; these; (bound form) this; the (followed by a noun); (bound form) this; these (followed by a classifier) (in this sense, commonly pr. [zhei4], esp. in Beijing); (coll.) this"
+      },
+      {
+        "character": "う",
+        "pinyin": "う",
+        "meaning": ""
+      },
+      {
+        "character": "羽",
+        "pinyin": "yǔ",
+        "meaning": "feather; 5th note in pentatonic scale"
       }
     ],
     "generation": 9,
@@ -37364,6 +38366,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       988
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/988.png",
     "audio_filename": null
   },
@@ -37382,7 +38385,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Sha; granule; hoarse; raspy; sand; powder; CL:粒[li4]; abbr. for Tsar or Tsarist Russia; (dialect) to sift; to sieve"
       },
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
@@ -37399,6 +38402,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       989
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/989.png",
     "audio_filename": null
   },
@@ -37412,7 +38416,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ ʈʂɤ˧˥ tɕi˥/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
@@ -37422,9 +38426,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "rut; track of a wheel (Taiwan pr. [che4]); (coll.) the direction of traffic; a rhyme (of a song, poem etc); (dialect) (usu. after 有[you3] or 沒|没[mei2]) way; idea"
       },
       {
-        "character": "跡",
-        "pinyin": "jī",
-        "meaning": "(bound form) trace; mark; vestige; clue; Taiwan pr. [ji1]"
+        "character": "迹",
+        "pinyin": "jì",
+        "meaning": "(bound form) trace; mark; vestige; clue; Taiwan pr. [ji1]; (bound form) vestige; historical remains (variant of 跡|迹[ji4]); variant of 跡|迹[ji4]"
       }
     ],
     "generation": 9,
@@ -37434,6 +38438,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       990
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/990.png",
     "audio_filename": null
   },
@@ -37447,7 +38452,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ pɑʊ˥ fu˧˥/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
@@ -37469,6 +38474,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       991
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/991.png",
     "audio_filename": null
   },
@@ -37482,7 +38488,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ pi˥˩ pɑŋ˧˩˧/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
@@ -37504,6 +38510,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       992
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/992.png",
     "audio_filename": null
   },
@@ -37517,7 +38524,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ pwɔ˧˥ tɕiŋ˧˩˧/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
@@ -37527,7 +38534,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "neck"
       },
       {
-        "character": "頸",
+        "character": "颈",
         "pinyin": "jǐng",
         "meaning": "used in 脖頸|脖颈[bo2 geng3]; neck"
       }
@@ -37539,6 +38546,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       993
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/993.png",
     "audio_filename": null
   },
@@ -37552,7 +38560,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ tu˧˥ ɤ˧˥/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
@@ -37574,6 +38582,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       994
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/994.png",
     "audio_filename": null
   },
@@ -37587,12 +38596,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ tɕiŋ˥ tɕi˧˥/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
       {
-        "character": "荊",
+        "character": "荆",
         "pinyin": "jīng",
         "meaning": "an early name for the state of Chu 楚國|楚国[Chu3 guo2]; surname Jing; chaste tree or its berry (Vitex agnus-castus); (literary) cane or switch made from a chaste tree, used for punishment"
       },
@@ -37609,6 +38618,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       995
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/995.png",
     "audio_filename": null
   },
@@ -37622,7 +38632,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ljɑŋ˧˥ tɕi˧˥ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "涼",
+        "character": "凉",
         "pinyin": "liáng",
         "meaning": "the five Liang of the Sixteen Kingdoms, namely: Former Liang 前涼|前凉 (314-376), Later Liang 後涼|后凉 (386-403), Northern Liang 北涼|北凉 (398-439), Southern Liang 南涼|南凉[Nan2 Liang2] (397-414), Western Liang 西涼|西凉 (400-421); cool; cold; to let sth cool down"
       },
@@ -37632,7 +38642,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) spine; backbone; (bound form) ridge"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -37646,6 +38656,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       997,
       998
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/996.png",
     "audio_filename": null
   },
@@ -37659,7 +38670,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʊŋ˥˩ tɕi˧˥ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "凍",
+        "character": "冻",
         "pinyin": "dòng",
         "meaning": "to freeze; to feel very cold; aspic or jelly"
       },
@@ -37669,7 +38680,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) spine; backbone; (bound form) ridge"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -37683,6 +38694,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       997,
       998
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/997.png",
     "audio_filename": null
   },
@@ -37706,7 +38718,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) spine; backbone; (bound form) ridge"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -37720,6 +38732,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       997,
       998
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/998.png",
     "audio_filename": null
   },
@@ -37738,12 +38751,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Suo; abbr. for 索馬里|索马里[Suo3 ma3 li3], Somalia; to search; to demand; to ask; to exact; large rope; isolated"
       },
       {
-        "character": "財",
+        "character": "财",
         "pinyin": "cái",
         "meaning": "money; wealth; riches; property; valuables"
       },
       {
-        "character": "靈",
+        "character": "灵",
         "pinyin": "líng",
         "meaning": "quick; alert; efficacious; effective; to come true; spirit; departed soul; coffin"
       }
@@ -37756,23 +38769,19 @@ export const POKEMON_DATA: PokemonType[] = ((
       999,
       1000
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/999.png",
     "audio_filename": null
   },
   {
     "id": 1000,
     "name_en": "Gholdengo",
-    "name_zh": "賽富豪",
-    "name_zh_simplified": "赛富豪",
-    "pinyin": "Sài fù háo",
-    "pinyin_numbered": "Sai4 fu4 hao2",
-    "ipa": "/saɪ˥˩ fu˥˩ xɑʊ˧˥/",
+    "name_zh": "富豪",
+    "name_zh_simplified": "富豪",
+    "pinyin": "Fù háo",
+    "pinyin_numbered": "Fu4 hao2",
+    "ipa": "/fu˥˩ xɑʊ˧˥/",
     "etymology": [
-      {
-        "character": "賽",
-        "pinyin": "sài",
-        "meaning": "to compete; competition; match; to surpass; better than; superior to; to excel"
-      },
       {
         "character": "富",
         "pinyin": "fù",
@@ -37792,6 +38801,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       999,
       1000
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1000.png",
     "audio_filename": null
   },
@@ -37810,12 +38820,12 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Gu; ancient; old; paleo-"
       },
       {
-        "character": "簡",
+        "character": "简",
         "pinyin": "jiǎn",
         "meaning": "simple; uncomplicated; letter; to choose; to select; bamboo strips used for writing (old)"
       },
       {
-        "character": "蝸",
+        "character": "蜗",
         "pinyin": "wō",
         "meaning": "snail; Taiwan pr. [gua1]; see 蝸牛|蜗牛[wo1 niu2]"
       }
@@ -37827,6 +38837,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1001
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1001.png",
     "audio_filename": null
   },
@@ -37845,9 +38856,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "surname Gu; ancient; old; paleo-"
       },
       {
-        "character": "劍",
+        "character": "剑",
         "pinyin": "jiàn",
-        "meaning": "double-edged sword; CL:口[kou3],把[ba3]; classifier for blows of a sword"
+        "meaning": "double-edged sword; CL:口[kou3],把[ba3]; classifier for blows of a sword; variant of 劍|剑[jian4]"
       },
       {
         "character": "豹",
@@ -37862,6 +38873,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1002
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1002.png",
     "audio_filename": null
   },
@@ -37897,6 +38909,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1003
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1003.png",
     "audio_filename": null
   },
@@ -37920,7 +38933,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "jade"
       },
       {
-        "character": "魚",
+        "character": "鱼",
         "pinyin": "yú",
         "meaning": "surname Yu; fish (CL:條|条[tiao2],尾[wei3]); used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
       }
@@ -37932,6 +38945,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1004
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1004.png",
     "audio_filename": null
   },
@@ -37945,12 +38959,12 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/xʊŋ˥ miŋ˧˥ ɥœ˥˩/",
     "etymology": [
       {
-        "character": "轟",
+        "character": "轰",
         "pinyin": "hōng",
         "meaning": "explosion; bang; boom; rumble; to attack; to shoo away; to expel"
       },
       {
-        "character": "鳴",
+        "character": "鸣",
         "pinyin": "míng",
         "meaning": "to cry (of birds, animals and insects); to make a sound; to voice (one's gratitude, grievance etc)"
       },
@@ -37967,6 +38981,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1005
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1005.png",
     "audio_filename": null
   },
@@ -37980,7 +38995,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ u˧˩˧ ʈʂɤ˧˩˧/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
@@ -38002,6 +39017,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1006
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1006.png",
     "audio_filename": null
   },
@@ -38025,7 +39041,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(literary) bridle; halter; headstall; to rein in; to compel; to force; (literary) to carve; to engrave; (literary) to command; to lead (an army etc); (physics) lux (abbr. for 勒克斯[le4 ke4 si1]); to strap tightly; to bind"
       },
       {
-        "character": "頓",
+        "character": "顿",
         "pinyin": "dùn",
         "meaning": "to stop; to pause; to arrange; to lay out; to kowtow; to stamp (one's foot); at once; classifier for meals, beatings, scoldings etc: time, bout, spell, meal"
       }
@@ -38037,6 +39053,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1007
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1007.png",
     "audio_filename": null
   },
@@ -38060,7 +39077,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(literary) bridle; halter; headstall; to rein in; to compel; to force; (literary) to carve; to engrave; (literary) to command; to lead (an army etc); (physics) lux (abbr. for 勒克斯[le4 ke4 si1]); to strap tightly; to bind"
       },
       {
-        "character": "頓",
+        "character": "顿",
         "pinyin": "dùn",
         "meaning": "to stop; to pause; to arrange; to lay out; to kowtow; to stamp (one's foot); at once; classifier for meals, beatings, scoldings etc: time, bout, spell, meal"
       }
@@ -38072,6 +39089,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1008
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1008.png",
     "audio_filename": null
   },
@@ -38090,9 +39108,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "(bound form) Poland (abbr. for 波蘭|波兰[Bo1 lan2]); surname Bo; wave; ripple; storm; surge"
       },
       {
-        "character": "盪",
+        "character": "荡",
         "pinyin": "dàng",
-        "meaning": "variant of 蕩|荡[dang4]; variant of 燙|烫[tang4]; variant of 趟[tang4]"
+        "meaning": "variant of 蕩|荡[dang4]; variant of 燙|烫[tang4]; variant of 趟[tang4]; to wash; to squander; to sweep away; to move; to shake; dissolute; pond"
       },
       {
         "character": "水",
@@ -38107,6 +39125,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1009
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1009.png",
     "audio_filename": null
   },
@@ -38120,7 +39139,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ pan˥ jɛ˥˩/",
     "etymology": [
       {
-        "character": "鐵",
+        "character": "铁",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
@@ -38130,9 +39149,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "spot; colored patch; stripe; spotted; striped; variegated"
       },
       {
-        "character": "葉",
+        "character": "叶",
         "pinyin": "yè",
-        "meaning": "surname Ye; leaf; page; lobe; (historical) period; classifier for small boats"
+        "meaning": "to be in harmony; surname Ye; leaf; page; lobe; (historical) period; classifier for small boats"
       }
     ],
     "generation": 9,
@@ -38142,6 +39161,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1010
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1010.png",
     "audio_filename": null
   },
@@ -38165,9 +39185,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "honey"
       },
       {
-        "character": "蟲",
+        "character": "虫",
         "pinyin": "chóng",
-        "meaning": "lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
+        "meaning": "variant of 蟲|虫[chong2]; lower form of animal life, including insects, insect larvae, worms and similar creatures; CL:條|条[tiao2],隻|只[zhi1]; (fig.) person with a particular undesirable characteristic"
       }
     ],
     "generation": 9,
@@ -38181,6 +39201,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       1011,
       1019
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1011.png",
     "audio_filename": null
   },
@@ -38217,6 +39238,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       1012,
       1013
     ],
+    "can_evolve": true,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1012.png",
     "audio_filename": null
   },
@@ -38230,7 +39252,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/laɪ˧˥ peɪ˥ tsʰu˥ ʈʂʰa˧˥/",
     "etymology": [
       {
-        "character": "來",
+        "character": "来",
         "pinyin": "lái",
         "meaning": "to come; (used as a substitute for a more specific verb); hither (directional complement for motion toward the speaker, as in 回來|回来[hui2 lai5]); ever since (as in 自古以來|自古以来[zi4 gu3 yi3 lai2]); for the past (amount of time); (prefix) the coming ...; the next ... (as in 來世|来世[lai2 shi4]); (between two verbs) in order to; (after a round number) approximately; (used after 得[de2] to indicate possibility, as in 談得來|谈得来[tan2 de5 lai2], or after 不[bu4] to indicate impossibility, as in 吃不來|吃不来[chi1 bu5 lai2])"
       },
@@ -38258,6 +39280,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       1012,
       1013
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1013.png",
     "audio_filename": null
   },
@@ -38271,14 +39294,14 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/koʊ˥˩ tsan˥˩ koʊ˧˩˧/",
     "etymology": [
       {
-        "character": "夠",
+        "character": "够",
         "pinyin": "gòu",
         "meaning": "enough (sufficient); enough (too much); (coll.) (before adj.) really; (coll.) to reach by stretching out"
       },
       {
-        "character": "讚",
+        "character": "赞",
         "pinyin": "zàn",
-        "meaning": "(bound form) to praise; to laud (variant of 贊|赞[zan4])"
+        "meaning": "variant of 讚|赞[zan4]; (bound form) to praise; to laud (variant of 贊|赞[zan4]); variant of 贊|赞[zan4]; (bound form) to patronize; to support; to aid; (bound form) to praise; to laud"
       },
       {
         "character": "狗",
@@ -38293,6 +39316,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1014
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1014.png",
     "audio_filename": null
   },
@@ -38306,9 +39330,9 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/ɥœn˥˩ tsɤŋ˥ ɥœn˧˥/",
     "etymology": [
       {
-        "character": "願",
+        "character": "愿",
         "pinyin": "yuàn",
-        "meaning": "(bound form) wish; hope; desire; to be willing; to wish (that sth may happen); may ...; vow; pledge"
+        "meaning": "honest and prudent; variant of 願|愿[yuan4]; (bound form) wish; hope; desire; to be willing; to wish (that sth may happen); may ...; vow; pledge"
       },
       {
         "character": "增",
@@ -38328,6 +39352,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1015
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1015.png",
     "audio_filename": null
   },
@@ -38351,9 +39376,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "ringed pheasant"
       },
       {
-        "character": "雞",
+        "character": "鸡",
         "pinyin": "jī",
-        "meaning": "fowl; chicken; CL:隻|只[zhi1]; (slang) prostitute"
+        "meaning": "fowl; chicken; CL:隻|只[zhi1]; (slang) prostitute; variant of 雞|鸡[ji1]"
       }
     ],
     "generation": 9,
@@ -38363,6 +39388,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1016
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1016.png",
     "audio_filename": null
   },
@@ -38381,9 +39407,9 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "distressed; variant of 厄[e4]"
       },
       {
-        "character": "鬼",
+        "character": "诡",
         "pinyin": "guǐ",
-        "meaning": "disembodied spirit; ghost; devil; (suffix) person with a certain vice or addiction etc; sly; crafty; resourceful (variant of 詭|诡[gui3]); one of the 28 constellations of ancient Chinese astronomy"
+        "meaning": "(bound form) sly; crafty; (literary) weird; bizarre; (literary) contradictory; inconsistent"
       },
       {
         "character": "椪",
@@ -38398,6 +39424,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1017
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1017.png",
     "audio_filename": null
   },
@@ -38411,22 +39438,22 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/Lv3 kɑŋ˥ tɕʰjɑʊ˧˥ lʊŋ˧˥/",
     "etymology": [
       {
-        "character": "鋁",
+        "character": "铝",
         "pinyin": "lǚ",
         "meaning": "aluminum (chemistry)"
       },
       {
-        "character": "鋼",
+        "character": "钢",
         "pinyin": "gāng",
         "meaning": "steel"
       },
       {
-        "character": "橋",
+        "character": "桥",
         "pinyin": "qiáo",
         "meaning": "bridge; CL:座[zuo4]"
       },
       {
-        "character": "龍",
+        "character": "龙",
         "pinyin": "lóng",
         "meaning": "surname Long; Chinese dragon; loong; (fig.) emperor; dragon; (bound form) dinosaur"
       }
@@ -38439,6 +39466,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       884,
       1018
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1018.png",
     "audio_filename": null
   },
@@ -38483,6 +39511,7 @@ export const POKEMON_DATA: PokemonType[] = ((
       1011,
       1019
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1019.png",
     "audio_filename": null
   },
@@ -38518,6 +39547,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1020
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1020.png",
     "audio_filename": null
   },
@@ -38553,6 +39583,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1021
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1021.png",
     "audio_filename": null
   },
@@ -38566,7 +39597,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ pʰan˧˥ jɛn˧˥/",
     "etymology": [
       {
-        "character": "铁",
+        "character": "鐵",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
@@ -38588,6 +39619,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1022
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1022.png",
     "audio_filename": null
   },
@@ -38601,19 +39633,19 @@ export const POKEMON_DATA: PokemonType[] = ((
     "ipa": "/tʰjɛ˧˩˧ tʰoʊ˧˥ kʰɤ˧˥/",
     "etymology": [
       {
-        "character": "铁",
+        "character": "鐵",
         "pinyin": "tiě",
         "meaning": "surname Tie; iron (metal); arms; weapons; hard; strong; violent; unshakeable; determined; close; tight (slang)"
       },
       {
-        "character": "头",
+        "character": "頭",
         "pinyin": "tóu",
         "meaning": "head; hair style; the top; end; beginning or end; a stub; remnant; chief; boss; side; aspect; first; leading; classifier for pigs or livestock; CL:個|个[ge4]; suffix for nouns"
       },
       {
-        "character": "壳",
+        "character": "殼",
         "pinyin": "ké",
-        "meaning": "variant of 殼|壳[qiao4]; (coll.) shell (of an egg, nut, crab etc); case; casing; housing (of a machine or device); (bound form) shell; Taiwan pr. [ke2]"
+        "meaning": "(coll.) shell (of an egg, nut, crab etc); case; casing; housing (of a machine or device); (bound form) shell; Taiwan pr. [ke2]"
       }
     ],
     "generation": 9,
@@ -38623,6 +39655,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1023
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1023.png",
     "audio_filename": null
   },
@@ -38641,7 +39674,7 @@ export const POKEMON_DATA: PokemonType[] = ((
         "meaning": "highest; greatest; too (much); very; extremely"
       },
       {
-        "character": "樂",
+        "character": "乐",
         "pinyin": "lè",
         "meaning": "surname Le; surname Yue; used in place names; happy; cheerful; to laugh; music"
       },
@@ -38668,6 +39701,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1024
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1024.png",
     "audio_filename": null
   },
@@ -38703,6 +39737,7 @@ export const POKEMON_DATA: PokemonType[] = ((
     "evolution_line": [
       1025
     ],
+    "can_evolve": false,
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1025.png",
     "audio_filename": null
   }
