@@ -38,9 +38,15 @@ git -C "$REPO_DIR" pull
 
 # ── Install / refresh nginx config ────────────────────────────────────────────
 echo "==> Installing nginx config..."
-sudo cp "$NGINX_SRC" "$NGINX_AVAILABLE"
-if [ ! -L "$NGINX_ENABLED" ]; then
-  sudo ln -s "$NGINX_AVAILABLE" "$NGINX_ENABLED"
+if [ -d /etc/nginx/sites-available ]; then
+  # Debian/Ubuntu style
+  sudo cp "$NGINX_SRC" "$NGINX_AVAILABLE"
+  if [ ! -L "$NGINX_ENABLED" ]; then
+    sudo ln -s "$NGINX_AVAILABLE" "$NGINX_ENABLED"
+  fi
+else
+  # RHEL/Amazon Linux style — drop directly into conf.d
+  sudo cp "$NGINX_SRC" "/etc/nginx/conf.d/api.pokenese.com.conf"
 fi
 sudo nginx -t
 
