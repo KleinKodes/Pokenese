@@ -4,6 +4,7 @@ export interface UserSettings {
   extreme_mode: boolean;
   auto_play_audio: boolean;
   theme: 'dark' | 'light';
+  show_traditional: boolean;
 }
 
 export interface ChallengeResult {

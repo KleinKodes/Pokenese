@@ -24,6 +24,7 @@ const defaultLocalState: LocalState = {
     extreme_mode: false,
     auto_play_audio: false,
     theme: 'dark',
+    show_traditional: false,
   },
 };
 

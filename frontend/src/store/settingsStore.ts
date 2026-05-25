@@ -10,6 +10,7 @@ interface SettingsStore extends UserSettings {
   toggleExtremeMode: () => void;
   toggleAutoPlayAudio: () => void;
   toggleTheme: () => void;
+  toggleTraditional: () => void;
   setTheme: (theme: 'dark' | 'light') => void;
   updateSettings: (settings: Partial<UserSettings>) => void;
 }
@@ -22,6 +23,7 @@ export const useSettingsStore = create<SettingsStore>()(
       extreme_mode: false,
       auto_play_audio: false,
       theme: 'dark',
+      show_traditional: false,
 
       togglePinyin: () =>
         set((state) => ({ show_pinyin: !state.show_pinyin })),
@@ -38,6 +40,9 @@ export const useSettingsStore = create<SettingsStore>()(
         set((state) => ({
           theme: state.theme === 'dark' ? 'light' : 'dark',
         })),
+
+      toggleTraditional: () =>
+        set((state) => ({ show_traditional: !state.show_traditional })),
 
       setTheme: (theme) => set({ theme }),
 

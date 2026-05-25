@@ -10,6 +10,7 @@ import { TypeBadge } from '../ui/TypeBadge';
 import { Button } from '../ui/Button';
 import { useAudio } from '../../hooks/useAudio';
 import { useUserStore } from '../../store/userStore';
+import { useSettingsStore } from '../../store/settingsStore';
 import { EtymologyEditor } from '../admin/EtymologyEditor';
 import apiClient from '../../lib/api';
 
@@ -22,6 +23,7 @@ export function PokemonDetail({ pokemon }: PokemonDetailProps) {
   const { playPokemonName } = useAudio();
   const [isPlaying, setIsPlaying] = useState(false);
   const { isAdmin } = useUserStore();
+  const { show_traditional } = useSettingsStore();
   const [etymology, setEtymology] = useState<EtymologyEntry[]>(pokemon.etymology);
   const [activeOverride, setActiveOverride] = useState<EtymologyEntry[] | null>(null);
 
@@ -83,11 +85,11 @@ export function PokemonDetail({ pokemon }: PokemonDetailProps) {
               {pokemon.name_en}
             </h1>
             <p className="font-chinese text-3xl text-text-secondary mb-1">
-              {pokemon.name_zh}
+              {pokemon.name_zh_simplified}
             </p>
-            {pokemon.name_zh !== pokemon.name_zh_simplified && (
+            {show_traditional && pokemon.name_zh !== pokemon.name_zh_simplified && (
               <p className="font-chinese text-lg text-text-muted mb-2">
-                {pokemon.name_zh_simplified}
+                {pokemon.name_zh}
               </p>
             )}
             <p className="text-accent-blue text-lg font-medium mb-1">

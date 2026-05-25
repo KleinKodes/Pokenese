@@ -112,7 +112,7 @@ export function ChallengeComplete({
               {pokemon.name_en}
             </h3>
             <p className="font-chinese text-xl text-text-secondary">
-              {pokemon.name_zh}
+              {pokemon.name_zh_simplified}
             </p>
             <p className="text-text-muted text-sm">{pokemon.pinyin}</p>
             <div className="flex gap-2 mt-2">

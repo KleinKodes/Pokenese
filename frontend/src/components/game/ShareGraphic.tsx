@@ -56,7 +56,7 @@ export function ShareGraphic({
         />
         <div>
           <p className="text-xl font-bold text-text-primary">{pokemon.name_en}</p>
-          <p className="font-chinese text-lg text-text-secondary">{pokemon.name_zh}</p>
+          <p className="font-chinese text-lg text-text-secondary">{pokemon.name_zh_simplified}</p>
           <p className="text-accent-blue text-sm">{pokemon.pinyin}</p>
           <div className="flex gap-2 mt-1">
             <TypeBadge type={pokemon.type1} size="sm" />

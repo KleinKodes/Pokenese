@@ -19,11 +19,13 @@ export function SettingsDrawer({ isOpen, onClose }: SettingsDrawerProps) {
     extreme_mode,
     auto_play_audio,
     theme,
+    show_traditional,
     togglePinyin,
     toggleIpa,
     toggleExtremeMode,
     toggleAutoPlayAudio,
     toggleTheme,
+    toggleTraditional,
   } = useSettingsStore();
   const { resetAllData } = useLocalState();
   const [confirmReset, setConfirmReset] = useState(false);
@@ -92,6 +94,12 @@ export function SettingsDrawer({ isOpen, onClose }: SettingsDrawerProps) {
                     onChange={toggleIpa}
                     label="Show IPA"
                     description="Display International Phonetic Alphabet pronunciation"
+                  />
+                  <Toggle
+                    checked={show_traditional}
+                    onChange={toggleTraditional}
+                    label="Show Traditional Characters"
+                    description="Also display 繁體中文 when it differs from simplified"
                   />
                   <div className="flex items-center justify-between min-h-[44px]">
                     <div>

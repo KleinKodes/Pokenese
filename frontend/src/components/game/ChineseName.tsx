@@ -13,7 +13,7 @@ interface ChineseNameProps {
 }
 
 export function ChineseName({ pokemon }: ChineseNameProps) {
-  const { show_pinyin, show_ipa, extreme_mode } = useSettingsStore();
+  const { show_pinyin, show_ipa, extreme_mode, show_traditional } = useSettingsStore();
   const { playPokemonName } = useAudio();
   const [isPlaying, setIsPlaying] = useState(false);
   const [isRevealed, setIsRevealed] = useState(false);
@@ -38,9 +38,9 @@ export function ChineseName({ pokemon }: ChineseNameProps) {
             'font-chinese text-[64px] leading-tight font-bold text-text-primary select-none transition-all duration-300',
             extreme_mode && !isRevealed && 'blur-lg select-none'
           )}
-          aria-label={showContent ? pokemon.name_zh : 'Hidden Chinese name'}
+          aria-label={showContent ? pokemon.name_zh_simplified : 'Hidden Chinese name'}
         >
-          {pokemon.name_zh}
+          {pokemon.name_zh_simplified}
         </motion.div>
 
         {extreme_mode && !isRevealed && (
@@ -55,10 +55,10 @@ export function ChineseName({ pokemon }: ChineseNameProps) {
         )}
       </div>
 
-      {/* Simplified Chinese (if different) */}
-      {pokemon.name_zh !== pokemon.name_zh_simplified && showContent && (
+      {/* Traditional Chinese (optional, if different from simplified) */}
+      {show_traditional && pokemon.name_zh !== pokemon.name_zh_simplified && showContent && (
         <p className="text-text-muted text-sm font-chinese">
-          {pokemon.name_zh_simplified}
+          {pokemon.name_zh}
         </p>
       )}
 
