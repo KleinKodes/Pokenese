@@ -110,15 +110,6 @@ SSH_OPTS="-i $SSH_KEY -o StrictHostKeyChecking=accept-new -o ConnectTimeout=15"
 REMOTE="${SSH_USER}@${PUBLIC_IP}"
 REMOTE_REPO_DIR="$REMOTE_HOME/$SSH_USER/$REPO_NAME"
 
-# ── Sync .env.prod if it exists locally ───────────────────────────────────────
-LOCAL_ENV="$SCRIPT_DIR/backend/.env.prod"
-if [ -f "$LOCAL_ENV" ]; then
-  echo "==> Uploading .env.prod..."
-  # Ensure target dir exists first
-  ssh $SSH_OPTS "$REMOTE" "mkdir -p $REMOTE_REPO_DIR/backend"
-  scp $SSH_OPTS "$LOCAL_ENV" "${REMOTE}:${REMOTE_REPO_DIR}/backend/.env.prod"
-fi
-
 # ── Bootstrap: install deps if needed, clone or pull ─────────────────────────
 echo "==> Bootstrapping remote..."
 ssh $SSH_OPTS "$REMOTE" bash <<BOOTSTRAP
@@ -156,16 +147,23 @@ if ! command -v nginx &>/dev/null; then
   sudo systemctl enable --now nginx
 fi
 
-# Repo
-if [ ! -d "$REMOTE_REPO_DIR/.git" ]; then
-  echo "  Cloning repo..."
-  mkdir -p "$REMOTE_HOME/$SSH_USER"
-  git clone $REPO_URL "$REMOTE_REPO_DIR"
-else
+# Repo (clone or pull — must happen before .env.prod upload so dir is clean)
+if [ -d "$REMOTE_REPO_DIR/.git" ]; then
   echo "  Pulling latest..."
   git -C "$REMOTE_REPO_DIR" pull
+else
+  echo "  Cloning repo..."
+  rm -rf "$REMOTE_REPO_DIR"
+  git clone $REPO_URL "$REMOTE_REPO_DIR"
 fi
 BOOTSTRAP
+
+# ── Sync .env.prod after repo is in place ─────────────────────────────────────
+LOCAL_ENV="$SCRIPT_DIR/backend/.env.prod"
+if [ -f "$LOCAL_ENV" ]; then
+  echo "==> Uploading .env.prod..."
+  scp $SSH_OPTS "$LOCAL_ENV" "${REMOTE}:${REMOTE_REPO_DIR}/backend/.env.prod"
+fi
 
 # ── Run deploy.sh on remote ────────────────────────────────────────────────────
 echo "==> Running deploy.sh on remote..."
