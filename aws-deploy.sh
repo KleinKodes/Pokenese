@@ -124,11 +124,17 @@ echo "==> Bootstrapping remote..."
 ssh $SSH_OPTS "$REMOTE" bash <<BOOTSTRAP
 set -euo pipefail
 
+# git (independent — must not be nested inside the docker check)
+if ! command -v git &>/dev/null; then
+  echo "  Installing git..."
+  sudo yum install -y git 2>/dev/null || sudo apt-get install -y git 2>/dev/null || true
+fi
+
 # Docker
 if ! command -v docker &>/dev/null; then
   echo "  Installing Docker..."
   sudo yum update -y -q
-  sudo yum install -y docker git
+  sudo yum install -y docker
   sudo systemctl enable --now docker
   sudo usermod -aG docker \$USER
 fi
