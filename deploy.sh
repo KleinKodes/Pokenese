@@ -128,10 +128,13 @@ if ! sudo test -d "/etc/letsencrypt/live/$DOMAIN" 2>/dev/null; then
     if [ -n "${NGINX_CONTAINER:-}" ]; then
       # nginx is inside Docker — use manual mode with hooks that write the
       # challenge token directly into the container via docker exec.
+      # Create challenge dir and ensure nginx can read it
       sudo docker exec "$NGINX_CONTAINER" mkdir -p /var/www/acme-challenge
+      sudo docker exec "$NGINX_CONTAINER" chmod 755 /var/www/acme-challenge
 
-      # Pass certbot env vars explicitly — docker exec does not inherit host env
-      AUTH_HOOK="sudo docker exec -e CERTBOT_TOKEN=\$CERTBOT_TOKEN -e CERTBOT_VALIDATION=\$CERTBOT_VALIDATION $NGINX_CONTAINER sh -c 'printf %s \$CERTBOT_VALIDATION > /var/www/acme-challenge/\$CERTBOT_TOKEN'"
+      # Pass certbot env vars explicitly — docker exec does not inherit host env.
+      # chmod 644 ensures nginx (non-root user) can read the token file.
+      AUTH_HOOK="sudo docker exec -e CERTBOT_TOKEN=\$CERTBOT_TOKEN -e CERTBOT_VALIDATION=\$CERTBOT_VALIDATION $NGINX_CONTAINER sh -c 'printf %s \$CERTBOT_VALIDATION > /var/www/acme-challenge/\$CERTBOT_TOKEN && chmod 644 /var/www/acme-challenge/\$CERTBOT_TOKEN'"
       CLEANUP_HOOK="sudo docker exec -e CERTBOT_TOKEN=\$CERTBOT_TOKEN $NGINX_CONTAINER sh -c 'rm -f /var/www/acme-challenge/\$CERTBOT_TOKEN'"
 
       sudo certbot certonly \
