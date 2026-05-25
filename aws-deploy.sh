@@ -158,6 +158,11 @@ else
 fi
 BOOTSTRAP
 
+# ── Upload local scripts so the remote always runs the current version ────────
+echo "==> Uploading deploy scripts..."
+scp $SSH_OPTS "$SCRIPT_DIR/deploy.sh" "${REMOTE}:${REMOTE_REPO_DIR}/deploy.sh"
+scp $SSH_OPTS -r "$SCRIPT_DIR/backend/nginx" "${REMOTE}:${REMOTE_REPO_DIR}/backend/nginx"
+
 # ── Sync .env.prod after repo is in place ─────────────────────────────────────
 LOCAL_ENV="$SCRIPT_DIR/backend/.env.prod"
 if [ -f "$LOCAL_ENV" ]; then
