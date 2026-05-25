@@ -70,7 +70,22 @@ echo "==> Reloading nginx..."
 if sudo systemctl is-active --quiet nginx; then
   sudo systemctl reload nginx
 else
-  sudo systemctl start nginx
+  # Check for port 80 conflict before trying to start
+  if sudo ss -tlnp | grep -q ':80 '; then
+    echo ""
+    echo "WARNING: Something is already listening on port 80:"
+    sudo ss -tlnp | grep ':80 '
+    echo "nginx cannot start while that process holds the port."
+    echo "If that is the existing app, consider running nginx as a shared proxy"
+    echo "for both apps rather than starting a second nginx instance."
+  fi
+  if sudo systemctl start nginx; then
+    echo "nginx started."
+  else
+    echo "ERROR: nginx failed to start. Details:"
+    sudo journalctl -xeu nginx.service --no-pager | tail -30
+    exit 1
+  fi
 fi
 
 # ── SSL (first deploy only) ───────────────────────────────────────────────────
