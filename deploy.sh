@@ -89,7 +89,7 @@ elif sudo ss -tlnp | grep ':80 ' | grep -q 'docker-proxy'; then
     # Find the directory nginx.conf actually includes (e.g. conf.d or sites-enabled)
     CONF_INC=$(sudo docker exec "$NGINX_CONTAINER" sh -c \
       "grep -h '^[[:space:]]*include' /etc/nginx/nginx.conf 2>/dev/null \
-       | grep -v '#' | grep '\*\.conf' | grep -oE '/[^*]+' | head -1 | xargs dirname 2>/dev/null")
+       | grep -v '#' | grep '\*\.conf' | grep -oE '/[^*]+' | head -1 | xargs -r dirname 2>/dev/null") || true
 
     if [ -z "$CONF_INC" ]; then
       # nginx.conf has no wildcard include — add one for conf.d inside the http block
