@@ -53,16 +53,16 @@ sudo nginx -t
 # ── Build and start containers ─────────────────────────────────────────────────
 echo "==> Building and starting containers..."
 cd "$BACKEND_DIR"
-docker compose -f docker-compose.prod.yml --env-file "$ENV_FILE" up --build -d
+sudo docker compose -f docker-compose.prod.yml --env-file "$ENV_FILE" up --build -d
 
 # ── Migrations ────────────────────────────────────────────────────────────────
 echo "==> Running migrations..."
-docker compose -f docker-compose.prod.yml --env-file "$ENV_FILE" \
+sudo docker compose -f docker-compose.prod.yml --env-file "$ENV_FILE" \
   exec -T backend python scripts/migrate.py
 
 # ── Seed daily challenges (idempotent — skips existing rows) ──────────────────
 echo "==> Seeding daily challenges..."
-docker compose -f docker-compose.prod.yml --env-file "$ENV_FILE" \
+sudo docker compose -f docker-compose.prod.yml --env-file "$ENV_FILE" \
   exec -T backend python scripts/seed_daily.py || true
 
 # ── Reload nginx ──────────────────────────────────────────────────────────────
