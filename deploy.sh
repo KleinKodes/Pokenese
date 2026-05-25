@@ -118,9 +118,10 @@ if ! sudo test -d "/etc/letsencrypt/live/$DOMAIN" 2>/dev/null; then
   else
     echo "==> Obtaining SSL certificate (webroot mode)..."
 
-    # Ensure certbot is installed with all deps via pip3
-    if ! command -v certbot &>/dev/null || ! python3 -c "import urllib3" &>/dev/null; then
-      echo "  Installing/repairing certbot..."
+    # Ensure certbot works (yum version has broken urllib3; pip3 version is correct)
+    if ! certbot --version &>/dev/null 2>&1; then
+      echo "  Repairing certbot..."
+      sudo yum remove -y certbot python3-certbot-nginx 2>/dev/null || true
       sudo pip3 install --upgrade certbot certbot-nginx
     fi
 

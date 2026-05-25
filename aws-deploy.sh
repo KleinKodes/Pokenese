@@ -147,11 +147,11 @@ if ! command -v nginx &>/dev/null; then
   sudo systemctl enable --now nginx
 fi
 
-# certbot via pip3 (yum certbot has broken urllib3 deps on Amazon Linux)
-if ! command -v certbot &>/dev/null; then
-  echo "  Installing certbot..."
-  sudo pip3 install --upgrade certbot certbot-nginx
-fi
+# certbot — remove yum-installed version (broken urllib3 on Amazon Linux),
+# then install via pip3 which resolves all deps correctly.
+echo "  Ensuring certbot is installed via pip3..."
+sudo yum remove -y certbot python3-certbot-nginx 2>/dev/null || true
+sudo pip3 install --upgrade certbot certbot-nginx
 
 # Repo (clone or pull — must happen before .env.prod upload so dir is clean)
 if [ -d "$REMOTE_REPO_DIR/.git" ]; then
