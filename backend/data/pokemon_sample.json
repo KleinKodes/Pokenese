@@ -1,0 +1,418 @@
+[
+  {
+    "id": 1,
+    "name_en": "Bulbasaur",
+    "name_zh": "妙蛙種子",
+    "name_zh_simplified": "妙蛙种子",
+    "pinyin": "Miào Wā Zhǒng Zǐ",
+    "pinyin_numbered": "Miao4 Wa1 Zhong3 Zi3",
+    "ipa": "/mjɑʊ˥˩ wa˥ ʈʂʊŋ˨˩˦ tsɨ˨˩˦/",
+    "etymology": [
+      {"character": "妙", "pinyin": "miào", "meaning": "wonderful/mysterious"},
+      {"character": "蛙", "pinyin": "wā", "meaning": "frog"},
+      {"character": "種", "pinyin": "zhǒng", "meaning": "seed/species"},
+      {"character": "子", "pinyin": "zǐ", "meaning": "child/seed"}
+    ],
+    "generation": 1,
+    "type1": "Grass",
+    "type2": "Poison",
+    "category": "Seed Pokémon",
+    "evolution_line": [1, 2, 3],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    "audio_filename": null
+  },
+  {
+    "id": 2,
+    "name_en": "Ivysaur",
+    "name_zh": "妙蛙草",
+    "name_zh_simplified": "妙蛙草",
+    "pinyin": "Miào Wā Cǎo",
+    "pinyin_numbered": "Miao4 Wa1 Cao3",
+    "ipa": "/mjɑʊ˥˩ wa˥ tsʰɑʊ˨˩˦/",
+    "etymology": [
+      {"character": "妙", "pinyin": "miào", "meaning": "wonderful/mysterious"},
+      {"character": "蛙", "pinyin": "wā", "meaning": "frog"},
+      {"character": "草", "pinyin": "cǎo", "meaning": "grass/plant"}
+    ],
+    "generation": 1,
+    "type1": "Grass",
+    "type2": "Poison",
+    "category": "Seed Pokémon",
+    "evolution_line": [1, 2, 3],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+    "audio_filename": null
+  },
+  {
+    "id": 3,
+    "name_en": "Venusaur",
+    "name_zh": "妙蛙花",
+    "name_zh_simplified": "妙蛙花",
+    "pinyin": "Miào Wā Huā",
+    "pinyin_numbered": "Miao4 Wa1 Hua1",
+    "ipa": "/mjɑʊ˥˩ wa˥ xwa˥/",
+    "etymology": [
+      {"character": "妙", "pinyin": "miào", "meaning": "wonderful/mysterious"},
+      {"character": "蛙", "pinyin": "wā", "meaning": "frog"},
+      {"character": "花", "pinyin": "huā", "meaning": "flower"}
+    ],
+    "generation": 1,
+    "type1": "Grass",
+    "type2": "Poison",
+    "category": "Seed Pokémon",
+    "evolution_line": [1, 2, 3],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+    "audio_filename": null
+  },
+  {
+    "id": 4,
+    "name_en": "Charmander",
+    "name_zh": "小火龍",
+    "name_zh_simplified": "小火龙",
+    "pinyin": "Xiǎo Huǒ Lóng",
+    "pinyin_numbered": "Xiao3 Huo3 Long2",
+    "ipa": "/ɕjɑʊ˨˩˦ xwɔ˨˩˦ lʊŋ˧˥/",
+    "etymology": [
+      {"character": "小", "pinyin": "xiǎo", "meaning": "small/little"},
+      {"character": "火", "pinyin": "huǒ", "meaning": "fire"},
+      {"character": "龍", "pinyin": "lóng", "meaning": "dragon"}
+    ],
+    "generation": 1,
+    "type1": "Fire",
+    "type2": null,
+    "category": "Lizard Pokémon",
+    "evolution_line": [4, 5, 6],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+    "audio_filename": null
+  },
+  {
+    "id": 5,
+    "name_en": "Charmeleon",
+    "name_zh": "火恐龍",
+    "name_zh_simplified": "火恐龙",
+    "pinyin": "Huǒ Kǒng Lóng",
+    "pinyin_numbered": "Huo3 Kong3 Long2",
+    "ipa": "/xwɔ˨˩˦ kʰʊŋ˨˩˦ lʊŋ˧˥/",
+    "etymology": [
+      {"character": "火", "pinyin": "huǒ", "meaning": "fire"},
+      {"character": "恐", "pinyin": "kǒng", "meaning": "fear/terrible"},
+      {"character": "龍", "pinyin": "lóng", "meaning": "dragon"}
+    ],
+    "generation": 1,
+    "type1": "Fire",
+    "type2": null,
+    "category": "Flame Pokémon",
+    "evolution_line": [4, 5, 6],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+    "audio_filename": null
+  },
+  {
+    "id": 6,
+    "name_en": "Charizard",
+    "name_zh": "噴火龍",
+    "name_zh_simplified": "喷火龙",
+    "pinyin": "Pēn Huǒ Lóng",
+    "pinyin_numbered": "Pen1 Huo3 Long2",
+    "ipa": "/pʰən˥ xwɔ˨˩˦ lʊŋ˧˥/",
+    "etymology": [
+      {"character": "噴", "pinyin": "pēn", "meaning": "to spit/spray"},
+      {"character": "火", "pinyin": "huǒ", "meaning": "fire"},
+      {"character": "龍", "pinyin": "lóng", "meaning": "dragon"}
+    ],
+    "generation": 1,
+    "type1": "Fire",
+    "type2": "Flying",
+    "category": "Flame Pokémon",
+    "evolution_line": [4, 5, 6],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+    "audio_filename": null
+  },
+  {
+    "id": 7,
+    "name_en": "Squirtle",
+    "name_zh": "傑尼龜",
+    "name_zh_simplified": "杰尼龟",
+    "pinyin": "Jié Ní Guī",
+    "pinyin_numbered": "Jie2 Ni2 Gui1",
+    "ipa": "/tɕjɛ˧˥ ni˧˥ kwej˥/",
+    "etymology": [
+      {"character": "傑", "pinyin": "jié", "meaning": "hero/outstanding"},
+      {"character": "尼", "pinyin": "ní", "meaning": "Buddhist nun (phonetic)"},
+      {"character": "龜", "pinyin": "guī", "meaning": "turtle"}
+    ],
+    "generation": 1,
+    "type1": "Water",
+    "type2": null,
+    "category": "Tiny Turtle Pokémon",
+    "evolution_line": [7, 8, 9],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+    "audio_filename": null
+  },
+  {
+    "id": 8,
+    "name_en": "Wartortle",
+    "name_zh": "卡咪龜",
+    "name_zh_simplified": "卡咪龟",
+    "pinyin": "Kǎ Mī Guī",
+    "pinyin_numbered": "Ka3 Mi1 Gui1",
+    "ipa": "/kʰa˨˩˦ mi˥ kwej˥/",
+    "etymology": [
+      {"character": "卡", "pinyin": "kǎ", "meaning": "card/stuck (phonetic)"},
+      {"character": "咪", "pinyin": "mī", "meaning": "meow/small (phonetic)"},
+      {"character": "龜", "pinyin": "guī", "meaning": "turtle"}
+    ],
+    "generation": 1,
+    "type1": "Water",
+    "type2": null,
+    "category": "Turtle Pokémon",
+    "evolution_line": [7, 8, 9],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+    "audio_filename": null
+  },
+  {
+    "id": 9,
+    "name_en": "Blastoise",
+    "name_zh": "水箭龜",
+    "name_zh_simplified": "水箭龟",
+    "pinyin": "Shuǐ Jiàn Guī",
+    "pinyin_numbered": "Shui3 Jian4 Gui1",
+    "ipa": "/ʂwej˨˩˦ tɕjɛn˥˩ kwej˥/",
+    "etymology": [
+      {"character": "水", "pinyin": "shuǐ", "meaning": "water"},
+      {"character": "箭", "pinyin": "jiàn", "meaning": "arrow"},
+      {"character": "龜", "pinyin": "guī", "meaning": "turtle"}
+    ],
+    "generation": 1,
+    "type1": "Water",
+    "type2": null,
+    "category": "Shellfish Pokémon",
+    "evolution_line": [7, 8, 9],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+    "audio_filename": null
+  },
+  {
+    "id": 25,
+    "name_en": "Pikachu",
+    "name_zh": "皮卡丘",
+    "name_zh_simplified": "皮卡丘",
+    "pinyin": "Pí Kǎ Qiū",
+    "pinyin_numbered": "Pi2 Ka3 Qiu1",
+    "ipa": "/pʰi˧˥ kʰa˨˩˦ tɕʰjou˥/",
+    "etymology": [
+      {"character": "皮", "pinyin": "pí", "meaning": "skin/leather"},
+      {"character": "卡", "pinyin": "kǎ", "meaning": "card/stuck (phonetic for 'kah')"},
+      {"character": "丘", "pinyin": "qiū", "meaning": "hill/mound"}
+    ],
+    "generation": 1,
+    "type1": "Electric",
+    "type2": null,
+    "category": "Mouse Pokémon",
+    "evolution_line": [172, 25, 26],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+    "audio_filename": null
+  },
+  {
+    "id": 26,
+    "name_en": "Raichu",
+    "name_zh": "雷丘",
+    "name_zh_simplified": "雷丘",
+    "pinyin": "Léi Qiū",
+    "pinyin_numbered": "Lei2 Qiu1",
+    "ipa": "/lej˧˥ tɕʰjou˥/",
+    "etymology": [
+      {"character": "雷", "pinyin": "léi", "meaning": "thunder/lightning"},
+      {"character": "丘", "pinyin": "qiū", "meaning": "hill/mound"}
+    ],
+    "generation": 1,
+    "type1": "Electric",
+    "type2": null,
+    "category": "Mouse Pokémon",
+    "evolution_line": [172, 25, 26],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+    "audio_filename": null
+  },
+  {
+    "id": 39,
+    "name_en": "Jigglypuff",
+    "name_zh": "胖丁",
+    "name_zh_simplified": "胖丁",
+    "pinyin": "Pàng Dīng",
+    "pinyin_numbered": "Pang4 Ding1",
+    "ipa": "/pʰɑŋ˥˩ tiŋ˥/",
+    "etymology": [
+      {"character": "胖", "pinyin": "pàng", "meaning": "fat/chubby"},
+      {"character": "丁", "pinyin": "dīng", "meaning": "a small thing/cube"}
+    ],
+    "generation": 1,
+    "type1": "Normal",
+    "type2": "Fairy",
+    "category": "Balloon Pokémon",
+    "evolution_line": [174, 39, 40],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+    "audio_filename": null
+  },
+  {
+    "id": 52,
+    "name_en": "Meowth",
+    "name_zh": "喵喵",
+    "name_zh_simplified": "喵喵",
+    "pinyin": "Miāo Miāo",
+    "pinyin_numbered": "Miao1 Miao1",
+    "ipa": "/mjɑʊ˥ mjɑʊ˥/",
+    "etymology": [
+      {"character": "喵", "pinyin": "miāo", "meaning": "meow (cat sound)"},
+      {"character": "喵", "pinyin": "miāo", "meaning": "meow (cat sound)"}
+    ],
+    "generation": 1,
+    "type1": "Normal",
+    "type2": null,
+    "category": "Scratch Cat Pokémon",
+    "evolution_line": [52, 53],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+    "audio_filename": null
+  },
+  {
+    "id": 94,
+    "name_en": "Gengar",
+    "name_zh": "耿鬼",
+    "name_zh_simplified": "耿鬼",
+    "pinyin": "Gěng Guǐ",
+    "pinyin_numbered": "Geng3 Gui3",
+    "ipa": "/kɤŋ˨˩˦ kwej˨˩˦/",
+    "etymology": [
+      {"character": "耿", "pinyin": "gěng", "meaning": "bright/devoted (phonetic)"},
+      {"character": "鬼", "pinyin": "guǐ", "meaning": "ghost/spirit"}
+    ],
+    "generation": 1,
+    "type1": "Ghost",
+    "type2": "Poison",
+    "category": "Shadow Pokémon",
+    "evolution_line": [92, 93, 94],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+    "audio_filename": null
+  },
+  {
+    "id": 131,
+    "name_en": "Lapras",
+    "name_zh": "拉普拉斯",
+    "name_zh_simplified": "拉普拉斯",
+    "pinyin": "Lā Pǔ Lā Sī",
+    "pinyin_numbered": "La1 Pu3 La1 Si1",
+    "ipa": "/la˥ pʰu˨˩˦ la˥ sɨ˥/",
+    "etymology": [
+      {"character": "拉", "pinyin": "lā", "meaning": "to pull (phonetic)"},
+      {"character": "普", "pinyin": "pǔ", "meaning": "universal (phonetic)"},
+      {"character": "拉", "pinyin": "lā", "meaning": "to pull (phonetic)"},
+      {"character": "斯", "pinyin": "sī", "meaning": "this/thus (phonetic)"}
+    ],
+    "generation": 1,
+    "type1": "Water",
+    "type2": "Ice",
+    "category": "Transport Pokémon",
+    "evolution_line": [131],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+    "audio_filename": null
+  },
+  {
+    "id": 143,
+    "name_en": "Snorlax",
+    "name_zh": "卡比獸",
+    "name_zh_simplified": "卡比兽",
+    "pinyin": "Kǎ Bǐ Shòu",
+    "pinyin_numbered": "Ka3 Bi3 Shou4",
+    "ipa": "/kʰa˨˩˦ pi˨˩˦ ʂou˥˩/",
+    "etymology": [
+      {"character": "卡", "pinyin": "kǎ", "meaning": "card/stuck (phonetic)"},
+      {"character": "比", "pinyin": "bǐ", "meaning": "to compare/ratio (phonetic)"},
+      {"character": "獸", "pinyin": "shòu", "meaning": "beast/animal"}
+    ],
+    "generation": 1,
+    "type1": "Normal",
+    "type2": null,
+    "category": "Sleeping Pokémon",
+    "evolution_line": [446, 143],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+    "audio_filename": null
+  },
+  {
+    "id": 150,
+    "name_en": "Mewtwo",
+    "name_zh": "超夢",
+    "name_zh_simplified": "超梦",
+    "pinyin": "Chāo Mèng",
+    "pinyin_numbered": "Chao1 Meng4",
+    "ipa": "/tʂʰɑʊ˥ mɤŋ˥˩/",
+    "etymology": [
+      {"character": "超", "pinyin": "chāo", "meaning": "super/beyond"},
+      {"character": "夢", "pinyin": "mèng", "meaning": "dream"}
+    ],
+    "generation": 1,
+    "type1": "Psychic",
+    "type2": null,
+    "category": "Genetic Pokémon",
+    "evolution_line": [150],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+    "audio_filename": null
+  },
+  {
+    "id": 151,
+    "name_en": "Mew",
+    "name_zh": "夢幻",
+    "name_zh_simplified": "梦幻",
+    "pinyin": "Mèng Huàn",
+    "pinyin_numbered": "Meng4 Huan4",
+    "ipa": "/mɤŋ˥˩ xwan˥˩/",
+    "etymology": [
+      {"character": "夢", "pinyin": "mèng", "meaning": "dream"},
+      {"character": "幻", "pinyin": "huàn", "meaning": "illusion/fantasy"}
+    ],
+    "generation": 1,
+    "type1": "Psychic",
+    "type2": null,
+    "category": "New Species Pokémon",
+    "evolution_line": [151],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+    "audio_filename": null
+  },
+  {
+    "id": 249,
+    "name_en": "Lugia",
+    "name_zh": "路基亞",
+    "name_zh_simplified": "路基亚",
+    "pinyin": "Lù Jī Yà",
+    "pinyin_numbered": "Lu4 Ji1 Ya4",
+    "ipa": "/lu˥˩ tɕi˥ ja˥˩/",
+    "etymology": [
+      {"character": "路", "pinyin": "lù", "meaning": "road/path (phonetic)"},
+      {"character": "基", "pinyin": "jī", "meaning": "base/foundation (phonetic)"},
+      {"character": "亞", "pinyin": "yà", "meaning": "Asia/second (phonetic)"}
+    ],
+    "generation": 2,
+    "type1": "Psychic",
+    "type2": "Flying",
+    "category": "Diving Pokémon",
+    "evolution_line": [249],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png",
+    "audio_filename": null
+  },
+  {
+    "id": 384,
+    "name_en": "Rayquaza",
+    "name_zh": "烈空坐",
+    "name_zh_simplified": "烈空坐",
+    "pinyin": "Liè Kōng Zuò",
+    "pinyin_numbered": "Lie4 Kong1 Zuo4",
+    "ipa": "/ljɛ˥˩ kʰʊŋ˥ dzwɔ˥˩/",
+    "etymology": [
+      {"character": "烈", "pinyin": "liè", "meaning": "fierce/intense"},
+      {"character": "空", "pinyin": "kōng", "meaning": "sky/empty"},
+      {"character": "坐", "pinyin": "zuò", "meaning": "to sit/reside"}
+    ],
+    "generation": 3,
+    "type1": "Dragon",
+    "type2": "Flying",
+    "category": "Sky High Pokémon",
+    "evolution_line": [384],
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png",
+    "audio_filename": null
+  }
+]

@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ──────────────────────────────
+   CSS Custom Properties — Dark Theme (default)
+────────────────────────────── */
+:root {
+  --bg-base: #0F0F1A;
+  --bg-surface: #1A1A2E;
+  --bg-elevated: #252542;
+  --bg-input: #1E1E35;
+  --border: #2E2E50;
+  --border-focus: #5555AA;
+  --text-primary: #F0F0FF;
+  --text-secondary: #9090BB;
+  --text-muted: #555575;
+  --accent-red: #E8334A;
+  --accent-red-hover: #FF4560;
+  --accent-gold: #F5C842;
+  --accent-blue: #4488FF;
+  --success: #4CAF78;
+  --error: #FF4444;
+  --warning: #F5A623;
+  --hint-bg: #1E2040;
+}
+
+/* ──────────────────────────────
+   Light Theme
+────────────────────────────── */
+.light {
+  --bg-base: #F5F5FA;
+  --bg-surface: #FFFFFF;
+  --bg-elevated: #EEEEF8;
+  --bg-input: #FFFFFF;
+  --border: #DDDDEF;
+  --border-focus: #8888CC;
+  --text-primary: #111128;
+  --text-secondary: #555570;
+  --text-muted: #AAAACC;
+  --accent-red: #E8334A;
+  --accent-red-hover: #CC2840;
+  --accent-gold: #C8A000;
+  --accent-blue: #2266DD;
+  --success: #2D7D4E;
+  --error: #CC2222;
+  --warning: #C88000;
+  --hint-bg: #EBEBF8;
+}
+
+/* ──────────────────────────────
+   Base reset & global styles
+────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  min-height: 100dvh;
+  overflow-x: hidden;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* ──────────────────────────────
+   Focus styles
+────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+/* ──────────────────────────────
+   Scrollbar
+────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-base);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border-focus);
+}
+
+/* ──────────────────────────────
+   Selection
+────────────────────────────── */
+::selection {
+  background: rgba(85, 85, 170, 0.3);
+  color: var(--text-primary);
+}
+
+/* ──────────────────────────────
+   Typography
+────────────────────────────── */
+.font-chinese {
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+.font-ipa {
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+/* ──────────────────────────────
+   Utilities
+────────────────────────────── */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0);
+  }
+
+  .no-tap-highlight {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* ──────────────────────────────
+   Reduced motion
+────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ──────────────────────────────
+   Page layout helpers
+────────────────────────────── */
+.page-container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  /* Account for nav */
+  padding-top: calc(4rem + 1.5rem);
+  /* Account for bottom nav on mobile */
+  padding-bottom: calc(4rem + 1.5rem);
+}
+
+@media (min-width: 768px) {
+  .page-container {
+    padding-bottom: 2rem;
+  }
+}
