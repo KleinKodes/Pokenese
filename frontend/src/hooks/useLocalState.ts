@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { LocalState, ChallengeResult } from '../types/game';
+import { LocalState, ChallengeResult, MasterRunRecord } from '../types/game';
 import { format } from 'date-fns';
 
 const LOCAL_STATE_KEY = 'pokenese-local-state';
@@ -142,6 +142,16 @@ export function useLocalState() {
     }));
   }, [updateState]);
 
+  const saveCompletedRun = useCallback(
+    (run: MasterRunRecord) => {
+      updateState((prev) => ({
+        ...prev,
+        master_runs: [...(prev.master_runs ?? []), run],
+      }));
+    },
+    [updateState]
+  );
+
   const resetAllData = useCallback(() => {
     if (typeof window === 'undefined') return;
     localStorage.removeItem(LOCAL_STATE_KEY);
@@ -156,6 +166,7 @@ export function useLocalState() {
     getDailyResults,
     updateChallengeState,
     resetChallenge,
+    saveCompletedRun,
     resetAllData,
     updateState,
   };

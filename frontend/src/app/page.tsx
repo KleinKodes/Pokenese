@@ -122,7 +122,7 @@ export default function HomePage() {
         <ModeCard
           href="/challenge"
           icon={Swords}
-          title="Challenge Mode"
+          title="Master Mode"
           description="Endless Pokémon — don't break your streak"
           statusText={
             challengeScore > 0

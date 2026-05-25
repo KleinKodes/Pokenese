@@ -34,7 +34,7 @@ function pickRandomPokemon(
 }
 
 export default function ChallengePage() {
-  const { state, updateChallengeState, resetChallenge } = useLocalState();
+  const { state, updateChallengeState, resetChallenge, addToGlossary, saveCompletedRun } = useLocalState();
 
   const [runScore, setRunScore] = useState(0);
   const [pokemonCount, setPokemonCount] = useState(0);
@@ -63,7 +63,7 @@ export default function ChallengePage() {
 
   const { gameState, submitGuess, isWrongGuess } = useGame(
     currentPokemon,
-    { mode: 'challenge' }
+    { mode: 'challenge', onAddToGlossary: addToGlossary }
   );
 
   const handleGuess = useCallback(
@@ -112,6 +112,13 @@ export default function ChallengePage() {
     // Pick next
     const next = pickRandomPokemon(POKEMON_DATA, newSeen);
     if (!next) {
+      saveCompletedRun({
+        run_number: state.challenge.run_number,
+        total_score: newScore,
+        pokemon_count: newSeen.length,
+        ended_at: new Date().toISOString(),
+        ended_by: 'complete',
+      });
       setShowRunComplete(true);
       return;
     }
@@ -122,17 +129,28 @@ export default function ChallengePage() {
     runScore,
     seenIds,
     updateChallengeState,
+    saveCompletedRun,
+    state.challenge.run_number,
   ]);
 
   const handleReset = useCallback(() => {
     setShowResetModal(false);
+    if (runScore > 0 || pokemonCount > 0) {
+      saveCompletedRun({
+        run_number: state.challenge.run_number,
+        total_score: runScore,
+        pokemon_count: pokemonCount,
+        ended_at: new Date().toISOString(),
+        ended_by: 'reset',
+      });
+    }
     resetChallenge();
     setRunScore(0);
     setSeenIds([]);
     setPokemonCount(0);
     const next = pickRandomPokemon(POKEMON_DATA, []);
     setCurrentPokemon(next);
-  }, [resetChallenge]);
+  }, [resetChallenge, saveCompletedRun, runScore, pokemonCount, state.challenge.run_number]);
 
   if (!currentPokemon) {
     return (
@@ -155,7 +173,7 @@ export default function ChallengePage() {
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center gap-2">
           <Swords size={20} className="text-accent-red" aria-hidden="true" />
-          <h1 className="text-lg font-bold text-text-primary">Challenge</h1>
+          <h1 className="text-lg font-bold text-text-primary">Master Mode</h1>
         </div>
         <div className="flex items-center gap-4 text-sm">
           <div className="flex items-center gap-1.5">

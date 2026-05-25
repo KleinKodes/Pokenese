@@ -14,6 +14,14 @@ export interface ChallengeResult {
   completed_at: string;
 }
 
+export interface MasterRunRecord {
+  run_number: number;
+  total_score: number;
+  pokemon_count: number;
+  ended_at: string;
+  ended_by: 'reset' | 'complete';
+}
+
 export interface LocalState {
   version: number;
   glossary: number[];
@@ -31,6 +39,7 @@ export interface LocalState {
     is_active: boolean;
     run_number: number;
   };
+  master_runs?: MasterRunRecord[];
   settings: UserSettings;
 }
 

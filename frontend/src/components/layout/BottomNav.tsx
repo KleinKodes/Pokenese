@@ -2,15 +2,15 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Home, Sun, Swords, BookOpen, User } from 'lucide-react';
+import { Home, Sun, Swords, BookOpen, History } from 'lucide-react';
 import { clsx } from 'clsx';
 
 const NAV_ITEMS = [
   { href: '/', label: 'Home', icon: Home, exact: true },
   { href: '/daily', label: 'Daily', icon: Sun, exact: false },
-  { href: '/challenge', label: 'Challenge', icon: Swords, exact: false },
+  { href: '/challenge', label: 'Master', icon: Swords, exact: false },
   { href: '/glossary', label: 'Glossary', icon: BookOpen, exact: false },
-  { href: '/profile', label: 'Profile', icon: User, exact: false },
+  { href: '/history', label: 'History', icon: History, exact: false },
 ];
 
 export function BottomNav() {

@@ -8,8 +8,9 @@ import { useUserStore } from '../../store/userStore';
 
 const NAV_LINKS = [
   { href: '/daily', label: 'Daily' },
-  { href: '/challenge', label: 'Challenge' },
+  { href: '/challenge', label: 'Master Mode' },
   { href: '/glossary', label: 'Glossary' },
+  { href: '/history', label: 'History' },
 ];
 
 interface NavProps {
