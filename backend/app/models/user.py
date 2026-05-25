@@ -1,10 +1,11 @@
 from __future__ import annotations
 
+import enum
 import uuid
 from datetime import datetime
 from typing import TYPE_CHECKING, List, Optional
 
-from sqlalchemy import DateTime, ForeignKey, Text, func
+from sqlalchemy import DateTime, Enum as SAEnum, ForeignKey, Text, func
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
@@ -15,6 +16,11 @@ if TYPE_CHECKING:
     from app.models.daily import DailyResult
     from app.models.challenge import ChallengeResult
     from app.models.glossary import GlossaryEntry
+
+
+class UserRole(str, enum.Enum):
+    user = "user"
+    admin = "admin"
 
 
 class User(Base):
@@ -29,6 +35,12 @@ class User(Base):
     email: Mapped[str] = mapped_column(Text, unique=True, nullable=False)
     username: Mapped[str] = mapped_column(Text, unique=True, nullable=False)
     password_hash: Mapped[str] = mapped_column(Text, nullable=False)
+    role: Mapped[UserRole] = mapped_column(
+        SAEnum(UserRole, name="userrole", create_type=False),
+        nullable=False,
+        default=UserRole.user,
+        server_default="user",
+    )
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), server_default=func.now(), nullable=False
     )
@@ -38,6 +50,10 @@ class User(Base):
         onupdate=func.now(),
         nullable=False,
     )
+
+    @property
+    def is_admin(self) -> bool:
+        return self.role == UserRole.admin
 
     # Relationships (use string references to avoid circular imports)
     refresh_tokens: Mapped[List[RefreshToken]] = relationship(

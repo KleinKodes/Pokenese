@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Sun, Lock, CheckCircle, Share2, Clock } from 'lucide-react';
 import { format } from 'date-fns';
 import dynamic from 'next/dynamic';
-import POKEMON_DATA from '../../data/pokemon';
+import { POKEMON_DATA } from '../../data/pokemon';
 import { useLocalState } from '../../hooks/useLocalState';
 import { useGame } from '../../hooks/useGame';
 import { ChineseName } from '../../components/game/ChineseName';
@@ -24,14 +24,40 @@ const ChallengeComplete = dynamic(
   { ssr: false }
 );
 
-// For demo: use first 3 Pokemon as daily challenges
-const DAILY_POKEMON_IDS = [1, 4, 7];
+function seededRand(seed: number) {
+  let s = seed | 0;
+  return () => {
+    s = Math.imul(s ^ (s >>> 15), s | 1);
+    s ^= s + Math.imul(s ^ (s >>> 7), s | 61);
+    return ((s ^ (s >>> 14)) >>> 0) / 0x100000000;
+  };
+}
+
+function hashDate(date: string): number {
+  let h = 2166136261;
+  for (let i = 0; i < date.length; i++) {
+    h ^= date.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
+function getDailyPokemonIds(date: string, allIds: number[]): [number, number, number] {
+  const rand = seededRand(hashDate(date));
+  const pool = [...allIds];
+  const chosen: number[] = [];
+  while (chosen.length < 3 && pool.length > 0) {
+    const i = Math.floor(rand() * pool.length);
+    chosen.push(pool.splice(i, 1)[0]);
+  }
+  return chosen as [number, number, number];
+}
 
 type ChallengeStep = 1 | 2 | 3;
 
 export default function DailyPage() {
   const today = format(new Date(), 'yyyy-MM-dd');
-  const { state, getDailyResults } = useLocalState();
+  const { state, getDailyResults, saveDailyResult, addToGlossary } = useLocalState();
   const [currentStep, setCurrentStep] = useState<ChallengeStep>(1);
   const [showComplete, setShowComplete] = useState(false);
   const [allDone, setAllDone] = useState(false);
@@ -76,13 +102,20 @@ export default function DailyPage() {
     return () => clearInterval(interval);
   }, []);
 
-  const currentPokemonId = DAILY_POKEMON_IDS[currentStep - 1];
+  const dailyPokemonIds = useMemo(
+    () => getDailyPokemonIds(today, POKEMON_DATA.map((p) => p.id)),
+    [today]
+  );
+
+  const currentPokemonId = dailyPokemonIds[currentStep - 1];
   const currentPokemon = POKEMON_DATA.find((p) => p.id === currentPokemonId)!;
 
   const { gameState, submitGuess, isWrongGuess } = useGame(currentPokemon, {
     mode: 'daily',
     challengeNumber: currentStep,
     date: today,
+    onSaveResult: saveDailyResult,
+    onAddToGlossary: addToGlossary,
   });
 
   const handleNext = () => {
@@ -109,7 +142,7 @@ export default function DailyPage() {
   }, [gameState.is_complete]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleShareAll = async () => {
-    const lines = DAILY_POKEMON_IDS.map((id, i) => {
+    const lines = dailyPokemonIds.map((_id, i) => {
       const result = dailyResults[`challenge_${i + 1}` as keyof typeof dailyResults];
       const score = result?.score ?? 0;
       const correct = score > 0;

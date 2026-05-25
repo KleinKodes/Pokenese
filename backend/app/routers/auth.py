@@ -8,9 +8,10 @@ from fastapi import APIRouter, Depends, HTTPException, Request, Response, status
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from sqlalchemy import func as sqlfunc
 from app.config import get_settings
 from app.dependencies import get_db, get_current_user
-from app.models.user import RefreshToken, User
+from app.models.user import RefreshToken, User, UserRole
 from app.models.glossary import GlossaryEntry
 from app.models.daily import DailyResult
 from app.models.challenge import ChallengeState
@@ -83,11 +84,16 @@ async def register(
             detail="Username already taken",
         )
 
+    # First registered user automatically becomes admin
+    count_result = await db.execute(select(sqlfunc.count()).select_from(User))
+    role = UserRole.admin if (count_result.scalar() or 0) == 0 else UserRole.user
+
     # Create user
     user = User(
         email=body.email,
         username=body.username,
         password_hash=hash_password(body.password),
+        role=role,
     )
     db.add(user)
     await db.flush()  # get user.id without full commit
@@ -111,7 +117,7 @@ async def register(
     _set_auth_cookies(response, access_token, refresh_token)
 
     return TokenResponse(
-        user=UserInfo(id=user.id, email=user.email, username=user.username),
+        user=UserInfo(id=user.id, email=user.email, username=user.username, is_admin=user.is_admin),
         access_token=access_token,
         refresh_token=refresh_token,
     )
@@ -146,7 +152,7 @@ async def login(
     _set_auth_cookies(response, access_token, refresh_token)
 
     return TokenResponse(
-        user=UserInfo(id=user.id, email=user.email, username=user.username),
+        user=UserInfo(id=user.id, email=user.email, username=user.username, is_admin=user.is_admin),
         access_token=access_token,
         refresh_token=refresh_token,
     )

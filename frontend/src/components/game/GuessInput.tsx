@@ -34,6 +34,7 @@ export function GuessInput({
   const [highlightedIndex, setHighlightedIndex] = useState(-1);
   const [isOpen, setIsOpen] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
   const listRef = useRef<HTMLUListElement>(null);
 
   const updateSuggestions = useCallback(
@@ -122,9 +123,7 @@ export function GuessInput({
   // Close dropdown on outside click
   useEffect(() => {
     const handleClick = (e: MouseEvent) => {
-      if (
-        !inputRef.current?.parentElement?.contains(e.target as Node)
-      ) {
+      if (!containerRef.current?.contains(e.target as Node)) {
         setIsOpen(false);
       }
     };
@@ -148,7 +147,7 @@ export function GuessInput({
     >
       <div className="flex gap-2">
         {/* Input + dropdown */}
-        <div className="relative flex-1">
+        <div ref={containerRef} className="relative flex-1">
           <div className="relative">
             <Search
               size={18}

@@ -22,12 +22,14 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import gzip
 import json
 import logging
 import os
 import re
 import sys
 import time
+import urllib.request
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -69,6 +71,7 @@ _CACHE_DIR = _DATA_DIR / "cache"
 
 _OUTPUT_JSON = _DATA_DIR / "pokemon.json"
 _OUTPUT_TS = _FRONTEND_DIR / "src" / "data" / "pokemon.ts"
+_ETYMOLOGY_OVERRIDES = _DATA_DIR / "etymology_overrides.json"
 
 # Rate limiting
 REQUEST_DELAY = 0.1  # 100ms between requests
@@ -141,10 +144,68 @@ def get_ipa(pinyin_str: str) -> str:
         return ""
 
 
+_CEDICT_CACHE = _DATA_DIR / "cache" / "cedict_chars.json"
+_CEDICT_URL = "https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.txt.gz"
+_cedict_lookup: Optional[Dict[str, str]] = None
+
+
+def load_cedict() -> Dict[str, str]:
+    """Download CC-CEDICT once and return a single-character → first definition dict."""
+    global _cedict_lookup
+    if _cedict_lookup is not None:
+        return _cedict_lookup
+
+    if _CEDICT_CACHE.exists():
+        with open(_CEDICT_CACHE, "r", encoding="utf-8") as f:
+            _cedict_lookup = json.load(f)
+        log.info(f"[cedict] Loaded {len(_cedict_lookup)} character definitions from cache")
+        return _cedict_lookup
+
+    log.info("[cedict] Downloading CC-CEDICT...")
+    try:
+        _CEDICT_CACHE.parent.mkdir(parents=True, exist_ok=True)
+        raw_gz, _ = urllib.request.urlretrieve(_CEDICT_URL)
+        with gzip.open(raw_gz, "rt", encoding="utf-8") as f:
+            lines = f.readlines()
+    except Exception as e:
+        log.warning(f"[cedict] Download failed: {e}. Meanings will be empty.")
+        _cedict_lookup = {}
+        return _cedict_lookup
+
+    all_defs: Dict[str, List[str]] = {}
+    for line in lines:
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        # Format: Traditional Simplified [pin1 yin1] /def1/def2/
+        m = re.match(r"^(\S+)\s+(\S+)\s+\[.*?\]\s+/(.+)/$", line)
+        if not m:
+            continue
+        traditional, simplified, defs_str = m.group(1), m.group(2), m.group(3)
+        # Only keep single-character entries
+        if len(traditional) != 1:
+            continue
+        defs = [d.strip() for d in defs_str.split("/") if d.strip()]
+        for char in {traditional, simplified}:
+            existing = all_defs.setdefault(char, [])
+            for d in defs:
+                if d not in existing:
+                    existing.append(d)
+
+    lookup: Dict[str, str] = {char: "; ".join(defs) for char, defs in all_defs.items()}
+
+    with open(_CEDICT_CACHE, "w", encoding="utf-8") as f:
+        json.dump(lookup, f, ensure_ascii=False)
+    log.info(f"[cedict] Built lookup with {len(lookup)} characters")
+    _cedict_lookup = lookup
+    return _cedict_lookup
+
+
 def get_etymology(chinese: str) -> List[Dict[str, str]]:
     """Build etymology breakdown for each character."""
     if not chinese or not HAS_PYPINYIN:
         return []
+    cedict = load_cedict()
     entries = []
     for char in chinese:
         if not char.strip():
@@ -156,7 +217,7 @@ def get_etymology(chinese: str) -> List[Dict[str, str]]:
         entries.append({
             "character": char,
             "pinyin": char_pinyin,
-            "meaning": "",  # Meaning requires a dictionary lookup; left blank for scraper
+            "meaning": cedict.get(char, ""),
         })
     return entries
 
@@ -421,9 +482,9 @@ async def scrape_single_pokemon(
     if not name_zh:
         for name_entry in species_data.get("names", []):
             lang = name_entry.get("language", {}).get("name", "")
-            if lang == "zh-Hant":
+            if lang in ("zh-Hant", "zh-hant"):
                 name_zh = name_entry["name"]
-            elif lang == "zh-Hans":
+            elif lang in ("zh-Hans", "zh-hans"):
                 name_zh_simplified = name_entry["name"]
 
     if not name_zh:
@@ -526,6 +587,9 @@ async def run_scraper(limit: int = 1025, resume: bool = True, use_bulbapedia: bo
     # Sort by ID
     results.sort(key=lambda x: x["id"])
 
+    # Apply file-based etymology overrides
+    results = _apply_etymology_overrides(results)
+
     # Final write
     _write_json(results)
     _write_typescript(results)
@@ -535,6 +599,33 @@ async def run_scraper(limit: int = 1025, resume: bool = True, use_bulbapedia: bo
         log.warning(f"[done] Failed for {len(failed)} Pokemon: {', '.join(failed[:20])}")
     log.info(f"[done] JSON → {_OUTPUT_JSON}")
     log.info(f"[done] TypeScript → {_OUTPUT_TS}")
+
+
+def _apply_etymology_overrides(results: List[Dict]) -> List[Dict]:
+    """Merge hand-authored overrides from etymology_overrides.json into the results."""
+    if not _ETYMOLOGY_OVERRIDES.exists():
+        return results
+    try:
+        with open(_ETYMOLOGY_OVERRIDES, "r", encoding="utf-8") as f:
+            raw = json.load(f)
+        # Strip meta keys starting with _
+        overrides = {k: v for k, v in raw.items() if not k.startswith("_")}
+    except Exception as e:
+        log.warning(f"[overrides] Could not load etymology_overrides.json: {e}")
+        return results
+
+    if not overrides:
+        return results
+
+    override_map = {int(k): v for k, v in overrides.items() if k.isdigit()}
+    applied = 0
+    for p in results:
+        if p["id"] in override_map:
+            p["etymology"] = override_map[p["id"]]
+            applied += 1
+    if applied:
+        log.info(f"[overrides] Applied {applied} etymology override(s) from {_ETYMOLOGY_OVERRIDES}")
+    return results
 
 
 def _write_json(results: List[Dict]) -> None:
@@ -553,12 +644,14 @@ def _write_typescript(results: List[Dict]) -> None:
         "",
         'import type { PokemonType } from "@/types/pokemon";',
         "",
-        "export const POKEMON_DATA: PokemonType[] = ",
+        "// eslint-disable-next-line @typescript-eslint/no-explicit-any",
+        "export const POKEMON_DATA: PokemonType[] = ((",
     ]
 
     # Serialize to JSON then embed as TS value
+    # Use `as any[]` cast to avoid "union type too complex" TS error with 1025 entries
     json_str = json.dumps(results, ensure_ascii=False, indent=2)
-    ts_lines.append(json_str + ";")
+    ts_lines.append(json_str + ") as any[]) as PokemonType[];")
 
     with open(_OUTPUT_TS, "w", encoding="utf-8") as f:
         f.write("\n".join(ts_lines) + "\n")

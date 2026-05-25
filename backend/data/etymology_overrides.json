@@ -1,0 +1,11 @@
+{
+  "_comment": "Keyed by pokemon ID (string). Each entry replaces the auto-generated etymology for that pokemon.",
+  "_example": {
+    "1": [
+      {"character": "妙", "pinyin": "miào", "meaning": "wonderful; clever"},
+      {"character": "蛙", "pinyin": "wā", "meaning": "frog"},
+      {"character": "種", "pinyin": "zhǒng", "meaning": "seed; species"},
+      {"character": "子", "pinyin": "zǐ", "meaning": "child; seed"}
+    ]
+  }
+}

@@ -141,6 +141,12 @@ export function useLocalState() {
     }));
   }, [updateState]);
 
+  const resetAllData = useCallback(() => {
+    if (typeof window === 'undefined') return;
+    localStorage.removeItem(LOCAL_STATE_KEY);
+    setState(defaultLocalState);
+  }, []);
+
   return {
     state,
     hydrated,
@@ -149,6 +155,7 @@ export function useLocalState() {
     getDailyResults,
     updateChallengeState,
     resetChallenge,
+    resetAllData,
     updateState,
   };
 }

@@ -4,7 +4,6 @@ import { useState, useCallback, useEffect } from 'react';
 import { PokemonType } from '../types/pokemon';
 import { GameState, GameMode, ChallengeResult } from '../types/game';
 import { calculateScore } from '../lib/scoring';
-import { useLocalState } from './useLocalState';
 import { useAudio } from './useAudio';
 import { useSettingsStore } from '../store/settingsStore';
 import { format } from 'date-fns';
@@ -15,6 +14,8 @@ interface UseGameOptions {
   mode: GameMode;
   challengeNumber?: 1 | 2 | 3;
   date?: string;
+  onSaveResult?: (date: string, challengeNumber: 1 | 2 | 3, result: ChallengeResult) => void;
+  onAddToGlossary?: (id: number) => void;
 }
 
 interface UseGameReturn {
@@ -29,8 +30,7 @@ export function useGame(
   pokemon: PokemonType | null,
   options: UseGameOptions
 ): UseGameReturn {
-  const { mode, challengeNumber, date } = options;
-  const { addToGlossary, saveDailyResult } = useLocalState();
+  const { mode, challengeNumber, date, onSaveResult, onAddToGlossary } = options;
   const { auto_play_audio } = useSettingsStore();
   const { playPokemonName } = useAudio();
 
@@ -63,7 +63,7 @@ export function useGame(
     }
 
     // Add to glossary whenever pokemon is encountered
-    addToGlossary(pokemon.id);
+    onAddToGlossary?.(pokemon.id);
   }, [pokemon?.id]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const submitGuess = useCallback(
@@ -91,9 +91,9 @@ export function useGame(
         }));
 
         // Save result
-        if (mode === 'daily' && challengeNumber) {
+        if (mode === 'daily' && challengeNumber && onSaveResult) {
           const dateKey = date ?? format(new Date(), 'yyyy-MM-dd');
-          saveDailyResult(dateKey, challengeNumber, result);
+          onSaveResult(dateKey, challengeNumber, result);
         }
 
         return true;
@@ -121,9 +121,9 @@ export function useGame(
         setTimeout(() => setIsWrongGuess(false), 500);
 
         // Save failed result if exhausted
-        if (isExhausted && mode === 'daily' && challengeNumber) {
+        if (isExhausted && mode === 'daily' && challengeNumber && onSaveResult) {
           const dateKey = date ?? format(new Date(), 'yyyy-MM-dd');
-          saveDailyResult(dateKey, challengeNumber, {
+          onSaveResult(dateKey, challengeNumber, {
             guesses: newGuesses,
             score: 0,
             hints_used: newHintsRevealed,
@@ -134,7 +134,7 @@ export function useGame(
         return false;
       }
     },
-    [pokemon, gameState, mode, challengeNumber, date, saveDailyResult]
+    [pokemon, gameState, mode, challengeNumber, date, onSaveResult]
   );
 
   const revealNextHint = useCallback(() => {

@@ -1,7 +1,16 @@
 export interface ApiUser {
-  id: number;
+  id: string;
   email: string;
   username: string;
+  is_admin: boolean;
+  created_at: string;
+}
+
+export interface AdminUser {
+  id: string;
+  email: string;
+  username: string;
+  is_admin: boolean;
   created_at: string;
 }
 

@@ -1,10 +1,11 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Moon, Sun, Volume2, Eye, EyeOff, Flame } from 'lucide-react';
+import { X, Moon, Sun, Volume2, Eye, EyeOff, Flame, Trash2 } from 'lucide-react';
 import { Toggle } from '../ui/Toggle';
 import { useSettingsStore } from '../../store/settingsStore';
+import { useLocalState } from '../../hooks/useLocalState';
 
 interface SettingsDrawerProps {
   isOpen: boolean;
@@ -24,6 +25,8 @@ export function SettingsDrawer({ isOpen, onClose }: SettingsDrawerProps) {
     toggleAutoPlayAudio,
     toggleTheme,
   } = useSettingsStore();
+  const { resetAllData } = useLocalState();
+  const [confirmReset, setConfirmReset] = useState(false);
 
   useEffect(() => {
     if (!isOpen) return;
@@ -134,6 +137,42 @@ export function SettingsDrawer({ isOpen, onClose }: SettingsDrawerProps) {
                     description="Blur Chinese characters — click to reveal"
                   />
                 </div>
+              </section>
+
+              {/* Data section */}
+              <section>
+                <h3 className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-4">
+                  Data
+                </h3>
+                {confirmReset ? (
+                  <div className="space-y-3">
+                    <p className="text-sm text-text-secondary">
+                      This will erase all progress, scores, and glossary data. Are you sure?
+                    </p>
+                    <div className="flex gap-2">
+                      <button
+                        onClick={() => { resetAllData(); setConfirmReset(false); onClose(); }}
+                        className="flex-1 py-2 rounded-xl bg-color-error text-white text-sm font-semibold hover:opacity-90 transition-opacity min-h-[44px]"
+                      >
+                        Yes, reset
+                      </button>
+                      <button
+                        onClick={() => setConfirmReset(false)}
+                        className="flex-1 py-2 rounded-xl border border-border-default text-text-secondary text-sm font-semibold hover:text-text-primary transition-colors min-h-[44px]"
+                      >
+                        Cancel
+                      </button>
+                    </div>
+                  </div>
+                ) : (
+                  <button
+                    onClick={() => setConfirmReset(true)}
+                    className="flex items-center gap-2 w-full py-2.5 px-3 rounded-xl border border-border-default text-color-error hover:bg-color-error/10 transition-colors text-sm font-medium min-h-[44px]"
+                  >
+                    <Trash2 size={16} />
+                    Reset All Data
+                  </button>
+                )}
               </section>
 
               {/* Legend */}

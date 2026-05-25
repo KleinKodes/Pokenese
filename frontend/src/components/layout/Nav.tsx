@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Settings, User } from 'lucide-react';
+import { Settings, User, ShieldAlert } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useUserStore } from '../../store/userStore';
 
@@ -18,7 +18,7 @@ interface NavProps {
 
 export function Nav({ onSettingsClick }: NavProps) {
   const pathname = usePathname();
-  const { isAuthenticated, user } = useUserStore();
+  const { isAuthenticated, isAdmin, user } = useUserStore();
 
   return (
     <nav
@@ -62,6 +62,21 @@ export function Nav({ onSettingsClick }: NavProps) {
 
       {/* Right side */}
       <div className="flex items-center gap-2">
+        {isAdmin && (
+          <Link
+            href="/admin"
+            className={clsx(
+              'p-2.5 rounded-xl transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-border-focus min-h-[44px] min-w-[44px] flex items-center justify-center',
+              pathname.startsWith('/admin')
+                ? 'text-accent-gold bg-accent-gold/10'
+                : 'text-text-muted hover:text-accent-gold hover:bg-accent-gold/10'
+            )}
+            aria-label="Admin panel"
+            title="Admin panel"
+          >
+            <ShieldAlert size={20} />
+          </Link>
+        )}
         <button
           onClick={onSettingsClick}
           className="p-2.5 rounded-xl text-text-secondary hover:text-text-primary hover:bg-bg-elevated transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-border-focus min-h-[44px] min-w-[44px] flex items-center justify-center"

@@ -4,11 +4,14 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Volume2, ArrowLeft } from 'lucide-react';
 import { useRouter } from 'next/navigation';
-import { PokemonType } from '../../types/pokemon';
+import { useEffect, useState } from 'react';
+import { PokemonType, EtymologyEntry } from '../../types/pokemon';
 import { TypeBadge } from '../ui/TypeBadge';
 import { Button } from '../ui/Button';
 import { useAudio } from '../../hooks/useAudio';
-import { useState } from 'react';
+import { useUserStore } from '../../store/userStore';
+import { EtymologyEditor } from '../admin/EtymologyEditor';
+import apiClient from '../../lib/api';
 
 interface PokemonDetailProps {
   pokemon: PokemonType;
@@ -18,6 +21,20 @@ export function PokemonDetail({ pokemon }: PokemonDetailProps) {
   const router = useRouter();
   const { playPokemonName } = useAudio();
   const [isPlaying, setIsPlaying] = useState(false);
+  const { isAdmin } = useUserStore();
+  const [etymology, setEtymology] = useState<EtymologyEntry[]>(pokemon.etymology);
+  const [activeOverride, setActiveOverride] = useState<EtymologyEntry[] | null>(null);
+
+  // Fetch override for this Pokémon (all users see overrides, admin can also edit)
+  useEffect(() => {
+    apiClient.getEtymologyOverrides().then((overrides) => {
+      const key = String(pokemon.id);
+      if (overrides[key]) {
+        setEtymology(overrides[key]);
+        setActiveOverride(overrides[key]);
+      }
+    }).catch(() => {/* backend not running — use static data */});
+  }, [pokemon.id]);
 
   const handlePlay = async () => {
     setIsPlaying(true);
@@ -110,7 +127,7 @@ export function PokemonDetail({ pokemon }: PokemonDetailProps) {
           Etymology
         </h2>
         <div className="space-y-3">
-          {pokemon.etymology.map((entry, i) => (
+          {etymology.map((entry, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, x: -10 }}
@@ -128,6 +145,21 @@ export function PokemonDetail({ pokemon }: PokemonDetailProps) {
             </motion.div>
           ))}
         </div>
+        {isAdmin && (
+          <EtymologyEditor
+            pokemonId={pokemon.id}
+            baseEtymology={pokemon.etymology}
+            activeOverride={activeOverride}
+            onSaved={(newEtymology) => {
+              setEtymology(newEtymology);
+              setActiveOverride(newEtymology);
+            }}
+            onReset={() => {
+              setEtymology(pokemon.etymology);
+              setActiveOverride(null);
+            }}
+          />
+        )}
       </div>
 
       {/* Evolution line info */}

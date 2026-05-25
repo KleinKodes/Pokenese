@@ -8,6 +8,7 @@ interface UserStore {
   user: ApiUser | null;
   accessToken: string | null;
   isAuthenticated: boolean;
+  isAdmin: boolean;
 
   setUser: (user: ApiUser, token: string) => void;
   clearUser: () => void;
@@ -20,12 +21,14 @@ export const useUserStore = create<UserStore>()(
       user: null,
       accessToken: null,
       isAuthenticated: false,
+      isAdmin: false,
 
       setUser: (user, token) =>
         set({
           user,
           accessToken: token,
           isAuthenticated: true,
+          isAdmin: user.is_admin ?? false,
         }),
 
       clearUser: () =>
@@ -33,6 +36,7 @@ export const useUserStore = create<UserStore>()(
           user: null,
           accessToken: null,
           isAuthenticated: false,
+          isAdmin: false,
         }),
 
       setToken: (token) => set({ accessToken: token }),
@@ -43,6 +47,7 @@ export const useUserStore = create<UserStore>()(
         user: state.user,
         accessToken: state.accessToken,
         isAuthenticated: state.isAuthenticated,
+        isAdmin: state.isAdmin,
       }),
     }
   )

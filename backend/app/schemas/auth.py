@@ -46,5 +46,6 @@ class UserInfo(BaseModel):
     id: uuid.UUID
     email: str
     username: str
+    is_admin: bool = False
 
     model_config = {"from_attributes": True}

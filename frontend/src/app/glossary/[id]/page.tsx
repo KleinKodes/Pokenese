@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import POKEMON_DATA from '../../../data/pokemon';
+import { POKEMON_DATA } from '../../../data/pokemon';
 import { PokemonDetailClient } from './PokemonDetailClient';
 
 interface Props {

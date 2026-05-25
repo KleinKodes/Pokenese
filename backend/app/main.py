@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from app.config import get_settings
-from app.routers import auth, challenge, daily, glossary, user
+from app.routers import admin, auth, challenge, daily, glossary, pokemon, user
 
 settings = get_settings()
 
@@ -69,6 +69,8 @@ app.include_router(daily.router)
 app.include_router(challenge.router)
 app.include_router(glossary.router)
 app.include_router(user.router)
+app.include_router(admin.router)
+app.include_router(pokemon.router)
 
 
 @app.get("/health", tags=["health"])

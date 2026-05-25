@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Swords, RotateCcw, Trophy, Zap } from 'lucide-react';
 import dynamic from 'next/dynamic';
-import POKEMON_DATA from '../../data/pokemon';
+import { POKEMON_DATA } from '../../data/pokemon';
 import { useLocalState } from '../../hooks/useLocalState';
 import { useGame } from '../../hooks/useGame';
 import { ChineseName } from '../../components/game/ChineseName';

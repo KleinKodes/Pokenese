@@ -3,7 +3,7 @@
 import { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { BookOpen } from 'lucide-react';
-import POKEMON_DATA from '../../data/pokemon';
+import { POKEMON_DATA } from '../../data/pokemon';
 import { useLocalState } from '../../hooks/useLocalState';
 import { filterPokemon, sortPokemon } from '../../lib/pokemon';
 import { PokemonCard } from '../../components/glossary/PokemonCard';
