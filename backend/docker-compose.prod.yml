@@ -1,0 +1,39 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: pokenese
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: pokenese
+    volumes:
+      - pokenese_postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pokenese"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: .
+    restart: always
+    ports:
+      - "127.0.0.1:8001:8000"
+    environment:
+      DATABASE_URL: postgresql+asyncpg://pokenese:${DB_PASSWORD}@db:5432/pokenese
+      SECRET_KEY: ${SECRET_KEY}
+      ACCESS_TOKEN_EXPIRE_MINUTES: ${ACCESS_TOKEN_EXPIRE_MINUTES:-60}
+      REFRESH_TOKEN_EXPIRE_DAYS: ${REFRESH_TOKEN_EXPIRE_DAYS:-30}
+      CORS_ORIGINS: ${CORS_ORIGINS:-https://pokenese.com}
+      ENVIRONMENT: production
+      SEED_SALT: ${SEED_SALT}
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./data:/app/data
+
+volumes:
+  pokenese_postgres:
