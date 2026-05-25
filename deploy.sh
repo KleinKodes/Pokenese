@@ -65,22 +65,41 @@ echo "==> Seeding daily challenges..."
 sudo docker compose -f docker-compose.prod.yml --env-file "$ENV_FILE" \
   exec -T backend python scripts/seed_daily.py || true
 
-# ── Reload or start nginx ─────────────────────────────────────────────────────
-echo "==> Reloading nginx..."
+# ── Configure nginx ────────────────────────────────────────────────────────────
+echo "==> Configuring nginx..."
 if sudo systemctl is-active --quiet nginx; then
+  # nginx is running as a host service — just reload
   sudo systemctl reload nginx
-else
-  # Check for port 80 conflict before trying to start
-  if sudo ss -tlnp | grep -q ':80 '; then
-    echo ""
-    echo "WARNING: Something is already listening on port 80:"
-    sudo ss -tlnp | grep ':80 '
-    echo "nginx cannot start while that process holds the port."
-    echo "If that is the existing app, consider running nginx as a shared proxy"
-    echo "for both apps rather than starting a second nginx instance."
+
+elif sudo ss -tlnp | grep ':80 ' | grep -q 'docker-proxy'; then
+  # Port 80 is owned by a Docker container (the co-hosted app).
+  # Find the container running nginx and inject our server block into it.
+  echo "  Port 80 is owned by a Docker container — finding nginx container..."
+  NGINX_CONTAINER=""
+  for name in $(sudo docker ps --format '{{.Names}}'); do
+    if sudo docker exec "$name" which nginx >/dev/null 2>&1; then
+      NGINX_CONTAINER="$name"
+      break
+    fi
+  done
+
+  if [ -n "$NGINX_CONTAINER" ]; then
+    echo "  Injecting config into container: $NGINX_CONTAINER"
+    sudo docker exec "$NGINX_CONTAINER" mkdir -p /etc/nginx/conf.d
+    sudo docker cp "$NGINX_SRC" "${NGINX_CONTAINER}:/etc/nginx/conf.d/api.pokenese.com.conf"
+    sudo docker exec "$NGINX_CONTAINER" nginx -t
+    sudo docker exec "$NGINX_CONTAINER" nginx -s reload
+    echo "  nginx reloaded inside $NGINX_CONTAINER."
+  else
+    echo "WARNING: Could not find a running nginx container."
+    echo "  The API backend is running at http://$(curl -sf http://169.254.169.254/latest/meta-data/public-ipv4 2>/dev/null || echo HOST):8001"
+    echo "  You will need to proxy api.pokenese.com to 127.0.0.1:8001 manually."
   fi
+
+else
+  # Nothing on port 80 — start our own nginx
   if sudo systemctl start nginx; then
-    echo "nginx started."
+    echo "  nginx started."
   else
     echo "ERROR: nginx failed to start. Details:"
     sudo journalctl -xeu nginx.service --no-pager | tail -30
