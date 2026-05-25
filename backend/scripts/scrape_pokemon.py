@@ -291,6 +291,23 @@ def extract_evolution_ids(chain: Dict) -> List[int]:
     return ids
 
 
+def species_can_evolve(chain: Dict, target_id: int) -> bool:
+    """Return True if the target species has at least one further evolution."""
+    def _find(node: Dict) -> Optional[bool]:
+        species_url = node.get("species", {}).get("url", "")
+        match = re.search(r"/pokemon-species/(\d+)/", species_url)
+        if match and int(match.group(1)) == target_id:
+            return len(node.get("evolves_to", [])) > 0
+        for evo in node.get("evolves_to", []):
+            result = _find(evo)
+            if result is not None:
+                return result
+        return None
+
+    result = _find(chain.get("chain", {}))
+    return result if result is not None else False
+
+
 def get_english_category(species_data: Dict) -> str:
     """Extract English Pokédex category (e.g. 'Flame Pokémon')."""
     for entry in species_data.get("genera", []):
@@ -453,11 +470,13 @@ async def scrape_single_pokemon(
 
     # Evolution line
     evo_ids = [pokemon_id]
+    can_evolve = False
     evo_url = species_data.get("evolution_chain", {}).get("url")
     if evo_url:
         evo_chain = await get_evolution_chain(client, evo_url)
         if evo_chain:
             evo_ids = extract_evolution_ids(evo_chain)
+            can_evolve = species_can_evolve(evo_chain, pokemon_id)
 
     # Sprite
     sprites = poke_data.get("sprites", {})
@@ -501,7 +520,7 @@ async def scrape_single_pokemon(
     ipa = get_ipa(pinyin_numbered)
 
     # Etymology
-    etymology = get_etymology(name_zh)
+    etymology = get_etymology(name_zh_simplified or name_zh)
 
     return {
         "id": pokemon_id,
@@ -517,6 +536,7 @@ async def scrape_single_pokemon(
         "type2": type2,
         "category": category,
         "evolution_line": evo_ids,
+        "can_evolve": can_evolve,
         "sprite_url": sprite_url or "",
         "audio_filename": None,
     }

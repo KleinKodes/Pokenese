@@ -38,6 +38,7 @@ export interface PokemonType {
   type2: PokemonTypeName | null;
   category: string;
   evolution_line: number[];
+  can_evolve?: boolean;
   sprite_url: string;
   audio_filename: string | null;
 }

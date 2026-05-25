@@ -217,9 +217,6 @@ export function GuessInput({
                     <div className="font-medium text-sm truncate">
                       {highlightQuery(pokemon.name_en, query)}
                     </div>
-                    <div className="text-xs text-text-muted font-chinese truncate">
-                      {pokemon.name_zh}
-                    </div>
                   </div>
                   <span className="text-xs text-text-muted font-mono">
                     #{String(pokemon.id).padStart(3, '0')}

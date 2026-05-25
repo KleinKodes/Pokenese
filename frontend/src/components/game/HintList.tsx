@@ -4,9 +4,9 @@ import { AnimatePresence } from 'framer-motion';
 import { PokemonType } from '../../types/pokemon';
 import { HintCard } from './HintCard';
 
-type HintType = 'etymology' | 'generation' | 'typing' | 'category';
+type HintType = 'etymology' | 'generation' | 'evolution' | 'category';
 
-const HINT_ORDER: HintType[] = ['etymology', 'generation', 'typing', 'category'];
+const HINT_ORDER: HintType[] = ['etymology', 'generation', 'evolution', 'category'];
 
 interface HintListProps {
   pokemon: PokemonType;

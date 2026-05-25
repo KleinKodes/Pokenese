@@ -1,12 +1,11 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { BookOpen, Zap, Layers, Tag } from 'lucide-react';
+import { BookOpen, Zap, Dna, Tag } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import { PokemonType } from '../../types/pokemon';
-import { TypeBadge } from '../ui/TypeBadge';
 
-type HintType = 'etymology' | 'generation' | 'typing' | 'category';
+type HintType = 'etymology' | 'generation' | 'evolution' | 'category';
 
 interface HintCardProps {
   type: HintType;
@@ -20,7 +19,7 @@ const HINT_CONFIG: Record<
 > = {
   etymology: { label: 'Etymology', icon: BookOpen },
   generation: { label: 'Generation', icon: Zap },
-  typing: { label: 'Type', icon: Layers },
+  evolution: { label: 'Evolution', icon: Dna },
   category: { label: 'Category', icon: Tag },
 };
 
@@ -84,13 +83,16 @@ function HintContent({ type, pokemon }: { type: HintType; pokemon: PokemonType }
         </div>
       );
 
-    case 'typing':
+    case 'evolution': {
+      const canEvolve = pokemon.can_evolve ?? false;
       return (
-        <div className="flex items-center gap-2 flex-wrap">
-          <TypeBadge type={pokemon.type1} size="lg" />
-          {pokemon.type2 && <TypeBadge type={pokemon.type2} size="lg" />}
+        <div className="flex items-center gap-2">
+          <span className={`text-lg font-semibold ${canEvolve ? 'text-accent-green' : 'text-text-muted'}`}>
+            {canEvolve ? 'Can evolve further' : 'Fully evolved'}
+          </span>
         </div>
       );
+    }
 
     case 'category':
       return (
