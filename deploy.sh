@@ -85,10 +85,25 @@ elif sudo ss -tlnp | grep ':80 ' | grep -q 'docker-proxy'; then
 
   if [ -n "$NGINX_CONTAINER" ]; then
     echo "  Injecting config into container: $NGINX_CONTAINER"
-    # Ensure acme-challenge webroot exists inside the container
+
+    # Find the directory nginx.conf actually includes (e.g. conf.d or sites-enabled)
+    CONF_INC=$(sudo docker exec "$NGINX_CONTAINER" sh -c \
+      "grep -h '^[[:space:]]*include' /etc/nginx/nginx.conf 2>/dev/null \
+       | grep -v '#' | grep '\*\.conf' | grep -oE '/[^*]+' | head -1 | xargs dirname 2>/dev/null")
+
+    if [ -z "$CONF_INC" ]; then
+      # nginx.conf has no wildcard include — add one for conf.d inside the http block
+      echo "  nginx.conf has no conf.d include — injecting one..."
+      CONF_INC="/etc/nginx/conf.d"
+      sudo docker exec "$NGINX_CONTAINER" sh -c \
+        "grep -q 'conf\.d' /etc/nginx/nginx.conf || \
+         sed -i 's|http[[:space:]]*{|http {\n    include /etc/nginx/conf.d/*.conf;|' /etc/nginx/nginx.conf"
+    fi
+
+    echo "  Using nginx include dir: $CONF_INC"
+    sudo docker exec "$NGINX_CONTAINER" mkdir -p "$CONF_INC"
     sudo docker exec "$NGINX_CONTAINER" mkdir -p /var/www/acme-challenge
-    sudo docker exec "$NGINX_CONTAINER" mkdir -p /etc/nginx/conf.d
-    sudo docker cp "$NGINX_SRC" "${NGINX_CONTAINER}:/etc/nginx/conf.d/api.pokenese.com.conf"
+    sudo docker cp "$NGINX_SRC" "${NGINX_CONTAINER}:${CONF_INC}/api.pokenese.com.conf"
     sudo docker exec "$NGINX_CONTAINER" nginx -t
     sudo docker exec "$NGINX_CONTAINER" nginx -s reload
     echo "  nginx reloaded inside $NGINX_CONTAINER."
@@ -187,12 +202,13 @@ if ! sudo test -d "/etc/letsencrypt/live/$DOMAIN" 2>/dev/null; then
       sudo docker cp "${CERT_DIR}/fullchain.pem" "${NGINX_CONTAINER}:/etc/letsencrypt/live/${DOMAIN}/fullchain.pem"
       sudo docker cp "${CERT_DIR}/privkey.pem"   "${NGINX_CONTAINER}:/etc/letsencrypt/live/${DOMAIN}/privkey.pem"
 
-      # Upgrade nginx config to SSL
-      sudo docker cp "$NGINX_SRC" "${NGINX_CONTAINER}:/etc/nginx/conf.d/api.pokenese.com.conf"
+      # Upgrade nginx config to SSL (use the same CONF_INC detected earlier)
+      _CONF_INC="${CONF_INC:-/etc/nginx/conf.d}"
+      sudo docker cp "$NGINX_SRC" "${NGINX_CONTAINER}:${_CONF_INC}/api.pokenese.com.conf"
       sudo docker exec "$NGINX_CONTAINER" bash -c "
-        sed -i 's|listen 80;|listen 443 ssl;|' /etc/nginx/conf.d/api.pokenese.com.conf
-        echo 'ssl_certificate     /etc/letsencrypt/live/${DOMAIN}/fullchain.pem;'  >> /etc/nginx/conf.d/api.pokenese.com.conf
-        echo 'ssl_certificate_key /etc/letsencrypt/live/${DOMAIN}/privkey.pem;'   >> /etc/nginx/conf.d/api.pokenese.com.conf
+        sed -i 's|listen 80;|listen 443 ssl;|' ${_CONF_INC}/api.pokenese.com.conf
+        echo 'ssl_certificate     /etc/letsencrypt/live/${DOMAIN}/fullchain.pem;'  >> ${_CONF_INC}/api.pokenese.com.conf
+        echo 'ssl_certificate_key /etc/letsencrypt/live/${DOMAIN}/privkey.pem;'   >> ${_CONF_INC}/api.pokenese.com.conf
       " 2>/dev/null || true
       sudo docker exec "$NGINX_CONTAINER" nginx -s reload
       echo "  SSL enabled inside $NGINX_CONTAINER."
