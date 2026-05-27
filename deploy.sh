@@ -124,8 +124,10 @@ else
   fi
 fi
 
-# ── SSL (first deploy only) ───────────────────────────────────────────────────
-if ! sudo test -d "/etc/letsencrypt/live/$DOMAIN" 2>/dev/null; then
+# ── SSL certificate acquisition (skipped if cert already exists) ─────────────
+CERT_DIR="/etc/letsencrypt/live/$DOMAIN"
+
+if ! sudo test -d "$CERT_DIR" 2>/dev/null; then
   if [ -z "$CERTBOT_EMAIL" ]; then
     echo ""
     echo "NOTICE: SSL cert not found. Re-run with --email to enable HTTPS:"
@@ -193,26 +195,35 @@ if ! sudo test -d "/etc/letsencrypt/live/$DOMAIN" 2>/dev/null; then
         --non-interactive \
         -v
     fi
+  fi
+fi
 
-    # Copy obtained certs into the nginx container
-    CERT_DIR="/etc/letsencrypt/live/$DOMAIN"
-    if [ -n "${NGINX_CONTAINER:-}" ] && sudo test -d "$CERT_DIR"; then
-      echo "  Copying certs into $NGINX_CONTAINER..."
-      sudo docker exec "$NGINX_CONTAINER" mkdir -p /etc/letsencrypt/live/"$DOMAIN"
-      sudo docker cp "${CERT_DIR}/fullchain.pem" "${NGINX_CONTAINER}:/etc/letsencrypt/live/${DOMAIN}/fullchain.pem"
-      sudo docker cp "${CERT_DIR}/privkey.pem"   "${NGINX_CONTAINER}:/etc/letsencrypt/live/${DOMAIN}/privkey.pem"
+# ── Install cert into nginx container (runs on every deploy if cert exists) ───
+# Separated from acquisition so a failed docker cp on first run is auto-recovered.
+if sudo test -d "$CERT_DIR" 2>/dev/null && [ -n "${NGINX_CONTAINER:-}" ]; then
+  # Let's Encrypt live/ files are symlinks — docker cp does not follow them.
+  # Resolve to the real archive files before copying.
+  FULLCHAIN=$(sudo readlink -f "${CERT_DIR}/fullchain.pem" 2>/dev/null)
+  PRIVKEY=$(sudo readlink -f "${CERT_DIR}/privkey.pem" 2>/dev/null)
 
-      # Upgrade nginx config to SSL (use the same CONF_INC detected earlier)
-      _CONF_INC="${CONF_INC:-/etc/nginx/conf.d}"
-      sudo docker cp "$NGINX_SRC" "${NGINX_CONTAINER}:${_CONF_INC}/api.pokenese.com.conf"
-      sudo docker exec "$NGINX_CONTAINER" bash -c "
-        sed -i 's|listen 80;|listen 443 ssl;|' ${_CONF_INC}/api.pokenese.com.conf
-        echo 'ssl_certificate     /etc/letsencrypt/live/${DOMAIN}/fullchain.pem;'  >> ${_CONF_INC}/api.pokenese.com.conf
+  if sudo test -f "${FULLCHAIN:-}" && sudo test -f "${PRIVKEY:-}"; then
+    echo "==> Installing SSL cert into $NGINX_CONTAINER..."
+    sudo docker exec "$NGINX_CONTAINER" mkdir -p /etc/letsencrypt/live/"$DOMAIN"
+    sudo docker cp "$FULLCHAIN" "${NGINX_CONTAINER}:/etc/letsencrypt/live/${DOMAIN}/fullchain.pem"
+    sudo docker cp "$PRIVKEY"   "${NGINX_CONTAINER}:/etc/letsencrypt/live/${DOMAIN}/privkey.pem"
+
+    _CONF_INC="${CONF_INC:-/etc/nginx/conf.d}"
+    sudo docker cp "$NGINX_SRC" "${NGINX_CONTAINER}:${_CONF_INC}/api.pokenese.com.conf"
+    sudo docker exec "$NGINX_CONTAINER" bash -c "
+      sed -i 's|listen 80;|listen 443 ssl;|' ${_CONF_INC}/api.pokenese.com.conf
+      grep -q 'ssl_certificate ' ${_CONF_INC}/api.pokenese.com.conf || {
+        echo 'ssl_certificate     /etc/letsencrypt/live/${DOMAIN}/fullchain.pem;' >> ${_CONF_INC}/api.pokenese.com.conf
         echo 'ssl_certificate_key /etc/letsencrypt/live/${DOMAIN}/privkey.pem;'   >> ${_CONF_INC}/api.pokenese.com.conf
-      " 2>/dev/null || true
-      sudo docker exec "$NGINX_CONTAINER" nginx -s reload
-      echo "  SSL enabled inside $NGINX_CONTAINER."
-    fi
+      }
+    "
+    sudo docker exec "$NGINX_CONTAINER" nginx -t
+    sudo docker exec "$NGINX_CONTAINER" nginx -s reload
+    echo "  SSL enabled inside $NGINX_CONTAINER."
   fi
 fi
 
