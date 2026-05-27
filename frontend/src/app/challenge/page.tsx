@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Swords, RotateCcw, Trophy, Zap } from 'lucide-react';
+import { Swords, RotateCcw, Trophy, Zap, ChevronRight } from 'lucide-react';
 import dynamic from 'next/dynamic';
 import { POKEMON_DATA } from '../../data/pokemon';
 import { useLocalState } from '../../hooks/useLocalState';
@@ -52,18 +52,27 @@ export default function ChallengePage() {
 
     const savedSeen = state.challenge.seen_ids ?? [];
     const savedScore = state.challenge.total_score ?? 0;
+    const savedCurrentId = state.challenge.current_pokemon_id;
     setSeenIds(savedSeen);
     setRunScore(savedScore);
     setPokemonCount(savedSeen.length);
 
-    // Pick a pokemon not yet seen
-    const next = pickRandomPokemon(POKEMON_DATA, savedSeen);
+    // Restore the pokemon that was being played, or pick a new one
+    const restored = savedCurrentId
+      ? POKEMON_DATA.find((p) => p.id === savedCurrentId && !savedSeen.includes(p.id)) ?? null
+      : null;
+    const next = restored ?? pickRandomPokemon(POKEMON_DATA, savedSeen);
     setCurrentPokemon(next);
-  }, [state.challenge, isInitialized]);
+
+    // Persist the current pokemon ID if it changed (newly picked)
+    if (next && next.id !== savedCurrentId) {
+      updateChallengeState({ current_pokemon_id: next.id });
+    }
+  }, [state.challenge, isInitialized]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const { gameState, submitGuess, isWrongGuess } = useGame(
     currentPokemon,
-    { mode: 'challenge', onAddToGlossary: addToGlossary }
+    { mode: 'challenge' }
   );
 
   const handleGuess = useCallback(
@@ -89,6 +98,9 @@ export default function ChallengePage() {
     if (!currentPokemon) return;
     setShowComplete(false);
 
+    // Player has seen the result modal (correct answer revealed) — add to glossary now
+    addToGlossary(currentPokemon.id);
+
     const score = gameState.score ?? 0;
 
     // If 0 score (failed completely) → reset run
@@ -103,12 +115,6 @@ export default function ChallengePage() {
     setSeenIds(newSeen);
     setPokemonCount((c) => c + 1);
 
-    updateChallengeState({
-      seen_ids: newSeen,
-      total_score: newScore,
-      is_active: true,
-    });
-
     // Pick next
     const next = pickRandomPokemon(POKEMON_DATA, newSeen);
     if (!next) {
@@ -119,16 +125,24 @@ export default function ChallengePage() {
         ended_at: new Date().toISOString(),
         ended_by: 'complete',
       });
+      updateChallengeState({ seen_ids: newSeen, total_score: newScore, is_active: true });
       setShowRunComplete(true);
       return;
     }
     setCurrentPokemon(next);
+    updateChallengeState({
+      seen_ids: newSeen,
+      total_score: newScore,
+      is_active: true,
+      current_pokemon_id: next.id,
+    });
   }, [
     currentPokemon,
     gameState,
     runScore,
     seenIds,
     updateChallengeState,
+    addToGlossary,
     saveCompletedRun,
     state.challenge.run_number,
   ]);
@@ -150,7 +164,10 @@ export default function ChallengePage() {
     setPokemonCount(0);
     const next = pickRandomPokemon(POKEMON_DATA, []);
     setCurrentPokemon(next);
-  }, [resetChallenge, saveCompletedRun, runScore, pokemonCount, state.challenge.run_number]);
+    if (next) {
+      updateChallengeState({ current_pokemon_id: next.id });
+    }
+  }, [resetChallenge, updateChallengeState, saveCompletedRun, runScore, pokemonCount, state.challenge.run_number]);
 
   if (!currentPokemon) {
     return (
@@ -223,6 +240,16 @@ export default function ChallengePage() {
         </div>
       )}
 
+      {/* Continue button shown after dismissing the completion modal */}
+      {gameState.is_complete && !showComplete && (
+        <div className="mt-6">
+          <Button variant="primary" size="lg" fullWidth onClick={handleNext}>
+            Continue
+            <ChevronRight size={16} />
+          </Button>
+        </div>
+      )}
+
       {/* Complete overlay */}
       <AnimatePresence>
         {showComplete && (
@@ -231,6 +258,7 @@ export default function ChallengePage() {
             gameState={gameState}
             mode="challenge"
             onNext={handleNext}
+            onDismiss={() => setShowComplete(false)}
           />
         )}
       </AnimatePresence>

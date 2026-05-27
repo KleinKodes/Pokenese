@@ -3,7 +3,7 @@
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { CheckCircle, XCircle, Share2, ChevronRight } from 'lucide-react';
+import { CheckCircle, XCircle, Share2, ChevronRight, X } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { PokemonType } from '../../types/pokemon';
 import { GameState } from '../../types/game';
@@ -18,6 +18,7 @@ interface ChallengeCompleteProps {
   mode: 'daily' | 'challenge';
   onNext?: () => void;
   onShare?: () => void;
+  onDismiss?: () => void;
   date?: string;
 }
 
@@ -27,6 +28,7 @@ export function ChallengeComplete({
   mode,
   onNext,
   onShare,
+  onDismiss,
   date,
 }: ChallengeCompleteProps) {
   const isCorrect = gameState.is_correct;
@@ -70,11 +72,13 @@ export function ChallengeComplete({
       role="dialog"
       aria-modal="true"
       aria-labelledby="challenge-complete-title"
+      onClick={onDismiss}
     >
       <motion.div
         initial={{ scale: 0.95 }}
         animate={{ scale: 1 }}
         className="w-full max-w-md bg-bg-surface border border-border-default rounded-2xl shadow-card overflow-hidden"
+        onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
         <div
@@ -91,10 +95,19 @@ export function ChallengeComplete({
           )}
           <h2
             id="challenge-complete-title"
-            className="text-lg font-bold text-text-primary"
+            className="text-lg font-bold text-text-primary flex-1"
           >
             {isCorrect ? 'Correct!' : 'Not quite...'}
           </h2>
+          {onDismiss && (
+            <button
+              onClick={onDismiss}
+              className="text-text-muted hover:text-text-primary transition-colors"
+              aria-label="Dismiss"
+            >
+              <X size={18} />
+            </button>
+          )}
         </div>
 
         {/* Pokemon reveal */}

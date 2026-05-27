@@ -2,7 +2,7 @@
 
 import { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Sun, Lock, CheckCircle, Share2, Clock } from 'lucide-react';
+import { Sun, Lock, CheckCircle, Share2, Clock, ChevronRight } from 'lucide-react';
 import { format } from 'date-fns';
 import dynamic from 'next/dynamic';
 import { POKEMON_DATA } from '../../data/pokemon';
@@ -156,7 +156,7 @@ export default function DailyPage() {
         return acc + (r?.score ?? 0);
       }, 0).toLocaleString()} pts`,
       '',
-      process.env.NEXT_PUBLIC_APP_URL ?? 'https://pokenese.app',
+      process.env.NEXT_PUBLIC_APP_URL ?? 'https://pokenese.com',
     ].join('\n');
 
     const copied = await shareResult(text);
@@ -258,6 +258,16 @@ export default function DailyPage() {
         </div>
       )}
 
+      {/* Continue button shown after dismissing the completion modal */}
+      {gameState.is_complete && !showComplete && (
+        <div className="mt-6">
+          <Button variant="primary" size="lg" fullWidth onClick={handleNext}>
+            {currentStep < 3 ? 'Next Challenge' : 'See Results'}
+            <ChevronRight size={16} />
+          </Button>
+        </div>
+      )}
+
       {/* Complete overlay */}
       <AnimatePresence>
         {showComplete && gameState.pokemon && (
@@ -267,6 +277,7 @@ export default function DailyPage() {
             mode="daily"
             date={today}
             onNext={handleNext}
+            onDismiss={() => setShowComplete(false)}
           />
         )}
       </AnimatePresence>

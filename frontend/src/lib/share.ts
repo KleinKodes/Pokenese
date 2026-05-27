@@ -32,7 +32,7 @@ export async function generateShareText(data: ShareData): Promise<string> {
     '',
     scoreBlocks.join(''),
     '',
-    `${process.env.NEXT_PUBLIC_APP_URL ?? 'https://pokenese.app'}`,
+    `${process.env.NEXT_PUBLIC_APP_URL ?? 'https://pokenese.com'}`,
   ];
 
   return lines.join('\n');

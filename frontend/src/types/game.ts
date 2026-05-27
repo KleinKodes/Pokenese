@@ -38,6 +38,7 @@ export interface LocalState {
     total_score: number;
     is_active: boolean;
     run_number: number;
+    current_pokemon_id?: number;
   };
   master_runs?: MasterRunRecord[];
   settings: UserSettings;

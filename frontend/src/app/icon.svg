@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <circle cx="16" cy="16" r="16" fill="#0F0F1A"/>
+  <clipPath id="ball-clip">
+    <circle cx="16" cy="16" r="13"/>
+  </clipPath>
+  <g clip-path="url(#ball-clip)">
+    <rect x="3" y="3" width="26" height="13" fill="#E8334A"/>
+    <rect x="3" y="16" width="26" height="13" fill="#E8E8F4"/>
+    <rect x="3" y="14" width="26" height="4" fill="#0F0F1A"/>
+  </g>
+  <circle cx="16" cy="16" r="4.5" fill="#0F0F1A"/>
+  <circle cx="16" cy="16" r="3" fill="#E8E8F4"/>
+</svg>
