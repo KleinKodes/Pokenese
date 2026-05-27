@@ -2,12 +2,13 @@
 
 import { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Sun, Lock, CheckCircle, Share2, Clock, ChevronRight } from 'lucide-react';
+import { Sun, Lock, CheckCircle, Share2, Clock, ChevronRight, Link2 } from 'lucide-react';
 import { format } from 'date-fns';
 import dynamic from 'next/dynamic';
 import { POKEMON_DATA } from '../../data/pokemon';
 import { useLocalState } from '../../hooks/useLocalState';
 import { useGame } from '../../hooks/useGame';
+import { useUserStore } from '../../store/userStore';
 import { ChineseName } from '../../components/game/ChineseName';
 import { GuessInput } from '../../components/game/GuessInput';
 import { HintList } from '../../components/game/HintList';
@@ -57,7 +58,7 @@ type ChallengeStep = 1 | 2 | 3;
 
 export default function DailyPage() {
   const today = format(new Date(), 'yyyy-MM-dd');
-  const { state, getDailyResults, saveDailyResult, addToGlossary } = useLocalState();
+  const { state, getDailyResults, saveDailyResult, addToGlossary, updateStreak } = useLocalState();
   const [currentStep, setCurrentStep] = useState<ChallengeStep>(1);
   const [showComplete, setShowComplete] = useState(false);
   const [allDone, setAllDone] = useState(false);
@@ -124,6 +125,7 @@ export default function DailyPage() {
       setCurrentStep((prev) => (prev + 1) as ChallengeStep);
     } else {
       setAllDone(true);
+      updateStreak(today);
     }
   };
 
@@ -296,10 +298,30 @@ function DailyCompleteScreen({
   onShare: () => void;
   shareStatus: 'idle' | 'copied';
 }) {
+  const { user } = useUserStore();
+  const [challengeLinkStatus, setChallengeLinkStatus] = useState<'idle' | 'copied'>('idle');
+
+  const today = format(new Date(), 'yyyy-MM-dd');
   const totalScore = [1, 2, 3].reduce((acc, i) => {
     const r = dailyResults[`challenge_${i}` as keyof typeof dailyResults];
     return acc + (r?.score ?? 0);
   }, 0);
+
+  const handleChallengeLink = async () => {
+    const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://pokenese.com';
+    const s1 = dailyResults['challenge_1']?.score ?? 0;
+    const s2 = dailyResults['challenge_2']?.score ?? 0;
+    const s3 = dailyResults['challenge_3']?.score ?? 0;
+    const uParam = user?.username ? `&u=${encodeURIComponent(user.username)}` : '';
+    const url = `${appUrl}/score?d=${today}&s1=${s1}&s2=${s2}&s3=${s3}${uParam}`;
+    try {
+      await navigator.clipboard.writeText(url);
+      setChallengeLinkStatus('copied');
+      setTimeout(() => setChallengeLinkStatus('idle'), 2000);
+    } catch {
+      // ignore
+    }
+  };
 
   return (
     <div className="page-container">
@@ -352,6 +374,16 @@ function DailyCompleteScreen({
         >
           <Share2 size={18} />
           {shareStatus === 'copied' ? 'Copied!' : 'Share Results'}
+        </Button>
+
+        <Button
+          variant="secondary"
+          size="lg"
+          onClick={handleChallengeLink}
+          fullWidth
+        >
+          <Link2 size={18} />
+          {challengeLinkStatus === 'copied' ? 'Link Copied!' : 'Challenge a Friend'}
         </Button>
       </motion.div>
     </div>

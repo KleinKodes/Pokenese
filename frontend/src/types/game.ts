@@ -22,6 +22,14 @@ export interface MasterRunRecord {
   ended_by: 'reset' | 'complete';
 }
 
+export interface StreakState {
+  current: number;
+  longest: number;
+  last_completed_date: string; // 'yyyy-MM-dd', empty string if never
+  freeze_tokens: number;       // max 3
+  freeze_equipped: boolean;    // auto-consumed on next missed day
+}
+
 export interface LocalState {
   version: number;
   glossary: number[];
@@ -42,6 +50,7 @@ export interface LocalState {
   };
   master_runs?: MasterRunRecord[];
   settings: UserSettings;
+  streak: StreakState;
 }
 
 export interface GameState {
@@ -53,4 +62,4 @@ export interface GameState {
   score: number | null;
 }
 
-export type GameMode = 'daily' | 'challenge';
+export type GameMode = 'daily' | 'challenge' | 'practice' | 'review';

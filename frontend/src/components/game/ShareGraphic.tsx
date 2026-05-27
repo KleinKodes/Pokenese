@@ -88,7 +88,7 @@ export function ShareGraphic({
       </div>
 
       <p className="text-center text-text-muted text-xs mt-4">
-        pokenese.app — Learn Mandarin through Pokémon
+        pokenese.com — Learn Mandarin through Pokémon
       </p>
     </div>
   );

@@ -6,7 +6,9 @@ import { AnimatePresence } from 'framer-motion';
 import { Nav } from '../components/layout/Nav';
 import { BottomNav } from '../components/layout/BottomNav';
 import { SettingsDrawer } from '../components/layout/SettingsDrawer';
+import { OnboardingModal } from '../components/game/OnboardingModal';
 import { useSettingsStore } from '../store/settingsStore';
+import { useSyncManager } from '../hooks/useSyncManager';
 
 function ThemeApplicator() {
   const { theme } = useSettingsStore();
@@ -25,18 +27,25 @@ function ThemeApplicator() {
   return null;
 }
 
+function SyncManagerInitializer() {
+  useSyncManager();
+  return null;
+}
+
 function AppShell({ children }: { children: React.ReactNode }) {
   const [settingsOpen, setSettingsOpen] = useState(false);
 
   return (
     <>
       <ThemeApplicator />
+      <SyncManagerInitializer />
       <Nav onSettingsClick={() => setSettingsOpen(true)} />
       <BottomNav />
       <SettingsDrawer
         isOpen={settingsOpen}
         onClose={() => setSettingsOpen(false)}
       />
+      <OnboardingModal />
       <main id="main-content" aria-label="Main content">
         <AnimatePresence mode="wait">{children}</AnimatePresence>
       </main>

@@ -1,16 +1,17 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { CheckCircle, XCircle, Share2, ChevronRight, X } from 'lucide-react';
+import { CheckCircle, XCircle, Share2, ChevronRight, X, ImageIcon } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { PokemonType } from '../../types/pokemon';
 import { GameState } from '../../types/game';
 import { ScoreDisplay } from './ScoreDisplay';
 import { TypeBadge } from '../ui/TypeBadge';
 import { Button } from '../ui/Button';
-import { generateShareText, shareResult } from '../../lib/share';
+import { ShareGraphic } from './ShareGraphic';
+import { generateShareText, shareResult, captureShareGraphic } from '../../lib/share';
 
 interface ChallengeCompleteProps {
   pokemon: PokemonType;
@@ -33,6 +34,21 @@ export function ChallengeComplete({
 }: ChallengeCompleteProps) {
   const isCorrect = gameState.is_correct;
   const score = gameState.score ?? 0;
+  const [imageCopyStatus, setImageCopyStatus] = useState<'idle' | 'copying' | 'done'>('idle');
+
+  const handleCopyImage = async () => {
+    setImageCopyStatus('copying');
+    const dataUrl = await captureShareGraphic('share-graphic-complete');
+    if (dataUrl) {
+      // Download the image
+      const link = document.createElement('a');
+      link.download = `pokenese-${pokemon.name_en.toLowerCase()}.png`;
+      link.href = dataUrl;
+      link.click();
+    }
+    setImageCopyStatus('done');
+    setTimeout(() => setImageCopyStatus('idle'), 2000);
+  };
 
   useEffect(() => {
     if (!isCorrect) return;
@@ -147,28 +163,50 @@ export function ChallengeComplete({
         </div>
 
         {/* Actions */}
-        <div className="p-5 flex gap-3">
-          <Button
-            variant="secondary"
-            size="md"
-            onClick={handleShare}
-            className="flex-1"
-          >
-            <Share2 size={16} />
-            Share
-          </Button>
-
-          {onNext && (
+        <div className="p-5 flex flex-col gap-2">
+          <div className="flex gap-3">
             <Button
-              variant="primary"
+              variant="secondary"
               size="md"
-              onClick={onNext}
+              onClick={handleShare}
               className="flex-1"
             >
-              Next
-              <ChevronRight size={16} />
+              <Share2 size={16} />
+              Share
             </Button>
-          )}
+
+            {onNext && (
+              <Button
+                variant="primary"
+                size="md"
+                onClick={onNext}
+                className="flex-1"
+              >
+                Next
+                <ChevronRight size={16} />
+              </Button>
+            )}
+          </div>
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={handleCopyImage}
+            isLoading={imageCopyStatus === 'copying'}
+            className="w-full"
+          >
+            <ImageIcon size={14} />
+            {imageCopyStatus === 'done' ? 'Saved!' : 'Copy Share Image'}
+          </Button>
+        </div>
+
+        {/* Hidden share graphic for image capture */}
+        <div className="sr-only" aria-hidden="true">
+          <ShareGraphic
+            id="share-graphic-complete"
+            pokemon={pokemon}
+            gameState={gameState}
+            date={date}
+          />
         </div>
       </motion.div>
     </motion.div>

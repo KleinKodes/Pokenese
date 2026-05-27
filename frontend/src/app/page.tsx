@@ -3,7 +3,7 @@
 import { useMemo } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Sun, Swords, BookOpen, Trophy, ChevronRight } from 'lucide-react';
+import { Sun, Swords, BookOpen, Trophy, ChevronRight, Dumbbell, GraduationCap, Flame } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import { format } from 'date-fns';
 import { useLocalState } from '../hooks/useLocalState';
@@ -72,6 +72,7 @@ export default function HomePage() {
   const glossaryCount = state.glossary.length;
   const challengeScore = state.challenge.total_score;
   const isNewDay = dailyCompleted === 0;
+  const streakCurrent = state.streak?.current ?? 0;
 
   return (
     <div className="page-container">
@@ -91,6 +92,12 @@ export default function HomePage() {
         <p className="text-text-muted text-sm mt-1 font-chinese">
           透過寶可夢學習中文
         </p>
+        {streakCurrent > 0 && (
+          <p className="text-accent-gold text-sm font-semibold mt-2 flex items-center justify-center gap-1">
+            <Flame size={14} />
+            {streakCurrent}-day streak
+          </p>
+        )}
       </motion.div>
 
       {/* Mode cards */}
@@ -146,6 +153,26 @@ export default function HomePage() {
           }
           delay={0.2}
         />
+
+        <ModeCard
+          href="/practice"
+          icon={Dumbbell}
+          title="Practice"
+          description="Filter by type or generation + pinyin mode"
+          statusText="Free play"
+          statusColor="text-text-muted"
+          delay={0.25}
+        />
+
+        <ModeCard
+          href="/review"
+          icon={GraduationCap}
+          title="Review"
+          description="Flashcard sessions from your glossary"
+          statusText={glossaryCount > 0 ? `${glossaryCount} to review` : 'Build glossary first'}
+          statusColor={glossaryCount > 0 ? 'text-color-success' : 'text-text-muted'}
+          delay={0.3}
+        />
       </div>
 
       {/* Stats strip */}
@@ -156,9 +183,9 @@ export default function HomePage() {
         className="grid grid-cols-3 gap-3"
       >
         <StatBlock
-          icon={Sun}
-          label="Daily Streak"
-          value={`${dailyCompleted}/3`}
+          icon={Flame}
+          label="Day Streak"
+          value={streakCurrent > 0 ? `${streakCurrent}` : `${dailyCompleted}/3`}
           color="text-accent-gold"
         />
         <StatBlock
