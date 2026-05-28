@@ -212,10 +212,16 @@ if sudo test -d "$CERT_DIR" 2>/dev/null && [ -n "${NGINX_CONTAINER:-}" ]; then
     sudo docker cp "$FULLCHAIN" "${NGINX_CONTAINER}:/etc/letsencrypt/live/${DOMAIN}/fullchain.pem"
     sudo docker cp "$PRIVKEY"   "${NGINX_CONTAINER}:/etc/letsencrypt/live/${DOMAIN}/privkey.pem"
 
-    _CONF_INC="${CONF_INC:-/etc/nginx/conf.d}"
+    # Find where the conf file actually lives inside the container (always use that dir).
+    # CONF_INC detection can mis-identify the parent dir; find is authoritative.
+    EXISTING=$(sudo docker exec "$NGINX_CONTAINER" sh -c \
+      "find /etc/nginx -name 'api.pokenese.com.conf' 2>/dev/null | head -1")
+    _CONF_INC="${EXISTING:+$(dirname "$EXISTING")}"
+    _CONF_INC="${_CONF_INC:-/etc/nginx/conf.d}"
+
     # Generate a properly-formed HTTPS config with SSL directives INSIDE the server block.
-    # Never patch with sed+echo: echo >> appends after the closing }, placing ssl_certificate
-    # at HTTP context level which causes ERR_CERT_COMMON_NAME_INVALID.
+    # proxy_pass uses the backend container name so it reaches the app via Docker DNS
+    # (127.0.0.1:8001 is host-loopback only and unreachable from inside the nginx container).
     SSL_TMP=$(mktemp)
     cat > "$SSL_TMP" <<SSLEOF
 server {
@@ -236,7 +242,7 @@ server {
     }
 
     location / {
-        proxy_pass         http://127.0.0.1:8001;
+        proxy_pass         http://backend-backend-1:8000;
         proxy_http_version 1.1;
         proxy_set_header   Host              \$host;
         proxy_set_header   X-Real-IP         \$remote_addr;
@@ -248,6 +254,12 @@ server {
 SSLEOF
     sudo docker cp "$SSL_TMP" "${NGINX_CONTAINER}:${_CONF_INC}/api.pokenese.com.conf"
     rm -f "$SSL_TMP"
+
+    # Ensure nginx-web can resolve the backend container name via Docker DNS.
+    # docker network connect is idempotent (|| true handles already-connected case).
+    BACKEND_NET="backend_default"
+    sudo docker network connect "$BACKEND_NET" "$NGINX_CONTAINER" 2>/dev/null || true
+
     sudo docker exec "$NGINX_CONTAINER" nginx -t
     sudo docker exec "$NGINX_CONTAINER" nginx -s reload
     echo "  SSL enabled inside $NGINX_CONTAINER."
