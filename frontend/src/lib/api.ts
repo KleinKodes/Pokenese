@@ -47,23 +47,23 @@ class ApiClient {
   }
 
   async login(data: LoginRequest): Promise<AuthResponse> {
-    const response = await this.client.post<AuthResponse>('/auth/login', data);
+    const response = await this.client.post<AuthResponse>('/api/v1/auth/login', data);
     return response.data;
   }
 
   async register(data: RegisterRequest): Promise<AuthResponse> {
-    const response = await this.client.post<AuthResponse>('/auth/register', data);
+    const response = await this.client.post<AuthResponse>('/api/v1/auth/register', data);
     return response.data;
   }
 
   async getDailyChallenge(date?: string): Promise<DailyChallenge> {
     const params = date ? { date } : {};
-    const response = await this.client.get<DailyChallenge>('/daily', { params });
+    const response = await this.client.get<DailyChallenge>('/api/v1/daily', { params });
     return response.data;
   }
 
   async submitGuess(data: SubmitGuessRequest): Promise<SubmitGuessResponse> {
-    const response = await this.client.post<SubmitGuessResponse>('/guess', data);
+    const response = await this.client.post<SubmitGuessResponse>('/api/v1/daily/guess', data);
     return response.data;
   }
 
