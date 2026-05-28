@@ -82,7 +82,7 @@ async def set_user_role(
     return user
 
 
-@router.delete("/users/{user_id}", status_code=status.HTTP_204_NO_CONTENT)
+@router.delete("/users/{user_id}", status_code=status.HTTP_204_NO_CONTENT, response_class=Response)
 async def delete_user(
     user_id: uuid.UUID,
     db: AsyncSession = Depends(get_db),
@@ -179,7 +179,7 @@ async def upsert_etymology_override(
     return override
 
 
-@router.delete("/etymology/{pokemon_id}", status_code=status.HTTP_204_NO_CONTENT)
+@router.delete("/etymology/{pokemon_id}", status_code=status.HTTP_204_NO_CONTENT, response_class=Response)
 async def delete_etymology_override(
     pokemon_id: int,
     db: AsyncSession = Depends(get_db),

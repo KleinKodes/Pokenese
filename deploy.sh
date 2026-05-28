@@ -213,14 +213,41 @@ if sudo test -d "$CERT_DIR" 2>/dev/null && [ -n "${NGINX_CONTAINER:-}" ]; then
     sudo docker cp "$PRIVKEY"   "${NGINX_CONTAINER}:/etc/letsencrypt/live/${DOMAIN}/privkey.pem"
 
     _CONF_INC="${CONF_INC:-/etc/nginx/conf.d}"
-    sudo docker cp "$NGINX_SRC" "${NGINX_CONTAINER}:${_CONF_INC}/api.pokenese.com.conf"
-    sudo docker exec "$NGINX_CONTAINER" bash -c "
-      sed -i 's|listen 80;|listen 443 ssl;|' ${_CONF_INC}/api.pokenese.com.conf
-      grep -q 'ssl_certificate ' ${_CONF_INC}/api.pokenese.com.conf || {
-        echo 'ssl_certificate     /etc/letsencrypt/live/${DOMAIN}/fullchain.pem;' >> ${_CONF_INC}/api.pokenese.com.conf
-        echo 'ssl_certificate_key /etc/letsencrypt/live/${DOMAIN}/privkey.pem;'   >> ${_CONF_INC}/api.pokenese.com.conf
-      }
-    "
+    # Generate a properly-formed HTTPS config with SSL directives INSIDE the server block.
+    # Never patch with sed+echo: echo >> appends after the closing }, placing ssl_certificate
+    # at HTTP context level which causes ERR_CERT_COMMON_NAME_INVALID.
+    SSL_TMP=$(mktemp)
+    cat > "$SSL_TMP" <<SSLEOF
+server {
+    listen 443 ssl;
+    server_name ${DOMAIN};
+
+    ssl_certificate     /etc/letsencrypt/live/${DOMAIN}/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/${DOMAIN}/privkey.pem;
+    ssl_protocols       TLSv1.2 TLSv1.3;
+    ssl_prefer_server_ciphers on;
+
+    location ^~ /.well-known/acme-challenge/ {
+        alias /var/www/acme-challenge/;
+        satisfy any;
+        allow all;
+        auth_basic off;
+        default_type "text/plain";
+    }
+
+    location / {
+        proxy_pass         http://127.0.0.1:8001;
+        proxy_http_version 1.1;
+        proxy_set_header   Host              \$host;
+        proxy_set_header   X-Real-IP         \$remote_addr;
+        proxy_set_header   X-Forwarded-For   \$proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto https;
+        proxy_read_timeout 60s;
+    }
+}
+SSLEOF
+    sudo docker cp "$SSL_TMP" "${NGINX_CONTAINER}:${_CONF_INC}/api.pokenese.com.conf"
+    rm -f "$SSL_TMP"
     sudo docker exec "$NGINX_CONTAINER" nginx -t
     sudo docker exec "$NGINX_CONTAINER" nginx -s reload
     echo "  SSL enabled inside $NGINX_CONTAINER."
